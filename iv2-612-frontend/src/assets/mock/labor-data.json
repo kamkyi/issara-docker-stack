@@ -1,0 +1,477 @@
+{
+	"supplyChains": [
+		{
+			"id": 29,
+			"name": "SP Test buyer  - BeneBuyer",
+			"strategic_partner": 28,
+			"suppliers": [
+				{
+					"supplier": 394,
+					"supplier_name": "Crabby Seafoods",
+					"status": "active",
+					"country_name": "Thailand"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active",
+					"country_name": "Thailand"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active",
+					"country_name": "Myanmar"
+				},
+				{
+					"supplier": 1110,
+					"supplier_name": "Very Huge Electronics Co.",
+					"status": "active",
+					"country_name": "Cambodia"
+				}
+			]
+		}
+	],
+	"supplierKPIs": [
+		{
+			"id": 1001,
+			"supplier": 394,
+			"supplier_name": "Crabby Seafoods",
+			"category": "Labor - Working conditions",
+			"description": "Discrimination – by gender/nationality/ethnicity/other in the work area",
+			"level": 3,
+			"status": 1,
+			"status_name": "Some progress",
+			"opened_at": "2026-03-4",
+			"closed_at": null,
+			"affected_workers": 2,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Conduct OSH audit",
+				"Provide PPE to all workers"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 107,
+					"name": "Employment discrimination"
+				}
+			]
+		},
+		{
+			"id": 1002,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Labor - Working conditions",
+			"description": "Issues with overtime being involuntary/forced/or illegal",
+			"level": 3,
+			"status": 1,
+			"status_name": "No Progress",
+			"opened_at": "2026-1-23",
+			"closed_at": null,
+			"affected_workers": 48,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 1,
+			"total_update_count": 1,
+			"remediation_sp_recommendation": [
+				"Investigate the named line supervisor and apply disciplinary action if coercion is confirmed, with safeguards against retaliation toward workers who spoke up",
+				"Reaffirm and communicate in Burmese that overtime is voluntary, and re-train all supervisors on lawful OT practices and the consequences of pressuring workers"
+			],
+			"closed_quality": null,
+			"worker_issue_summary": "The workers reported that their line supervisors, a tall, thin man named [name omitted here] did not permit them to decline OT work over the past two Saturdays, even though they have had strong reasons for not wanting to do OT work - they were exhausted at the end of the six-day work week, especially as the targets and pressure to work fast have been increasing over the past few months. When the workers tried to say no to OT, Mr [name omitted] explicitly said that if the workers decline OT, they will not ever again be offered OT working opportunities in the future. So they had to say yes because they need the OT to make enough money for their families.",
+			"issara_action": "We reported the issue to our HR focal point and eventually escalated to the head of HR, due to the HR focal being fairly non-responsive on this matter.",
+			"supplier_action": "The head of HR proposed to launch an investigation this week and report back to us with results next week. She suggested that we communicate to the workers that this would be taking place, so could we please encourage them to speak openly to her.",
+			"ilo_indicators": [
+				{
+					"id": 11,
+					"name": "Excessive overtime"
+				},
+				{
+					"id": 6,
+					"name": "Intimidation and threats"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 105,
+					"name": "Occupational safety and health (OSH)"
+				}
+			]
+		},
+		{
+			"id": 1003,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Labor - Working conditions",
+			"description": "Proper tools/safety equipment/other equipment not provided: minor or isolated issue",
+			"level": 2,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-25",
+			"closed_at": null,
+			"affected_workers": 30,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 3,
+			"remediation_sp_recommendation": [
+				"Install additional water stations",
+				"Improve restroom facilities"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 1004,
+			"supplier": 1110,
+			"supplier_name": "Very Huge Electronics Co.",
+			"category": "Labor - Working conditions",
+			"description": "Discrimination – by gender/nationality/ethnicity/other in the work area",
+			"level": 3,
+			"status": 3,
+			"status_name": "Closed",
+			"opened_at": "2025-06-01",
+			"closed_at": "2025-12-15",
+			"affected_workers": 8,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 5,
+			"remediation_sp_recommendation": [],
+			"closed_quality": "Good",
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 107,
+					"name": "Employment discrimination"
+				}
+			]
+		},
+		{
+			"id": 1005,
+			"supplier": 394,
+			"supplier_name": "Crabby Seafoods",
+			"category": "Labor - Working conditions",
+			"description": "Unsafe or hazardous working conditions (OSH issues)",
+			"level": 3,
+			"status": 1,
+			"status_name": "No Progress",
+			"opened_at": "2026-3-4",
+			"closed_at": null,
+			"affected_workers": 150,
+			"source_recruiter_count": 2,
+			"destination_recruiter_count": 0,
+			"total_update_count": 3,
+			"remediation_sp_recommendation": [
+				"Conduct supervisor sensitization training",
+				"Establish anonymous grievance channel"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 105,
+					"name": "Occupational safety and health (OSH)"
+				}
+			]
+		},
+		{
+			"id": 1006,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Labor - Working conditions",
+			"description": "Unsafe or hazardous working conditions (OSH issues)",
+			"level": 3,
+			"status": 1,
+			"status_name": "No Progress",
+			"opened_at": "2026-3-9",
+			"closed_at": null,
+			"affected_workers": 18,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 1,
+			"total_update_count": 1,
+			"remediation_sp_recommendation": [
+				"Conduct an OSH inspection of the packing line ventilation and temperature controls, repair or replace failed equipment, and share the inspection report with workers and the SP",
+				"Establish a confidential reporting channel (e.g. CASCADE access for HR) so workers can raise OSH issues without going through their line supervisor, and protect them from retaliation"
+			],
+			"closed_quality": null,
+			"worker_issue_summary": "The workers in the packing line reported issues with very high temperature in their work area, and poor ventilation. They noted that they never had this problem before and wondered if something recently broke. But when they told their line supervisor, he told them that everything was fine. They said they felt too intimidated to report the issue to HR.",
+			"issara_action": "We had been trying to get in touch with HR for a few days because they are not on CASCADE, and they finally responded yesterday. We will regroup by/before Friday for next steps. Also we will try to get the supplier onto CASCADE due to ongoing communication issues via phone, email, etc.",
+			"supplier_action": "Our HR focal said they would look into the issue being reported by the workers today or tomorrow, and get back to us by Friday. They asked how to get onto CASCADE to see this info since the HR phone number is managed by multiple people and they admitted they know it's hard to get through to them.",
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 105,
+					"name": "Occupational safety and health (OSH)"
+				}
+			]
+		},
+		{
+			"id": 1007,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Labor - Working conditions",
+			"description": "Unsafe or hazardous working conditions (OSH issues)",
+			"level": 3,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-15",
+			"closed_at": null,
+			"affected_workers": 6,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Review anti-retaliation policy",
+				"Meet with affected workers"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 105,
+					"name": "Occupational safety and health (OSH)"
+				}
+			]
+		},
+		{
+			"id": 1008,
+			"supplier": 1110,
+			"supplier_name": "Fish Seafood",
+			"category": "Labor - Working conditions",
+			"description": "Issues with freedom - including restricted freedom of movement",
+			"level": 3,
+			"status": 3,
+			"status_name": "Closed",
+			"opened_at": "2025-12-20",
+			"closed_at": "2026-01-10",
+			"affected_workers": 120,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 1,
+			"total_update_count": 6,
+			"remediation_sp_recommendation": [],
+			"closed_quality": "Fair",
+			"ilo_indicators": [
+				{
+					"id": 3,
+					"name": "Restriction of movement"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				}
+			]
+		},
+		{
+			"id": 1010,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Labor - Working conditions",
+			"description": "Issues with workforce and workloads: no violation of law or employment contract",
+			"level": 2,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-25",
+			"closed_at": null,
+			"affected_workers": 1000,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Investigate how many workers' target records were affected and remediate them",
+				"Improve the camera-based target monitoring system so achievements are recorded accurately"
+			],
+			"closed_quality": null,
+			"worker_issue_summary": "Workers reported having to complete high targets to clean the shrimp and that these targets have increased significantly over the last months. Since the increase of the targets, workers are being strictly monitored through cameras to check if they are achieving targets and how is their performance, if they are cleaning the shrimp fast enough. However, the cameras often fail to capture when workers achieve high targets and this affects workers targets achievements records. Workers have reported the issue to the line supervisor, but the line supervisor says the cameras are not under his control so there is nothing he can do about it.",
+			"issara_action": "Issara had a call with the supplier to explain the case and provide recommendations for investigation, remediation and system change. The remediation should include any monetary compensation to workers for incentives lost due to the issues with the cameras. The supplier should also reevaluate if the camera system is working properly or if other systems/methods to track workers targets and achievements should be better used.",
+			"supplier_action": "The supplier is currently conducting an investigation to assess how many workers have been affected and if their payment for incentives for achieving targets needs to be corrected. Additionally, the supplier is checking how the monitoring system needs to be improved to avoid this issue from happening again.",
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 1011,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Labor - Working conditions",
+			"description": "Discrimination on workloads and assignments",
+			"level": 2,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-24",
+			"closed_at": null,
+			"affected_workers": 250,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Audit dormitory fee deductions",
+				"Refund excess charges to affected workers"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 1012,
+			"supplier": 1110,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Labor - Living and eating conditions",
+			"description": "Substandard living conditions and privacy in dorm/bathrooms/living space",
+			"level": 2,
+			"status": 3,
+			"status_name": "Closed",
+			"opened_at": "2025-11-05",
+			"closed_at": "2025-12-15",
+			"affected_workers": 55,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 1,
+			"total_update_count": 7,
+			"remediation_sp_recommendation": [
+				"An escalation call with the business management and Issara is recommended "
+			],
+			"closed_quality": "Fair",
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				},
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 1013,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Labor - Employer-employee relations",
+			"description": "Weak company policies and/or poor communication of policies",
+			"level": 2,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-25",
+			"closed_at": null,
+			"affected_workers": 50,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 1,
+			"remediation_sp_recommendation": [
+				"Communicate the EPP policy in writing to all workers in their own language",
+				"Brief line supervisors so they do not instruct workers to pay document extension fees"
+			],
+			"closed_quality": null,
+			"worker_issue_summary": "Workers reported being informed by line supervisors that they need to pay 3,500THB for their document extension coming up. However, workers are not sure if this is correct as during the recruitment process they were informed that the supplier has an EPP policy which should also cover the cost for document extension such as work permits. The workers have asked the interpreter for information, but they did not receive a clear answer, so they are uncertain if they need to pay or not.",
+			"issara_action": "Issara has provided the information about this case to the supplier through the CASCADE system including recommended actions to clearly communicate the EPP policy to all workers including line supervisors and interpreters. The communication should be done verbally and in writing making the EPP information available to workers in their own language all the time. Additionally, the company has been recommended to investigate why the line supervisor has provided wrongful information to the workers, if it is misinterpretation or lack of knowledge of the policy.",
+			"supplier_action": "The supplier has acknowledged the case and recommendations and it is working on a written and verbal communication plan for all workers regarding their EPP policy to make sure workers do not pay any fees for document extension. The supplier is also providing training to line supervisors and the interpreter on the EPP policy.",
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 1014,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Labor - Employer-employee relations",
+			"description": "Verbal abuse and/or other poor treatment by line supervisor/management (not illegal)",
+			"level": 2,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-25",
+			"closed_at": null,
+			"affected_workers": 200,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Investigate the line supervisor's conduct and take disciplinary action as warranted",
+				"Schedule the requested CASCADE Marketplace supervisor training for all line supervisors"
+			],
+			"closed_quality": null,
+			"worker_issue_summary": "Workers reported that their line supervisor yells at them when they take more than 10 min toilet breaks and he keeps pressuring workers to work harder to complete their targets faster. The workers said there is no policy that restricts the time of the toilet break and that they did not have this issue before with their previous supervisor.",
+			"issara_action": "Issara has provided the necessary case information to the supplier through CASCADE system including recommendations for system change and trainings for line supervisors available at CASCADE Marketplace.",
+			"supplier_action": "The supplier has acknowledged the case and they confirmed there is no such policy that restricts workers toilet breaks. HR is currently conducting an investigation along with the production manager to assess the line supervisor behaviour and take necessary disciplinary actions. Additionally, the supplier has requested training for all line supervisors through CASCADE Marketplace which is now being scheduled for next week.",
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				},
+				{
+					"id": 6,
+					"name": "Intimidation and threats"
+				}
+			],
+			"lksg_indicators": []
+		}
+	],
+	"openClosedSummary": [
+		{
+			"name": "Labor - Working conditions",
+			"open_cases": 3,
+			"closed_cases": 1
+		},
+		{
+			"name": "Labor - Employer-employee relations",
+			"open_cases": 3,
+			"closed_cases": 1
+		},
+		{
+			"name": "Labor - Living and eating conditions",
+			"open_cases": 3,
+			"closed_cases": 1
+		}
+	]
+}

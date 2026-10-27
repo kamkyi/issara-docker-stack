@@ -1,0 +1,179 @@
+/* Base dropdown container */
+.case-categories-dropdown-container {
+	position: relative;
+	z-index: 50;
+}
+
+/* Trigger button styles */
+.case-categories-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.case-categories-trigger:hover {
+	background-color: #f9fafb;
+}
+
+.case-categories-trigger:focus {
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+	border-color: #3b82f6;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Dropdown content styles */
+.case-categories-content {
+	overflow: hidden;
+	background-color: white;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	width: var(--radix-select-trigger-width);
+	max-height: var(--radix-select-content-available-height);
+	z-index: 50;
+	margin-top: 5px;
+}
+
+/* Dropdown item styles */
+.case-categories-item {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	color: #374151;
+	padding: 0.5rem 1rem;
+	position: relative;
+	user-select: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.case-categories-item:hover {
+	background-color: #f3f4f6;
+}
+
+.case-categories-item:focus,
+.case-categories-item[data-highlighted] {
+	background-color: #f3f4f6;
+	color: #111827;
+	outline: none;
+}
+
+.case-categories-item[data-state="checked"] {
+	font-weight: 500;
+	background-color: #e5e7eb;
+}
+
+/* Scroll button styles */
+.case-categories-scroll-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1.5rem;
+	background-color: white;
+	color: #4b5563;
+	cursor: default;
+}
+
+/* Fix for Radix UI Select dropdown visibility */
+[data-radix-popper-content-wrapper] {
+	z-index: 9999 !important;
+}
+
+/* Dark theme styles - using the same approach as NationalitiesDropdown.css */
+:global(.dark) .case-categories-trigger {
+	background-color: #2e2e2e;
+	border-color: #444;
+	color: white;
+}
+
+:global(.dark) .case-categories-trigger:hover {
+	background-color: #3a3a3a;
+}
+
+:global(.dark) .case-categories-content {
+	background-color: #2e2e2e;
+	color: white;
+	border: 1px solid #444;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+:global(.dark) .case-categories-item {
+	color: white;
+}
+
+:global(.dark) .case-categories-item:hover,
+:global(.dark) .case-categories-item:focus,
+:global(.dark) .case-categories-item[data-highlighted] {
+	background-color: #3a3a3a;
+	color: white;
+}
+
+:global(.dark) .case-categories-item[data-state="checked"] {
+	background-color: #006666;
+	color: white;
+}
+
+:global(.dark) .case-categories-scroll-button {
+	background-color: #2e2e2e;
+	color: #aaa;
+}
+
+/* Fix for text colors in dark theme select */
+:global(.dark) .case-categories-trigger [data-placeholder] {
+	color: #aaa !important;
+}
+
+/* More specific selectors for Radix UI Select components */
+:global(.dark) [data-radix-select-trigger] {
+	color: white !important;
+	background-color: #2e2e2e !important;
+	border-color: #444 !important;
+}
+
+:global(.dark) [data-radix-select-value] {
+	color: white !important;
+}
+
+:global(.dark) [data-radix-select-value-text] {
+	color: white !important;
+}
+
+:global(.dark) [data-radix-select-content] {
+	background-color: #2e2e2e !important;
+	border-color: #444 !important;
+}
+
+:global(.dark) [data-radix-select-viewport] {
+	background-color: #2e2e2e !important;
+}
+
+:global(.dark) [data-radix-select-item] {
+	color: white !important;
+}
+
+:global(.dark) [data-radix-select-item-text] {
+	color: white !important;
+}
+
+:global(.dark) [data-radix-select-item][data-highlighted] {
+	background-color: #3a3a3a !important;
+	color: white !important;
+}
+
+:global(.dark) [data-radix-select-item][data-state="checked"] {
+	background-color: #006666 !important;
+	color: white !important;
+}
+
+:global(.dark) [data-radix-select-icon] {
+	color: #aaa !important;
+}

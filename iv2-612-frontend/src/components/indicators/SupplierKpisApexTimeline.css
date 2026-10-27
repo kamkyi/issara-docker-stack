@@ -1,0 +1,96 @@
+/* Prevent chart from overflowing the card */
+.timeline-apex-wrapper {
+	overflow: visible;
+	width: 100%;
+}
+
+.timeline-apex-wrapper .apexcharts-canvas,
+.timeline-apex-wrapper .apexcharts-inner,
+.timeline-apex-wrapper .apexcharts-svg {
+	overflow: visible !important;
+}
+
+/* Force y-axis label area wider */
+.timeline-apex-wrapper .apexcharts-yaxis {
+	width: 500px !important;
+	min-width: 500px !important;
+	max-width: 500px !important;
+}
+
+@media (min-width: 1441px) {
+	.timeline-apex-wrapper .apexcharts-yaxis {
+		width: 620px !important;
+		min-width: 620px !important;
+		max-width: 620px !important;
+	}
+}
+/* Alternating row background colors and borders for ApexCharts timeline */
+.timeline-apex-wrapper .apexcharts-yaxis-label {
+	position: relative;
+	z-index: 2;
+	border-right: 1px solid #ccc;
+}
+
+/* Alternating row backgrounds */
+.timeline-apex-wrapper .apexcharts-yaxis-label:nth-child(odd) {
+	background: #fff;
+}
+.timeline-apex-wrapper .apexcharts-yaxis-label:nth-child(even) {
+	background: #ffe4ef;
+}
+
+.timeline-apex-wrapper .apexcharts-bar-series .apexcharts-series {
+	border-bottom: 1px solid #ccc;
+}
+
+.timeline-apex-wrapper .apexcharts-bar-series .apexcharts-bar-area {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.timeline-apex-tooltip {
+	max-width: 280px;
+	padding: 8px 10px;
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+	white-space: normal;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	z-index: 9999;
+}
+.timeline-apex-wrapper .apexcharts-tooltip {
+	overflow: visible !important;
+	white-space: normal !important;
+	max-width: 320px;
+	pointer-events: none;
+	position: absolute !important;
+	z-index: 9999 !important;
+}
+
+.timeline-apex-wrapper .apexcharts-tooltip-title,
+.timeline-apex-wrapper .apexcharts-tooltip-text,
+.timeline-apex-wrapper .apexcharts-tooltip * {
+	white-space: normal !important;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+}
+
+.timeline-apex-tooltip__text {
+	font-size: 13px;
+	line-height: 1.35;
+	color: #374151;
+	white-space: normal;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	z-index: 9999;
+}
+
+.timeline-apex-tooltip__text div,
+.timeline-apex-tooltip__text p {
+	margin: 0;
+	white-space: normal;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+}

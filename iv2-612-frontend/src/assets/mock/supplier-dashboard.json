@@ -1,0 +1,257 @@
+{
+	"_comment": "Supplier-scoped mock: every figure describes ONE factory of 1,327 workers, versus company-dashboard.json which aggregates a Strategic Partner's whole supply chain. Used by the supplier HRDD Overview (/hrdd-overview) and by supplier dashboard sections that opt in via useWorkplaceStats({ supplierScopedMock: true }). 1,327 matches the worker count the supplier view of /social-responsibility-overview shows.",
+	"main_stats": {
+		"worker_count": 1327,
+		"case_count": 34,
+		"response_count": 610
+	},
+	"supplier_strengthening_activities_count": 9,
+	"performance_metrics": {
+		"remediation_paid_usd": 12400,
+		"forced_labor_resolved": 2,
+		"early_warning_identifications": 6,
+		"prevented_escalations": 9,
+		"worker_engagement_calls": 47,
+		"suppliers_representatives_trained": 1,
+		"suppliers_representatives_trained_list": [
+			{
+				"id": 178,
+				"name": "Fish Seafood Co.",
+				"last_fieldwork_date": "2026-05-12"
+			}
+		]
+	},
+	"worker_voice_summary": {
+		"total_workers_with_access": 1327
+	},
+	"demographics": {
+		"total": 1327,
+		"gender": [
+			{
+				"name": "Male",
+				"value": 742
+			},
+			{
+				"name": "Female",
+				"value": 551
+			},
+			{
+				"name": "Non-binary",
+				"value": 34
+			}
+		],
+		"nationality": [
+			{
+				"name": "Burmese",
+				"value": 806
+			},
+			{
+				"name": "Thai",
+				"value": 331
+			},
+			{
+				"name": "Cambodian",
+				"value": 121
+			},
+			{
+				"name": "Lao",
+				"value": 45
+			},
+			{
+				"name": "Other",
+				"value": 24
+			}
+		]
+	},
+	"kpiByMonth": [
+		{
+			"date": "2024-01-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1040,
+			"supplierStrengthening": 1
+		},
+		{
+			"date": "2024-02-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 0,
+			"workerVoiceCoverage": 1051,
+			"supplierStrengthening": 1
+		},
+		{
+			"date": "2024-03-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1062,
+			"supplierStrengthening": 1
+		},
+		{
+			"date": "2024-04-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1073,
+			"supplierStrengthening": 2
+		},
+		{
+			"date": "2024-05-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1084,
+			"supplierStrengthening": 2
+		},
+		{
+			"date": "2024-06-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1095,
+			"supplierStrengthening": 2
+		},
+		{
+			"date": "2024-07-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 0,
+			"workerVoiceCoverage": 1106,
+			"supplierStrengthening": 2
+		},
+		{
+			"date": "2024-08-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1117,
+			"supplierStrengthening": 3
+		},
+		{
+			"date": "2024-09-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1128,
+			"supplierStrengthening": 3
+		},
+		{
+			"date": "2024-10-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1139,
+			"supplierStrengthening": 3
+		},
+		{
+			"date": "2024-11-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1150,
+			"supplierStrengthening": 4
+		},
+		{
+			"date": "2024-12-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1161,
+			"supplierStrengthening": 4
+		},
+		{
+			"date": "2025-01-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1172,
+			"supplierStrengthening": 4
+		},
+		{
+			"date": "2025-02-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1184,
+			"supplierStrengthening": 4
+		},
+		{
+			"date": "2025-03-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1195,
+			"supplierStrengthening": 5
+		},
+		{
+			"date": "2025-04-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 0,
+			"workerVoiceCoverage": 1206,
+			"supplierStrengthening": 5
+		},
+		{
+			"date": "2025-05-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1217,
+			"supplierStrengthening": 5
+		},
+		{
+			"date": "2025-06-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1228,
+			"supplierStrengthening": 6
+		},
+		{
+			"date": "2025-07-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1239,
+			"supplierStrengthening": 6
+		},
+		{
+			"date": "2025-08-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1250,
+			"supplierStrengthening": 6
+		},
+		{
+			"date": "2025-09-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1261,
+			"supplierStrengthening": 7
+		},
+		{
+			"date": "2025-10-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1272,
+			"supplierStrengthening": 7
+		},
+		{
+			"date": "2025-11-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1283,
+			"supplierStrengthening": 7
+		},
+		{
+			"date": "2025-12-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1294,
+			"supplierStrengthening": 8
+		},
+		{
+			"date": "2026-01-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1305,
+			"supplierStrengthening": 8
+		},
+		{
+			"date": "2026-02-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 2,
+			"workerVoiceCoverage": 1316,
+			"supplierStrengthening": 8
+		},
+		{
+			"date": "2026-03-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 1,
+			"workerVoiceCoverage": 1327,
+			"supplierStrengthening": 9
+		}
+	]
+}

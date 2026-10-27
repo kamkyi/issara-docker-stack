@@ -1,0 +1,1028 @@
+/* Form input styling - exactly matching NationalitiesDropdown.css */
+.form-input {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem 0.75rem;
+	margin-bottom: 0;
+	width: 100%;
+	transition: all 0.2s;
+	outline: none;
+}
+
+.form-input:hover {
+	border-color: #9ca3af;
+}
+
+.form-input:focus {
+	border-color: #3b82f6; /* Changed to match NationalitiesDropdown blue focus */
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Matching the blue focus ring */
+	outline: none;
+}
+
+.form-input::placeholder {
+	color: #9ca3af; /* Standardized placeholder color */
+	opacity: 0.7;
+}
+
+/* Dark mode styles using the exact approach from NationalitiesDropdown.css */
+:global(.dark) .form-input {
+	background-color: #1f2937; /* Changed to match NationalitiesDropdown dark bg */
+	border-color: #374151; /* Updated border color to match */
+	color: #e5e7eb; /* Standardized text color for dark mode */
+	font-weight: 600;
+}
+
+:global(.dark) .form-input:hover {
+	border-color: #4b5563; /* Updated hover border color */
+}
+
+:global(.dark) .form-input:focus {
+	border-color: #3b82f6; /* Keeping consistent blue focus */
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Same blue focus ring */
+}
+
+/* Fix for input in dark mode to ensure text color consistency */
+:global(.dark) input.form-input,
+:global(.dark) textarea.form-textarea,
+:global(.dark) select.form-input {
+	color: #e5e7eb !important;
+	caret-color: #e5e7eb;
+}
+
+/* Fix placeholder text color for all form elements */
+input::placeholder,
+textarea::placeholder,
+.form-input::placeholder,
+.form-textarea::placeholder {
+	color: #9ca3af !important;
+	opacity: 0.7;
+}
+
+/* Fix placeholder text color for all form elements in dark mode */
+:global(.dark) input::placeholder,
+:global(.dark) textarea::placeholder,
+:global(.dark) .form-input::placeholder,
+:global(.dark) .form-textarea::placeholder {
+	color: #9ca3af !important;
+	opacity: 0.7;
+}
+
+/* Text area styling to match form-input */
+.form-textarea {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem 0.75rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	transition: all 0.2s;
+	outline: none;
+	resize: vertical;
+	min-height: 100px;
+}
+
+.form-textarea:hover {
+	border-color: #9ca3af;
+}
+
+.form-textarea:focus {
+	border-color: #3b82f6;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+	outline: none;
+}
+
+.form-textarea::placeholder {
+	color: #9ca3af; /* Standardized placeholder color */
+	opacity: 0.7;
+}
+
+/* Dark mode for text area */
+:global(.dark) .form-textarea {
+	background-color: #1f2937;
+	border-color: #374151;
+	color: #e5e7eb; /* Standardized text color for dark mode */
+	font-weight: 600;
+}
+
+:global(.dark) .form-textarea:hover {
+	border-color: #4b5563;
+}
+
+:global(.dark) .form-textarea:focus {
+	border-color: #3b82f6;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Date picker styling */
+.react-datepicker-wrapper {
+	width: 100%;
+}
+
+.react-datepicker__input-container {
+	width: 100%;
+}
+
+/* Fix for date picker popup z-index */
+.react-datepicker-popper {
+	z-index: 999 !important; /* Ensure calendar appears above other elements */
+}
+
+.react-datepicker {
+	font-family: inherit;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.react-datepicker__day--selected {
+	background-color: #3b82f6 !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+	background-color: rgba(59, 130, 246, 0.7) !important;
+}
+
+.react-datepicker__day:hover {
+	background-color: rgba(59, 130, 246, 0.2) !important;
+}
+
+/* Dark mode for date picker */
+:global(.dark) .react-datepicker {
+	background-color: #1f2937;
+	border-color: #374151;
+}
+
+:global(.dark) .react-datepicker__header {
+	background-color: #111827;
+	border-color: #374151;
+}
+
+:global(.dark) .react-datepicker__day-name,
+:global(.dark) .react-datepicker__current-month {
+	color: #e5e7eb;
+}
+
+:global(.dark) .react-datepicker__day {
+	color: #e5e7eb;
+}
+
+:global(.dark) .react-datepicker__day--selected {
+	background-color: #2563eb !important;
+	color: white;
+}
+
+:global(.dark) .react-datepicker__day--keyboard-selected {
+	background-color: rgba(37, 99, 235, 0.7) !important;
+	color: white;
+}
+
+:global(.dark) .react-datepicker__day:hover {
+	background-color: rgba(37, 99, 235, 0.3) !important;
+}
+
+/* Additional fix for input in dark mode to ensure text color consistency */
+:global(.dark) input.form-input {
+	color: white !important;
+	caret-color: white;
+}
+
+/* Additional styles for better integration with Radix UI themes */
+:global(.dark) .rt-CardRoot .form-input {
+	background-color: #1f2937;
+}
+
+:global(.light) .rt-CardRoot .form-input {
+	background-color: white;
+}
+
+/* Step indicator styles for dark mode */
+:global(.dark) .step-circle-inactive {
+	background-color: #1f2937;
+	border-color: #4b5563;
+	color: white;
+	font-weight: bold;
+}
+
+:global(.dark) .step-circle-inactive span {
+	color: white;
+	font-weight: 700;
+}
+
+/* Style for step indicators in dark mode */
+:global(.dark) .worker-feedback-container [class*="step-circle"] {
+	background-color: #1f2937;
+	border-color: #4b5563;
+}
+
+:global(.dark) .worker-feedback-container [class*="step-circle"] span {
+	color: white;
+	font-weight: 700;
+}
+
+/* Ensure active step has proper contrast in dark mode */
+:global(.dark) .worker-feedback-container .step-circle-active {
+	background-color: #2563eb;
+	border-color: #3b82f6;
+	color: white;
+}
+
+:global(.dark) .worker-feedback-container .step-circle-active span {
+	color: white;
+	font-weight: 700;
+}
+
+/* Ensure completed step check icons have proper contrast */
+:global(.dark) .worker-feedback-container [class*="step-circle"] svg {
+	color: white;
+	fill: white;
+}
+
+/* Ensure step connectors are visible in dark mode */
+:global(.dark) .worker-feedback-container .step-connector {
+	background-color: #4b5563;
+}
+
+:global(.dark) .worker-feedback-container .step-connector-completed {
+	background-color: #2563eb;
+}
+
+/* Stepper labels in dark mode */
+:global(.dark) .worker-feedback-container .step-label {
+	color: #94a3b8;
+}
+
+:global(.dark) .worker-feedback-container .step-label-active {
+	color: white;
+}
+
+/* Additional styles to ensure step numbers are visible in dark mode */
+:global(.dark) [class*="rounded-full"] span,
+:global(.dark) [class*="step-circle"] span {
+	color: white !important;
+	font-weight: bold;
+}
+
+/* Ensure active step has proper contrast in dark mode */
+:global(.dark) .worker-feedback-container .step-circle-active,
+:global(.dark) .worker-feedback-container .step-circle-active span {
+	color: white !important;
+	font-weight: bold;
+}
+
+/* Ensure completed step check icons have proper contrast */
+:global(.dark) .worker-feedback-container [class*="rounded-full"] svg {
+	color: white !important;
+}
+
+/* Case Categories Dropdown fixes for both light and dark mode */
+/* Light mode styles */
+.case-categories-dropdown-container .case-categories-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	background-color: white; /* Exact match with NationalitiesDropdown */
+	color: #374151 !important; /* Standardized text color */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.case-categories-dropdown-container .case-categories-trigger:hover {
+	border-color: #9ca3af !important;
+}
+
+.case-categories-dropdown-container .case-categories-trigger:focus {
+	border-color: #3b82f6 !important; /* Match the blue focus from NationalitiesDropdown */
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important; /* Match the blue focus ring */
+	outline: none;
+}
+
+.case-categories-content {
+	overflow: hidden;
+	background-color: white !important;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db !important;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.case-categories-item {
+	color: #374151 !important; /* Standardized text color */
+}
+
+.case-categories-item:hover,
+.case-categories-item[data-highlighted] {
+	background-color: #f3f4f6 !important;
+}
+
+/* Dark mode fixes for Case/Call Type dropdown */
+:global(.dark) .case-categories-dropdown-container .case-categories-trigger {
+	background-color: #1f2937 !important; /* Exact match with NationalitiesDropdown dark bg */
+	border-color: #374151 !important;
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .case-categories-trigger {
+	background-color: #1f2937 !important; /* Exact match with NationalitiesDropdown dark bg */
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	border-color: #374151 !important;
+}
+
+:global(.dark)
+	.case-categories-dropdown-container
+	.case-categories-trigger:hover {
+	border-color: #4b5563 !important; /* Match hover border color from NationalitiesDropdown */
+}
+
+:global(.dark)
+	.case-categories-dropdown-container
+	.case-categories-trigger:focus {
+	border-color: #3b82f6 !important; /* Match the blue focus color */
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important; /* Match the blue focus ring */
+}
+
+:global(.dark) .case-categories-content {
+	background-color: #1f2937 !important; /* Match dropdown background */
+	border-color: #374151 !important; /* Match dropdown border */
+}
+
+:global(.dark) .case-categories-item {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .case-categories-item:hover,
+:global(.dark) .case-categories-item[data-highlighted] {
+	background-color: #374151 !important; /* Match highlighted item background from NationalitiesDropdown */
+}
+
+:global(.dark) .case-categories-item[data-state="checked"] {
+	background-color: #2563eb !important; /* Match selected item background */
+	color: white !important;
+}
+
+/* Critical fixes for selected value visibility in dark mode */
+:global(.dark) .case-categories-dropdown-container .case-categories-value {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	font-weight: 600 !important;
+}
+
+:global(.dark) .case-categories-dropdown-container [data-placeholder] {
+	color: #9ca3af !important; /* Changed from teal (#6fcece) to a standard gray color */
+	opacity: 0.7;
+}
+
+:global(.dark) .case-categories-dropdown-container [data-value] {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	font-weight: 600 !important;
+}
+
+:global(.dark) .case-categories-dropdown-container .select__value-container {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+/* Radix UI Select specific fixes for dark mode */
+:global(.dark) [data-radix-select-trigger] {
+	background-color: #1f2937 !important; /* Changed to match NationalitiesDropdown dark bg */
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) [data-radix-select-value] {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) [data-radix-select-content] {
+	background-color: #1f2937 !important; /* Changed to match NationalitiesDropdown dark bg */
+}
+
+:global(.dark) [data-radix-select-item] {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) [data-radix-select-item-text] {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .case-categories-scroll-button {
+	background-color: #1f2937 !important; /* Match dropdown background */
+	color: #aaa !important;
+}
+
+/* Case Call Type Dropdown styles */
+.case-call-type-dropdown-container .case-call-type-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	/* background-color: white; */
+	/* color: #374151 !important; */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.case-call-type-dropdown-container .case-call-type-trigger:hover {
+	border-color: #9ca3af !important;
+}
+
+.case-call-type-dropdown-container .case-call-type-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+	outline: none;
+}
+
+/* Case Call Type Dropdown content styles */
+.case-call-type-content {
+	overflow: hidden;
+	background-color: white;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	width: var(--radix-select-trigger-width);
+	max-height: var(--radix-select-content-available-height);
+	z-index: 50;
+	margin-top: 5px;
+}
+
+.case-call-type-item {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	color: #374151;
+	padding: 0.5rem 1rem;
+	position: relative;
+	user-select: none;
+	outline: none;
+	cursor: pointer;
+	background: white;
+}
+
+.case-call-type-item:hover,
+.case-call-type-item[data-highlighted] {
+	background-color: #f3f4f6;
+	color: #111827;
+	outline: none;
+}
+
+.case-call-type-item[data-state="checked"] {
+	font-weight: 500;
+	background-color: #e5e7eb;
+}
+
+.case-call-type-scroll-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1.5rem;
+	background-color: white;
+	color: #4b5563;
+	cursor: default;
+}
+
+/* Dark mode for Case Call Type Dropdown */
+:global(.dark) .case-call-type-dropdown-container .case-call-type-trigger {
+	background-color: #1f2937 !important;
+	border-color: #374151 !important;
+	color: #e5e7eb !important;
+}
+
+:global(.dark) .case-call-type-trigger {
+	background-color: #1f2937 !important;
+	color: #e5e7eb !important;
+	border-color: #374151 !important;
+}
+
+:global(.dark)
+	.case-call-type-dropdown-container
+	.case-call-type-trigger:hover {
+	border-color: #4b5563 !important;
+}
+
+:global(.dark)
+	.case-call-type-dropdown-container
+	.case-call-type-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+}
+
+:global(.dark) .case-call-type-content {
+	background-color: #1f2937 !important;
+	color: #e5e7eb !important;
+	border: 1px solid #374151 !important;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+:global(.dark) .case-call-type-item {
+	color: #e5e7eb !important;
+	background: #1f2937 !important;
+}
+
+:global(.dark) .case-call-type-item:hover,
+:global(.dark) .case-call-type-item[data-highlighted] {
+	background-color: #374151 !important;
+	color: #fff !important;
+}
+
+:global(.dark) .case-call-type-item[data-state="checked"] {
+	background-color: #2563eb !important;
+	color: white !important;
+}
+
+:global(.dark) .case-call-type-scroll-button {
+	background-color: #1f2937 !important;
+	color: #aaa !important;
+}
+
+/* Button styling */
+.back-button {
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	border: 1px solid;
+	color: #374151; /* Standardized text color */
+	border-color: #6b7280;
+	font-weight: 600;
+	transition: all 0.2s;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.back-button:hover {
+	background-color: rgba(107, 114, 128, 0.1);
+}
+
+.next-button {
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	background: linear-gradient(to right, #2563eb, #4f46e5);
+	color: white;
+	font-weight: 600;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	transition: all 0.2s;
+	border: none;
+	cursor: pointer;
+}
+
+.next-button:hover {
+	background: linear-gradient(to right, #1d4ed8, #4338ca);
+}
+
+.submit-button {
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	background: linear-gradient(to right, #1f2937, #374151);
+	color: white;
+	font-weight: 600;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	transition: all 0.2s;
+	border: none;
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background: linear-gradient(to right, #111827, #1f2937);
+}
+
+:global(.dark) .back-button {
+	color: #e5e7eb;
+	border-color: #6b7280;
+}
+
+:global(.dark) .back-button:hover {
+	background-color: rgba(107, 114, 128, 0.2);
+}
+
+/* Additional CSS to fix dropdown issues in CaseCategoriesDropdown */
+:global(.dark) .Select__control {
+	background-color: #1f2937 !important; /* Changed to match NationalitiesDropdown dark bg */
+	border-color: #374151 !important; /* Updated to match */
+}
+
+:global(.dark) .Select__menu {
+	background-color: #1f2937 !important; /* Changed to match NationalitiesDropdown dark bg */
+}
+
+:global(.dark) .Select__option {
+	background-color: #2e2e2e !important;
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .Select__option--is-focused {
+	background-color: #3a3a3a !important;
+}
+
+:global(.dark) .Select__single-value {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .Select__placeholder {
+	color: #9ca3af !important; /* Changed from teal (#6fcece) to a standard gray color */
+	opacity: 0.7;
+}
+
+/* Ensure selected value is visible in ALL dropdown implementations */
+:global(.dark) select,
+:global(.dark) option,
+:global(.dark) [role="combobox"],
+:global(.dark) [role="listbox"] {
+	background-color: #1f2937 !important; /* Changed to match NationalitiesDropdown dark bg */
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+/* Client Types Dropdown fixes for both light and dark mode */
+/* Light mode styles */
+.client-types-dropdown-container .client-types-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	background-color: white;
+	color: #374151 !important; /* Standardized text color */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.client-types-dropdown-container .client-types-trigger:hover {
+	border-color: #9ca3af !important;
+}
+
+.client-types-dropdown-container .client-types-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+	outline: none;
+}
+
+.client-types-content {
+	overflow: hidden;
+	background-color: white !important;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db !important;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.client-types-item {
+	color: #374151 !important; /* Standardized text color */
+}
+
+.client-types-item:hover,
+.client-types-item[data-highlighted] {
+	background-color: #f3f4f6 !important;
+}
+
+/* Dark mode fixes for Client Type dropdown */
+:global(.dark) .client-types-dropdown-container .client-types-trigger {
+	background-color: #1f2937 !important;
+	border-color: #374151 !important;
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .client-types-trigger {
+	background-color: #1f2937 !important;
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	border-color: #374151 !important;
+}
+
+:global(.dark) .client-types-dropdown-container .client-types-trigger:hover {
+	border-color: #4b5563 !important;
+}
+
+:global(.dark) .client-types-dropdown-container .client-types-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+}
+
+:global(.dark) .client-types-content {
+	background-color: #1f2937 !important;
+	border-color: #374151 !important;
+}
+
+:global(.dark) .client-types-item {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .client-types-item:hover,
+:global(.dark) .client-types-item[data-highlighted] {
+	background-color: #374151 !important;
+}
+
+:global(.dark) .client-types-item[data-state="checked"] {
+	background-color: #2563eb !important;
+	color: white !important;
+}
+
+/* Critical fixes for selected value visibility in dark mode */
+:global(.dark) .client-types-dropdown-container .client-types-value {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	font-weight: 600 !important;
+}
+
+:global(.dark) .client-types-dropdown-container [data-placeholder] {
+	color: #9ca3af !important; /* Changed from teal (#6fcece) to a standard gray color */
+	opacity: 0.7;
+}
+
+:global(.dark) .client-types-dropdown-container [data-value] {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	font-weight: 600 !important;
+}
+
+:global(.dark) .client-types-dropdown-container .select__value-container {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .client-types-scroll-button {
+	background-color: #1f2937 !important;
+	color: #aaa !important;
+}
+
+/* Gender Dropdown styling similar to other dropdowns */
+.gender-dropdown-container .gender-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	background-color: white;
+	color: #374151 !important; /* Standardized text color */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.gender-dropdown-container .gender-trigger:hover {
+	border-color: #9ca3af !important;
+}
+
+.gender-dropdown-container .gender-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+	outline: none;
+}
+
+.gender-content {
+	overflow: hidden;
+	background-color: white !important;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db !important;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.gender-item {
+	color: #374151 !important; /* Standardized text color */
+}
+
+.gender-item:hover,
+.gender-item[data-highlighted] {
+	background-color: #f3f4f6 !important;
+}
+
+/* Dark mode fixes for Gender dropdown */
+:global(.dark) .gender-dropdown-container .gender-trigger {
+	background-color: #1f2937 !important;
+	border-color: #374151 !important;
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .gender-trigger {
+	background-color: #1f2937 !important;
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	border-color: #374151 !important;
+}
+
+:global(.dark) .gender-dropdown-container .gender-trigger:hover {
+	border-color: #4b5563 !important;
+}
+
+:global(.dark) .gender-dropdown-container .gender-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+}
+
+:global(.dark) .gender-content {
+	background-color: #1f2937 !important;
+	border-color: #374151 !important;
+}
+
+:global(.dark) .gender-item {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+}
+
+:global(.dark) .gender-item:hover,
+:global(.dark) .gender-item[data-highlighted] {
+	background-color: #374151 !important;
+}
+
+:global(.dark) .gender-item[data-state="checked"] {
+	background-color: #2563eb !important;
+	color: white !important;
+}
+
+:global(.dark) .gender-dropdown-container .gender-value {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	font-weight: 600 !important;
+}
+
+:global(.dark) .gender-dropdown-container [data-placeholder] {
+	color: #9ca3af !important; /* Changed from teal (#6fcece) to a standard gray color */
+	opacity: 0.7;
+}
+
+:global(.dark) .gender-dropdown-container [data-value] {
+	color: #e5e7eb !important; /* Standardized text color for dark mode */
+	font-weight: 600 !important;
+}
+
+:global(.dark) .gender-scroll-button {
+	background-color: #1f2937 !important;
+	color: #aaa !important;
+}
+
+/* Worker Voice Channel Dropdown styles */
+.worker-voice-channel-dropdown-container .worker-voice-channel-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.worker-voice-channel-dropdown-container .worker-voice-channel-trigger:hover {
+	border-color: #9ca3af !important;
+}
+
+.worker-voice-channel-dropdown-container .worker-voice-channel-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+	outline: none;
+}
+
+.worker-voice-channel-content {
+	overflow: hidden;
+	background-color: white;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	width: var(--radix-select-trigger-width);
+	max-height: var(--radix-select-content-available-height);
+	z-index: 50;
+	margin-top: 5px;
+}
+
+.worker-voice-channel-item {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	color: #374151;
+	padding: 0.5rem 1rem;
+	position: relative;
+	user-select: none;
+	outline: none;
+	cursor: pointer;
+	background: white;
+}
+
+.worker-voice-channel-item:hover,
+.worker-voice-channel-item[data-highlighted] {
+	background-color: #f3f4f6;
+	color: #111827;
+	outline: none;
+}
+
+.worker-voice-channel-item[data-state="checked"] {
+	font-weight: 500;
+	background-color: #e5e7eb;
+}
+
+.worker-voice-channel-scroll-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1.5rem;
+	background-color: white;
+	color: #4b5563;
+	cursor: default;
+}
+
+/* Dark mode for Worker Voice Channel Dropdown */
+:global(.dark)
+	.worker-voice-channel-dropdown-container
+	.worker-voice-channel-trigger {
+	background-color: #1f2937 !important;
+	border-color: #374151 !important;
+	color: #e5e7eb !important;
+}
+
+:global(.dark) .worker-voice-channel-trigger {
+	background-color: #1f2937 !important;
+	color: #e5e7eb !important;
+	border-color: #374151 !important;
+}
+
+:global(.dark)
+	.worker-voice-channel-dropdown-container
+	.worker-voice-channel-trigger:hover {
+	border-color: #4b5563 !important;
+}
+
+:global(.dark)
+	.worker-voice-channel-dropdown-container
+	.worker-voice-channel-trigger:focus {
+	border-color: #3b82f6 !important;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+}
+
+:global(.dark) .worker-voice-channel-content {
+	background-color: #1f2937 !important;
+	color: #e5e7eb !important;
+	border: 1px solid #374151 !important;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+:global(.dark) .worker-voice-channel-item {
+	color: #e5e7eb !important;
+	background: #1f2937 !important;
+}
+
+:global(.dark) .worker-voice-channel-item:hover,
+:global(.dark) .worker-voice-channel-item[data-highlighted] {
+	background-color: #374151 !important;
+	color: #fff !important;
+}
+
+:global(.dark) .worker-voice-channel-item[data-state="checked"] {
+	background-color: #2563eb !important;
+	color: white !important;
+}
+
+:global(.dark) .worker-voice-channel-scroll-button {
+	background-color: #1f2937 !important;
+	color: #aaa !important;
+}
+
+/* Two column grid layout for form fields */
+.form-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+	.form-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Additional form field styling */
+.form-field {
+	margin-bottom: 1rem;
+}
+
+label {
+	margin-bottom: 0.125rem;
+}
+
+.mb-0_5 {
+	margin-bottom: 0.125rem !important;
+}
+
+.mb-3 {
+	margin-bottom: 0.75rem !important;
+}
+
+.mb-4 {
+	margin-bottom: 1rem !important;
+}
+
+.mt-4 {
+	margin-top: 1rem !important;
+}
+
+.mt-6 {
+	margin-top: 1.5rem !important;
+}
+
+.gap-3 {
+	gap: 1rem !important;
+}

@@ -1,0 +1,92 @@
+name: CI/CD staging
+
+on:
+  workflow_dispatch:
+
+env:
+  AWS_REGION: ap-southeast-1
+  ECS_SERVICE_DJANGO: ilm-django-staging-service
+  ECS_CLUSTER: cdk-ilm-production
+
+permissions:
+  actions: read
+  checks: write
+  contents: write
+  id-token: write
+  security-events: write
+
+jobs:
+  build_test_package_react:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [22]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          
+      - name: Install necessary packages
+        run: npm ci
+
+      - name: Add environment variables
+        run: cp .env.staging .env.production
+
+      - name: Build
+        run: npm run build
+        env:
+          CI: false
+
+      - name: Test
+        run: echo 'running tests'
+
+      - name: List files in the directory
+        run: ls -al  # This will show the contents of the directory
+
+      - name: Archive build
+        uses: actions/upload-artifact@v4
+        with:
+          name: react-build
+          path: dist  # Adjust this path if necessary
+
+  deploy_react:
+    runs-on: ubuntu-latest
+    needs:
+      - build_test_package_react
+    environment:
+      name: staging-react
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.ILM_STAGING_ACCOUNT_ID }}:role/GitHubCICDAppDeployRole
+          aws-region: ${{ env.AWS_REGION }}
+          role-session-name: GitHubActions-${{ github.run_id }}
+          role-duration-seconds: 3600
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: react-build
+          path: dist
+
+      - name: Sync build to S3
+        run: |-
+          aws s3 sync dist s3://staging.cascade.issarainstitute.org/ \
+              --no-progress \
+              --acl public-read --sse --delete --region ${{ env.AWS_REGION }}
+
+      - name: Invalidate CloudFront cache
+        run: |-
+          cat <<-EOF > "./invalidation-batch.json"
+          { "InvalidationBatch": { "Paths": { "Quantity": 1, "Items": ["/*"] }, "CallerReference": "$(date +'%s')" } }
+          EOF
+          cat "./invalidation-batch.json"
+          aws --no-cli-pager \
+            cloudfront create-invalidation \
+            --distribution-id "E3QFCZTYVAB2AB" \
+            --cli-input-json "file://./invalidation-batch.json" \
+            --region ap-southeast-1

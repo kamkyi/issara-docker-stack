@@ -1,0 +1,1228 @@
+{
+	"main_stats": {
+		"suppliers_with_escalated_cases": 2
+	},
+	"supplier_strengthening_activities_count": 32,
+	"performance_metrics": {
+		"remediation_paid_usd": 390000,
+		"forced_labor_resolved": 46,
+		"early_warning_identifications": 74,
+		"prevented_escalations": 131,
+		"worker_engagement_calls": 818,
+		"suppliers_representatives_trained": 27,
+		"suppliers_representatives_trained_list": [
+			{ "id": 1, "name": "Supplier A", "last_fieldwork_date": "2026-02-18" },
+			{ "id": 2, "name": "Supplier B", "last_fieldwork_date": "2026-01-30" },
+			{ "id": 3, "name": "Supplier C", "last_fieldwork_date": "2025-12-11" },
+			{ "id": 4, "name": "Supplier D", "last_fieldwork_date": "2025-11-22" }
+		]
+	},
+	"worker_voice_summary": {
+		"total_workers_with_access": 73600
+	},
+	"demographics": {
+		"gender": [
+			{ "name": "Male", "value": 42600 },
+			{ "name": "Female", "value": 27900 },
+			{ "name": "Non-binary", "value": 3100 }
+		],
+		"nationality": [
+			{ "name": "Burmese", "value": 47700 },
+			{ "name": "Thai", "value": 13900 },
+			{ "name": "Cambodian", "value": 7100 },
+			{ "name": "Lao", "value": 3100 },
+			{ "name": "Other", "value": 1800 }
+		]
+	},
+	"mainScoreChartData": [
+		{
+			"date": "2024-12-01",
+			"responsiveness": 37,
+			"remediation": 64,
+			"continus_improvement": 50,
+			"timeliness": 50,
+			"overall": 60
+		},
+		{
+			"date": "2025-01-01",
+			"responsiveness": 28,
+			"remediation": 42,
+			"continus_improvement": 60,
+			"timeliness": 60,
+			"overall": 70
+		},
+		{
+			"date": "2025-02-01",
+			"responsiveness": 54,
+			"remediation": 23,
+			"continus_improvement": 70,
+			"timeliness": 70,
+			"overall": 80
+		},
+		{
+			"date": "2025-03-01",
+			"responsiveness": 37,
+			"remediation": 51,
+			"continus_improvement": 30,
+			"timeliness": 80,
+			"overall": 90
+		},
+		{
+			"date": "2025-04-01",
+			"responsiveness": 63,
+			"remediation": 19,
+			"continus_improvement": 40,
+			"timeliness": 90,
+			"overall": 45
+		},
+		{
+			"date": "2025-05-01",
+			"responsiveness": 45,
+			"remediation": 67,
+			"continus_improvement": 50,
+			"timeliness": 45,
+			"overall": 55
+		}
+	],
+	"industryBenchmarkData": [
+		{
+			"date": "Mar 24",
+			"score1": 35,
+			"score2": 52
+		},
+		{
+			"date": "Mar 25",
+			"score1": 42,
+			"score2": 47
+		},
+		{
+			"date": "Mar 26",
+			"score1": 58,
+			"score2": 33
+		},
+		{
+			"date": "Mar 27",
+			"score1": 49,
+			"score2": 40
+		},
+		{
+			"date": "Mar 28",
+			"score1": 65,
+			"score2": 29
+		},
+		{
+			"date": "Mar 29",
+			"score1": 53,
+			"score2": 44
+		},
+		{
+			"date": "Mar 30",
+			"score1": 61,
+			"score2": 37
+		},
+		{
+			"date": "Mar 31",
+			"score1": 47,
+			"score2": 55
+		},
+		{
+			"date": "Apr 1",
+			"score1": 68,
+			"score2": 42
+		},
+		{
+			"date": "Apr 2",
+			"score1": 52,
+			"score2": 58
+		},
+		{
+			"date": "Apr 3",
+			"score1": 44,
+			"score2": 63
+		},
+		{
+			"date": "Apr 4",
+			"score1": 59,
+			"score2": 48
+		}
+	],
+	"regionalComparisonData": [
+		{
+			"date": "Mar 24",
+			"score1": 42,
+			"score2": 38
+		},
+		{
+			"date": "Mar 25",
+			"score1": 35,
+			"score2": 56
+		},
+		{
+			"date": "Mar 26",
+			"score1": 53,
+			"score2": 44
+		},
+		{
+			"date": "Mar 27",
+			"score1": 47,
+			"score2": 63
+		},
+		{
+			"date": "Mar 28",
+			"score1": 58,
+			"score2": 51
+		},
+		{
+			"date": "Mar 29",
+			"score1": 66,
+			"score2": 42
+		},
+		{
+			"date": "Mar 30",
+			"score1": 48,
+			"score2": 59
+		},
+		{
+			"date": "Mar 31",
+			"score1": 72,
+			"score2": 38
+		},
+		{
+			"date": "Apr 1",
+			"score1": 54,
+			"score2": 45
+		},
+		{
+			"date": "Apr 2",
+			"score1": 67,
+			"score2": 52
+		},
+		{
+			"date": "Apr 3",
+			"score1": 46,
+			"score2": 68
+		},
+		{
+			"date": "Apr 4",
+			"score1": 61,
+			"score2": 49
+		}
+	],
+	"globalStandardsData": [
+		{
+			"date": "Mar 24",
+			"score1": 65,
+			"score2": 48
+		},
+		{
+			"date": "Mar 25",
+			"score1": 73,
+			"score2": 42
+		},
+		{
+			"date": "Mar 26",
+			"score1": 58,
+			"score2": 62
+		},
+		{
+			"date": "Mar 27",
+			"score1": 69,
+			"score2": 51
+		},
+		{
+			"date": "Mar 28",
+			"score1": 55,
+			"score2": 67
+		},
+		{
+			"date": "Mar 29",
+			"score1": 76,
+			"score2": 45
+		},
+		{
+			"date": "Mar 30",
+			"score1": 61,
+			"score2": 53
+		},
+		{
+			"date": "Mar 31",
+			"score1": 71,
+			"score2": 49
+		},
+		{
+			"date": "Apr 1",
+			"score1": 59,
+			"score2": 66
+		},
+		{
+			"date": "Apr 2",
+			"score1": 75,
+			"score2": 54
+		},
+		{
+			"date": "Apr 3",
+			"score1": 64,
+			"score2": 72
+		},
+		{
+			"date": "Apr 4",
+			"score1": 69,
+			"score2": 58
+		}
+	],
+	"impactChartsData": {
+		"pieChart1Data": [
+			{
+				"name": "Workplace Safety",
+				"value": 427
+			},
+			{
+				"name": "Fair Wages",
+				"value": 318
+			},
+			{
+				"name": "Work Hours",
+				"value": 289
+			},
+			{
+				"name": "Benefits",
+				"value": 216
+			}
+		],
+		"pieChart2Data": [
+			{
+				"name": "Carbon Footprint",
+				"value": 483
+			},
+			{
+				"name": "Water Usage",
+				"value": 247
+			},
+			{
+				"name": "Waste Management",
+				"value": 315
+			}
+		],
+		"barChartData": [
+			{
+				"name": "Compliance",
+				"value": 78
+			},
+			{
+				"name": "Training",
+				"value": 62
+			},
+			{
+				"name": "Satisfaction",
+				"value": 93
+			}
+		]
+	},
+	"speedometerValues": {
+		"responsiveness": 37,
+		"remediation": 64,
+		"continus_improvement": 50,
+		"timeliness": 50,
+		"overall": 60
+	},
+	"radarchartdata": [
+		{
+			"area": "Responsiveness",
+			"company": 98,
+			"benchmark": 130
+		},
+		{
+			"area": "Remediation Timeliness",
+			"company": 86,
+			"benchmark": 130
+		},
+		{
+			"area": "Remediation Quality",
+			"company": 99,
+			"benchmark": 100
+		},
+		{
+			"area": "Continuous Improvement",
+			"company": 85,
+			"benchmark": 90
+		},
+		{
+			"area": "GD score",
+			"company": 65,
+			"benchmark": 85
+		}
+	],
+	"goldenDreamsEmployeeRatingCategoriesData": [
+		{
+			"label": "Overall",
+			"score": 3.6
+		},
+		{
+			"label": "Working Conditions",
+			"score": 3.6
+		},
+		{
+			"label": "Salary",
+			"score": 3.6
+		},
+		{
+			"label": "Safety",
+			"score": 3.8
+		},
+		{
+			"label": "Working Hours",
+			"score": 3.7
+		},
+		{
+			"label": "Overtime Pay",
+			"score": 3.5
+		},
+		{
+			"label": "Line Managers/Net-supervisors/Boat Captains\" Behavior",
+			"score": 3.5
+		},
+		{
+			"label": "Healthcare",
+			"score": 3.7
+		},
+		{
+			"label": "Interpreters\" Behavior & Treatment",
+			"score": 3.4
+		},
+		{
+			"label": "Worker Housing",
+			"score": 3.6
+		},
+		{
+			"label": "Job application & Documents processing",
+			"score": 3.6
+		}
+	],
+	"goldenDreamsRecruitmentAgenciesRatingCategoriesData": [
+		{
+			"label": "Overall",
+			"score": 4.3
+		},
+		{
+			"label": "Provides clear and relevant information on the employers you'll be working for:",
+			"score": 4.3
+		},
+		{
+			"label": "Provides useful pre-departure training:",
+			"score": 4.3
+		},
+		{
+			"label": "Able to answer all the questions you have about the employer you'll be working for:",
+			"score": 4.3
+		},
+		{
+			"label": "Timeliness:",
+			"score": 4.2
+		},
+		{
+			"label": "Able to follow up after arriving to destination country, listen to your complaints:",
+			"score": 4.2
+		},
+		{
+			"label": "The job turns out to be exactly what the recruiter says it will.:",
+			"score": 4.3
+		},
+		{
+			"label": "Satisfaction with the recruitment cost:",
+			"score": 4.4
+		}
+	],
+	"quarterlyScoreData": [
+		{
+			"category": "Cascade Index",
+			"scores": [
+				{ "date": "2024-01-01", "value": 80 },
+				{ "date": "2024-04-01", "value": 82 },
+				{ "date": "2024-07-01", "value": 85 },
+				{ "date": "2024-10-01", "value": 87 },
+				{ "date": "2025-01-01", "value": 89 },
+				{ "date": "2025-04-01", "value": 90 },
+				{ "date": "2025-07-01", "value": 91 },
+				{ "date": "2025-10-01", "value": 92 },
+				{ "date": "2025-11-01", "value": 93 },
+				{ "date": "2025-12-01", "value": 94 },
+				{ "date": "2026-01-01", "value": 95 },
+				{ "date": "2026-02-01", "value": 96 },
+				{ "date": "2026-03-01", "value": 97 },
+				{ "date": "2026-04-01", "value": 98 },
+				{ "date": "2026-05-01", "value": 99 },
+				{ "date": "2026-06-01", "value": 100 }
+			]
+		},
+		{
+			"category": "Remediation Quality",
+			"scores": [
+				{ "date": "2024-01-01", "value": 73 },
+				{ "date": "2024-04-01", "value": 70 },
+				{ "date": "2024-07-01", "value": 75 },
+				{ "date": "2024-10-01", "value": 80 },
+				{ "date": "2025-01-01", "value": 79 },
+				{ "date": "2025-04-01", "value": 72 },
+				{ "date": "2025-07-01", "value": 70 },
+				{ "date": "2025-10-01", "value": 78 },
+				{ "date": "2025-11-01", "value": 80 },
+				{ "date": "2025-12-01", "value": 82 },
+				{ "date": "2026-01-01", "value": 84 },
+				{ "date": "2026-02-01", "value": 86 },
+				{ "date": "2026-03-01", "value": 88 },
+				{ "date": "2026-04-01", "value": 90 },
+				{ "date": "2026-05-01", "value": 92 },
+				{ "date": "2026-06-01", "value": 95 }
+			]
+		},
+		{
+			"category": "Continuous Improvement",
+			"scores": [
+				{ "date": "2024-01-01", "value": 70 },
+				{ "date": "2024-04-01", "value": 72 },
+				{ "date": "2024-07-01", "value": 70 },
+				{ "date": "2024-10-01", "value": 67 },
+				{ "date": "2025-01-01", "value": 68 },
+				{ "date": "2025-04-01", "value": 72 },
+				{ "date": "2025-07-01", "value": 70 },
+				{ "date": "2025-10-01", "value": 75.5 },
+				{ "date": "2025-11-01", "value": 77 },
+				{ "date": "2025-12-01", "value": 78 },
+				{ "date": "2026-01-01", "value": 80 },
+				{ "date": "2026-02-01", "value": 82 },
+				{ "date": "2026-03-01", "value": 84 },
+				{ "date": "2026-04-01", "value": 86 },
+				{ "date": "2026-05-01", "value": 88 },
+				{ "date": "2026-06-01", "value": 90 }
+			]
+		},
+		{
+			"category": "Remediation Timeliness",
+			"scores": [
+				{ "date": "2024-01-01", "value": 70 },
+				{ "date": "2024-04-01", "value": 62 },
+				{ "date": "2024-07-01", "value": 60 },
+				{ "date": "2024-10-01", "value": 69 },
+				{ "date": "2025-01-01", "value": 70 },
+				{ "date": "2025-04-01", "value": 64 },
+				{ "date": "2025-07-01", "value": 65 },
+				{ "date": "2025-10-01", "value": 75 },
+				{ "date": "2025-11-01", "value": 77 },
+				{ "date": "2025-12-01", "value": 78 },
+				{ "date": "2026-01-01", "value": 80 },
+				{ "date": "2026-02-01", "value": 82 },
+				{ "date": "2026-03-01", "value": 84 },
+				{ "date": "2026-04-01", "value": 86 },
+				{ "date": "2026-05-01", "value": 88 },
+				{ "date": "2026-06-01", "value": 90 }
+			]
+		}
+	],
+	"quarterlyScoreSupplierData": [
+		{
+			"category": "Oceans Index",
+			"scores": [
+				{ "date": "2024-01-01", "value": 60 },
+				{ "date": "2024-04-01", "value": 61 },
+				{ "date": "2024-07-01", "value": 62 },
+				{ "date": "2024-10-01", "value": 63 },
+				{ "date": "2025-01-01", "value": 64 },
+				{ "date": "2025-04-01", "value": 65 },
+				{ "date": "2025-07-01", "value": 66 },
+				{ "date": "2025-10-01", "value": 67 }
+			]
+		},
+		{
+			"category": "Sustainable Fish Stocks",
+			"scores": [
+				{ "date": "2024-01-01", "value": 62 },
+				{ "date": "2024-04-01", "value": 63 },
+				{ "date": "2024-07-01", "value": 64 },
+				{ "date": "2024-10-01", "value": 65 },
+				{ "date": "2025-01-01", "value": 66 },
+				{ "date": "2025-04-01", "value": 67 },
+				{ "date": "2025-07-01", "value": 68 },
+				{ "date": "2025-10-01", "value": 69 }
+			]
+		},
+		{
+			"category": "Minimizing Environmental Impacts",
+			"scores": [
+				{ "date": "2024-01-01", "value": 63 },
+				{ "date": "2024-04-01", "value": 64 },
+				{ "date": "2024-07-01", "value": 65 },
+				{ "date": "2024-10-01", "value": 66 },
+				{ "date": "2025-01-01", "value": 67 },
+				{ "date": "2025-04-01", "value": 68 },
+				{ "date": "2025-07-01", "value": 69 },
+				{ "date": "2025-10-01", "value": 70 }
+			]
+		},
+		{
+			"category": "Effective Management",
+			"scores": [
+				{ "date": "2024-01-01", "value": 61 },
+				{ "date": "2024-04-01", "value": 62 },
+				{ "date": "2024-07-01", "value": 63 },
+				{ "date": "2024-10-01", "value": 64 },
+				{ "date": "2025-01-01", "value": 65 },
+				{ "date": "2025-04-01", "value": 66 },
+				{ "date": "2025-07-01", "value": 67 },
+				{ "date": "2025-10-01", "value": 68 }
+			]
+		},
+		{
+			"category": "Traceability and Supply Chain",
+			"scores": [
+				{ "date": "2024-01-01", "value": 64 },
+				{ "date": "2024-04-01", "value": 65 },
+				{ "date": "2024-07-01", "value": 66 },
+				{ "date": "2024-10-01", "value": 67 },
+				{ "date": "2025-01-01", "value": 68 },
+				{ "date": "2025-04-01", "value": 69 },
+				{ "date": "2025-07-01", "value": 70 },
+				{ "date": "2025-10-01", "value": 71 }
+			]
+		},
+		{
+			"category": "Certifications",
+			"scores": [
+				{ "date": "2024-01-01", "value": 65 },
+				{ "date": "2024-04-01", "value": 66 },
+				{ "date": "2024-07-01", "value": 67 },
+				{ "date": "2024-10-01", "value": 68 },
+				{ "date": "2025-01-01", "value": 69 },
+				{ "date": "2025-04-01", "value": 70 },
+				{ "date": "2025-07-01", "value": 71 },
+				{ "date": "2025-10-01", "value": 72 }
+			]
+		}
+	],
+	"top_remediation_kpis": [
+		{
+			"kpi_category": "Labor",
+			"kpi_grouping": "Substandard or unsafe living/eating conditions",
+			"kpi_level": 3,
+			"total_closed_issues": 45,
+			"mean_remediation_quality": 2.4,
+			"mean_days_to_close": 32.5
+		},
+		{
+			"kpi_category": "Wages",
+			"kpi_grouping": "Wage and/or benefits theft",
+			"kpi_level": 3,
+			"total_closed_issues": 35,
+			"mean_remediation_quality": 2.8,
+			"mean_days_to_close": 21.3
+		},
+		{
+			"kpi_category": "Labor",
+			"kpi_grouping": "Unsafe or hazardous working conditions (OSH issues)",
+			"kpi_level": 3,
+			"total_closed_issues": 30,
+			"mean_remediation_quality": 2.6,
+			"mean_days_to_close": 18.7
+		},
+		{
+			"kpi_category": "Recruitment",
+			"kpi_grouping": "Debt bondage, excessive/illegal fees",
+			"kpi_level": 3,
+			"total_closed_issues": 30,
+			"mean_remediation_quality": 2.7,
+			"mean_days_to_close": 27.1
+		},
+		{
+			"kpi_category": "Wages",
+			"kpi_grouping": "Wage underpayment or minimum wage violations",
+			"kpi_level": 2,
+			"total_closed_issues": 28,
+			"mean_remediation_quality": 3.0,
+			"mean_days_to_close": 14.5
+		},
+		{
+			"kpi_category": "Labor",
+			"kpi_grouping": "Forced work/overwork",
+			"kpi_level": 3,
+			"total_closed_issues": 25,
+			"mean_remediation_quality": 2.3,
+			"mean_days_to_close": 36.2
+		},
+		{
+			"kpi_category": "Recruitment",
+			"kpi_grouping": "Unprofessional, deceptive or misleading recruitment practices",
+			"kpi_level": 2,
+			"total_closed_issues": 22,
+			"mean_remediation_quality": 2.9,
+			"mean_days_to_close": 19.8
+		},
+		{
+			"kpi_category": "Labor",
+			"kpi_grouping": "Harassment / discrimination by gender, nationality, ethnicity",
+			"kpi_level": 3,
+			"total_closed_issues": 20,
+			"mean_remediation_quality": 3.0,
+			"mean_days_to_close": 24.4
+		},
+		{
+			"kpi_category": "Recruitment",
+			"kpi_grouping": "Illegal recruitment fees",
+			"kpi_level": 3,
+			"total_closed_issues": 20,
+			"mean_remediation_quality": 2.4,
+			"mean_days_to_close": 28.6
+		},
+		{
+			"kpi_category": "Recruitment",
+			"kpi_grouping": "Threats, poor treatment, document retention or no proper documents",
+			"kpi_level": 3,
+			"total_closed_issues": 18,
+			"mean_remediation_quality": 2.5,
+			"mean_days_to_close": 30.1
+		}
+	],
+	"top5WorkerRisks": [
+		{
+			"issue": "Weak company policies and/or poor communication of policies",
+			"category": "Employer-Employee Relations",
+			"score": 2.57,
+			"isForcedLabor": false,
+			"closedCases": 170,
+			"rank": 1
+		},
+		{
+			"issue": "Verbal abuse and/or other poor treatment by line supervisor/management (not illegal)",
+			"category": "Employer-Employee Relations",
+			"score": 2.66,
+			"isForcedLabor": false,
+			"closedCases": 100,
+			"rank": 2
+		},
+		{
+			"issue": "Issue with annual leave or sick leave: violation of law",
+			"category": "Leave",
+			"score": 2.15,
+			"isForcedLabor": true,
+			"closedCases": 91,
+			"rank": 3
+		},
+		{
+			"issue": "Issues with wages: in violation of law",
+			"category": "Wages",
+			"score": 2.63,
+			"isForcedLabor": true,
+			"closedCases": 79,
+			"rank": 4
+		},
+		{
+			"issue": "Very late or missing payments",
+			"category": "Wages",
+			"score": 2.56,
+			"isForcedLabor": true,
+			"closedCases": 78,
+			"rank": 5
+		},
+		{
+			"issue": "Lack of professional conduct of recruitment agency and/or employer",
+			"category": "Recruitment",
+			"score": 0.848,
+			"isForcedLabor": false,
+			"closedCases": 73,
+			"rank": 6
+		},
+		{
+			"issue": "Fees charged by recruitment agency: illegal and unethical",
+			"category": "Recruitment",
+			"score": 1.66,
+			"isForcedLabor": true,
+			"closedCases": 29,
+			"rank": 7
+		},
+		{
+			"issue": "Issue with targets and/or bonuses (related to production and incentives): Serious violation",
+			"category": "Wages",
+			"score": 3.13,
+			"isForcedLabor": true,
+			"closedCases": 23,
+			"rank": 8
+		},
+		{
+			"issue": "Fees charged by recruitment agency: legal but not ethical",
+			"category": "Recruitment",
+			"score": 0.672,
+			"isForcedLabor": false,
+			"closedCases": 21,
+			"rank": 9
+		},
+		{
+			"issue": "Company grievance mechanism not safe/confidential/anonymous",
+			"category": "Grievance",
+			"score": 1.5,
+			"isForcedLabor": false,
+			"closedCases": 18,
+			"rank": 10
+		}
+	],
+	"communityFeedback": [
+		{
+			"label": "Overall",
+			"score": 4.3
+		},
+		{
+			"label": "Public Health and Safety",
+			"score": 4.3
+		},
+		{
+			"label": "Noise and Odor pollution",
+			"score": 4.3
+		},
+		{
+			"label": "Water and Air Quality for local use",
+			"score": 3.8
+		},
+		{
+			"label": "Transparency and Community engagement",
+			"score": 4.4
+		}
+	],
+	"kpiByMonth": [
+		{
+			"date": "2024-01-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 8,
+			"workerVoiceCoverage": 62000,
+			"supplierStrengthening": 22
+		},
+		{
+			"date": "2024-02-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 9,
+			"workerVoiceCoverage": 62500,
+			"supplierStrengthening": 22
+		},
+		{
+			"date": "2024-03-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 10,
+			"workerVoiceCoverage": 63000,
+			"supplierStrengthening": 23
+		},
+		{
+			"date": "2024-04-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 8,
+			"workerVoiceCoverage": 63500,
+			"supplierStrengthening": 23
+		},
+		{
+			"date": "2024-05-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 11,
+			"workerVoiceCoverage": 64000,
+			"supplierStrengthening": 24
+		},
+		{
+			"date": "2024-06-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 9,
+			"workerVoiceCoverage": 64500,
+			"supplierStrengthening": 24
+		},
+		{
+			"date": "2024-07-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 10,
+			"workerVoiceCoverage": 65000,
+			"supplierStrengthening": 25
+		},
+		{
+			"date": "2024-08-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 8,
+			"workerVoiceCoverage": 65500,
+			"supplierStrengthening": 25
+		},
+		{
+			"date": "2024-09-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 11,
+			"workerVoiceCoverage": 66000,
+			"supplierStrengthening": 25
+		},
+		{
+			"date": "2024-10-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 9,
+			"workerVoiceCoverage": 66500,
+			"supplierStrengthening": 26
+		},
+		{
+			"date": "2024-11-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 10,
+			"workerVoiceCoverage": 67000,
+			"supplierStrengthening": 26
+		},
+		{
+			"date": "2024-12-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 8,
+			"workerVoiceCoverage": 68000,
+			"supplierStrengthening": 27
+		},
+		{
+			"date": "2025-01-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 12,
+			"workerVoiceCoverage": 68500,
+			"supplierStrengthening": 27
+		},
+		{
+			"date": "2025-02-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 13,
+			"workerVoiceCoverage": 69000,
+			"supplierStrengthening": 27
+		},
+		{
+			"date": "2025-03-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 12,
+			"workerVoiceCoverage": 69500,
+			"supplierStrengthening": 28
+		},
+		{
+			"date": "2025-04-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 30,
+			"workerVoiceCoverage": 70000,
+			"supplierStrengthening": 28
+		},
+		{
+			"date": "2025-05-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 34,
+			"workerVoiceCoverage": 70500,
+			"supplierStrengthening": 29
+		},
+		{
+			"date": "2025-06-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 31,
+			"workerVoiceCoverage": 71000,
+			"supplierStrengthening": 29
+		},
+		{
+			"date": "2025-07-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 33,
+			"workerVoiceCoverage": 71500,
+			"supplierStrengthening": 30
+		},
+		{
+			"date": "2025-08-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 30,
+			"workerVoiceCoverage": 71800,
+			"supplierStrengthening": 30
+		},
+		{
+			"date": "2025-09-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 35,
+			"workerVoiceCoverage": 72000,
+			"supplierStrengthening": 30
+		},
+		{
+			"date": "2025-10-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 32,
+			"workerVoiceCoverage": 72400,
+			"supplierStrengthening": 31
+		},
+		{
+			"date": "2025-11-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 37,
+			"workerVoiceCoverage": 72600,
+			"supplierStrengthening": 31
+		},
+		{
+			"date": "2025-12-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 29,
+			"workerVoiceCoverage": 72810,
+			"supplierStrengthening": 31
+		},
+		{
+			"date": "2026-01-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 33,
+			"workerVoiceCoverage": 73100,
+			"supplierStrengthening": 31
+		},
+		{
+			"date": "2026-02-01",
+			"activeEscalations": 0,
+			"resolvedWithoutEscalation": 35,
+			"workerVoiceCoverage": 73400,
+			"supplierStrengthening": 32
+		},
+		{
+			"date": "2026-03-01",
+			"activeEscalations": 1,
+			"resolvedWithoutEscalation": 36,
+			"workerVoiceCoverage": 73600,
+			"supplierStrengthening": 32
+		}
+	],
+	"grievanceData": [
+		{
+			"date": "2024-01-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 52,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 62
+		},
+		{
+			"date": "2024-02-01",
+			"systemMeanLevel2": 16,
+			"systemMeanLevel34": 48,
+			"companyMeanLevel2": 14,
+			"companyMeanLevel34": 60
+		},
+		{
+			"date": "2024-03-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 55,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 64
+		},
+		{
+			"date": "2024-04-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 50,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 57
+		},
+		{
+			"date": "2024-05-01",
+			"systemMeanLevel2": 13,
+			"systemMeanLevel34": 46,
+			"companyMeanLevel2": 11,
+			"companyMeanLevel34": 54
+		},
+		{
+			"date": "2024-06-01",
+			"systemMeanLevel2": 16,
+			"systemMeanLevel34": 51,
+			"companyMeanLevel2": 14,
+			"companyMeanLevel34": 58
+		},
+		{
+			"date": "2024-07-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 54,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 60
+		},
+		{
+			"date": "2024-08-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 49,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 56
+		},
+		{
+			"date": "2024-09-01",
+			"systemMeanLevel2": 16,
+			"systemMeanLevel34": 47,
+			"companyMeanLevel2": 14,
+			"companyMeanLevel34": 52
+		},
+		{
+			"date": "2024-10-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 52,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 57
+		},
+		{
+			"date": "2024-11-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 56,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 60
+		},
+		{
+			"date": "2024-12-01",
+			"systemMeanLevel2": 13,
+			"systemMeanLevel34": 48,
+			"companyMeanLevel2": 11,
+			"companyMeanLevel34": 54
+		},
+		{
+			"date": "2025-01-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 50,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 57
+		},
+		{
+			"date": "2025-02-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 45,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 52
+		},
+		{
+			"date": "2025-03-01",
+			"systemMeanLevel2": 16,
+			"systemMeanLevel34": 48,
+			"companyMeanLevel2": 14,
+			"companyMeanLevel34": 54
+		},
+		{
+			"date": "2025-04-01",
+			"systemMeanLevel2": 13,
+			"systemMeanLevel34": 52,
+			"companyMeanLevel2": 11,
+			"companyMeanLevel34": 58
+		},
+		{
+			"date": "2025-05-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 49,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 55
+		},
+		{
+			"date": "2025-06-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 46,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 50
+		},
+		{
+			"date": "2025-07-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 51,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 56
+		},
+		{
+			"date": "2025-08-01",
+			"systemMeanLevel2": 13,
+			"systemMeanLevel34": 55,
+			"companyMeanLevel2": 11,
+			"companyMeanLevel34": 60
+		},
+		{
+			"date": "2025-09-01",
+			"systemMeanLevel2": 16,
+			"systemMeanLevel34": 47,
+			"companyMeanLevel2": 14,
+			"companyMeanLevel34": 52
+		},
+		{
+			"date": "2025-10-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 49,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 54
+		},
+		{
+			"date": "2025-11-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 52,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 57
+		},
+		{
+			"date": "2025-12-01",
+			"systemMeanLevel2": 13,
+			"systemMeanLevel34": 48,
+			"companyMeanLevel2": 11,
+			"companyMeanLevel34": 53
+		},
+		{
+			"date": "2026-01-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 45,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 49
+		},
+		{
+			"date": "2026-02-01",
+			"systemMeanLevel2": 15,
+			"systemMeanLevel34": 50,
+			"companyMeanLevel2": 13,
+			"companyMeanLevel34": 55
+		},
+		{
+			"date": "2026-03-01",
+			"systemMeanLevel2": 14,
+			"systemMeanLevel34": 47,
+			"companyMeanLevel2": 12,
+			"companyMeanLevel34": 50
+		}
+	],
+	"worker_voice_summary_tier1": {
+		"no_wv_percentage": 15,
+		"non_wv_engagement_percentage": 25,
+		"wv_engagement_percentage": 60,
+		"no_worker_voice_suppliers": 3,
+		"no_worker_voice_suppliers_list": ["Factory A", "Factory B", "Factory C"],
+		"suppliers_without_engagement": 5,
+		"suppliers_without_engagement_list": [
+			"Factory D",
+			"Factory E",
+			"Factory F",
+			"Factory G",
+			"Factory H"
+		],
+		"suppliers_with_engagement": 12,
+		"suppliers_with_engagement_list": [
+			"Factory I",
+			"Factory J",
+			"Factory K",
+			"Factory L",
+			"Factory M",
+			"Factory N",
+			"Factory O",
+			"Factory P",
+			"Factory Q",
+			"Factory R",
+			"Factory S",
+			"Factory T"
+		]
+	},
+	"worker_voice_summary_tier23": {
+		"no_wv_percentage": 40,
+		"non_wv_engagement_percentage": 40,
+		"wv_engagement_percentage": 20,
+		"no_worker_voice_suppliers": 8,
+		"no_worker_voice_suppliers_list": [
+			"Farm A",
+			"Farm B",
+			"Farm C",
+			"Farm D",
+			"Farm E",
+			"Farm F",
+			"Farm G",
+			"Farm H"
+		],
+		"suppliers_without_engagement": 8,
+		"suppliers_without_engagement_list": [
+			"Farm I",
+			"Farm J",
+			"Farm K",
+			"Farm L",
+			"Farm M",
+			"Farm N",
+			"Farm O",
+			"Farm P"
+		],
+		"suppliers_with_engagement": 4,
+		"suppliers_with_engagement_list": ["Farm Q", "Farm R", "Farm S", "Farm T"]
+	}
+}

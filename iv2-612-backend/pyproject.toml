@@ -1,0 +1,25 @@
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+/(
+  | migrations
+  # below items to be removed one by one after proper formatting
+  # added to exclude to successfully pass CI/CD checks
+  | issara
+  | scripts
+)/
+| manage.py
+'''
+
+[tool.isort]
+profile = 'black'
+multi_line_output = 3
+skip_glob = [
+  '*/migrations/*.py',
+  # below items to be removed one by one after fixing imports
+  # added to skip to successfully pass CI/CD checks
+  '*/issara/*.py',
+  '*/scripts/*.py',
+]

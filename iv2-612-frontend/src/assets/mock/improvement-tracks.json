@@ -1,0 +1,342 @@
+{
+	"supplier_id": null,
+	"stages": [
+		{ "key": "learning", "label": "Learning" },
+		{ "key": "policy", "label": "Policies & Systems" },
+		{ "key": "comms", "label": "Communications" },
+		{ "key": "engagement", "label": "Worker Engagement" },
+		{ "key": "techdata", "label": "Tech & Data" }
+	],
+	"tracks": [
+		{
+			"key": "grievance_mechanisms",
+			"label": "Grievance Mechanisms",
+			"color": "#148696",
+			"stages": [
+				{
+					"key": "learning",
+					"label": "Learning",
+					"status": "progress",
+					"activities": [
+						{
+							"name": "9 Critical Components of a Grievance Mechanism",
+							"status": "done"
+						},
+						{ "name": "ER Ethical Grievance 101", "status": "progress" },
+						{ "name": "Ethical Grievance 201", "status": "todo" }
+					]
+				},
+				{
+					"key": "policy",
+					"label": "Policies & Systems",
+					"status": "progress",
+					"activities": [
+						{ "name": "Grievance Mechanism Procedure Setup", "status": "done" },
+						{
+							"name": "Case Management & Escalation Pathways",
+							"status": "progress"
+						},
+						{ "name": "Case Closure Quality Review", "status": "todo" }
+					]
+				},
+				{
+					"key": "comms",
+					"label": "Communications",
+					"status": "progress",
+					"activities": [
+						{ "name": "Worker Communications Plan", "status": "done" },
+						{ "name": "Multilingual Posters & Signage", "status": "todo" },
+						{ "name": "Helpline Awareness Campaign", "status": "todo" }
+					]
+				},
+				{
+					"key": "engagement",
+					"label": "Worker Engagement",
+					"status": "done",
+					"activities": [
+						{ "name": "Issara Helpline Coverage Rollout", "status": "done" },
+						{ "name": "Worker Voice Pulse Survey", "status": "done" }
+					]
+				},
+				{
+					"key": "techdata",
+					"label": "Tech & Data",
+					"status": "progress",
+					"activities": [
+						{
+							"name": "Golden Dreams Platform Integration",
+							"status": "progress"
+						}
+					]
+				}
+			],
+			"totals": { "done": 5, "progress": 4, "todo": 3, "total": 12 }
+		},
+		{
+			"key": "ethical_recruitment",
+			"label": "Ethical Recruitment",
+			"color": "#FFEDAF",
+			"stages": [
+				{
+					"key": "learning",
+					"label": "Learning",
+					"status": "progress",
+					"activities": [
+						{ "name": "Procedures for Ethical Recruitment", "status": "done" },
+						{ "name": "Recruitment Fee Self-Diagnostic", "status": "progress" },
+						{ "name": "Tier 2 Supplier Mapping Basics", "status": "todo" }
+					]
+				},
+				{
+					"key": "policy",
+					"label": "Policies & Systems",
+					"status": "progress",
+					"activities": [
+						{ "name": "Master Service Agreement Update", "status": "progress" },
+						{ "name": "Agency Vetting Criteria", "status": "todo" }
+					]
+				},
+				{
+					"key": "comms",
+					"label": "Communications",
+					"status": "progress",
+					"activities": [
+						{ "name": "Agency Disclosure to Buyers", "status": "done" },
+						{ "name": "Recruitment Channel Audit", "status": "progress" }
+					]
+				},
+				{
+					"key": "engagement",
+					"label": "Worker Engagement",
+					"status": "todo",
+					"activities": [
+						{ "name": "Pre-departure Briefings", "status": "todo" },
+						{ "name": "Worker-paid Fee Refund Process", "status": "todo" }
+					]
+				},
+				{
+					"key": "techdata",
+					"label": "Tech & Data",
+					"status": "todo",
+					"activities": [
+						{ "name": "Recruitment Risk Dashboard", "status": "todo" }
+					]
+				}
+			],
+			"totals": { "done": 2, "progress": 3, "todo": 5, "total": 10 }
+		},
+		{
+			"key": "living_wages",
+			"label": "Living Wages",
+			"color": "#6F2E97",
+			"stages": [
+				{
+					"key": "learning",
+					"label": "Learning",
+					"status": "progress",
+					"activities": [
+						{ "name": "Living Wage 101", "status": "done" },
+						{ "name": "Wage Setting Diagnostic", "status": "progress" }
+					]
+				},
+				{
+					"key": "policy",
+					"label": "Policies & Systems",
+					"status": "todo",
+					"activities": [
+						{ "name": "Wage Policy Benchmarking", "status": "todo" },
+						{ "name": "Overtime Compensation Review", "status": "todo" }
+					]
+				},
+				{
+					"key": "comms",
+					"label": "Communications",
+					"status": "todo",
+					"activities": [
+						{ "name": "Wage Slip Transparency Plan", "status": "todo" }
+					]
+				},
+				{
+					"key": "engagement",
+					"label": "Worker Engagement",
+					"status": "todo",
+					"activities": [
+						{ "name": "Worker Compensation Survey", "status": "todo" }
+					]
+				},
+				{
+					"key": "techdata",
+					"label": "Tech & Data",
+					"status": "todo",
+					"activities": [
+						{ "name": "Payroll Data Integration", "status": "todo" }
+					]
+				}
+			],
+			"totals": { "done": 1, "progress": 1, "todo": 5, "total": 7 }
+		},
+		{
+			"key": "gender",
+			"label": "Gender",
+			"color": "#FB8379",
+			"stages": [
+				{
+					"key": "learning",
+					"label": "Learning",
+					"status": "progress",
+					"activities": [
+						{ "name": "Gender-Responsive HRDD Primer", "status": "progress" },
+						{ "name": "Gender-Based Violence Prevention", "status": "todo" }
+					]
+				},
+				{
+					"key": "policy",
+					"label": "Policies & Systems",
+					"status": "todo",
+					"activities": [
+						{ "name": "Anti-Harassment Policy Update", "status": "todo" }
+					]
+				},
+				{
+					"key": "comms",
+					"label": "Communications",
+					"status": "todo",
+					"activities": [{ "name": "Workplace Equity Comms", "status": "todo" }]
+				},
+				{
+					"key": "engagement",
+					"label": "Worker Engagement",
+					"status": "todo",
+					"activities": [
+						{ "name": "Women Workers Focus Group", "status": "todo" }
+					]
+				},
+				{
+					"key": "techdata",
+					"label": "Tech & Data",
+					"status": "progress",
+					"activities": [
+						{
+							"name": "Gender-Disaggregated Reporting Tool",
+							"status": "progress"
+						}
+					]
+				}
+			],
+			"totals": { "done": 0, "progress": 2, "todo": 4, "total": 6 }
+		},
+		{
+			"key": "climate_resilience",
+			"label": "Climate Resilience",
+			"color": "#A6DFDD",
+			"stages": [
+				{
+					"key": "learning",
+					"label": "Learning",
+					"status": "todo",
+					"activities": [{ "name": "Climate Resilience 101", "status": "todo" }]
+				},
+				{
+					"key": "policy",
+					"label": "Policies & Systems",
+					"status": "todo",
+					"activities": [
+						{ "name": "Just Transition Policy", "status": "todo" },
+						{ "name": "Heat-Stress Response Plan", "status": "todo" }
+					]
+				},
+				{
+					"key": "comms",
+					"label": "Communications",
+					"status": "todo",
+					"activities": [
+						{ "name": "Climate Risk Disclosure", "status": "todo" }
+					]
+				},
+				{
+					"key": "engagement",
+					"label": "Worker Engagement",
+					"status": "todo",
+					"activities": [
+						{ "name": "Workforce Climate Pulse", "status": "todo" }
+					]
+				},
+				{
+					"key": "techdata",
+					"label": "Tech & Data",
+					"status": "progress",
+					"activities": [
+						{ "name": "Climate Vulnerability Mapping", "status": "progress" }
+					]
+				}
+			],
+			"totals": { "done": 0, "progress": 1, "todo": 5, "total": 6 }
+		}
+	],
+	"engagement": [
+		{
+			"activity": "Grievance Mechanism Self-Diagnostic",
+			"track": "Grievance Mechanisms",
+			"location": "Bangkok Site 1",
+			"date": "2026-05-20",
+			"user": "Su Yatanar",
+			"role": "Admin"
+		},
+		{
+			"activity": "Procedures for Ethical Recruitment",
+			"track": "Ethical Recruitment",
+			"location": "Bangkok Site 1",
+			"date": "2026-05-15",
+			"user": "Naing Win",
+			"role": "HR Manager"
+		},
+		{
+			"activity": "Communications: Agency Disclosure",
+			"track": "Ethical Recruitment",
+			"location": "Chiang Rai Site 2",
+			"date": "2026-05-10",
+			"user": "Pim Suk",
+			"role": "Site Lead"
+		},
+		{
+			"activity": "Golden Dreams Platform Rollout",
+			"track": "Grievance Mechanisms",
+			"location": "Bangkok Site 1",
+			"date": "2026-05-08",
+			"user": "Mya Aye",
+			"role": "Operations"
+		},
+		{
+			"activity": "ER Ethical Grievance 101",
+			"track": "Grievance Mechanisms",
+			"location": "Surat Thani Site 3",
+			"date": "2026-05-03",
+			"user": "Su Yatanar",
+			"role": "Admin"
+		},
+		{
+			"activity": "Wage Setting Self-Diagnostic",
+			"track": "Living Wages",
+			"location": "Bangkok Site 1",
+			"date": "2026-04-28",
+			"user": "Naing Win",
+			"role": "HR Manager"
+		},
+		{
+			"activity": "Climate Vulnerability Mapping",
+			"track": "Climate Resilience",
+			"location": "Chiang Rai Site 2",
+			"date": "2026-04-22",
+			"user": "Pim Suk",
+			"role": "Site Lead"
+		},
+		{
+			"activity": "Gender-Disaggregated Reporting Tool",
+			"track": "Gender",
+			"location": "Surat Thani Site 3",
+			"date": "2026-04-18",
+			"user": "Hnin Aye",
+			"role": "Compliance Lead"
+		}
+	]
+}

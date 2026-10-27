@@ -1,0 +1,458 @@
+[
+	{
+		"user": 300,
+		"epp_policy": true,
+		"id": 300,
+		"logo": "https://t4.ftcdn.net/jpg/02/68/53/00/360_F_268530090_a3c7pP3jtPq6WqFTm6N3fUprWkAhc60p.jpg",
+		"type": "SC",
+		"date_joined": "2018-08-21T00:00:00Z",
+		"name_en": "Velocity Logistics Solutions",
+		"addresses": [
+			{
+				"id": 600,
+				"country_id": "Malaysia",
+				"state_id": "Province 1",
+				"city_id": "Port City 1",
+				"street": "Logistics Park 1, Warehouse Area",
+				"zip": "36197",
+				"contacts": [
+					{
+						"email": "contact1@velocitylogisticssolutionscom",
+						"phone_number": "+5661131218",
+						"translation": {
+							"first_name": "Supply Chain Lead 1",
+							"last_name": null,
+							"position": "Operations Manager"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 4.714,
+		"rating_count": 746,
+		"comments_count": 381,
+		"user_ratings": [],
+		"gd_id": 4000,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2022-01-01",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-69113",
+		"license_valid_date": "2029-10-21",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwvelocitylogisticssolutionscom",
+		"email": "info@velocitylogisticssolutionscom",
+		"phone_numbers": "+4224337891",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-05-20T11:13:27Z"
+	},
+	{
+		"user": 301,
+		"epp_policy": false,
+		"id": 301,
+		"logo": "https://media.istockphoto.com/illustrations/ai-artificial-intelligence-letter-logo-illustration-id1324321171?k=6&m=1324321171&s=612x612&w=0&h=F6t_Vj10R5l-aBq-PZ3l059zP5f5p7Q7b5R6b5p3b5k=",
+		"type": "SC",
+		"date_joined": "2022-12-12T00:00:00Z",
+		"name_en": "Asia Pacific Supply Chain Partners",
+		"addresses": [
+			{
+				"id": 601,
+				"country_id": "Indonesia",
+				"state_id": "Province 2",
+				"city_id": "Port City 2",
+				"street": "Logistics Park 2, Warehouse Area",
+				"zip": "48500",
+				"contacts": [
+					{
+						"email": "contact2@asiapacificsupplychainpartnerscom",
+						"phone_number": "+2589311991",
+						"translation": {
+							"first_name": "Supply Chain Lead 2",
+							"last_name": null,
+							"position": "Logistics Coordinator"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 4.4782,
+		"rating_count": 366,
+		"comments_count": 728,
+		"user_ratings": [],
+		"gd_id": 4001,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2020-11-20",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-14030",
+		"license_valid_date": "2028-03-05",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwasiapacificsupplychainpartnerscom",
+		"email": "info@asiapacificsupplychainpartnerscom",
+		"phone_numbers": "+7204410227, +3027863255",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2025-04-24T11:13:27Z"
+	},
+	{
+		"user": 302,
+		"epp_policy": true,
+		"id": 302,
+		"logo": "https://t4.ftcdn.net/jpg/02/68/53/00/360_F_268530090_a3c7pP3jtPq6WqFTm6N3fUprWkAhc60p.jpg",
+		"type": "SC",
+		"date_joined": "2016-04-26T00:00:00Z",
+		"name_en": "Coastal Shipping & Freight",
+		"addresses": [
+			{
+				"id": 602,
+				"country_id": "Vietnam",
+				"state_id": "Province 3",
+				"city_id": "Port City 3",
+				"street": "Logistics Park 3, Warehouse Area",
+				"zip": "51215",
+				"contacts": [
+					{
+						"email": "contact3@coastalshippingfreightcom",
+						"phone_number": "+1150193528",
+						"translation": {
+							"first_name": "Supply Chain Lead 3",
+							"last_name": null,
+							"position": "Fleet Manager"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 3.5765,
+		"rating_count": 705,
+		"comments_count": 1150,
+		"user_ratings": [],
+		"gd_id": 4002,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2017-08-01",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-65020",
+		"license_valid_date": "2029-02-20",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwcoastalshippingfreightcom",
+		"email": "info@coastalshippingfreightcom",
+		"phone_numbers": "+9917364675, +1218406736",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-07-17T11:13:27Z"
+	},
+	{
+		"user": 303,
+		"epp_policy": false,
+		"id": 303,
+		"logo": "https://media.istockphoto.com/illustrations/ai-artificial-intelligence-letter-logo-illustration-id1324321171?k=6&m=1324321171&s=612x612&w=0&h=F6t_Vj10R5l-aBq-PZ3l059zP5f5p7Q7b5R6b5p3b5k=",
+		"type": "SC",
+		"date_joined": "2023-12-20T00:00:00Z",
+		"name_en": "Inland Transport Services",
+		"addresses": [
+			{
+				"id": 603,
+				"country_id": "Malaysia",
+				"state_id": "Province 4",
+				"city_id": "Port City 4",
+				"street": "Logistics Park 4, Warehouse Area",
+				"zip": "13411",
+				"contacts": [
+					{
+						"email": "contact4@inlandtransportservicescom",
+						"phone_number": "+8481366486",
+						"translation": {
+							"first_name": "Supply Chain Lead 4",
+							"last_name": null,
+							"position": "Fleet Manager"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 4.2626,
+		"rating_count": 676,
+		"comments_count": 763,
+		"user_ratings": [],
+		"gd_id": 4003,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2020-12-30",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-31310",
+		"license_valid_date": "2029-07-05",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwinlandtransportservicescom",
+		"email": "info@inlandtransportservicescom",
+		"phone_numbers": "+8318256108, +9086163300, +3795060786",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-09-22T11:13:27Z"
+	},
+	{
+		"user": 304,
+		"epp_policy": true,
+		"id": 304,
+		"logo": "https://t3.ftcdn.net/jpg/05/75/47/87/360_F_575478783_Z1G5p6kP5W5zJ3c7w5r5d0q0q0q0q0q0q.jpg",
+		"type": "SC",
+		"date_joined": "2021-06-26T00:00:00Z",
+		"name_en": "Global Cargo Movers",
+		"addresses": [
+			{
+				"id": 604,
+				"country_id": "Vietnam",
+				"state_id": "Province 5",
+				"city_id": "Port City 5",
+				"street": "Logistics Park 5, Warehouse Area",
+				"zip": "62203",
+				"contacts": [
+					{
+						"email": "contact5@globalcargomoverscom",
+						"phone_number": "+8089089728",
+						"translation": {
+							"first_name": "Supply Chain Lead 5",
+							"last_name": null,
+							"position": "Logistics Coordinator"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 4.0045,
+		"rating_count": 212,
+		"comments_count": 478,
+		"user_ratings": [],
+		"gd_id": 4004,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2017-01-05",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-61825",
+		"license_valid_date": "2028-02-29",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwglobalcargomoverscom",
+		"email": "info@globalcargomoverscom",
+		"phone_numbers": "+9673713373, +5016973927, +8184517296",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-10-10T11:13:27Z"
+	},
+	{
+		"user": 305,
+		"epp_policy": false,
+		"id": 305,
+		"logo": "https://media.istockphoto.com/illustrations/ai-artificial-intelligence-letter-logo-illustration-id1324321171?k=6&m=1324321171&s=612x612&w=0&h=F6t_Vj10R5l-aBq-PZ3l059zP5f5p7Q7b5R6b5p3b5k=",
+		"type": "SC",
+		"date_joined": "2023-03-01T00:00:00Z",
+		"name_en": "Summit Logistics Group",
+		"addresses": [
+			{
+				"id": 605,
+				"country_id": "Vietnam",
+				"state_id": "Province 6",
+				"city_id": "Port City 6",
+				"street": "Logistics Park 6, Warehouse Area",
+				"zip": "80559",
+				"contacts": [
+					{
+						"email": "contact6@summitlogisticsgroupcom",
+						"phone_number": "+2994038611",
+						"translation": {
+							"first_name": "Supply Chain Lead 6",
+							"last_name": null,
+							"position": "Operations Manager"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 4.5962,
+		"rating_count": 380,
+		"comments_count": 973,
+		"user_ratings": [],
+		"gd_id": 4005,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2022-08-13",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-89206",
+		"license_valid_date": "2029-07-08",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwsummitlogisticsgroupcom",
+		"email": "info@summitlogisticsgroupcom",
+		"phone_numbers": "+1353882477",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-07-02T11:13:27Z"
+	},
+	{
+		"user": 306,
+		"epp_policy": true,
+		"id": 306,
+		"logo": "https://www.shutterstock.com/image-vector/fake-logo-collection-vector-logotype-set-260nw-2132250003.jpg",
+		"type": "SC",
+		"date_joined": "2022-09-28T00:00:00Z",
+		"name_en": "Oceanwide Supply Chain",
+		"addresses": [
+			{
+				"id": 606,
+				"country_id": "Thailand",
+				"state_id": "Province 7",
+				"city_id": "Port City 7",
+				"street": "Logistics Park 7, Warehouse Area",
+				"zip": "84358",
+				"contacts": [
+					{
+						"email": "contact7@oceanwidesupplychaincom",
+						"phone_number": "+6697161844",
+						"translation": {
+							"first_name": "Supply Chain Lead 7",
+							"last_name": null,
+							"position": "Operations Manager"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 3.7558,
+		"rating_count": 674,
+		"comments_count": 467,
+		"user_ratings": [],
+		"gd_id": 4006,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2017-12-07",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-74767",
+		"license_valid_date": "2029-02-20",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwoceanwidesupplychaincom",
+		"email": "info@oceanwidesupplychaincom",
+		"phone_numbers": "+8885385662, +9655413827",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-11-18T11:13:27Z"
+	},
+	{
+		"user": 307,
+		"epp_policy": false,
+		"id": 307,
+		"logo": "https://t4.ftcdn.net/jpg/02/68/53/00/360_F_268530090_a3c7pP3jtPq6WqFTm6N3fUprWkAhc60p.jpg",
+		"type": "SC",
+		"date_joined": "2017-07-30T00:00:00Z",
+		"name_en": "Continental Freight Forwarders",
+		"addresses": [
+			{
+				"id": 607,
+				"country_id": "Thailand",
+				"state_id": "Province 8",
+				"city_id": "Port City 8",
+				"street": "Logistics Park 8, Warehouse Area",
+				"zip": "23894",
+				"contacts": [
+					{
+						"email": "contact8@continentalfreightforwarderscom",
+						"phone_number": "+1700568863",
+						"translation": {
+							"first_name": "Supply Chain Lead 8",
+							"last_name": null,
+							"position": "Logistics Coordinator"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading company providing comprehensive supply chain and logistics services, including freight forwarding, warehousing, and transportation.",
+		"rating_score": 4.7055,
+		"rating_count": 520,
+		"comments_count": 506,
+		"user_ratings": [],
+		"gd_id": 4007,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2019-06-19",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "SC-LIC-75980",
+		"license_valid_date": "2028-04-04",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwcontinentalfreightforwarderscom",
+		"email": "info@continentalfreightforwarderscom",
+		"phone_numbers": "+9173852777",
+		"facebook": "https://www.facebook.com/mocksupplychaincompany",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-07-13T11:13:27Z"
+	}
+]

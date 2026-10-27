@@ -1,0 +1,14 @@
+{% load kpi_email_replace_tokens %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+      {{ context.strategic_partner.name }}
+    <div>
+      {{ context.kpi_template.text|kpi_email_replace_tokens:context|linebreaks }}
+    </div>
+  </body>
+</html>

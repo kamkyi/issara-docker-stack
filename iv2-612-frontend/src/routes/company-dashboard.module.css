@@ -1,0 +1,421 @@
+.container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 1%;
+	margin-top: 11px;
+}
+
+.textBlock {
+	flex: 60%;
+}
+
+.imageBlock {
+	flex: 39%;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+}
+
+/* New classes for inline styles */
+.textBox {
+	flex: 0 0 60%;
+}
+
+.imageBox {
+	flex: 0 0 30%;
+}
+
+.aspectImage {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
+}
+
+.aspectImage:hover {
+	transform: scale(1.03);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.separatorMargin {
+	margin-top: 16px;
+}
+
+/* New CSS classes to replace inline styles */
+.responsiveSection {
+	border-radius: 4px;
+	margin-top: 1rem;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.textContainer {
+	width: 100%;
+	padding: 1rem;
+}
+
+.gaugesContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/* New classes for gauge item and label spacing */
+.gaugeItem {
+	text-align: center;
+}
+
+.gaugeLabel {
+	margin-top: 0.2rem;
+}
+
+/* Add new grid container for article cards */
+.articlesRow {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+}
+
+/* Updated article card height */
+.articleCard {
+	min-height: 230px; /* Adjust height as needed */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+/* New CSS for positioning article type and content */
+.articleHeader {
+	align-self: flex-end;
+	margin: 8px;
+}
+
+.articleContent {
+	align-self: flex-start;
+	margin: 8px;
+}
+
+/* Updated styles for event cards */
+.eventCardsContainer {
+	display: flex;
+	gap: 16px;
+	overflow-x: auto;
+	padding: 0.5rem;
+	cursor: ew-resize; /* horizontal scroll style */
+}
+.eventCardsContainer:active {
+	cursor: ew-resize;
+}
+
+.eventCard {
+	flex: 0 0 calc((100% - 3 * 16px) / 4);
+	position: relative;
+	width: calc((100% - 3 * 16px) / 4);
+	padding-top: calc((100% - 3 * 16px) / 4); /* Keeps card square */
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.eventCardContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* ...existing article card styles if needed... */
+}
+
+.eventDate {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 2px 6px;
+	border-radius: 4px;
+	font-size: 0.8rem;
+	color: black;
+}
+
+[data-theme="dark"] .eventDate {
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+
+/* New style for scroll button in events section */
+.eventScrollButton {
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+/* New style for left scroll button in events section */
+.eventScrollButtonLeft {
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+/* Update right scroll button style naming */
+.eventScrollButtonRight {
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+/* New classes */
+.flex1 {
+	flex: 1;
+}
+
+.pointer {
+	cursor: pointer !important;
+}
+
+.speedometerContainer {
+	flex: 0 0 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.gaugeRow {
+	display: flex;
+	gap: 16px;
+}
+
+.smallGauge {
+	flex: 1;
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 1rem;
+	text-align: center;
+}
+
+.largeGauge {
+	flex: 1;
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 1rem;
+	text-align: center;
+}
+
+.scoreChartContainer {
+	flex: 0 0 50%;
+}
+
+/* Enhanced Score Chart Card styling */
+.scoreChartCard {
+	background: linear-gradient(to bottom, #e4e4e4, #f8f9fa);
+	border-radius: 12px;
+	box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+	transition: all 0.3s ease;
+	overflow: hidden;
+	height: 100%;
+	border: 1px solid #e0e0e0;
+	position: relative;
+}
+
+.scoreChartCard:hover {
+	box-shadow: 0 12px 28px rgba(100, 110, 140, 0.25);
+	transform: translateY(-4px);
+}
+
+/* Dark mode styles for the score chart card */
+[data-theme="dark"] .scoreChartCard {
+	background: linear-gradient(to bottom, #2a2a2a, #202020);
+	border: 1px solid #444;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .scoreChartCard:hover {
+	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6);
+}
+
+.scoreChartGrid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr); /* 12-column grid */
+	gap: 16px; /* Adjust gap between grid items */
+}
+
+.scoreChartBox {
+	grid-column: span 4; /* Each chart spans 4 columns */
+	background: #f5f5f5; /* Optional: Add a background for better visibility */
+	border: 1px solid #ccc; /* Optional: Add a border */
+	border-radius: 8px; /* Optional: Add rounded corners */
+	padding: 16px; /* Optional: Add padding */
+}
+
+.gridSection {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr); /* 12-column grid */
+	gap: 16px; /* Adjust gap between grid items */
+	align-items: start; /* Align items at the top */
+}
+
+.speedometerGridItem {
+	grid-column: span 7; /* Speedometers take 7 columns */
+}
+
+.scoreChartGridItem {
+	grid-column: span 5; /* Score chart takes 5 columns */
+}
+
+.inputRow {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 6px;
+}
+
+.dateInput {
+	flex: 1;
+}
+
+/* Container for the speedometers */
+.speedometerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Center content horizontally */
+	justify-content: center; /* Center content vertically */
+	grid-column: span 7; /* Spans 7 columns in the grid */
+	text-align: center;
+}
+
+/* Row for the date inputs */
+.speedometerDateRow {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 16px;
+	justify-content: center; /* Center date inputs horizontally */
+	width: 100%;
+}
+
+/* Row for the speedometer gauges */
+.speedometerGaugeRow {
+	display: flex;
+	gap: 24px; /* Space between speedometers */
+	justify-content: center; /* Center speedometers horizontally */
+	align-items: center; /* Align speedometers vertically */
+}
+.benchmarkRow {
+	text-align: right;
+	margin-bottom: 6px;
+}
+
+/* Date filter responsive styles */
+.dateFilterContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.dateFilterItem {
+	display: flex;
+	align-items: center;
+}
+
+.dateFilterLabel {
+	margin-right: 8px;
+	white-space: nowrap;
+	font-size: 0.875rem;
+}
+
+.datePickerWrapper {
+	width: 130px;
+}
+
+.golden-dreams-container {
+	padding: 20px;
+	font-family:
+		DM Sans,
+		sans-serif;
+}
+
+.scoring-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.scoring-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.scoring-label {
+	flex-grow: 1;
+}
+
+.rating-stars {
+	display: flex;
+	align-items: center;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 640px) {
+	.dateFilterContainer {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.dateFilterItem {
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.datePickerWrapper {
+		width: 60%;
+	}
+}
+
+/* New class for outlined rating stars */
+.rating-stars-outlined svg,
+.rating-stars-outlined .star {
+	/* For SVG stars or font icons with class 'star' */
+	stroke: #222 !important;
+	stroke-width: 1.2;
+	filter: drop-shadow(0 0 1px #222);
+}
+
+/* If using font icons, you may also want: */
+.rating-stars-outlined {
+	/* fallback for font icons */
+	text-shadow:
+		0 0 2px #222,
+		0 0 1px #fff;
+}
+
+.golden-dreams-card {
+	background: linear-gradient(120deg, #fef3c7 0%, #fde68a 60%, #fcd34d 100%);
+	color: #000;
+	box-shadow: 0 2px 8px 0 #b45309;
+	border-radius: 5px;
+	border: 1px solid #eab308;
+}
+
+.rt-BaseTabListTrigger {
+	color: #197278 !important;
+}

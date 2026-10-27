@@ -1,0 +1,10 @@
+src/components/routes/CsoCaseManagement/CsoCaseManagementPage.test.tsx
+src/components/routes/CsoCaseManagement/CsoCaseManagementPage.tsx
+src/components/routes/CsoCaseManagement/CsoKpiDrawer.test.tsx
+src/components/routes/CsoCaseManagement/CsoKpiDrawer.tsx
+src/components/routes/CsoCaseManagement/CsoKpiEditForm.test.tsx
+src/components/routes/CsoCaseManagement/CsoKpiEditForm.tsx
+src/components/routes/WorkerVoiceCalls/WorkerVoiceCallDetails.tsx
+src/queries/csoCaseManagement.ts
+src/services/csoCaseManagementService.test.ts
+src/services/csoCaseManagementService.ts

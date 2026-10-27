@@ -1,0 +1,66 @@
+/* ReferralActionsDropdown styles */
+.referral-actions-dropdown-container {
+	position: relative;
+	z-index: 50;
+}
+
+/* Dropdown trigger styles */
+.referral-actions-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+/* Dark mode support */
+:global(.dark) .referral-actions-trigger {
+	background-color: #2e2e2e;
+	border-color: #444;
+	color: white;
+}
+
+/* Ensure dropdown content is same width as trigger */
+[data-radix-popper-content-wrapper] {
+	width: var(--radix-popper-anchor-width);
+	z-index: 9999 !important;
+}
+
+/* Dropdown content styles */
+.referral-actions-content {
+	width: 100%; /* Match parent width */
+	border-radius: 0.375rem;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	overflow: hidden;
+	background-color: white;
+	margin-top: 5px;
+	z-index: 9999;
+}
+
+:global(.dark) .referral-actions-content {
+	background-color: #2e2e2e;
+	color: white;
+	border: 1px solid #444;
+}
+
+/* Option styles */
+.referral-actions-item {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	width: 100%; /* Ensure items stretch full width */
+}
+
+.referral-actions-item:hover {
+	background-color: #f3f4f6;
+}
+
+:global(.dark) .referral-actions-item:hover {
+	background-color: #3a3a3a;
+}

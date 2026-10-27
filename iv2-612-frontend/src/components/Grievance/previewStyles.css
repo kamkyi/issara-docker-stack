@@ -1,0 +1,42 @@
+.preview-title {
+	color: #278696;
+	font-weight: 900;
+	text-align: center;
+}
+
+.main-divider {
+	padding: 1px;
+	background-color: black;
+}
+
+.sub-divider {
+	padding: 0.5px;
+	background-color: black;
+}
+
+.preview-question {
+	font-size: 1.1rem;
+	text-align: justify;
+	color: #4a9fac;
+}
+
+.answer {
+	font-size: 1.1rem;
+}
+
+.answer-paragraph {
+	text-align: justify;
+	font-size: 1.1rem;
+}
+
+.header {
+	color: #278696;
+}
+
+.edit-icon {
+	margin-bottom: 2px;
+}
+
+.save-icon {
+	margin-bottom: 2px;
+}

@@ -1,0 +1,115 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1%;
+	margin-top: 11px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.containerPadding {
+	padding-bottom: 60px;
+}
+
+/* Scroll buttons styling with proper light/dark theme support */
+.scrollButton {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, 0.9);
+	color: #333;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s ease;
+}
+
+.scrollButton:hover {
+	background-color: #fff;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.scrollButtonLeft {
+	composes: scrollButton;
+	left: 0;
+}
+
+.scrollButtonRight {
+	composes: scrollButton;
+	right: 0;
+}
+
+/* Event card styling */
+.eventCard {
+	min-width: 260px;
+	height: 240px;
+	flex-shrink: 0;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.eventCard {
+		min-width: 300px;
+	}
+}
+
+.eventDate {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #333;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 0.8rem;
+	z-index: 5;
+}
+
+/* Scrollable container */
+.scrollContainer {
+	position: relative;
+	overflow: hidden;
+	padding: 8px 40px;
+	margin: 0 -8px;
+}
+
+.cardsContainer {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 16px;
+	overflow-x: auto;
+	padding-bottom: 16px;
+	scroll-behavior: smooth;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.cardsContainer::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+}
+
+/* Dark mode styles */
+:global(.dark) .scrollButton {
+	background-color: rgba(50, 50, 50, 0.9);
+	color: #f0f0f0;
+	border-color: #444;
+}
+
+:global(.dark) .scrollButton:hover {
+	background-color: rgba(60, 60, 60, 1);
+}
+
+:global(.dark) .eventDate {
+	background-color: rgba(50, 50, 50, 0.8);
+	color: #f0f0f0;
+}

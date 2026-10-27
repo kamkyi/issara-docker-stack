@@ -1,0 +1,46 @@
+/*
+ * The "Issue Description" tooltip on the Worker Voice calls table.
+ *
+ * Radix Themes ships tooltips as a near-black panel (`--gray-12`) with
+ * near-white text, which is its own palette rather than this app's. This one
+ * is inverted to a light panel with brand-coloured text, and every value comes
+ * from a token in `global.css` so the dark appearance is handled by the tokens
+ * rather than by a second rule here:
+ *
+ *   --color-panel-solid  white, or a solid dark panel under a dark appearance
+ *   --text-secondary     navy, or light teal under `.dark` -- the app defines
+ *                        it that way precisely because "navy is unreadable on
+ *                        dark"
+ *   --color-border       the same hairline the table and cards use
+ *
+ * The background is deliberately NOT the app's `--color-surface`. Radix Themes
+ * defines a token of that same name -- `rgba(255, 255, 255, 0.85)` -- and the
+ * tooltip renders inside a `.radix-themes` scope, where Radix's definition
+ * shadows the app's `#ffffff`. Using it made the panel 85% opaque, so the
+ * table showed faintly through the text. `--color-panel-solid` is Radix's own
+ * solid panel colour and is the one meant for a floating surface like this.
+ *
+ * Radix draws no shadow of its own, which a near-black panel does not need but
+ * a white one does: without it the tooltip and the white table surface beneath
+ * merge into each other.
+ *
+ * Scoped to this one class so no other tooltip in the app is touched. Each
+ * selector names `.rt-TooltipContent` as well as the local class: on its own
+ * `.wv-issue-tooltip` ties with Radix's own single-class rule, and a tie is
+ * settled by which stylesheet the bundler emits last -- true today and not
+ * something to rest a colour on. Naming both wins on specificity instead.
+ */
+.rt-TooltipContent.wv-issue-tooltip {
+	max-width: 360px;
+	background-color: var(--color-panel-solid);
+	border: 1px solid var(--color-border);
+	box-shadow: 0 6px 16px rgb(0 0 0 / 12%);
+}
+
+.rt-TooltipContent.wv-issue-tooltip .rt-TooltipText {
+	color: var(--text-secondary);
+}
+
+.rt-TooltipContent.wv-issue-tooltip .rt-TooltipArrow {
+	fill: var(--color-panel-solid);
+}

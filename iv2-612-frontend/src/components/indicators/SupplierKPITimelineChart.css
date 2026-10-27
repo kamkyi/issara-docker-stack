@@ -1,0 +1,339 @@
+/* Supplier KPI stacked bar styles */
+.supplier-kpi-stackbar-card {
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 12px;
+}
+
+.supplier-kpi-stackbar-card--compact {
+	border-radius: 10px;
+}
+
+.stackbar-status-tabs {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+
+.supplier-kpi-stackbar-card--compact .stackbar-status-tabs {
+	gap: 0.45rem;
+	margin-bottom: 0.4rem;
+}
+
+.status-filter-group {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	flex-wrap: wrap;
+}
+
+.status-filter-button {
+	background: #e6f2ef;
+	color: #0b6658;
+	border: 1px solid #c9e2dc;
+	padding: 0.45rem 0.9rem;
+	border-radius: 999px;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition:
+		background-color 0.2s ease,
+		color 0.2s ease,
+		border-color 0.2s ease;
+}
+
+.supplier-kpi-stackbar-card--compact .status-filter-button {
+	padding: 0.3rem 0.65rem;
+	font-size: 0.69rem;
+}
+
+.status-filter-button:hover {
+	background: #d7ebe6;
+}
+
+.status-filter-button.is-active {
+	background: #0b6658;
+	color: #ffffff;
+	border-color: #0b6658;
+}
+
+.status-pill {
+	font-size: 0.75rem;
+	font-weight: 600;
+	color: #0f172a;
+	background: #e6f2ef;
+	border: 1px solid #c9e2dc;
+	padding: 0.3rem 0.6rem;
+	border-radius: 999px;
+}
+
+.supplier-kpi-stackbar-card--compact .status-pill {
+	padding: 0.2rem 0.5rem;
+	font-size: 0.69rem;
+}
+
+.timeline-tabs {
+	width: 100%;
+}
+
+.tabs-container-with-indicators {
+	position: relative;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.supplier-kpi-stackbar-card--compact .tabs-container-with-indicators {
+	margin-bottom: 0.45rem;
+}
+
+.timeline-tabs [data-radix-tabs-list] {
+	display: flex;
+	gap: 0.25rem;
+	overflow-x: auto;
+	scrollbar-width: thin;
+	-ms-overflow-style: none;
+	position: relative;
+	padding: 0.25rem;
+	border-radius: 10px;
+	background: #0b6658;
+}
+
+/* Show scrollbar for better UX on desktop */
+.timeline-tabs [data-radix-tabs-list]::-webkit-scrollbar {
+	height: 3px;
+}
+
+.timeline-tabs [data-radix-tabs-list]::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.timeline-tabs [data-radix-tabs-list]::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 5px;
+}
+
+/* Scroll indicators */
+.scroll-indicator {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.scroll-indicator.left {
+	left: 0;
+	background: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0.9) 30%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.scroll-indicator.right {
+	right: 0;
+	background: linear-gradient(
+		to left,
+		rgba(255, 255, 255, 0.9) 30%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.scroll-indicator-icon {
+	background-color: white;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow:
+		0 2px 4px rgba(0, 0, 0, 0.08),
+		0 1px 2px rgba(0, 0, 0, 0.12),
+		0 0 1px rgba(0, 0, 0, 0.05);
+	color: #0b6658;
+	transition:
+		transform 0.2s ease,
+		box-shadow 0.2s ease;
+}
+
+/* Add subtle hover effect */
+.scroll-indicator-icon:hover {
+	transform: translateY(-1px);
+	box-shadow:
+		0 3px 6px rgba(0, 0, 0, 0.1),
+		0 2px 4px rgba(0, 0, 0, 0.12),
+		0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Add subtle active effect */
+.scroll-indicator:active .scroll-indicator-icon {
+	transform: translateY(0);
+	box-shadow:
+		0 1px 3px rgba(0, 0, 0, 0.08),
+		0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab trigger styling */
+.timeline-tabs [data-radix-tabs-trigger] {
+	padding: 0.55rem 1rem;
+	font-size: 0.77rem;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.78);
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid transparent;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	white-space: normal;
+	display: inline-block;
+	max-width: 240px;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.supplier-kpi-stackbar-card--compact .timeline-tabs [data-radix-tabs-trigger] {
+	padding: 0.4rem 0.75rem;
+	font-size: 0.72rem;
+	max-width: 180px;
+}
+
+.timeline-tabs [data-radix-tabs-trigger]:hover {
+	color: #ffffff;
+}
+
+.timeline-tabs [data-radix-tabs-trigger][data-state="active"] {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.09);
+	border-bottom: 2px solid #f43f5e;
+	font-weight: 600;
+}
+
+.kpi-legend-row {
+	display: flex;
+	gap: 0.75rem;
+	margin: 0.25rem 0 0.75rem;
+	flex-wrap: wrap;
+}
+
+.kpi-legend-item {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.15rem 0.45rem;
+	border-radius: 999px;
+	border: 1px solid #e5e7eb;
+	background: #ffffff;
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+
+.kpi-legend-swatch {
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+}
+
+.supplier-kpi-chart-shell {
+	background: #f9fafb;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	padding: 0.75rem 0.5rem;
+}
+
+.supplier-kpi-chart-shell.compact {
+	padding: 0.35rem 0.35rem;
+	border-radius: 8px;
+}
+
+/* Dark theme support */
+:global(.dark) .timeline-tabs [data-radix-tabs-trigger] {
+	color: #d1d5db;
+}
+
+:global(.dark) .timeline-tabs [data-radix-tabs-trigger]:hover {
+	color: #e5e7eb;
+}
+
+:global(.dark) .timeline-tabs [data-radix-tabs-trigger][data-state="active"] {
+	color: #ffffff;
+	border-bottom-color: #fb7185;
+}
+
+:global(.dark) .scroll-indicator.left {
+	background: linear-gradient(
+		to right,
+		rgba(31, 41, 55, 0.9) 30%,
+		rgba(31, 41, 55, 0) 100%
+	);
+}
+
+:global(.dark) .scroll-indicator.right {
+	background: linear-gradient(
+		to left,
+		rgba(31, 41, 55, 0.9) 30%,
+		rgba(31, 41, 55, 0) 100%
+	);
+}
+
+:global(.dark) .scroll-indicator-icon {
+	background-color: #374151;
+	color: #60a5fa;
+	box-shadow:
+		0 2px 4px rgba(0, 0, 0, 0.25),
+		0 1px 3px rgba(0, 0, 0, 0.3),
+		0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+	.timeline-tabs [data-radix-tabs-list] {
+		gap: 0;
+	}
+
+	.timeline-tabs [data-radix-tabs-trigger] {
+		padding: 0.5rem 0.75rem;
+		font-size: 0.75rem;
+	}
+
+	.timeline-tabs [data-radix-tabs-trigger] {
+		max-width: 140px;
+	}
+
+	.scroll-indicator {
+		width: 1.5rem;
+	}
+
+	.scroll-indicator-icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.kpi-legend-row {
+		gap: 0.35rem;
+	}
+
+	.kpi-legend-item {
+		font-size: 0.68rem;
+	}
+
+	.status-filter-group {
+		gap: 0.25rem;
+	}
+
+	.status-filter-button {
+		padding: 0.4rem 0.7rem;
+	}
+}

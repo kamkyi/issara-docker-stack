@@ -1,0 +1,271 @@
+# =============================================================================
+#  UNIFIED DOCKER COMPOSE
+#  Covers: ILM-prototype  |  goldendreams_v2  |  cascade-api
+#
+#  Source repos are at /Volumes/portable/work/:
+#    ILM-prototype/ilm-server-2
+#    goldendreams_v2/server
+#    cascade-api
+#
+#  Usage (from /Volumes/portable/work/dev-stack/):
+#    Build (no-cache) + up  →  ./build-no-cache.sh
+#    Up only               →  ./up.sh
+# =============================================================================
+
+name: cascade-stack
+
+services:
+  # ---------------------------------------------------------------------------
+  #  ILM-PROTOTYPE
+  # ---------------------------------------------------------------------------
+
+  ilm-database-2:
+    image: mysql:8.0
+    container_name: ilm-database-2
+    expose:
+      - 3306
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: "ilm_2"
+      MYSQL_USER: "myuser"
+      MYSQL_PASSWORD: "password"
+      MYSQL_ROOT_PASSWORD: "password"
+    volumes:
+      - ilm-database-volume:/var/lib/mysql
+      - /Volumes/portable/work/ILM-prototype/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mysqladmin ping -h 0.0.0.0 -u myuser --password=password",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+    networks:
+      - shared-network
+
+  ilm-server-2:
+    image: ilm-server-2
+    container_name: ilm-server-2
+    build:
+      context: /Volumes/portable/work/ILM-prototype/ilm-server-2
+      dockerfile: Dockerfile.local
+    expose:
+      - 8000
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
+    volumes:
+      - /Volumes/portable/work/ILM-prototype/ilm-server-2:/app/server
+    environment:
+      - DB_HOST=ilm-database-2
+    depends_on:
+      ilm-database-2:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - shared-network
+
+  # ---------------------------------------------------------------------------
+  #  GOLDENDREAMS V2
+  # ---------------------------------------------------------------------------
+
+  goldendreams-database:
+    image: mysql:5.7.25
+    platform: linux/amd64
+    container_name: goldendreams-database
+    expose:
+      - 3306
+    ports:
+      - "3308:3306"
+    command: --max_allowed_packet=128M --wait_timeout=7200
+    environment:
+      MYSQL_DATABASE: "goldendreams_v2"
+      MYSQL_USER: "root"
+      MYSQL_PASSWORD: "password"
+      MYSQL_ROOT_PASSWORD: "password"
+    volumes:
+      - gd-database-volume:/var/lib/mysql
+      - /Volumes/portable/work/goldendreams_v2/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+    networks:
+      shared-network:
+        aliases:
+          - database
+
+  goldendreams-cache:
+    image: memcached:1.5.20
+    container_name: goldendreams-cache
+    expose:
+      - 11211
+    ports:
+      - "11211:11211"
+    restart: unless-stopped
+    networks:
+      shared-network:
+        aliases:
+          - cache
+
+  goldendreams-celery-broker:
+    image: redis:alpine
+    container_name: goldendreams-celery-broker
+    expose:
+      - 6379
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    networks:
+      shared-network:
+        aliases:
+          - celery-broker-redis
+
+  goldendreams-server:
+    image: goldendreams-server
+    container_name: goldendreams-server
+    build:
+      context: /Volumes/portable/work/goldendreams_v2/server
+      dockerfile: Dockerfile.local
+    expose:
+      - 8000
+    ports:
+      - "8001:8000"
+    stdin_open: true
+    tty: true
+    volumes:
+      - /Volumes/portable/work/goldendreams_v2/server:/app/server
+    environment:
+      - DB_HOST=goldendreams-database
+      - REDIS_CACHE_LOCATION=redis://goldendreams-celery-broker:6379/1
+      - CELERY_BROKER_URL=redis://goldendreams-celery-broker:6379/0
+    command: /bin/bash -c "celery -A main worker -l INFO -B & python manage.py runserver 0.0.0.0:8000"
+    depends_on:
+      goldendreams-database:
+        condition: service_healthy
+      goldendreams-cache:
+        condition: service_started
+      goldendreams-celery-broker:
+        condition: service_started
+    restart: unless-stopped
+    networks:
+      - shared-network
+
+  goldendreams-phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: goldendreams-phpmyadmin
+    environment:
+      PMA_HOST: goldendreams-database
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: password
+    ports:
+      - "4002:80"
+    depends_on:
+      goldendreams-database:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - shared-network
+
+  # ---------------------------------------------------------------------------
+  #  CASCADE-API
+  # ---------------------------------------------------------------------------
+
+  cascade-db:
+    image: mysql:8.0
+    container_name: cascade-db
+    expose:
+      - 3306
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: "${DB_NAME:-cascade_db}"
+      MYSQL_ROOT_PASSWORD: "${DB_PASSWORD:?DB_PASSWORD is required – create cascade-api/.env}"
+    volumes:
+      - cascade-mysql-data:/var/lib/mysql
+      - /Volumes/portable/work/cascade-api/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mysqladmin ping -h 127.0.0.1 -P 3306 -uroot -p$${MYSQL_ROOT_PASSWORD}",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+    networks:
+      - shared-network
+
+  cascade-api:
+    container_name: cascade-api
+    build:
+      context: /Volumes/portable/work/cascade-api
+      target: development
+    env_file:
+      - /Volumes/portable/work/cascade-api/.env
+    environment:
+      # Override hosts to use container names on the shared network
+      - NODE_ENV=development
+      - DB_HOST=cascade-db
+      - DB_PORT=3306
+      - ILM2_DB_HOST=ilm-database-2
+      - ILM2_DB_PORT=3306
+      - GD_DB_HOST=goldendreams-database
+      - GD_DB_PORT=3306
+    command: >
+      sh -c 'until node -e "const mysql = require(\"mysql2/promise\");
+      mysql.createConnection({
+        host: process.env.DB_HOST,
+        port: Number(process.env.DB_PORT || 3306),
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
+        database: process.env.DB_NAME,
+      }).then((connection) => connection.end()).catch(() => process.exit(1));";
+      do echo "Waiting for cascade-db..."; sleep 2; done;
+      npm run migrate && npm run dev'
+    ports:
+      - "${PORT:-3000}:3000"
+    volumes:
+      - /Volumes/portable/work/cascade-api:/app
+      - cascade_node_modules:/app/node_modules
+    depends_on:
+      cascade-db:
+        condition: service_healthy
+      ilm-database-2:
+        condition: service_healthy
+      goldendreams-database:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - shared-network
+
+# =============================================================================
+#  NETWORKS
+# =============================================================================
+
+networks:
+  shared-network:
+    driver: bridge
+    name: cascade-stack_shared
+
+# =============================================================================
+#  VOLUMES
+# =============================================================================
+
+volumes:
+  ilm-database-volume:
+  gd-database-volume:
+  cascade-mysql-data:
+  cascade_node_modules:

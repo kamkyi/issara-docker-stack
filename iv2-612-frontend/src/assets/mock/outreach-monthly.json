@@ -1,0 +1,8 @@
+[
+	{ "month": "Jan", "fieldVisits": 12, "workersReached": 8400 },
+	{ "month": "Feb", "fieldVisits": 14, "workersReached": 9100 },
+	{ "month": "Mar", "fieldVisits": 16, "workersReached": 10200 },
+	{ "month": "Apr", "fieldVisits": 13, "workersReached": 9800 },
+	{ "month": "May", "fieldVisits": 19, "workersReached": 12500 },
+	{ "month": "Jun", "fieldVisits": 18, "workersReached": 13508 }
+]

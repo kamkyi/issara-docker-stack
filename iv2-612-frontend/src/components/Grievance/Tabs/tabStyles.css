@@ -1,0 +1,48 @@
+.answer_checkbox {
+	font-size: 0.875rem;
+	color: #475569;
+}
+
+.question {
+	padding-top: 12px;
+	font-weight: 600;
+	font-size: 0.8125rem;
+	color: #334155;
+	text-align: left;
+}
+
+.tooltip {
+	font-size: 0.85rem;
+}
+
+.sub_text {
+	font-size: 0.75rem;
+	color: #94a3b8;
+	margin-bottom: 8px;
+}
+
+.next_question {
+	margin-top: 15px;
+}
+
+.text_headers {
+	font-style: italic;
+	font-weight: 500;
+}
+
+.intro_text {
+	margin: 0;
+	font-size: 0.9rem;
+	/* color: #3f405c; */
+	text-align: left;
+	line-height: 1.55;
+}
+
+.old-notes-text {
+	font-size: 0.9rem;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+.prev_data {
+	margin-top: 10px;
+}

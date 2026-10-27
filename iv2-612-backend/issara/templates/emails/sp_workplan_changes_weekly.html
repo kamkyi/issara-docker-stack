@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Workplan Change Notification</title>
+    <style>
+      .change-item {
+        background-color: #ffffff;
+        border: 1px solid #e9ecef;
+        border-radius: 6px;
+        padding: 16px;
+        margin-bottom: 12px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      .change-field {
+        font-weight: 600;
+        color: #495057;
+        margin-bottom: 8px;
+        font-size: 14px;
+      }
+      .value-old {
+        text-decoration: line-through;
+        color: #dc3545;
+        background-color: #f8d7da;
+        padding: 4px 10px;
+        border-radius: 4px;
+        display: inline-block;
+        font-size: 13px;
+        border: 1px solid #f5c6cb;
+      }
+      .value-new {
+        color: #155724;
+        background-color: #d4edda;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-weight: 600;
+        display: inline-block;
+        font-size: 13px;
+        border: 1px solid #c3e6cb;
+      }
+      .value-single {
+        color: #495057;
+        background-color: #f8f9fa;
+        padding: 4px 10px;
+        border-radius: 4px;
+        display: inline-block;
+        font-size: 13px;
+        border: 1px solid #e9ecef;
+      }
+      .arrow {
+        color: #6c757d;
+        margin: 4px 0;
+        font-weight: bold;
+        font-size: 12px;
+        display: block;
+      }
+      .change-content {
+        margin-top: 8px;
+      }
+      .status-change {
+        background-color: #fff3cd;
+        border-left: 4px solid #ffc107;
+        padding: 12px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body style="
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    ">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f5f7fa" style="border-collapse: collapse">
+      <tr>
+        <td align="center" style="padding: 30px 20px">
+          <table width="700" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="
+              border-radius: 12px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+              border-collapse: collapse;
+              overflow: hidden;
+            ">
+            <!-- Header -->
+            <tr>
+              <td bgcolor="#4f46e5" align="center" style="
+                  padding: 30px 25px;
+                  color: #ffffff;
+                  font-size: 24px;
+                  font-weight: 700;
+                  letter-spacing: -0.5px;
+                ">
+                <div style="margin-bottom: 8px">📋</div>
+                <div>Weekly Workplan Changes</div>
+                <div style="
+                    font-size: 16px;
+                    font-weight: 500;
+                    opacity: 0.9;
+                    margin-top: 8px;
+                  ">{{ strategic_partner.name }}</div>
+              </td>
+            </tr>
+
+            <!-- Greeting -->
+            <tr>
+              <td style="
+                  padding: 30px 30px 20px 30px;
+                  font-size: 16px;
+                  color: #374151;
+                ">
+                <p style="margin: 0 0 16px 0">
+                  Hello
+                  <strong style="color: #1f2937">{{ issara_user.first_name }}</strong>,
+                </p>
+                <p style="margin: 0; line-height: 1.6">
+                  This weekly summary shows all workplan changes made by
+                  <strong style="color: #1f2937">{{ strategic_partner.name }}</strong>
+                  during
+                  <strong style="color: #1f2937">{{ date_range }}</strong>.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Summary -->
+            <tr>
+              <td style="padding: 0 30px 30px 30px">
+                <div style="
+                    background: linear-gradient(
+                      135deg,
+                      #e0e7ff 0%,
+                      #c7d2fe 100%
+                    );
+                    border: 1px solid #a5b4fc;
+                    border-radius: 8px;
+                    padding: 20px;
+                    text-align: center;
+                    color: #3730a3;
+                  ">
+                  <div style="
+                      font-size: 18px;
+                      font-weight: 600;
+                      margin-bottom: 4px;
+                    ">
+                    {{ total_changes }} Change{% if total_changes != 1 %}s{% endif %}
+                  </div>
+                  <div style="font-size: 14px; opacity: 0.8">Made during {{ date_range }}</div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Changes Section -->
+            {% if date_groups %}
+              {% for date_group in date_groups %}
+                <tr>
+                  <td style="padding: 0 30px 30px 30px">
+                    <!-- Date Header -->
+                    <div style="
+                    background: linear-gradient(
+                      135deg,
+                      #10b981 0%,
+                      #059669 100%
+                    );
+                    color: white;
+                    padding: 16px 20px;
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                  ">
+                      <div>
+                        <span style="margin-right: 8px">📅</span>
+                        {{ date_group.date|date:'F d, Y' }}
+                      </div>
+                      <div style="
+                      background-color: rgba(255, 255, 255, 0.2);
+                      padding: 4px 12px;
+                      border-radius: 20px;
+                      font-size: 14px;
+                    ">
+                        {{ date_group.change_count }} change{% if date_group.change_count != 1 %}s{% endif %}
+                      </div>
+                    </div>
+
+                    <!-- Changes Container -->
+                    <div style="
+                    background-color: #f8fafc;
+                    border-radius: 8px;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                  ">
+                      {% for workplan in date_group.workplans %}
+                        {% for item in workplan.changes %}
+                          <div class="change-item">
+                            {% if item.type == 'single' %}
+                              <div class="change-field">{{ item.field }}</div>
+                              <div>
+                                <span class="value-single">{{ item.value }}</span>
+                              </div>
+                            {% elif item.type == 'change' %}
+                              <div class="change-field">{{ item.field }}</div>
+                              <div>
+                                {% if item.old and item.old != 'null' and item.old != '' %}
+                                  <div style="margin-bottom: 4px">
+                                    <span class="value-old">{{ item.old }}</span>
+                                  </div>
+                                  <div>
+                                    <span class="arrow">↓</span>
+                                    <span class="value-new">{{ item.new }}</span>
+                                  </div>
+                                {% else %}
+                                  <span class="value-new">{{ item.new }}</span>
+                                {% endif %}
+                              </div>
+                            {% elif item.type == 'other' %}
+                              {% if item.raw and item.raw|length > 10 %}
+                                <div class="change-field">
+                                  {% if 'New File Uploaded' in item.raw %}
+                                    📎 Document Upload
+                                  {% elif 'progress' in item.raw|lower %}
+                                    📈 Progress Update
+                                  {% elif 'status' in item.raw|lower %}
+                                    🔄 Status Change
+                                  {% elif 'complete' in item.raw|lower %}
+                                    ✅ Completion Status
+                                  {% else %}
+                                    📝 Field Update
+                                  {% endif %}
+                                </div>
+                                <div>
+                                  <span class="value-single">{{ item.raw }}</span>
+                                </div>
+                              {% else %}
+                                <div class="change-field">📋 Change</div>
+                                <div>
+                                  <span class="value-single">{{ item.raw }}</span>
+                                </div>
+                              {% endif %}
+                            {% else %}
+                              <div class="change-field">Update</div>
+                              <div>
+                                <span class="value-single">{{ item }}</span>
+                              </div>
+                            {% endif %}
+                          </div>
+                        {% endfor %}
+                      {% endfor %}
+                    </div>
+                  </td>
+                </tr>
+              {% endfor %}
+            {% else %}
+              <tr>
+                <td style="padding: 0 30px 30px 30px">
+                  <div style="
+                    padding: 40px 20px;
+                    background-color: #f8fafc;
+                    border: 2px dashed #d1d5db;
+                    border-radius: 8px;
+                    text-align: center;
+                    color: #6b7280;
+                  ">
+                    <div style="font-size: 48px; margin-bottom: 16px; opacity: 0.5">📋</div>
+                    <div style="
+                      font-size: 16px;
+                      font-weight: 500;
+                      margin-bottom: 4px;
+                    ">No Changes Recorded</div>
+                    <div style="font-size: 14px">No changes were made by {{ strategic_partner.name }} during this period.</div>
+                  </div>
+                </td>
+              </tr>
+            {% endif %}
+
+            <!-- Closing Note -->
+            <!-- Footer -->
+            <tr>
+              <td bgcolor="#f8fafc" style="
+                  padding: 25px 30px;
+                  font-size: 13px;
+                  color: #6b7280;
+                  text-align: center;
+                  border-top: 1px solid #e5e7eb;
+                ">
+                <div style="margin-bottom: 12px">
+                  <strong style="color: #374151; font-size: 14px">ILM System</strong>
+                </div>
+                <div style="margin-bottom: 8px; font-weight: 500; color: #4b5563">Weekly Workplan Change Notification</div>
+                <div style="margin-bottom: 4px">This email was sent automatically. Please do not reply.</div>
+                <div>For support, contact your system administrator.</div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

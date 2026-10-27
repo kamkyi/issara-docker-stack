@@ -1,0 +1,135 @@
+.wrapper {
+	width: 100%;
+	/* padding: 2rem 1rem; */
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+
+.inner {
+	margin: 0 auto;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.thumb {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	/* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06); */
+	transition:
+		transform 180ms ease,
+		box-shadow 180ms ease;
+}
+.thumb:focus,
+.thumb:focus-within,
+.thumb:hover {
+	z-index: 10;
+}
+
+/* Caption overlay shown on hover / focus */
+.caption {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 8px;
+	padding: 10px 12px;
+	color: white;
+	height: 100%;
+	background: linear-gradient(
+		180deg,
+		/* #148696 0%, */
+		rgba(0, 0, 0, 0.35) 0%,
+		#00516a 100%
+	);
+	transform: translateY(8px);
+	opacity: 0;
+	visibility: hidden;
+	transition:
+		transform 180ms ease,
+		opacity 180ms ease,
+		visibility 180ms;
+	display: flex;
+	align-items: end;
+	gap: 10px;
+}
+
+.thumb:hover .caption,
+.thumb:focus-within .caption {
+	/* transform: translateY(0); */
+	opacity: 1;
+	visibility: visible;
+}
+
+.captionInner {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.captionTitle {
+	font-weight: 700;
+	font-size: 1.95rem;
+	/* reset for button element */
+	background: transparent;
+	border: 0;
+	padding: 0;
+	line-height: 1;
+	color: white !important;
+}
+
+.captionDesc {
+	font-size: 1.3rem;
+	opacity: 0.95;
+	color: white !important;
+}
+
+/* small arrow pointing down from caption */
+.caption::after {
+	content: "";
+	position: absolute;
+	left: 24px;
+	bottom: -8px;
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.35) 0%,
+		rgba(0, 0, 0, 0.6) 100%
+	);
+	border-bottom-left-radius: 2px;
+}
+
+/* ensure thumb is positioned for absolute caption */
+.thumb {
+	position: relative;
+}
+
+.thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.thumb:hover {
+	/* transform: translateY(-6px) scale(1.02); */
+	/* box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12); */
+}
+
+@media (max-width: 1024px) {
+	.grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 640px) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

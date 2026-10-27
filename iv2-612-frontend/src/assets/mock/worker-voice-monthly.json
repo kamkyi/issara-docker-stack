@@ -1,0 +1,134 @@
+[
+	{
+		"month": "2024-01-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 42 },
+			{ "key": "Working Conditions", "count": 31 },
+			{ "key": "Health & Safety", "count": 18 },
+			{ "key": "Discrimination", "count": 9 },
+			{ "key": "Recruitment Fees", "count": 14 },
+			{ "key": "Document Retention", "count": 6 }
+		]
+	},
+	{
+		"month": "2024-02-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 38 },
+			{ "key": "Working Conditions", "count": 27 },
+			{ "key": "Health & Safety", "count": 22 },
+			{ "key": "Discrimination", "count": 11 },
+			{ "key": "Recruitment Fees", "count": 10 },
+			{ "key": "Document Retention", "count": 8 }
+		]
+	},
+	{
+		"month": "2024-03-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 55 },
+			{ "key": "Working Conditions", "count": 40 },
+			{ "key": "Health & Safety", "count": 25 },
+			{ "key": "Discrimination", "count": 13 },
+			{ "key": "Recruitment Fees", "count": 17 },
+			{ "key": "Document Retention", "count": 5 }
+		]
+	},
+	{
+		"month": "2024-04-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 48 },
+			{ "key": "Working Conditions", "count": 35 },
+			{ "key": "Health & Safety", "count": 20 },
+			{ "key": "Discrimination", "count": 8 },
+			{ "key": "Recruitment Fees", "count": 12 },
+			{ "key": "Document Retention", "count": 7 }
+		]
+	},
+	{
+		"month": "2024-05-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 61 },
+			{ "key": "Working Conditions", "count": 44 },
+			{ "key": "Health & Safety", "count": 29 },
+			{ "key": "Discrimination", "count": 15 },
+			{ "key": "Recruitment Fees", "count": 20 },
+			{ "key": "Document Retention", "count": 9 }
+		]
+	},
+	{
+		"month": "2024-06-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 53 },
+			{ "key": "Working Conditions", "count": 38 },
+			{ "key": "Health & Safety", "count": 24 },
+			{ "key": "Discrimination", "count": 10 },
+			{ "key": "Recruitment Fees", "count": 16 },
+			{ "key": "Document Retention", "count": 11 }
+		]
+	},
+	{
+		"month": "2024-07-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 45 },
+			{ "key": "Working Conditions", "count": 33 },
+			{ "key": "Health & Safety", "count": 21 },
+			{ "key": "Discrimination", "count": 12 },
+			{ "key": "Recruitment Fees", "count": 9 },
+			{ "key": "Document Retention", "count": 4 }
+		]
+	},
+	{
+		"month": "2024-08-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 57 },
+			{ "key": "Working Conditions", "count": 41 },
+			{ "key": "Health & Safety", "count": 28 },
+			{ "key": "Discrimination", "count": 14 },
+			{ "key": "Recruitment Fees", "count": 19 },
+			{ "key": "Document Retention", "count": 8 }
+		]
+	},
+	{
+		"month": "2024-09-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 50 },
+			{ "key": "Working Conditions", "count": 36 },
+			{ "key": "Health & Safety", "count": 23 },
+			{ "key": "Discrimination", "count": 11 },
+			{ "key": "Recruitment Fees", "count": 15 },
+			{ "key": "Document Retention", "count": 6 }
+		]
+	},
+	{
+		"month": "2024-10-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 63 },
+			{ "key": "Working Conditions", "count": 46 },
+			{ "key": "Health & Safety", "count": 30 },
+			{ "key": "Discrimination", "count": 17 },
+			{ "key": "Recruitment Fees", "count": 22 },
+			{ "key": "Document Retention", "count": 10 }
+		]
+	},
+	{
+		"month": "2024-11-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 44 },
+			{ "key": "Working Conditions", "count": 32 },
+			{ "key": "Health & Safety", "count": 19 },
+			{ "key": "Discrimination", "count": 8 },
+			{ "key": "Recruitment Fees", "count": 13 },
+			{ "key": "Document Retention", "count": 5 }
+		]
+	},
+	{
+		"month": "2024-12-01",
+		"data": [
+			{ "key": "Wages & Benefits", "count": 70 },
+			{ "key": "Working Conditions", "count": 52 },
+			{ "key": "Health & Safety", "count": 35 },
+			{ "key": "Discrimination", "count": 18 },
+			{ "key": "Recruitment Fees", "count": 24 },
+			{ "key": "Document Retention", "count": 12 }
+		]
+	}
+]

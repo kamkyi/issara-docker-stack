@@ -1,0 +1,337 @@
+{
+	"supplyChains": [
+		{
+			"id": 29,
+			"name": "SP Test buyer  - BeneBuyer",
+			"strategic_partner": 28,
+			"suppliers": [
+				{
+					"supplier": 394,
+					"supplier_name": "Crabby Seafoods",
+					"status": "active",
+					"country_name": "Thailand"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active",
+					"country_name": "Thailand"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active",
+					"country_name": "Myanmar"
+				},
+				{
+					"supplier": 1110,
+					"supplier_name": "Very Huge Electronics Co.",
+					"status": "active",
+					"country_name": "Cambodia"
+				}
+			]
+		}
+	],
+	"supplierKPIs": [
+		{
+			"id": 3001,
+			"supplier": 394,
+			"supplier_name": "Crabby Seafoods",
+			"category": "Wages",
+			"description": "Very late or missing payments",
+			"level": 3,
+			"status": 1,
+			"status_name": "No Progress",
+			"opened_at": "2026-3-04",
+			"closed_at": null,
+			"affected_workers": 9,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 3,
+			"remediation_sp_recommendation": [
+				"Conduct payroll audit for overtime hours",
+				"Repay outstanding overtime premiums to workers"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 8,
+					"name": "Withholding of wages"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 108,
+					"name": "Withholding a minimum wage"
+				}
+			]
+		},
+		{
+			"id": 3002,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Wages",
+			"description": "Issue with targets and/or bonuses (related to production and incentives): Serious violation",
+			"level": 3,
+			"status": 1,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-20",
+			"closed_at": null,
+			"affected_workers": 75,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 1,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Issue itemised payslips to all workers",
+				"Refund unlawful deductions"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				},
+				{
+					"id": 11,
+					"name": "Excessive overtime"
+				},
+				{
+					"id": 8,
+					"name": "Withholding of wages"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 105,
+					"name": "Occupational safety and health (OSH)"
+				}
+			]
+		},
+		{
+			"id": 3003,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Wages",
+			"description": "Issue with targets and/or bonuses (related to production and incentives): Minor violation",
+			"level": 2,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-01-20",
+			"closed_at": null,
+			"affected_workers": 200,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 4,
+			"remediation_sp_recommendation": [
+				"Set up automated payroll system",
+				"Pay all outstanding wages within 30 days"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 10,
+					"name": "Abusive working and living conditions"
+				},
+				{
+					"id": 11,
+					"name": "Excessive overtime"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 3004,
+			"supplier": 1110,
+			"supplier_name": "Very Huge Electronics Co.",
+			"category": "Wages",
+			"description": "Very late or missing payments",
+			"level": 3,
+			"status": 1,
+			"status_name": "No Progress",
+			"opened_at": "2026-03-01",
+			"closed_at": null,
+			"affected_workers": 80,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 1,
+			"total_update_count": 1,
+			"remediation_sp_recommendation": [
+				"Review piece-rate structure against minimum wage floor",
+				"Top up shortfall for affected workers"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 8,
+					"name": "Withholding of wages"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 108,
+					"name": "Withholding a minimum wage"
+				}
+			]
+		},
+		{
+			"id": 3005,
+			"supplier": 394,
+			"supplier_name": "Crabby Seafoods",
+			"category": "Wages",
+			"description": "Timesheets/payslips/other basic pay-related documents not in native language",
+			"level": 3,
+			"status": 1,
+			"status_name": "Some Progress",
+			"opened_at": "2026-01-04",
+			"closed_at": null,
+			"affected_workers": 28,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 107,
+					"name": "Employment discrimination"
+				},
+				{
+					"id": 108,
+					"name": "Withholding a minimum wage"
+				}
+			]
+		},
+		{
+			"id": 3006,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Wages",
+			"description": "Issue with deductions: illegal and/or excessive",
+			"level": 3,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-10",
+			"closed_at": null,
+			"affected_workers": 23,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 3,
+			"remediation_sp_recommendation": [
+				"Remit all outstanding SSO contributions immediately",
+				"Engage SSO to regularise registration for affected workers"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 9,
+					"name": "Debt bondage"
+				},
+				{
+					"id": 8,
+					"name": "Withholding of wages"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 108,
+					"name": "Withholding a minimum wage"
+				}
+			]
+		},
+		{
+			"id": 3007,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Wages",
+			"description": "Very late or missing payments",
+			"level": 3,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2025-08-15",
+			"closed_at": null,
+			"affected_workers": 80,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 5,
+			"remediation_sp_recommendation": [
+				"Pay the outstanding wage balance on the next scheduled pay day and provide every worker an itemised pay slip in Burmese explaining the shortfall and the make-up amount",
+				"Establish a contingency payroll reserve so that worker wages are not delayed when downstream customer payments are late, and agree a written escalation protocol with the SP for any future delays"
+			],
+			"closed_quality": null,
+			"worker_issue_summary": "The workers reported that, every pay check for the past 3 pay periods, their employer has not been paying their wages fully. And also, the wages have been paid very late. Previously they used to get paid at the end of the second and fourth weeks of the month, and it has become quite erratic.",
+			"issara_action": "We spoke with our HR officer focal point, who was a bit defensive but she acknowledged that payments may have been late due to the company themselves not having been paid by one of their main customers unexpectedly. We asked how the issue would be reconciled and she noted that the owed balance could be added to the next pay check.",
+			"supplier_action": "Remediate the issue and pay the owed balance in the next pay check which is scheduled for this Friday, and, communicate clearly to the workers in Burmese what the reason was, what to expect, and what to do if the pay amount seems incorrect.",
+			"ilo_indicators": [
+				{
+					"id": 8,
+					"name": "Withholding of wages"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 108,
+					"name": "Withholding a minimum wage"
+				}
+			]
+		},
+		{
+			"id": 3008,
+			"supplier": 1110,
+			"supplier_name": "Very Huge Electronics Co.",
+			"category": "Wages",
+			"description": "Issue with wages: unethical but not illegal",
+			"level": 2,
+			"status": 3,
+			"status_name": "Closed",
+			"opened_at": "2025-11-09",
+			"closed_at": "2026-01-01",
+			"affected_workers": 60,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 1,
+			"total_update_count": 7,
+			"remediation_sp_recommendation": [
+				"SP should engage with the factory at the policy and management level to encourage a review of wage practices and promote alignment with responsible sourcing standards. While the wages may comply with legal requirements, buyers should encourage the supplier to assess whether current practices are fair and ethical and to explore opportunities for improvement. Buyers can reinforce expectations through their supplier codes of conduct and responsible purchasing commitments, encouraging the factory to strengthen transparency and fairness in wage practices."
+			],
+			"closed_quality": "Fair",
+			"ilo_indicators": [
+				{
+					"id": 8,
+					"name": "Withholding of wages"
+				}
+			],
+			"lksg_indicators": []
+		}
+	],
+	"openClosedSummary": [
+		{
+			"name": "Wages",
+			"open_cases": 6,
+			"closed_cases": 2
+		}
+	]
+}

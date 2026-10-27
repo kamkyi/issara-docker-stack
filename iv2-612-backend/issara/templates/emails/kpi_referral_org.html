@@ -1,0 +1,13 @@
+{% load referral_kpi_email_replace_tokens %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+        {{ context.kpi_template.text|referral_kpi_email_replace_tokens:context|linebreaks }}
+    </div>
+
+  </body>
+</html>

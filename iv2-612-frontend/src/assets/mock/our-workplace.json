@@ -1,0 +1,773 @@
+{
+	"cases_by_category": [
+		{
+			"category": "Labor - Employer-employee relations",
+			"open_cases": 30,
+			"closed_cases": 80
+		},
+		{
+			"category": "Recruitment",
+			"open_cases": 25,
+			"closed_cases": 70
+		},
+		{
+			"category": "Labor - Living and eating conditions",
+			"open_cases": 20,
+			"closed_cases": 60
+		},
+		{
+			"category": "Wages",
+			"open_cases": 15,
+			"closed_cases": 50
+		},
+		{
+			"category": "Labor - Working conditions",
+			"open_cases": 10,
+			"closed_cases": 90
+		}
+	],
+	"kpi_groupings_by_category": {
+		"Recruitment": [
+			{
+				"grouping": "Unprofessional, deceptive or misleading recruitment practices",
+				"open_cases": 8,
+				"closed_cases": 22,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 9
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 3
+					}
+				]
+			},
+			{
+				"grouping": "Threats, poor treatment, document retention or no proper documents",
+				"open_cases": 7,
+				"closed_cases": 18,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 7
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 5
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 2
+					}
+				]
+			},
+			{
+				"grouping": "Debt bondage, excessive/illegal fees",
+				"open_cases": 10,
+				"closed_cases": 30,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 12
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 8
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 4
+					}
+				]
+			},
+			{
+				"grouping": "Contract substitution or false contracts",
+				"open_cases": 5,
+				"closed_cases": 14,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 3
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 1
+					}
+				]
+			},
+			{
+				"grouping": "Illegal recruitment fees",
+				"open_cases": 6,
+				"closed_cases": 20,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 8
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 5
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 3
+					}
+				]
+			}
+		],
+		"Wages": [
+			{
+				"grouping": "Wage and/or benefits theft",
+				"open_cases": 12,
+				"closed_cases": 35,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 14
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 9
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 7
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 5
+					}
+				]
+			},
+			{
+				"grouping": "Debt bondage, excessive/illegal fees",
+				"open_cases": 3,
+				"closed_cases": 15,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 3
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 2
+					}
+				]
+			},
+			{
+				"grouping": "Wage underpayment or minimum wage violations",
+				"open_cases": 7,
+				"closed_cases": 28,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 10
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 8
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 4
+					}
+				]
+			},
+			{
+				"grouping": "Unpaid or underpaid overtime",
+				"open_cases": 5,
+				"closed_cases": 18,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 7
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 5
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 2
+					}
+				]
+			},
+			{
+				"grouping": "Illegal deductions from wages",
+				"open_cases": 4,
+				"closed_cases": 12,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 5
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 3
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 2
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 2
+					}
+				]
+			}
+		],
+		"Labor - Working conditions": [
+			{
+				"grouping": "Unsafe or hazardous working conditions (OSH issues)",
+				"open_cases": 3,
+				"closed_cases": 30,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 11
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 8
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 7
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 4
+					}
+				]
+			},
+			{
+				"grouping": "Forced work/overwork",
+				"open_cases": 2,
+				"closed_cases": 25,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 9
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 7
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 5
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 4
+					}
+				]
+			},
+			{
+				"grouping": "Exploitation of pregnant workers",
+				"open_cases": 2,
+				"closed_cases": 15,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 3
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 2
+					}
+				]
+			}
+		],
+		"Labor - Employer-employee relations": [
+			{
+				"grouping": "Harassment / discrimination by gender, nationality, ethnicity",
+				"open_cases": 8,
+				"closed_cases": 20,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 8
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 5
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 3
+					}
+				]
+			},
+			{
+				"grouping": "Verbal abuse",
+				"open_cases": 5,
+				"closed_cases": 18,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 7
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 5
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 2
+					}
+				]
+			},
+			{
+				"grouping": "Lack of worker voice or representation; threats and suppression",
+				"open_cases": 7,
+				"closed_cases": 15,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 3
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 2
+					}
+				]
+			}
+		],
+		"Labor - Living and eating conditions": [
+			{
+				"grouping": "Substandard or unsafe living/eating conditions",
+				"open_cases": 15,
+				"closed_cases": 45,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 16
+					},
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 12
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 10
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 7
+					}
+				]
+			},
+			{
+				"grouping": "Restricted freedom of movement",
+				"open_cases": 5,
+				"closed_cases": 15,
+				"supplier_breakdown": [
+					{
+						"supplier_id": 1002,
+						"supplier_name": "Fish Seafood Co.",
+						"closed_cases": 6
+					},
+					{
+						"supplier_id": 1004,
+						"supplier_name": "Very Huge Electronics Co.",
+						"closed_cases": 4
+					},
+					{
+						"supplier_id": 1001,
+						"supplier_name": "Crabby Seafoods",
+						"closed_cases": 3
+					},
+					{
+						"supplier_id": 1003,
+						"supplier_name": "Sunshine Seafood",
+						"closed_cases": 2
+					}
+				]
+			}
+		]
+	},
+	"kpi_by_category": [
+		{ "category": "Labor - Employer-employee relations", "kpi_count": 25 },
+		{ "category": "Recruitment", "kpi_count": 18 },
+		{ "category": "Labor - Living and eating conditions", "kpi_count": 15 },
+		{ "category": "Wages", "kpi_count": 12 },
+		{ "category": "Labor - Working conditions", "kpi_count": 20 }
+	],
+	"kpiCategoryColors": ["#148696", "#4ede8f"],
+	"timeToClosureData": [
+		{ "name": "<1 day", "value": 12, "avgSeverity": 1.8 },
+		{ "name": "1-7 days", "value": 35, "avgSeverity": 2.2 },
+		{ "name": "8-30 days", "value": 48, "avgSeverity": 2.8 },
+		{ "name": "31-90 days", "value": 42, "avgSeverity": 3.2 },
+		{ "name": ">90 days", "value": 19, "avgSeverity": 3.5 }
+	],
+	"timeToClosureColors": [
+		"#148696",
+		"#4ede8f",
+		"#7bef87",
+		"#faef70",
+		"#fac170",
+		"#faa17a",
+		"#fa7a7a",
+		"#d1046b",
+		"#9c0351"
+	],
+	"barChartData": [
+		{ "name": "Poor", "Level2": 18, "Level3": 27 },
+		{ "name": "Fair", "Level2": 45, "Level3": 36 },
+		{ "name": "Good", "Level2": 72, "Level3": 54 },
+		{ "name": "Very Good", "Level2": 36, "Level3": 45 },
+		{ "name": "Excellent", "Level2": 9, "Level3": 18 }
+	],
+	"barChartColors": ["#148696", "#4ede8f"],
+	"demographicsData": {
+		"gender": [
+			{ "name": "Male", "value": 6800 },
+			{ "name": "Female", "value": 3400 },
+			{ "name": "Non-binary", "value": 300 }
+		],
+		"nationality": [
+			{ "name": "Burmese", "value": 7000 },
+			{ "name": "Thai", "value": 2500 },
+			{ "name": "Other", "value": 1000 }
+		],
+		"country": [
+			{ "name": "Thailand", "value": 2500 },
+			{ "name": "Myanmar", "value": 3000 },
+			{ "name": "Vietnam", "value": 2600 },
+			{ "name": "Cambodia", "value": 2100 }
+		],
+		"mockBreakdown": {
+			"country": {
+				"TH": {
+					"gender": { "Male": 1.02, "Female": 0.98, "Non-binary": 1.05 },
+					"nationality": { "Burmese": 0.75, "Thai": 1.3, "Other": 0.9 },
+					"ethnicity": {
+						"Thailand": 1.35,
+						"Myanmar": 0.72,
+						"Vietnam": 0.82,
+						"Cambodia": 0.85
+					}
+				},
+				"MM": {
+					"gender": { "Male": 1.01, "Female": 0.99, "Non-binary": 0.95 },
+					"nationality": { "Burmese": 1.35, "Thai": 0.55, "Other": 0.85 },
+					"ethnicity": {
+						"Thailand": 0.62,
+						"Myanmar": 1.28,
+						"Vietnam": 1.22,
+						"Cambodia": 1.15
+					}
+				},
+				"KH": {
+					"gender": { "Male": 1.0, "Female": 1.0, "Non-binary": 0.9 },
+					"nationality": { "Burmese": 0.8, "Thai": 0.95, "Other": 1.1 },
+					"ethnicity": {
+						"Thailand": 0.88,
+						"Myanmar": 0.92,
+						"Vietnam": 0.9,
+						"Cambodia": 0.95
+					}
+				},
+				"VN": {
+					"gender": { "Male": 1.03, "Female": 0.97, "Non-binary": 0.9 },
+					"nationality": { "Burmese": 0.85, "Thai": 0.9, "Other": 1.05 },
+					"ethnicity": {
+						"Thailand": 0.92,
+						"Myanmar": 0.9,
+						"Vietnam": 0.88,
+						"Cambodia": 0.9
+					}
+				},
+				"PH": {
+					"gender": { "Male": 0.99, "Female": 1.01, "Non-binary": 0.88 },
+					"nationality": { "Burmese": 0.78, "Thai": 0.86, "Other": 1.2 },
+					"ethnicity": {
+						"Thailand": 0.84,
+						"Myanmar": 0.86,
+						"Vietnam": 0.87,
+						"Cambodia": 0.9
+					}
+				},
+				"BD": {
+					"gender": { "Male": 1.04, "Female": 0.96, "Non-binary": 0.82 },
+					"nationality": { "Burmese": 0.92, "Thai": 0.84, "Other": 1.05 },
+					"ethnicity": {
+						"Thailand": 0.86,
+						"Myanmar": 0.9,
+						"Vietnam": 0.92,
+						"Cambodia": 0.88
+					}
+				},
+				"NP": {
+					"gender": { "Male": 1.02, "Female": 0.98, "Non-binary": 0.84 },
+					"nationality": { "Burmese": 0.88, "Thai": 0.82, "Other": 1.18 },
+					"ethnicity": {
+						"Thailand": 0.85,
+						"Myanmar": 0.89,
+						"Vietnam": 0.9,
+						"Cambodia": 0.86
+					}
+				},
+				"IN": {
+					"gender": { "Male": 1.05, "Female": 0.95, "Non-binary": 0.86 },
+					"nationality": { "Burmese": 0.95, "Thai": 0.82, "Other": 1.15 },
+					"ethnicity": {
+						"Thailand": 0.87,
+						"Myanmar": 0.92,
+						"Vietnam": 0.91,
+						"Cambodia": 0.9
+					}
+				},
+				"MY": {
+					"gender": { "Male": 1.0, "Female": 1.0, "Non-binary": 0.9 },
+					"nationality": { "Burmese": 1.02, "Thai": 0.9, "Other": 1.08 },
+					"ethnicity": {
+						"Thailand": 0.9,
+						"Myanmar": 0.98,
+						"Vietnam": 0.96,
+						"Cambodia": 0.95
+					}
+				},
+				"ID": {
+					"gender": { "Male": 1.01, "Female": 0.99, "Non-binary": 0.9 },
+					"nationality": { "Burmese": 0.9, "Thai": 0.86, "Other": 1.12 },
+					"ethnicity": {
+						"Thailand": 0.89,
+						"Myanmar": 0.93,
+						"Vietnam": 0.91,
+						"Cambodia": 0.92
+					}
+				}
+			},
+			"industry": {
+				"seafood": {
+					"gender": { "Male": 1.1, "Female": 0.9, "Non-binary": 0.85 },
+					"nationality": { "Burmese": 1.18, "Thai": 0.86, "Other": 0.92 },
+					"ethnicity": {
+						"Thailand": 0.9,
+						"Myanmar": 1.12,
+						"Vietnam": 1.08,
+						"Cambodia": 1.02
+					}
+				},
+				"textiles": {
+					"gender": { "Male": 0.9, "Female": 1.12, "Non-binary": 1.0 },
+					"nationality": { "Burmese": 1.06, "Thai": 0.92, "Other": 1.0 },
+					"ethnicity": {
+						"Thailand": 0.95,
+						"Myanmar": 1.04,
+						"Vietnam": 1.02,
+						"Cambodia": 1.03
+					}
+				},
+				"electronics": {
+					"gender": { "Male": 1.06, "Female": 0.94, "Non-binary": 1.08 },
+					"nationality": { "Burmese": 0.9, "Thai": 1.08, "Other": 1.02 },
+					"ethnicity": {
+						"Thailand": 1.05,
+						"Myanmar": 0.92,
+						"Vietnam": 0.94,
+						"Cambodia": 0.96
+					}
+				},
+				"agriculture": {
+					"gender": { "Male": 1.08, "Female": 0.92, "Non-binary": 0.86 },
+					"nationality": { "Burmese": 1.1, "Thai": 0.94, "Other": 0.9 },
+					"ethnicity": {
+						"Thailand": 0.96,
+						"Myanmar": 1.06,
+						"Vietnam": 1.04,
+						"Cambodia": 1.0
+					}
+				},
+				"food_processing": {
+					"gender": { "Male": 1.0, "Female": 1.0, "Non-binary": 0.95 },
+					"nationality": { "Burmese": 1.0, "Thai": 1.0, "Other": 1.0 },
+					"ethnicity": {
+						"Thailand": 1.0,
+						"Myanmar": 1.0,
+						"Vietnam": 1.0,
+						"Cambodia": 1.0
+					}
+				},
+				"manufacturing": {
+					"gender": { "Male": 1.02, "Female": 0.98, "Non-binary": 1.02 },
+					"nationality": { "Burmese": 0.96, "Thai": 1.06, "Other": 1.0 },
+					"ethnicity": {
+						"Thailand": 1.04,
+						"Myanmar": 0.96,
+						"Vietnam": 0.98,
+						"Cambodia": 0.99
+					}
+				},
+				"retail": {
+					"gender": { "Male": 0.95, "Female": 1.06, "Non-binary": 1.05 },
+					"nationality": { "Burmese": 0.86, "Thai": 1.1, "Other": 1.12 },
+					"ethnicity": {
+						"Thailand": 1.08,
+						"Myanmar": 0.9,
+						"Vietnam": 0.92,
+						"Cambodia": 0.94
+					}
+				}
+			}
+		},
+		"colors": ["#4ede8f", "#148696", "#ff9a3c", "#f87171"]
+	},
+	"supplierTimelineFilters": {
+		"supplier": "supplier-001",
+		"startTime": "2023-01-01T00:00:00Z",
+		"endTime": "2024-05-01T00:00:00Z"
+	},
+	"main_stats": {
+		"worker_count": 75600,
+		"case_count": 395,
+		"response_count": 8000
+	},
+	"remediation_quality": {
+		"poor": 10,
+		"fair": 25,
+		"good": 40,
+		"very_good": 20,
+		"excellent": 5
+	}
+}

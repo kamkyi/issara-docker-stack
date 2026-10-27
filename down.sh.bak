@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# =============================================================================
+#  down.sh
+#  Stops and removes all containers, networks created by the unified compose.
+#  Run from the same directory as docker-compose.unified.yml
+# =============================================================================
+
+set -euo pipefail
+
+COMPOSE_FILE="$(cd "$(dirname "$0")" && pwd)/docker-compose.unified.yml"
+ENV_FILE="/Volumes/portable/work/cascade-api/.env"
+PROJECT="cascade-stack"
+
+echo "==> Stopping and removing all containers ..."
+docker compose -f "$COMPOSE_FILE" --env-file "$ENV_FILE" -p "$PROJECT" down
+
+echo ""
+echo "All services are down."

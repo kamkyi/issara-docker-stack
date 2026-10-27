@@ -1,0 +1,526 @@
+[
+	{
+		"user": 100,
+		"epp_policy": true,
+		"id": 100,
+		"logo": "https://t3.ftcdn.net/jpg/05/75/47/87/360_F_575478783_Z1G5p6kP5W5zJ3c7w5r5d0q0q0q0q0q.jpg",
+		"type": "RA",
+		"date_joined": "2023-08-07T00:00:00Z",
+		"name_en": "Southeast Asia Recruitment Hub",
+		"addresses": [
+			{
+				"id": 400,
+				"country_id": "Cambodia",
+				"state_id": "State 1",
+				"city_id": "City 1",
+				"street": "Street 1, Mock Area",
+				"zip": "65531",
+				"contacts": [
+					{
+						"email": "contact1@southeastasiarecruitmenthubcom",
+						"phone_number": "+2251044197",
+						"translation": {
+							"first_name": "Contact Person 1",
+							"last_name": null,
+							"position": "Manager"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading recruitment agency specializing in placing skilled professionals in engineering, IT, and finance sectors across Southeast Asia.",
+		"rating_score": 4.4408,
+		"rating_count": 275,
+		"comments_count": 164,
+		"sending_countries": ["Myanmar", "Singapore"],
+		"user_ratings": [],
+		"gd_id": 2000,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2020-11-30",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-9762/2023",
+		"license_valid_date": "2028-04-21",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwsoutheastasiarecruitmenthubcom",
+		"email": "info@southeastasiarecruitmenthubcom",
+		"phone_numbers": "+3052867855, +1508966610, +3780865647",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-07-01T11:10:48Z"
+	},
+	{
+		"user": 101,
+		"epp_policy": true,
+		"id": 101,
+		"logo": "https://minio.makhmudgaly.com/public/apextalensolutions.png",
+		"type": "RA",
+		"date_joined": "2021-01-23T00:00:00Z",
+		"name_en": "Apex Talent Solutions",
+		"certificate": [
+			"https://minio.makhmudgaly.com/public/image_2025-05-21_18-51-23.png"
+		],
+		"addresses": [
+			{
+				"id": 401,
+				"country_id": "Cambodia",
+				"state_id": "State 2",
+				"city_id": "City 2",
+				"street": "Street 2, Mock Area",
+				"zip": "67122",
+				"contacts": [
+					{
+						"email": "contact2@apextalentsolutionscom",
+						"phone_number": "+8759724684",
+						"translation": {
+							"first_name": "Contact Person 2",
+							"last_name": null,
+							"position": "HR"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "At Apex Talent Solutions, we have experience sending workers to Thailand to jobs with zero cost (no fees to workers). Our agency sends workers to seafood, manufacturing, and electronics industries. We collaborate with civil society organizations in our  pre-departure orientation from workers and are proud to be EPP compliant.",
+		"rating_score": 4.9101,
+		"rating_count": 239,
+		"comments_count": 103,
+		"user_ratings": [],
+		"gd_id": 2001,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2020-06-24",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-7528/2024",
+		"license_valid_date": "2027-12-15",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwapextalentsolutionscom",
+		"email": "info@apextalentsolutionscom",
+		"phone_numbers": "+4874587756",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-10-18T11:10:48Z"
+	},
+	{
+		"user": 102,
+		"epp_policy": true,
+		"id": 102,
+		"logo": "https://www.shutterstock.com/image-vector/fake-logo-collection-vector-logotype-set-260nw-2132250003.jpg",
+		"type": "RA",
+		"date_joined": "2023-07-18T00:00:00Z",
+		"name_en": "Lotus Manpower Agency",
+		"addresses": [
+			{
+				"id": 402,
+				"country_id": "Cambodia",
+				"state_id": "State 3",
+				"city_id": "City 3",
+				"street": "Street 3, Mock Area",
+				"zip": "51834",
+				"contacts": [
+					{
+						"email": "contact3@lotusmanpoweragencycom",
+						"phone_number": "+2144542698",
+						"translation": {
+							"first_name": "Contact Person 3",
+							"last_name": null,
+							"position": "Coordinator"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading recruitment agency specializing in placing skilled professionals in engineering, IT, and finance sectors across Southeast Asia.",
+		"rating_score": 4.2242,
+		"rating_count": 376,
+		"comments_count": 723,
+		"sending_countries": ["Malaysia"],
+		"user_ratings": [],
+		"gd_id": 2002,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2021-05-22",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-7747/2023",
+		"license_valid_date": "2028-02-01",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwlotusmanpoweragencycom",
+		"email": "info@lotusmanpoweragencycom",
+		"phone_numbers": "+1397297827, +2771725061",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2025-05-09T11:10:48Z"
+	},
+	{
+		"user": 103,
+		"id": 103,
+		"epp_policy": false,
+		"logo": "https://www.shutterstock.com/image-vector/fake-logo-collection-vector-logotype-set-260nw-2132250003.jpg",
+		"type": "RA",
+		"date_joined": "2022-06-24T00:00:00Z",
+		"name_en": "Mekong Recruitment Partners",
+		"addresses": [
+			{
+				"id": 403,
+				"country_id": "Laos",
+				"state_id": "State 4",
+				"city_id": "City 4",
+				"street": "Street 4, Mock Area",
+				"zip": "16489",
+				"contacts": [
+					{
+						"email": "contact4@mekongrecruitmentpartnerscom",
+						"phone_number": "+9110458855",
+						"translation": {
+							"first_name": "Contact Person 4",
+							"last_name": null,
+							"position": "Coordinator"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading recruitment agency specializing in placing skilled professionals in engineering, IT, and finance sectors across Southeast Asia.",
+		"rating_score": 3.8249,
+		"rating_count": 208,
+		"comments_count": 624,
+		"sending_countries": ["Singapore"],
+		"user_ratings": [],
+		"gd_id": 2003,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2022-09-06",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-3900/2024",
+		"license_valid_date": "2028-07-30",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwmekongrecruitmentpartnerscom",
+		"email": "info@mekongrecruitmentpartnerscom",
+		"phone_numbers": "+7025636288",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-12-21T11:10:48Z"
+	},
+	{
+		"user": 104,
+		"epp_policy": true,
+		"id": 104,
+		"logo": "https://t4.ftcdn.net/jpg/02/68/53/00/360_F_268530090_a3c7pP3jtPq6WqFTm6N3fUprWkAhc60p.jpg",
+		"type": "RA",
+		"date_joined": "2021-11-03T00:00:00Z",
+		"name_en": "ASEAN Staffing Group",
+		"addresses": [
+			{
+				"id": 404,
+				"country_id": "Vietnam",
+				"state_id": "State 5",
+				"city_id": "City 5",
+				"street": "Street 5, Mock Area",
+				"zip": "50920",
+				"contacts": [
+					{
+						"email": "contact5@aseanstaffinggroupcom",
+						"phone_number": "+8425874129",
+						"translation": {
+							"first_name": "Contact Person 5",
+							"last_name": null,
+							"position": "HR"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading recruitment agency specializing in placing skilled professionals in engineering, IT, and finance sectors across Southeast Asia.",
+		"rating_score": 4.8566,
+		"rating_count": 227,
+		"comments_count": 155,
+		"sending_countries": ["Malaysia"],
+		"user_ratings": [],
+		"gd_id": 2004,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2021-10-30",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-5712/2023",
+		"license_valid_date": "2029-05-24",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwaseanstaffinggroupcom",
+		"email": "info@aseanstaffinggroupcom",
+		"phone_numbers": "+2793903864, +2917214784, +5368468765",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-06-29T11:10:48Z"
+	},
+	{
+		"user": 105,
+		"epp_policy": false,
+		"id": 105,
+		"logo": "https://www.shutterstock.com/image-vector/fake-logo-collection-vector-logotype-set-260nw-2132250003.jpg",
+		"type": "RA",
+		"date_joined": "2020-01-20T00:00:00Z",
+		"name_en": "Orchid Placement Services",
+		"addresses": [
+			{
+				"id": 405,
+				"country_id": "Vietnam",
+				"state_id": "State 6",
+				"city_id": "City 6",
+				"street": "Street 6, Mock Area",
+				"zip": "47054",
+				"contacts": [
+					{
+						"email": "contact6@orchidplacementservicescom",
+						"phone_number": "+9456876038",
+						"translation": {
+							"first_name": "Contact Person 6",
+							"last_name": null,
+							"position": "Coordinator"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading recruitment agency specializing in placing skilled professionals in engineering, IT, and finance sectors across Southeast Asia.",
+		"rating_score": 3.1307,
+		"rating_count": 422,
+		"comments_count": 847,
+		"sending_countries": ["Philippines", "Singapore", "Myanmar"],
+		"user_ratings": [],
+		"gd_id": 2005,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2021-06-12",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-8429/2024",
+		"license_valid_date": "2029-08-10",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwworchidplacementservicescom",
+		"email": "info@orchidplacementservicescom",
+		"phone_numbers": "+1118218706, +9222231265",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-08-05T11:10:48Z"
+	},
+	{
+		"user": 106,
+		"epp_policy": true,
+		"id": 106,
+		"logo": "https://media.istockphoto.com/illustrations/ai-artificial-intelligence-letter-logo-illustration-id1324321171?k=6&m=1324321171&s=612x612&w=0&h=F6t_Vj10R5l-aBq-PZ3l059zP5f5p7Q7b5R6b5p3b5k=",
+		"type": "RA",
+		"date_joined": "2022-01-04T00:00:00Z",
+		"name_en": "Golden Bridge HR",
+		"addresses": [
+			{
+				"id": 406,
+				"country_id": "Thailand",
+				"state_id": "State 7",
+				"city_id": "City 7",
+				"street": "Street 7, Mock Area",
+				"zip": "60865",
+				"contacts": [
+					{
+						"email": "contact7@goldenbridgehrcom",
+						"phone_number": "+1326778776",
+						"translation": {
+							"first_name": "Contact Person 7",
+							"last_name": null,
+							"position": "Manager"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading recruitment agency specializing in placing skilled professionals in engineering, IT, and finance sectors across Southeast Asia.",
+		"rating_score": 4.7509,
+		"rating_count": 54,
+		"comments_count": 581,
+		"sending_countries": ["Singapore", "Myanmar"],
+		"user_ratings": [],
+		"gd_id": 2006,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2021-05-25",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-4663/2023",
+		"license_valid_date": "2027-05-13",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwgoldenbridgehrcom",
+		"email": "info@goldenbridgehrcom",
+		"phone_numbers": "+1052877528, +9812621060, +5347989888",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-11-24T11:10:48Z"
+	},
+	{
+		"user": 107,
+		"epp_policy": false,
+		"id": 107,
+		"logo": "https://media.istockphoto.com/illustrations/ai-artificial-intelligence-letter-logo-illustration-id1324321171?k=6&m=1324321171&s=612x612&w=0&h=F6t_Vj10R5l-aBq-PZ3l059zP5f5p7Q7b5R6b5p3b5k=",
+		"type": "RA",
+		"date_joined": "2021-03-07T00:00:00Z",
+		"name_en": "Tropical Workforce Solutions",
+		"addresses": [
+			{
+				"id": 407,
+				"country_id": "Vietnam",
+				"state_id": "State 8",
+				"city_id": "City 8",
+				"street": "Street 8, Mock Area",
+				"zip": "15431",
+				"contacts": [
+					{
+						"email": "contact8@tropicalworkforcesolutionscom",
+						"phone_number": "+4488477030",
+						"translation": {
+							"first_name": "Contact Person 8",
+							"last_name": null,
+							"position": "HR"
+						}
+					}
+				],
+				"language": null
+			}
+		],
+		"description": "A leading recruitment agency specializing in placing skilled professionals in engineering, IT, and finance sectors across Southeast Asia.",
+		"rating_score": 3.428,
+		"rating_count": 305,
+		"comments_count": 477,
+		"sending_countries": ["Thailand", "Philippines", "Singapore"],
+		"user_ratings": [],
+		"gd_id": 2007,
+		"main_contact_name": null,
+		"contact_phone_number": null,
+		"date_of_registration": "2022-01-23",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-7305/2023",
+		"license_valid_date": "2028-09-26",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://wwwtropicalworkforcesolutionscom",
+		"email": "info@tropicalworkforcesolutionscom",
+		"phone_numbers": "+6256468912, +2720743314",
+		"facebook": "https://www.facebook.com/International-Focus-Oversea-Employment-Agency-940987509323569",
+		"viber": null,
+		"line": null,
+		"latitude": null,
+		"longitude": null,
+		"updated_at": "2024-12-10T11:10:48Z"
+	},
+	{
+		"user": 108,
+		"epp_policy": true,
+		"id": 108,
+		"logo": "https://www.shutterstock.com/image-vector/fake-logo-collection-vector-logotype-set-260nw-2132250003.jpg",
+		"type": "RA",
+		"date_joined": "2023-09-15T00:00:00Z",
+		"name_en": "Sakura Workforce Agency",
+		"addresses": [
+			{
+				"id": 408,
+				"country_id": "Japan",
+				"state_id": "Tokyo",
+				"city_id": "Tokyo",
+				"street": "1-2-3 Sakura Street, Chiyoda",
+				"zip": "100-0001",
+				"contacts": [
+					{
+						"email": "contact@sakuraworkforceagency.jp",
+						"phone_number": "+81312345678",
+						"translation": {
+							"first_name": "Yuki",
+							"last_name": "Tanaka",
+							"position": "Director"
+						}
+					}
+				],
+				"language": "Japanese"
+			}
+		],
+		"description": "A reputable agency specializing in sending skilled workers from Japan to Southeast Asia and beyond.",
+		"rating_score": 4.65,
+		"rating_count": 120,
+		"comments_count": 45,
+		"sending_countries": ["Japan"],
+		"user_ratings": [],
+		"gd_id": 2008,
+		"main_contact_name": "Yuki Tanaka",
+		"contact_phone_number": "+81312345678",
+		"date_of_registration": "2022-03-10",
+		"cambodia_recruiter_registration_year": null,
+		"license_number": "LIC-2023-JPN-001",
+		"license_valid_date": "2027-03-10",
+		"thai_license_number": null,
+		"thai_license_valid_date": null,
+		"status": "Operational",
+		"status_from_date": null,
+		"status_to_date": null,
+		"website": "http://www.sakuraworkforceagency.jp",
+		"email": "info@sakuraworkforceagency.jp",
+		"phone_numbers": "+81312345678",
+		"facebook": "https://www.facebook.com/sakuraworkforceagency",
+		"viber": null,
+		"line": "sakuraworkforce",
+		"latitude": 35.6895,
+		"longitude": 139.6917,
+		"updated_at": "2024-07-03T11:10:48Z"
+	}
+]

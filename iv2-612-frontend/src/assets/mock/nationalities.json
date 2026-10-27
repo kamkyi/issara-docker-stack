@@ -1,0 +1,32 @@
+[
+	{
+		"nationality": 1,
+		"name": "Burmese",
+		"language": 4
+	},
+	{
+		"nationality": 2,
+		"name": "Khmer",
+		"language": 3
+	},
+	{
+		"nationality": 3,
+		"name": "Thai",
+		"language": 5
+	},
+	{
+		"nationality": 4,
+		"name": "Nepalese",
+		"language": 7
+	},
+	{
+		"nationality": 5,
+		"name": "Other",
+		"language": 1
+	},
+	{
+		"nationality": 7,
+		"name": "Bangladeshi",
+		"language": 1
+	}
+]

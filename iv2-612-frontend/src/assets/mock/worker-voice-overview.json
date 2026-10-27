@@ -1,0 +1,1823 @@
+[
+	{
+		"month": "2024-08",
+		"level1": 13,
+		"level2": 10,
+		"level3": 15,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 5
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 7
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 4
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 5
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 2
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 3
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 2
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 3
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 1
+			}
+		]
+	},
+	{
+		"month": "2024-09",
+		"level1": 17,
+		"level2": 14,
+		"level3": 18,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 6
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 8
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 2
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 5
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 6
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 2
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 1
+			}
+		]
+	},
+	{
+		"month": "2024-10",
+		"level1": 21,
+		"level2": 18,
+		"level3": 22,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 7
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 5
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 6
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 5
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 7
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 5
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 5
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 1
+			}
+		]
+	},
+	{
+		"month": "2024-11",
+		"level1": 25,
+		"level2": 21,
+		"level3": 25,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 8
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 6
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 7
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 6
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 8
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 6
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 6
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 2
+			}
+		]
+	},
+	{
+		"month": "2024-12",
+		"level1": 19,
+		"level2": 15,
+		"level3": 20,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 6
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 9
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 5
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 5
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 6
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 2
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 5
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 5
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 1
+			}
+		]
+	},
+	{
+		"month": "2025-01",
+		"level1": 23,
+		"level2": 19,
+		"level3": 23,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 7
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 6
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 6
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 5
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 8
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 3
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 6
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 5
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 2
+			}
+		]
+	},
+	{
+		"month": "2025-02",
+		"level1": 27,
+		"level2": 22,
+		"level3": 26,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 8
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 7
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 7
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 6
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 8
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 7
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 6
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 2
+			}
+		]
+	},
+	{
+		"month": "2025-03",
+		"level1": 29,
+		"level2": 24,
+		"level3": 28,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 9
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 7
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 5
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 8
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 7
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "4",
+				"count": 4
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 7
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 5
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 6
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 2
+			}
+		]
+	},
+	{
+		"month": "2025-04",
+		"level1": 31,
+		"level2": 26,
+		"level3": 30,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 9
+			}
+		]
+	},
+	{
+		"month": "2025-05",
+		"level1": 34,
+		"level2": 28,
+		"level3": 32,
+		"level4": 2,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 10
+			}
+		]
+	},
+	{
+		"month": "2025-06",
+		"level1": 36,
+		"level2": 30,
+		"level3": 34,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 11
+			}
+		]
+	},
+	{
+		"month": "2025-07",
+		"level1": 33,
+		"level2": 27,
+		"level3": 31,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 10
+			}
+		]
+	},
+	{
+		"month": "2025-08",
+		"level1": 30,
+		"level2": 25,
+		"level3": 29,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 9
+			}
+		]
+	},
+	{
+		"month": "2025-09",
+		"level1": 35,
+		"level2": 29,
+		"level3": 33,
+		"level4": 2,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 10
+			}
+		]
+	},
+	{
+		"month": "2025-10",
+		"level1": 38,
+		"level2": 31,
+		"level3": 36,
+		"level4": 2,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 14
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 11
+			}
+		]
+	},
+	{
+		"month": "2025-11",
+		"level1": 41,
+		"level2": 34,
+		"level3": 38,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 15
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 14
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 12
+			}
+		]
+	},
+	{
+		"month": "2025-12",
+		"level1": 28,
+		"level2": 23,
+		"level3": 26,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 7
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 8
+			}
+		]
+	},
+	{
+		"month": "2026-01",
+		"level1": 36,
+		"level2": 30,
+		"level3": 33,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 10
+			}
+		]
+	},
+	{
+		"month": "2026-02",
+		"level1": 39,
+		"level2": 32,
+		"level3": 35,
+		"level4": 2,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 14
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 11
+			}
+		]
+	},
+	{
+		"month": "2026-03",
+		"level1": 42,
+		"level2": 35,
+		"level3": 38,
+		"level4": 2,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 15
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 14
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 14
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 12
+			}
+		]
+	},
+	{
+		"month": "2026-04",
+		"level1": 40,
+		"level2": 33,
+		"level3": 36,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 15
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 11
+			}
+		]
+	},
+	{
+		"month": "2026-05",
+		"level1": 37,
+		"level2": 31,
+		"level3": 34,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 14
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 11
+			}
+		]
+	},
+	{
+		"month": "2026-06",
+		"level1": 35,
+		"level2": 29,
+		"level3": 32,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 13
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 12
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 10
+			}
+		]
+	},
+	{
+		"month": "2026-07",
+		"level1": 33,
+		"level2": 27,
+		"level3": 30,
+		"level4": 1,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 12
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 10
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "4",
+				"count": 1
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 9
+			}
+		]
+	},
+	{
+		"month": "2026-08",
+		"level1": 31,
+		"level2": 26,
+		"level3": 28,
+		"level4": 0,
+		"suppliers": [
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "1",
+				"count": 11
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 101,
+				"supplier_name": "Mock Supplier A",
+				"level": "3",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "2",
+				"count": 9
+			},
+			{
+				"supplier_id": 102,
+				"supplier_name": "Mock Supplier B",
+				"level": "3",
+				"count": 9
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "1",
+				"count": 10
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "2",
+				"count": 8
+			},
+			{
+				"supplier_id": 103,
+				"supplier_name": "Mock Supplier C",
+				"level": "3",
+				"count": 9
+			}
+		]
+	}
+]

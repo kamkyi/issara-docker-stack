@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+      Congratulations, there have been {{kpis|length}} KPI closures among your suppliers this month. Here is an overview of closures:
+
+      {% for kpi in kpis %}
+        <p> KPI #{{kpi.id}} was closed with a remediation score of {{kpi.closed_quality}}. </p>
+      {% endfor %}
+
+      Please see the <a href="{{url}}/admin/global-buyer-dashboard-kpi">Issara SP dashboard</a> for more details. <br><br>
+
+      Best regards, <br>
+      Issara Institute
+    </div>
+  </body>
+</html>

@@ -1,0 +1,3678 @@
+[
+	{
+		"id": 1182,
+		"description": "Lack of professional conduct of recruitment agency and/or employer",
+		"level": 2,
+		"goal": "Recruiters and employers should treat each other professionally, and both should treat jobseekers and workers professionally.  Any lack of professionalism, including threats or poor treatment of jobseekers or workers, should be met with swift and effective investigations, discipline, and remediation.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 25,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1182,
+				"supplier_id": 455,
+				"kpi_id": 1,
+				"status_id": 3,
+				"opened_at": "2018-01-19",
+				"closed_at": "2018-04-24T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1618,
+				"supplier_id": 391,
+				"kpi_id": 1,
+				"status_id": 3,
+				"opened_at": "2022-09-27",
+				"closed_at": "2022-12-08T00:00:00.000Z",
+				"closure_date": "2022-12-08",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1678,
+				"supplier_id": 457,
+				"kpi_id": 1,
+				"status_id": 3,
+				"opened_at": "2022-05-22",
+				"closed_at": "2022-12-28T00:00:00.000Z",
+				"closure_date": "2022-12-28",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 455,
+		"kpi_id": 1,
+		"status_id": 3,
+		"opened_at": "2018-01-19",
+		"closed_at": "2018-04-24T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1256,
+		"description": "Treated poorly and/or threatened by RA or broker: serious violation",
+		"level": 3,
+		"goal": "Recruiters and employers should treat each other professionally, and both should treat jobseekers and workers professionally.  Any lack of professionalism, including threats or poor treatment of jobseekers or workers, should be met with swift and effective investigations, discipline, and remediation.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1256,
+				"supplier_id": 451,
+				"kpi_id": 2,
+				"status_id": 3,
+				"opened_at": "2018-04-29",
+				"closed_at": "2018-06-06T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 451,
+		"kpi_id": 2,
+		"status_id": 3,
+		"opened_at": "2018-04-29",
+		"closed_at": "2018-06-06T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1183,
+		"description": "Inaccurate / misleading / poor information about job: minor miscommunication",
+		"level": 2,
+		"goal": "Job advertisements should be comprehensive, up to date, and accurate: terms and conditions that are advertised must match the terms and conditions that are offered at the workplace.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1183,
+				"supplier_id": 455,
+				"kpi_id": 3,
+				"status_id": 3,
+				"opened_at": "2018-01-19",
+				"closed_at": "2018-04-24T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 455,
+		"kpi_id": 3,
+		"status_id": 3,
+		"opened_at": "2018-01-19",
+		"closed_at": "2018-04-24T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 4,
+		"description": "Document retention",
+		"level": 3,
+		"goal": "Jobseekers and workers should be in control of their identity documents at all times.  Employers and/or recruiters should only be holding worker identity and work documents for brief periods when processing visas and work permits, and even during this time, workers should be able to check and verify their documents whenever they want.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 2,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 1711,
+		"description": "Fees charged by upstream/village-level broker: legal but not ethical",
+		"level": 2,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1711,
+				"supplier_id": 458,
+				"kpi_id": 6,
+				"status_id": 3,
+				"opened_at": "2022-08-09",
+				"closed_at": "2022-10-03T00:00:00.000Z",
+				"closure_date": "2022-10-03",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 458,
+		"kpi_id": 6,
+		"status_id": 3,
+		"opened_at": "2022-08-09",
+		"closed_at": "2022-10-03T00:00:00.000Z",
+		"closure_date": "2022-10-03",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 7,
+		"description": "Fees charged by recruitment agency: legal but not ethical",
+		"level": 2,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 1792,
+		"description": "Fees charged by employer: legal but not ethical",
+		"level": 2,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1792,
+				"supplier_id": 391,
+				"kpi_id": 8,
+				"status_id": 1,
+				"opened_at": "2022-09-28",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 391,
+		"kpi_id": 8,
+		"status_id": 1,
+		"opened_at": "2022-09-28",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 9,
+		"description": "Debt bondage",
+		"level": 3,
+		"goal": "Jobseekers and workers should not go into debt to brokers, recruiters, or their employer from the process of labour recruitment, migration, or the issuance or renewal of identity documents or health checks.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 506,
+		"description": "Workers placed in workplace and jobs different from what they were recruited for",
+		"level": 3,
+		"goal": "Jobseekers and workers should be placed into jobs that match exactly what they were promised, whether or not they signed a contract.\r\n\r\nIf they signed a contract, then the terms and conditions in the contract should match what was promised, and the working conditions should match the contract.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 506,
+				"supplier_id": 458,
+				"kpi_id": 11,
+				"status_id": 3,
+				"opened_at": "2020-07-09",
+				"closed_at": "2020-11-20T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 511,
+				"supplier_id": 248,
+				"kpi_id": 11,
+				"status_id": 3,
+				"opened_at": "2021-01-11",
+				"closed_at": "2021-03-25T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1242,
+				"supplier_id": 455,
+				"kpi_id": 11,
+				"status_id": 3,
+				"opened_at": "2018-03-17",
+				"closed_at": "2018-03-27T09:53:03.000Z",
+				"closure_date": "2023-09-21",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 458,
+		"kpi_id": 11,
+		"status_id": 3,
+		"opened_at": "2020-07-09",
+		"closed_at": "2020-11-20T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 12,
+		"description": "No contract provided",
+		"level": 3,
+		"goal": "All workers should be provided with contracts in their native language that are compliant with the laws of both the origin and destination countries, as well as with bilateral and regional policies and mechanisms governing international labour recruitment.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 1163,
+		"description": "Contract provided was not clear (insufficient detail about wages/benefits/job description)",
+		"level": 3,
+		"goal": "All workers in Thailand are protected by the Labour Protection Act whether or not they have a written contract.  However, workers in global supply chains are expected by global customers to have written contracts, in their language, which clearly explain the terms and conditions of work, including (but not limited to) job description, wages, and benefits.  These contracts should be signed and countersigned before the worker leaves their home country.\r\n\r\nAll contracts, and terms and conditions of work more generally, must be clearly explained prior to contract signing.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1163,
+				"supplier_id": 455,
+				"kpi_id": 13,
+				"status_id": 3,
+				"opened_at": "2018-04-18",
+				"closed_at": "2018-04-19T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 455,
+		"kpi_id": 13,
+		"status_id": 3,
+		"opened_at": "2018-04-18",
+		"closed_at": "2018-04-19T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 14,
+		"description": "Contract provided was not in native language",
+		"level": 3,
+		"goal": "All workers in Thailand are protected by the Labour Protection Act whether or not they have a written contract.  However, workers in global supply chains are expected by global customers to have written contracts, in their language, which clearly explain the terms and conditions of work, including (but not limited to) job description, wages, and benefits.  These contracts should be signed and countersigned before the worker leaves their home country.\r\n\r\nAll contracts, and terms and conditions of work more generally, must be clearly explained prior to contract signing.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 15,
+		"description": "Contract was not clearly explained/understood prior to contract signing: minor miscommunication",
+		"level": 2,
+		"goal": "All workers in Thailand are protected by the Labour Protection Act whether or not they have a written contract.  However, workers in global supply chains are expected by global customers to have written contracts, in their language, which clearly explain the terms and conditions of work, including (but not limited to) job description, wages, and benefits.  These contracts should be signed and countersigned before the worker leaves their home country.\r\n\r\nAll contracts, and terms and conditions of work more generally, must be clearly explained prior to contract signing.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 16,
+		"description": "Inaccurate / misleading / poor information about job: deceptive mis-information",
+		"level": 3,
+		"goal": "Job advertisements should be comprehensive, up to date, and accurate: terms and conditions that are advertised must match the terms and conditions that are offered at the workplace.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 600,
+		"description": "Proper legal documents not provided to worker",
+		"level": 3,
+		"goal": "It is the responsibility of the employer to ensure that all of its workers are provided with legal visas and work permits, whether they handle these directly through their human resource departments, or indirectly through the services of an agency.  Without these documents, the worker may have illegal status.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 2,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 600,
+				"supplier_id": 248,
+				"kpi_id": 17,
+				"status_id": 3,
+				"opened_at": "2020-06-05",
+				"closed_at": "2020-10-22T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 844,
+				"supplier_id": 457,
+				"kpi_id": 17,
+				"status_id": 3,
+				"opened_at": "2019-12-09",
+				"closed_at": "2019-12-10T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1470,
+				"supplier_id": 455,
+				"kpi_id": 17,
+				"status_id": 3,
+				"opened_at": "2021-06-30",
+				"closed_at": "2021-07-28T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1789,
+				"supplier_id": 391,
+				"kpi_id": 17,
+				"status_id": 3,
+				"opened_at": "2022-11-28",
+				"closed_at": "2023-01-17T00:00:00.000Z",
+				"closure_date": "2023-02-14",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 248,
+		"kpi_id": 17,
+		"status_id": 3,
+		"opened_at": "2020-06-05",
+		"closed_at": "2020-10-22T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 65,
+		"description": "Fees charged by upstream/village-level broker: illegal and unethical",
+		"level": 3,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 66,
+		"description": "Fees charged by recruitment agency: illegal and unethical",
+		"level": 3,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 1506,
+		"description": "Fees charged by employer: illegal and unethical",
+		"level": 3,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1506,
+				"supplier_id": 455,
+				"kpi_id": 67,
+				"status_id": 3,
+				"opened_at": "2021-09-22",
+				"closed_at": "2021-11-01T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Recruitment",
+		"supplier_id": 455,
+		"kpi_id": 67,
+		"status_id": 3,
+		"opened_at": "2021-09-22",
+		"closed_at": "2021-11-01T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 83,
+		"description": "Deception/misinformation related to disclosure of job requirements/costs/timing/other terms and conditions of employment",
+		"level": 3,
+		"goal": "All workers in Thailand are protected by the Labour Protection Act whether or not they have a written contract.  However, workers in global supply chains are expected by global customers to have written contracts, in their language, which clearly explain the terms and conditions of work, including (but not limited to) job description, wages, and benefits.  These contracts should be signed and countersigned before the worker leaves their home country.\r\n\r\nAll contracts, and terms and conditions of work more generally, must be clearly explained prior to contract signing.",
+		"kpi_category_id": 1,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 92,
+		"description": "Human trafficking case related to online scamming",
+		"level": 4,
+		"goal": "",
+		"kpi_category_id": 1,
+		"eti_base_code_id": null,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 1,
+			"name": "Recruitment",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Recruitment",
+		"lang": "en"
+	},
+	{
+		"id": 18,
+		"description": "Issue with wages: unethical but not illegal",
+		"level": 2,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with labour law and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 16,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Wages",
+		"lang": "en"
+	},
+	{
+		"id": 1149,
+		"description": "Issue with deductions: illegal and/or excessive",
+		"level": 3,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with the labour protection and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 16,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1149,
+				"supplier_id": 391,
+				"kpi_id": 19,
+				"status_id": 3,
+				"opened_at": "2018-01-24",
+				"closed_at": "2018-04-05T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1261,
+				"supplier_id": 457,
+				"kpi_id": 19,
+				"status_id": 3,
+				"opened_at": "2018-05-27",
+				"closed_at": "2018-06-07T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 391,
+		"kpi_id": 19,
+		"status_id": 3,
+		"opened_at": "2018-01-24",
+		"closed_at": "2018-04-05T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 2609,
+		"description": "Issue with targets and/or bonuses (related to production and incentives): Serious violation",
+		"level": 3,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with the labour protection and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 16,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 2609,
+				"supplier_id": 458,
+				"kpi_id": 20,
+				"status_id": 4,
+				"opened_at": "2026-02-16",
+				"closed_at": "2026-03-05T00:00:00.000Z",
+				"closure_date": "2026-03-05",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 458,
+		"kpi_id": 20,
+		"status_id": 4,
+		"opened_at": "2026-02-16",
+		"closed_at": "2026-03-05T00:00:00.000Z",
+		"closure_date": "2026-03-05",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1481,
+		"description": "Timesheets/payslips/other basic pay-related documents not provided to worker",
+		"level": 3,
+		"goal": "Workers should receive and sign off on timesheets, clearly written in their language, that workers can validate reflect their work accurately.\r\n\r\nWorkers should also receive payslips, clearly written in their language, which clearly indicate all wages, rates (for regular, OT, holiday), and deductions.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 17,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1481,
+				"supplier_id": 391,
+				"kpi_id": 21,
+				"status_id": 3,
+				"opened_at": "2021-08-15",
+				"closed_at": "2021-09-29T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1696,
+				"supplier_id": 457,
+				"kpi_id": 21,
+				"status_id": 3,
+				"opened_at": "2022-07-06",
+				"closed_at": "2022-10-04T00:00:00.000Z",
+				"closure_date": "2022-12-01",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 391,
+		"kpi_id": 21,
+		"status_id": 3,
+		"opened_at": "2021-08-15",
+		"closed_at": "2021-09-29T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1482,
+		"description": "Timesheets/payslips/other basic pay-related documents not in native language",
+		"level": 3,
+		"goal": "Workers should receive and sign off on timesheets, clearly written in their language, that workers can validate reflect their work accurately.\r\n\r\nWorkers should also receive payslips, clearly written in their language, which clearly indicate all wages, rates (for regular, OT, holiday), and deductions.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 17,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1482,
+				"supplier_id": 391,
+				"kpi_id": 22,
+				"status_id": 3,
+				"opened_at": "2021-08-15",
+				"closed_at": "2021-09-29T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 391,
+		"kpi_id": 22,
+		"status_id": 3,
+		"opened_at": "2021-08-15",
+		"closed_at": "2021-09-29T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 370,
+		"description": "Very late or missing payments",
+		"level": 3,
+		"goal": "Workers should be paid according to a timeframe allowed by law - in Thailand, this is once a month minimum.  Higher requirements may be specified in the employment contract, and these terms and conditions should be followed by the employer.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 16,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 370,
+				"supplier_id": 391,
+				"kpi_id": 23,
+				"status_id": 3,
+				"opened_at": "2023-10-01",
+				"closed_at": "2023-10-16T00:00:00.000Z",
+				"closure_date": "2023-10-30",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 505,
+				"supplier_id": 455,
+				"kpi_id": 23,
+				"status_id": 3,
+				"opened_at": "2023-05-08",
+				"closed_at": "2023-08-24T00:00:00.000Z",
+				"closure_date": "2023-08-29",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1515,
+				"supplier_id": 458,
+				"kpi_id": 23,
+				"status_id": 3,
+				"opened_at": "2022-01-08",
+				"closed_at": "2021-11-24T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1697,
+				"supplier_id": 457,
+				"kpi_id": 23,
+				"status_id": 3,
+				"opened_at": "2022-07-06",
+				"closed_at": "2022-10-04T00:00:00.000Z",
+				"closure_date": "2023-06-26",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 391,
+		"kpi_id": 23,
+		"status_id": 3,
+		"opened_at": "2023-10-01",
+		"closed_at": "2023-10-16T00:00:00.000Z",
+		"closure_date": "2023-10-30",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 2111,
+		"description": "Issue with time card scanners/manual recording/systems to register working hours",
+		"level": 3,
+		"goal": "There should be a clear, transparent process for recording working hours.  Time card systems and scanners should accurately reflect clock-in and clock-out times, registered directly by the worker themselves.  Time card systems/scanners should never be completed by line supervisors or anyone other than the worker themselves.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 17,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 2111,
+				"supplier_id": 457,
+				"kpi_id": 24,
+				"status_id": 3,
+				"opened_at": "2023-10-29",
+				"closed_at": "2023-12-03T00:00:00.000Z",
+				"closure_date": "2023-12-31",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 457,
+		"kpi_id": 24,
+		"status_id": 3,
+		"opened_at": "2023-10-29",
+		"closed_at": "2023-12-03T00:00:00.000Z",
+		"closure_date": "2023-12-31",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 25,
+		"description": "Debt bondage",
+		"level": 3,
+		"goal": "Jobseekers and workers should not go into debt to brokers, recruiters, or their employer from the process of labour recruitment, migration, or the issuance or renewal of identity documents or health checks.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Wages",
+		"lang": "en"
+	},
+	{
+		"id": 729,
+		"description": "Issues with wages: in violation of law",
+		"level": 3,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with the labour protection and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 16,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 729,
+				"supplier_id": 248,
+				"kpi_id": 68,
+				"status_id": 4,
+				"opened_at": "2020-08-06",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 789,
+				"supplier_id": 455,
+				"kpi_id": 68,
+				"status_id": 3,
+				"opened_at": "2020-10-01",
+				"closed_at": "2020-12-24T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 248,
+		"kpi_id": 68,
+		"status_id": 4,
+		"opened_at": "2020-08-06",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 571,
+		"description": "Issue with targets and/or bonuses (related to production and incentives): Minor violation",
+		"level": 2,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with the labour protection and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"kpi_category_id": 4,
+		"eti_base_code_id": 17,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 4,
+			"name": "Wages",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 571,
+				"supplier_id": 455,
+				"kpi_id": 86,
+				"status_id": 3,
+				"opened_at": "2023-05-08",
+				"closed_at": "2023-05-31T00:00:00.000Z",
+				"closure_date": "2023-06-14",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 656,
+				"supplier_id": 458,
+				"kpi_id": 86,
+				"status_id": 3,
+				"opened_at": "2025-11-18",
+				"closed_at": "2025-12-11T00:00:00.000Z",
+				"closure_date": "2025-12-11",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1260,
+				"supplier_id": 457,
+				"kpi_id": 86,
+				"status_id": 3,
+				"opened_at": "2023-09-18",
+				"closed_at": "2023-11-16T00:00:00.000Z",
+				"closure_date": "2023-11-17",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Wages",
+		"supplier_id": 455,
+		"kpi_id": 86,
+		"status_id": 3,
+		"opened_at": "2023-05-08",
+		"closed_at": "2023-05-31T00:00:00.000Z",
+		"closure_date": "2023-06-14",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 215,
+		"description": "Unsafe or hazardous working conditions (OSH issues)",
+		"level": 3,
+		"goal": "All workers have the right to a safe working environment.  It is the responsibility of the employer to provide a safe working environment to all workers at all times.  This includes the provision of proper tools, safety equipment, safety protocols, and designated safety focal points to ensure safe and healthy working conditions at all times.  These should be provided at no cost to workers.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 215,
+				"supplier_id": 455,
+				"kpi_id": 27,
+				"status_id": 3,
+				"opened_at": "2019-09-05",
+				"closed_at": "2020-06-02T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1450,
+				"supplier_id": 391,
+				"kpi_id": 27,
+				"status_id": 3,
+				"opened_at": "2021-06-24",
+				"closed_at": "2021-07-06T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1571,
+				"supplier_id": 458,
+				"kpi_id": 27,
+				"status_id": 3,
+				"opened_at": "2022-01-12",
+				"closed_at": "2022-04-10T00:00:00.000Z",
+				"closure_date": "2022-04-10",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 27,
+		"status_id": 3,
+		"opened_at": "2019-09-05",
+		"closed_at": "2020-06-02T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 2075,
+		"description": "Issues with freedom - including restricted freedom of movement",
+		"level": 3,
+		"goal": "Workers off-shift should be free to leave their workplace and dormitories, with no threats or assertions of control over their movements.  Workers should never be treated as the property of employers, recruiters, brokers, or agents; and, their movements should never be restricted by these actors.\r\n\r\nWorkers should be free to leave their jobs with reasonable notice.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 2,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 2075,
+				"supplier_id": 391,
+				"kpi_id": 28,
+				"status_id": 1,
+				"opened_at": "2023-10-01",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 391,
+		"kpi_id": 28,
+		"status_id": 1,
+		"opened_at": "2023-10-01",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 29,
+		"description": "Document retention by supervisors/brokers/employer",
+		"level": 3,
+		"goal": "Jobseekers and workers should be in control of their identity documents at all times.  Employers and/or recruiters should only be holding worker identity and work documents for brief periods when processing visas and work permits, and even during this time, workers should be able to check and verify their documents whenever they want.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 2,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Working conditions",
+		"lang": "en"
+	},
+	{
+		"id": 1393,
+		"description": "Gender and/or sexual harassment",
+		"level": 3,
+		"goal": "Businesses should have a zero tolerance policy against gender and/or sexual harassment.  Legitimate, responsive channels should be in place to handle the reporting of gender and sexual harassment in the workplace, including safeguards for workers reporting such issues.  Investigations should be timely, harmed workers and at-risk workers should be protected, offenders should be punished commensurate with their crime, and survivors should be supported in accessing all means of legal and psychosocial support of interest to them.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1393,
+				"supplier_id": 455,
+				"kpi_id": 30,
+				"status_id": 3,
+				"opened_at": "2021-05-11",
+				"closed_at": "2021-06-30T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 30,
+		"status_id": 3,
+		"opened_at": "2021-05-11",
+		"closed_at": "2021-06-30T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 659,
+		"description": "Discrimination – by gender/nationality/ethnicity/other in the work area",
+		"level": 3,
+		"goal": "There should be no prejudicial assignment of any sort on the grounds of gender, ethnicity, nationality, race, religion, age, or appearance.  Worker-reported discrimination should be treated as a legitimate workplace matter by HR and management.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 25,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 659,
+				"supplier_id": 458,
+				"kpi_id": 31,
+				"status_id": 3,
+				"opened_at": "2022-06-02",
+				"closed_at": "2022-07-25T00:00:00.000Z",
+				"closure_date": "2022-07-27",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1369,
+				"supplier_id": 455,
+				"kpi_id": 31,
+				"status_id": 3,
+				"opened_at": "2022-12-12",
+				"closed_at": "2023-01-06T00:00:00.000Z",
+				"closure_date": "2023-01-19",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1458,
+				"supplier_id": 391,
+				"kpi_id": 31,
+				"status_id": 3,
+				"opened_at": "2021-07-04",
+				"closed_at": "2021-07-05T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 458,
+		"kpi_id": 31,
+		"status_id": 3,
+		"opened_at": "2022-06-02",
+		"closed_at": "2022-07-25T00:00:00.000Z",
+		"closure_date": "2022-07-27",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 531,
+		"description": "Discrimination on workloads and assignments",
+		"level": 2,
+		"goal": "There should be no prejudicial assignment of workloads or tasks on the grounds of gender, ethnicity, nationality, race, religion, age, or appearance.  Worker-reported discrimination should be treated as a legitimate workplace matter by HR and management.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 25,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 531,
+				"supplier_id": 391,
+				"kpi_id": 32,
+				"status_id": 4,
+				"opened_at": "2019-10-12",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1175,
+				"supplier_id": 455,
+				"kpi_id": 32,
+				"status_id": 3,
+				"opened_at": "2018-04-20",
+				"closed_at": "2018-04-20T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1255,
+				"supplier_id": 451,
+				"kpi_id": 32,
+				"status_id": 3,
+				"opened_at": "2018-04-29",
+				"closed_at": "2018-06-06T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1262,
+				"supplier_id": 457,
+				"kpi_id": 32,
+				"status_id": 3,
+				"opened_at": "2023-09-18",
+				"closed_at": "2023-09-25T00:00:00.000Z",
+				"closure_date": "2023-10-31",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1856,
+				"supplier_id": 458,
+				"kpi_id": 32,
+				"status_id": 3,
+				"opened_at": "2023-04-23",
+				"closed_at": "2023-07-10T00:00:00.000Z",
+				"closure_date": "2023-07-27",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 391,
+		"kpi_id": 32,
+		"status_id": 4,
+		"opened_at": "2019-10-12",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 145,
+		"description": "Unfair dismissal",
+		"level": 3,
+		"goal": "Workers should be regularly employed according to the terms and conditions of their contract, including period of employment.  If workers are to be dismissed prior to the expiry of their contract, it should only occur after a fair process of review and discussion with the worker, reasonable written notice in the native language of the worker, and transparent communication with the worker explaining the reasons for dismissal.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 25,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 145,
+				"supplier_id": 391,
+				"kpi_id": 33,
+				"status_id": 3,
+				"opened_at": "2020-11-30",
+				"closed_at": "2020-12-03T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 320,
+				"supplier_id": 458,
+				"kpi_id": 33,
+				"status_id": 3,
+				"opened_at": "2019-12-06",
+				"closed_at": "2019-12-17T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 352,
+				"supplier_id": 455,
+				"kpi_id": 33,
+				"status_id": 3,
+				"opened_at": "2023-08-30",
+				"closed_at": "2023-10-09T00:00:00.000Z",
+				"closure_date": "2023-10-09",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 353,
+				"supplier_id": 457,
+				"kpi_id": 33,
+				"status_id": 3,
+				"opened_at": "2020-01-29",
+				"closed_at": "2020-05-04T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 391,
+		"kpi_id": 33,
+		"status_id": 3,
+		"opened_at": "2020-11-30",
+		"closed_at": "2020-12-03T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 34,
+		"description": "Child labour issue",
+		"level": 4,
+		"goal": "Child labour should be strictly prohibited.  If child labour is identified in the workplace or supply chain, it should be addressed with attention to safeguarding the child, and ensuring no punitive action or harm on the child.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 12,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Working conditions",
+		"lang": "en"
+	},
+	{
+		"id": 181,
+		"description": "Pregnancy dismissal or hazardous conditions for pregnant worker",
+		"level": 3,
+		"goal": "Pregnant workers have the right to be managed fairly and provided with non-hazardous working conditions, according to a fair and transparent code of conduct, and within the allowances of Thai labour law.  Pregnant workers also have the right to benefits under the law such as paid maternity leave and the right to deliver their child in Thailand.\r\n\r\nPunitive actions toward pregnant workers, including dismissals or repatriations on the basis of pregnancy, is illegal.  Unfair dismissals should be addressed seriously and remediated swiftly.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 181,
+				"supplier_id": 458,
+				"kpi_id": 35,
+				"status_id": 3,
+				"opened_at": "2019-05-28",
+				"closed_at": "2020-08-20T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 458,
+		"kpi_id": 35,
+		"status_id": 3,
+		"opened_at": "2019-05-28",
+		"closed_at": "2020-08-20T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 569,
+		"description": "Proper tools/safety equipment/other equipment not provided: minor or isolated issue",
+		"level": 2,
+		"goal": "Employers should provide a safe and hygienic work environment to all workers, including proper tools, safety equipment, and other required equipment at no cost to workers.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 569,
+				"supplier_id": 455,
+				"kpi_id": 36,
+				"status_id": 3,
+				"opened_at": "2020-05-27",
+				"closed_at": "2020-11-24T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1223,
+				"supplier_id": 391,
+				"kpi_id": 36,
+				"status_id": 3,
+				"opened_at": "2023-10-26",
+				"closed_at": "2023-11-17T00:00:00.000Z",
+				"closure_date": "2023-11-22",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1857,
+				"supplier_id": 458,
+				"kpi_id": 36,
+				"status_id": 3,
+				"opened_at": "2023-04-23",
+				"closed_at": "2023-07-10T00:00:00.000Z",
+				"closure_date": "2023-07-27",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 36,
+		"status_id": 3,
+		"opened_at": "2020-05-27",
+		"closed_at": "2020-11-24T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 305,
+		"description": "Proper tools/safety equipment/other equipment not provided: serious work environment hazards",
+		"level": 3,
+		"goal": "Employers should provide a safe and hygienic work environment to all workers, including proper tools, safety equipment, and other required equipment at no cost to workers.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 305,
+				"supplier_id": 391,
+				"kpi_id": 37,
+				"status_id": 3,
+				"opened_at": "2019-11-24",
+				"closed_at": "2020-12-03T00:00:00.000Z",
+				"closure_date": "2023-11-15",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1658,
+				"supplier_id": 458,
+				"kpi_id": 37,
+				"status_id": 3,
+				"opened_at": "2022-06-02",
+				"closed_at": "2022-07-25T00:00:00.000Z",
+				"closure_date": "2022-07-25",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 391,
+		"kpi_id": 37,
+		"status_id": 3,
+		"opened_at": "2019-11-24",
+		"closed_at": "2020-12-03T00:00:00.000Z",
+		"closure_date": "2023-11-15",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 158,
+		"description": "Social Security issue (access to health care): minor issue",
+		"level": 2,
+		"goal": "Workers have the right to social security.  It is the responsibility of the employer to ensure all workers are properly registered in the government system and understand how to access it, including which hospital they are permitted to go to for free/affordable health care, and how to access social security both during and after employment.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 27,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 158,
+				"supplier_id": 391,
+				"kpi_id": 38,
+				"status_id": 3,
+				"opened_at": "2020-08-11",
+				"closed_at": "2020-09-11T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 365,
+				"supplier_id": 455,
+				"kpi_id": 38,
+				"status_id": 3,
+				"opened_at": "2020-07-03",
+				"closed_at": "2020-06-28T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 424,
+				"supplier_id": 457,
+				"kpi_id": 38,
+				"status_id": 3,
+				"opened_at": "2020-04-07",
+				"closed_at": "2020-04-25T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 391,
+		"kpi_id": 38,
+		"status_id": 3,
+		"opened_at": "2020-08-11",
+		"closed_at": "2020-09-11T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 51,
+		"description": "Issue with annual leave or sick leave: dispute without violation of law or employment contract",
+		"level": 2,
+		"goal": "All workers have the right to paid annual leave and paid sick leave, in line with the law, which specifies minimum number of days annually.  While number of annual and sick leave days are to be determined by the employer in accordance with the law, the timing of annual and sick leave should be determined primarily according to the needs of the worker according to international standards - health, leisure, family, or otherwise.  To receive paid sick leave in Thailand, a medical certificate is not required unless illness was 3 or more consecutive days.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 51,
+				"supplier_id": 457,
+				"kpi_id": 39,
+				"status_id": 3,
+				"opened_at": "2018-01-18",
+				"closed_at": "2018-07-24T00:00:00.000Z",
+				"closure_date": "2022-04-06",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1572,
+				"supplier_id": 458,
+				"kpi_id": 39,
+				"status_id": 3,
+				"opened_at": "2022-01-12",
+				"closed_at": "2022-04-10T00:00:00.000Z",
+				"closure_date": "2023-05-10",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1809,
+				"supplier_id": 391,
+				"kpi_id": 39,
+				"status_id": 3,
+				"opened_at": "2023-07-01",
+				"closed_at": "2023-08-15T00:00:00.000Z",
+				"closure_date": "2023-09-07",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 457,
+		"kpi_id": 39,
+		"status_id": 3,
+		"opened_at": "2018-01-18",
+		"closed_at": "2018-07-24T00:00:00.000Z",
+		"closure_date": "2022-04-06",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 52,
+		"description": "Issue with holidays or other benefits: dispute without violation of law or employment contract",
+		"level": 2,
+		"goal": "Holidays and benefits offered to workers must comply with national laws and contractual agreements.  Leave days deducted from workers should be done with the consent of workers.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 52,
+				"supplier_id": 457,
+				"kpi_id": 40,
+				"status_id": 4,
+				"opened_at": "2018-12-12",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 788,
+				"supplier_id": 455,
+				"kpi_id": 40,
+				"status_id": 3,
+				"opened_at": "2020-09-30",
+				"closed_at": "2020-10-28T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 457,
+		"kpi_id": 40,
+		"status_id": 4,
+		"opened_at": "2018-12-12",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1174,
+		"description": "Issues with regular shift hours or other shift issues: dispute without violation of law or employment contract",
+		"level": 2,
+		"goal": "Regular shift hours and wages should be respected at all times, in line with contractual agreements.  Changes in shifts should be made with the consent of workers and with reasonable notice, ensuring that total weekly working hours are in compliance with national law, and extra hours are paid at a premium rate.  Shifts should not be changed in order to avoid paying premium overtime and holiday rates.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1174,
+				"supplier_id": 455,
+				"kpi_id": 42,
+				"status_id": 3,
+				"opened_at": "2018-04-20",
+				"closed_at": "2018-04-20T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1257,
+				"supplier_id": 451,
+				"kpi_id": 42,
+				"status_id": 3,
+				"opened_at": "2018-04-29",
+				"closed_at": "2018-06-06T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 42,
+		"status_id": 3,
+		"opened_at": "2018-04-20",
+		"closed_at": "2018-04-20T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 53,
+		"description": "Issues with overtime being involuntary/forced or illegal",
+		"level": 3,
+		"goal": "All overtime must be voluntarily consented to by the worker and paid at a premium rate in line with the law and employment contract.  Numbers of hours of OT must be compliant with labour law as well.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 21,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 53,
+				"supplier_id": 457,
+				"kpi_id": 43,
+				"status_id": 3,
+				"opened_at": "2020-08-24",
+				"closed_at": "2020-11-17T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 217,
+				"supplier_id": 455,
+				"kpi_id": 43,
+				"status_id": 4,
+				"opened_at": "2021-11-16",
+				"closed_at": null,
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 304,
+				"supplier_id": 458,
+				"kpi_id": 43,
+				"status_id": 3,
+				"opened_at": "2019-11-23",
+				"closed_at": "2019-11-25T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1170,
+				"supplier_id": 391,
+				"kpi_id": 43,
+				"status_id": 3,
+				"opened_at": "2018-02-28",
+				"closed_at": "2018-04-20T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 457,
+		"kpi_id": 43,
+		"status_id": 3,
+		"opened_at": "2020-08-24",
+		"closed_at": "2020-11-17T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 218,
+		"description": "Issues with breaks including lunch/bathroom/OT breaks: minor issue with no violation of law or employment contract",
+		"level": 2,
+		"goal": "All workers have the right to take lunch breaks, in line with the law, which specifies minimum amount of time allowable.\r\n\r\nFurther, workers should be allowed to take bathroom breaks whenever needed.  Limiting use of bathrooms for the purpose of controlling or maximizing productivity can have adverse affects on the health of workers, and should be strictly prohibited.\r\n\r\nBreaks are required by law as well, in between regular working hours and OT shifts.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 218,
+				"supplier_id": 455,
+				"kpi_id": 44,
+				"status_id": 4,
+				"opened_at": "2020-05-08",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 240,
+				"supplier_id": 457,
+				"kpi_id": 44,
+				"status_id": 3,
+				"opened_at": "2023-06-06",
+				"closed_at": "2023-08-22T00:00:00.000Z",
+				"closure_date": "2023-08-23",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 2076,
+				"supplier_id": 391,
+				"kpi_id": 44,
+				"status_id": 3,
+				"opened_at": "2023-10-01",
+				"closed_at": "2023-11-20T00:00:00.000Z",
+				"closure_date": "2023-11-22",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 44,
+		"status_id": 4,
+		"opened_at": "2020-05-08",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1599,
+		"description": "Social Security issue (access to health care): violation of law",
+		"level": 3,
+		"goal": "Workers have the right to social security.  It is the responsibility of the employer to ensure all workers are properly registered in the government system and understand how to access it, including which hospital they are permitted to go to for free/affordable health care, and how to access social security both during and after employment.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 27,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1599,
+				"supplier_id": 457,
+				"kpi_id": 70,
+				"status_id": 3,
+				"opened_at": "2022-04-04",
+				"closed_at": "2022-05-25T00:00:00.000Z",
+				"closure_date": "2022-05-25",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 457,
+		"kpi_id": 70,
+		"status_id": 3,
+		"opened_at": "2022-04-04",
+		"closed_at": "2022-05-25T00:00:00.000Z",
+		"closure_date": "2022-05-25",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 532,
+		"description": "Issue with annual leave or sick leave: violation of law",
+		"level": 3,
+		"goal": "All workers have the right to paid annual leave and paid sick leave, in line with the law, which specifies minimum number of days annually.  While number of annual and sick leave days are to be determined by the employer in accordance with the law, the timing of annual and sick leave should be determined primarily according to the needs of the worker according to international standards - health, leisure, family, or otherwise.  To receive paid sick leave in Thailand, a medical certificate is not required unless illness was 3 or more consecutive days.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 532,
+				"supplier_id": 391,
+				"kpi_id": 71,
+				"status_id": 3,
+				"opened_at": "2022-12-11",
+				"closed_at": "2023-03-23T00:00:00.000Z",
+				"closure_date": "2023-03-23",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 549,
+				"supplier_id": 455,
+				"kpi_id": 71,
+				"status_id": 3,
+				"opened_at": "2019-09-05",
+				"closed_at": "2020-06-01T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 834,
+				"supplier_id": 457,
+				"kpi_id": 71,
+				"status_id": 3,
+				"opened_at": "2022-03-17",
+				"closed_at": "2022-06-30T00:00:00.000Z",
+				"closure_date": "2022-07-21",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 905,
+				"supplier_id": 248,
+				"kpi_id": 71,
+				"status_id": 3,
+				"opened_at": "2020-12-28",
+				"closed_at": "2021-03-25T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1860,
+				"supplier_id": 458,
+				"kpi_id": 71,
+				"status_id": 3,
+				"opened_at": "2023-04-23",
+				"closed_at": "2023-07-10T00:00:00.000Z",
+				"closure_date": "2023-07-27",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 391,
+		"kpi_id": 71,
+		"status_id": 3,
+		"opened_at": "2022-12-11",
+		"closed_at": "2023-03-23T00:00:00.000Z",
+		"closure_date": "2023-03-23",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 791,
+		"description": "Issue with holidays or other benefits: violation of law",
+		"level": 3,
+		"goal": "Holidays and benefits offered to workers must comply with national laws and contractual agreements.  Leave days deducted from workers should be done with the consent of workers.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 791,
+				"supplier_id": 455,
+				"kpi_id": 72,
+				"status_id": 3,
+				"opened_at": "2020-10-02",
+				"closed_at": "2021-01-22T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1592,
+				"supplier_id": 457,
+				"kpi_id": 72,
+				"status_id": 1,
+				"opened_at": "2022-03-17",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 72,
+		"status_id": 3,
+		"opened_at": "2020-10-02",
+		"closed_at": "2021-01-22T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1538,
+		"description": "Issues with regular shift hours or other shift issues: violation of law and/or employment contract",
+		"level": 3,
+		"goal": "Regular shift hours and wages should be respected at all times, in line with contractual agreements.  Changes in shifts should be made with the consent of workers and with reasonable notice, ensuring that total weekly working hours are in compliance with national law, and extra hours are paid at a premium rate.  Shifts should not be changed in order to avoid paying premium overtime and holiday rates.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1538,
+				"supplier_id": 455,
+				"kpi_id": 73,
+				"status_id": 3,
+				"opened_at": "2022-03-07",
+				"closed_at": "2022-05-17T00:00:00.000Z",
+				"closure_date": "2022-05-17",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1961,
+				"supplier_id": 457,
+				"kpi_id": 73,
+				"status_id": 3,
+				"opened_at": "2023-07-27",
+				"closed_at": "2023-08-23T00:00:00.000Z",
+				"closure_date": "2023-08-29",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 73,
+		"status_id": 3,
+		"opened_at": "2022-03-07",
+		"closed_at": "2022-05-17T00:00:00.000Z",
+		"closure_date": "2022-05-17",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 495,
+		"description": "Issues with breaks including lunch/bathroom/OT breaks: violation of law or employment contract",
+		"level": 3,
+		"goal": "All workers have the right to take lunch breaks, in line with the law, which specifies minimum amount of time allowable.\r\n\r\nFurther, workers should be allowed to take bathroom breaks whenever needed.  Limiting use of bathrooms for the purpose of controlling or maximizing productivity can have adverse affects on the health of workers, and should be strictly prohibited.\r\n\r\nBreaks are required by law as well, in between regular working hours and OT shifts.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 19,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 495,
+				"supplier_id": 455,
+				"kpi_id": 74,
+				"status_id": 3,
+				"opened_at": "2021-03-30",
+				"closed_at": "2021-07-14T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 503,
+				"supplier_id": 457,
+				"kpi_id": 74,
+				"status_id": 3,
+				"opened_at": "2020-05-07",
+				"closed_at": "2020-11-17T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 551,
+				"supplier_id": 391,
+				"kpi_id": 74,
+				"status_id": 3,
+				"opened_at": "2020-05-15",
+				"closed_at": "2020-11-27T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 74,
+		"status_id": 3,
+		"opened_at": "2021-03-30",
+		"closed_at": "2021-07-14T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 2067,
+		"description": "Denial of benefits to pregnant workers",
+		"level": 3,
+		"goal": "Pregnant workers have the right to be managed fairly and provided with non-hazardous working conditions, according to a fair and transparent code of conduct, and within the allowances of Thai labour law.  Pregnant workers also have the right to benefits under the law such as paid maternity leave and the right to deliver their child in Thailand.\r\n\r\nPunitive actions toward pregnant workers, including dismissals or repatriations on the basis of pregnancy, is illegal.  Unfair dismissals should be addressed seriously and remediated swiftly.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 2067,
+				"supplier_id": 457,
+				"kpi_id": 82,
+				"status_id": 3,
+				"opened_at": "2023-09-25",
+				"closed_at": "2023-09-27T00:00:00.000Z",
+				"closure_date": "2023-09-28",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 457,
+		"kpi_id": 82,
+		"status_id": 3,
+		"opened_at": "2023-09-25",
+		"closed_at": "2023-09-27T00:00:00.000Z",
+		"closure_date": "2023-09-28",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 685,
+		"description": "Issues with workforce and workloads: no violation of law or employment contract",
+		"level": 2,
+		"goal": "Employers are obligated to provide their workers with healthy, non-hazardous working conditions, which includes healthy, reasonable workloads distributed across an adequately sized workforce.  When workers are burdened with unreasonable workloads and/or unreasonable timeframes for completing work, the risk for workplace-related accidents and illnesses increases, and there can be negative impacts on workers both physical and mental.  \r\n\r\nWorkforces should be managed by the employer to ensure that there is always adequate manpower to complete work safely.  Employers should avoid the hazards of overburdening workers when faced with worker attrition.",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 685,
+				"supplier_id": 455,
+				"kpi_id": 87,
+				"status_id": 3,
+				"opened_at": "2023-09-14",
+				"closed_at": "2023-10-10T00:00:00.000Z",
+				"closure_date": "2023-10-11",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 793,
+				"supplier_id": 458,
+				"kpi_id": 87,
+				"status_id": 3,
+				"opened_at": "2021-03-11",
+				"closed_at": "2021-06-30T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 843,
+				"supplier_id": 457,
+				"kpi_id": 87,
+				"status_id": 3,
+				"opened_at": "2019-10-01",
+				"closed_at": "2019-10-02T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1342,
+				"supplier_id": 391,
+				"kpi_id": 87,
+				"status_id": 3,
+				"opened_at": "2021-03-09",
+				"closed_at": "2021-06-25T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 87,
+		"status_id": 3,
+		"opened_at": "2023-09-14",
+		"closed_at": "2023-10-10T00:00:00.000Z",
+		"closure_date": "2023-10-11",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 667,
+		"description": "Pregnant workers facing issues with workloads and working conditions: minor issue",
+		"level": 2,
+		"goal": "",
+		"kpi_category_id": 5,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 667,
+				"supplier_id": 455,
+				"kpi_id": 88,
+				"status_id": 3,
+				"opened_at": "2020-07-10",
+				"closed_at": "2020-08-20T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Working conditions",
+		"supplier_id": 455,
+		"kpi_id": 88,
+		"status_id": 3,
+		"opened_at": "2020-07-10",
+		"closed_at": "2020-08-20T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 93,
+		"description": "Unfair/excessive punishment, denial of overtime work",
+		"level": 3,
+		"goal": "",
+		"kpi_category_id": 5,
+		"eti_base_code_id": null,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Working conditions",
+		"lang": "en"
+	},
+	{
+		"id": 94,
+		"description": "Unfair/excessive punishment, suspension from normal work",
+		"level": 3,
+		"goal": "",
+		"kpi_category_id": 5,
+		"eti_base_code_id": null,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Working conditions",
+		"lang": "en"
+	},
+	{
+		"id": 95,
+		"description": "Unfair/excessive punishment, confiscation of personal belongings",
+		"level": 3,
+		"goal": "",
+		"kpi_category_id": 5,
+		"eti_base_code_id": null,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 5,
+			"name": "Labor - Working conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Working conditions",
+		"lang": "en"
+	},
+	{
+		"id": 1793,
+		"description": "Verbal abuse and/or other poor treatment by HR or production (not illegal)",
+		"level": 2,
+		"goal": "Employers are responsible for providing safe and dignified working conditions to workers, free of threats and retaliation.  \r\n\r\nAny reports of unprofessional or poor treatment of workers should be addressed seriously by the company, including with safeguards for reporting workers, credible investigations, and appropriate disciplinary measures.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1793,
+				"supplier_id": 455,
+				"kpi_id": 47,
+				"status_id": 1,
+				"opened_at": "2022-12-06",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 2113,
+				"supplier_id": 457,
+				"kpi_id": 47,
+				"status_id": 1,
+				"opened_at": "2026-03-10",
+				"closed_at": null,
+				"closure_date": "2026-03-12",
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 455,
+		"kpi_id": 47,
+		"status_id": 1,
+		"opened_at": "2022-12-06",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 342,
+		"description": "Verbal abuse and/or other poor treatment by interpreter (not illegal)",
+		"level": 2,
+		"goal": "Employers are responsible for providing safe and dignified working conditions to workers, free of threats and retaliation.  \r\n\r\nAny reports of unprofessional or poor treatment of workers should be addressed seriously by the company, including with safeguards for reporting workers, credible investigations, and appropriate disciplinary measures.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 342,
+				"supplier_id": 455,
+				"kpi_id": 48,
+				"status_id": 3,
+				"opened_at": "2019-09-05",
+				"closed_at": "2020-06-19T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1244,
+				"supplier_id": 391,
+				"kpi_id": 48,
+				"status_id": 3,
+				"opened_at": "2023-10-16",
+				"closed_at": "2023-11-20T00:00:00.000Z",
+				"closure_date": "2023-11-22",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1964,
+				"supplier_id": 457,
+				"kpi_id": 48,
+				"status_id": 3,
+				"opened_at": "2023-11-01",
+				"closed_at": "2023-12-03T00:00:00.000Z",
+				"closure_date": "2023-12-31",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 455,
+		"kpi_id": 48,
+		"status_id": 3,
+		"opened_at": "2019-09-05",
+		"closed_at": "2020-06-19T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 191,
+		"description": "Verbal abuse and/or other poor treatment by line supervisor/management (not illegal)",
+		"level": 2,
+		"goal": "Employers are responsible for providing safe and dignified working conditions to workers, free of threats and retaliation.  \r\n\r\nAny reports of unprofessional or poor treatment of workers should be addressed seriously by the company, including with safeguards for reporting workers, credible investigations, and appropriate disciplinary measures.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 191,
+				"supplier_id": 457,
+				"kpi_id": 49,
+				"status_id": 1,
+				"opened_at": "2026-03-10",
+				"closed_at": null,
+				"closure_date": "2023-10-31",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 259,
+				"supplier_id": 455,
+				"kpi_id": 49,
+				"status_id": 3,
+				"opened_at": "2022-12-13",
+				"closed_at": "2023-01-06T00:00:00.000Z",
+				"closure_date": "2023-01-19",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 326,
+				"supplier_id": 391,
+				"kpi_id": 49,
+				"status_id": 3,
+				"opened_at": "2023-11-13",
+				"closed_at": "2023-11-20T00:00:00.000Z",
+				"closure_date": "2023-11-22",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 820,
+				"supplier_id": 248,
+				"kpi_id": 49,
+				"status_id": 3,
+				"opened_at": "2018-03-26",
+				"closed_at": "2018-05-18T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 457,
+		"kpi_id": 49,
+		"status_id": 1,
+		"opened_at": "2026-03-10",
+		"closed_at": null,
+		"closure_date": "2023-10-31",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 328,
+		"description": "Discrimination – by gender/nationality/ethnicity/other by employer's systems",
+		"level": 3,
+		"goal": "Workers have the right to be recruited within, and work within, systems and workplaces that are free from all forms of discrimination.  Any reported discrimination - by gender, nationality, ethnicity, or other factors - should be treated seriously by the management of the business (whether recruitment agency or employer), including safeguards for victims and witnesses, and serious investigations and consequences for perpetrators.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 25,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 328,
+				"supplier_id": 391,
+				"kpi_id": 50,
+				"status_id": 3,
+				"opened_at": "2021-10-05",
+				"closed_at": "2021-10-26T00:00:00.000Z",
+				"closure_date": "2023-10-04",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 366,
+				"supplier_id": 458,
+				"kpi_id": 50,
+				"status_id": 3,
+				"opened_at": "2020-02-05",
+				"closed_at": "2020-08-20T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 391,
+		"kpi_id": 50,
+		"status_id": 3,
+		"opened_at": "2021-10-05",
+		"closed_at": "2021-10-26T00:00:00.000Z",
+		"closure_date": "2023-10-04",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 51,
+		"description": "Charged fees for services by HR and/or interpreter",
+		"level": 3,
+		"goal": "Workers should not be charged any fees for the services of HR or interpreters.  It is the responsibility of employers to pay these people for their services.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 1,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Employer-employee relations",
+		"lang": "en"
+	},
+	{
+		"id": 550,
+		"description": "Lack of access to safe and credible grievance mechanism",
+		"level": 2,
+		"goal": "Employers are responsible for providing safe, credible grievance mechanisms for workers to raise their concerns.  \r\n\r\nThere should be no retaliation against reporting workers, and if there is, management should investigate perpetrators and apply appropriate disciplinary measures.\r\n\r\nGrievances reported by workers should be treated seriously by the management of the business (whether recruitment agency or employer), including safeguards for victims and witnesses, and serious investigations and consequences for perpetrators.\r\n\r\nWorkers filing grievances should receive responses and updates from management in a timely manner.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 6,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 550,
+				"supplier_id": 391,
+				"kpi_id": 52,
+				"status_id": 3,
+				"opened_at": "2020-05-15",
+				"closed_at": "2020-11-27T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 391,
+		"kpi_id": 52,
+		"status_id": 3,
+		"opened_at": "2020-05-15",
+		"closed_at": "2020-11-27T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1198,
+		"description": "Threats aiming to discourage lodging grievances",
+		"level": 3,
+		"goal": "Employers are responsible for providing safe, credible grievance mechanisms for workers to raise their concerns.  \r\n\r\nThere should be no retaliation against reporting workers, and if there is, management should investigate perpetrators and apply appropriate disciplinary measures.\r\n\r\nGrievances reported by workers should be treated seriously by the management of the business (whether recruitment agency or employer), including safeguards for victims and witnesses, and serious investigations and consequences for perpetrators.\r\n\r\nWorkers filing grievances should receive responses and updates from management in a timely manner.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 6,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1198,
+				"supplier_id": 391,
+				"kpi_id": 53,
+				"status_id": 3,
+				"opened_at": "2021-03-09",
+				"closed_at": "2021-05-14T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 391,
+		"kpi_id": 53,
+		"status_id": 3,
+		"opened_at": "2021-03-09",
+		"closed_at": "2021-05-14T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 845,
+		"description": "Company grievance mechanism not safe/confidential/anonymous",
+		"level": 2,
+		"goal": "Employers are responsible for providing safe, credible grievance mechanisms for workers to raise their concerns.  \r\n\r\nThere should be no retaliation against reporting workers, and if there is, management should investigate perpetrators and apply appropriate disciplinary measures.\r\n\r\nGrievances reported by workers should be treated seriously by the management of the business (whether recruitment agency or employer), including safeguards for victims and witnesses, and serious investigations and consequences for perpetrators.\r\n\r\nWorkers filing grievances should receive responses and updates from management in a timely manner.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 6,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 845,
+				"supplier_id": 457,
+				"kpi_id": 54,
+				"status_id": 3,
+				"opened_at": "2019-10-21",
+				"closed_at": "2019-10-22T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 457,
+		"kpi_id": 54,
+		"status_id": 3,
+		"opened_at": "2019-10-21",
+		"closed_at": "2019-10-22T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 43,
+		"description": "Unresponsive grievance mechanism / no action being taken",
+		"level": 3,
+		"goal": "Employers are responsible for providing safe, credible grievance mechanisms for workers to raise their concerns.  \r\n\r\nThere should be no retaliation against reporting workers, and if there is, management should investigate perpetrators and apply appropriate disciplinary measures.\r\n\r\nGrievances reported by workers should be treated seriously by the management of the business (whether recruitment agency or employer), including safeguards for victims and witnesses, and serious investigations and consequences for perpetrators.\r\n\r\nWorkers filing grievances should receive responses and updates from management in a timely manner.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 6,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 43,
+				"supplier_id": 391,
+				"kpi_id": 55,
+				"status_id": 3,
+				"opened_at": "2019-12-14",
+				"closed_at": "2020-05-22T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 345,
+				"supplier_id": 455,
+				"kpi_id": 55,
+				"status_id": 3,
+				"opened_at": "2020-01-12",
+				"closed_at": "2020-11-27T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 558,
+				"supplier_id": 248,
+				"kpi_id": 55,
+				"status_id": 3,
+				"opened_at": "2022-09-30",
+				"closed_at": "2022-12-06T00:00:00.000Z",
+				"closure_date": "2022-12-06",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1613,
+				"supplier_id": 458,
+				"kpi_id": 55,
+				"status_id": 4,
+				"opened_at": "2022-04-20",
+				"closed_at": "2021-06-09T00:00:00.000Z",
+				"closure_date": "2022-06-15",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 2068,
+				"supplier_id": 457,
+				"kpi_id": 55,
+				"status_id": 3,
+				"opened_at": "2023-09-25",
+				"closed_at": "2023-09-27T00:00:00.000Z",
+				"closure_date": "2023-09-28",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 391,
+		"kpi_id": 55,
+		"status_id": 3,
+		"opened_at": "2019-12-14",
+		"closed_at": "2020-05-22T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 56,
+		"description": "Lack of worker representation; includes dysfunctional worker welfare committees",
+		"level": 2,
+		"goal": "Freedom of association and collective bargaining should be respected, with no intimidation or suppression of workers involved in worker organizing or raising up worker voices. \r\n\r\nWhere freedom of association and collective bargaining are restricted under law, employers should not hinder parallel mechanisms for workers to raise issues with employers, either collectively or individually.\r\n\r\nIf worker committees are employed in the workplace, committee members should be democratically elected by workers and independent from employers.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 6,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Employer-employee relations",
+		"lang": "en"
+	},
+	{
+		"id": 553,
+		"description": "Weak company policies and/or poor communication of policies",
+		"level": 2,
+		"goal": "",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 26,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 553,
+				"supplier_id": 455,
+				"kpi_id": 69,
+				"status_id": 3,
+				"opened_at": "2023-06-22",
+				"closed_at": "2023-10-08T00:00:00.000Z",
+				"closure_date": "2023-10-09",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 874,
+				"supplier_id": 391,
+				"kpi_id": 69,
+				"status_id": 3,
+				"opened_at": "2021-07-19",
+				"closed_at": "2021-08-11T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1350,
+				"supplier_id": 458,
+				"kpi_id": 69,
+				"status_id": 3,
+				"opened_at": "2023-12-10",
+				"closed_at": "2023-12-30T00:00:00.000Z",
+				"closure_date": "2024-01-22",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1598,
+				"supplier_id": 457,
+				"kpi_id": 69,
+				"status_id": 3,
+				"opened_at": "2023-09-25",
+				"closed_at": "2023-12-05T00:00:00.000Z",
+				"closure_date": "2023-12-31",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 455,
+		"kpi_id": 69,
+		"status_id": 3,
+		"opened_at": "2023-06-22",
+		"closed_at": "2023-10-08T00:00:00.000Z",
+		"closure_date": "2023-10-09",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 559,
+		"description": "Physical and/or other serious abuse by HR/production (illegal)",
+		"level": 3,
+		"goal": "Employers are responsible for providing safe and dignified working conditions to workers, free of threats and retaliation.  \r\n\r\nAny reports of unprofessional or poor treatment of workers should be addressed seriously by the company, including with safeguards for reporting workers, credible investigations, and appropriate disciplinary measures.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 559,
+				"supplier_id": 248,
+				"kpi_id": 75,
+				"status_id": 3,
+				"opened_at": "2020-01-14",
+				"closed_at": "2020-01-14T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1747,
+				"supplier_id": 457,
+				"kpi_id": 75,
+				"status_id": 1,
+				"opened_at": "2022-09-20",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 248,
+		"kpi_id": 75,
+		"status_id": 3,
+		"opened_at": "2020-01-14",
+		"closed_at": "2020-01-14T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1340,
+		"description": "Physical and/or other serious abuse by interpreter (illegal)",
+		"level": 3,
+		"goal": "Employers are responsible for providing safe and dignified working conditions to workers, free of threats and retaliation.  \r\n\r\nAny reports of unprofessional or poor treatment of workers should be addressed seriously by the company, including with safeguards for reporting workers, credible investigations, and appropriate disciplinary measures.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1340,
+				"supplier_id": 391,
+				"kpi_id": 76,
+				"status_id": 3,
+				"opened_at": "2021-10-05",
+				"closed_at": "2021-10-26T00:00:00.000Z",
+				"closure_date": "2022-04-27",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1962,
+				"supplier_id": 457,
+				"kpi_id": 76,
+				"status_id": 1,
+				"opened_at": "2023-07-27",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 391,
+		"kpi_id": 76,
+		"status_id": 3,
+		"opened_at": "2021-10-05",
+		"closed_at": "2021-10-26T00:00:00.000Z",
+		"closure_date": "2022-04-27",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 533,
+		"description": "Physical and/or other serious abuse by line supervisor/mgt (illegal)",
+		"level": 3,
+		"goal": "Employers are responsible for providing safe and dignified working conditions to workers, free of threats and retaliation.  \r\n\r\nAny reports of unprofessional or poor treatment of workers should be addressed seriously by the company, including with safeguards for reporting workers, credible investigations, and appropriate disciplinary measures.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 28,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 533,
+				"supplier_id": 391,
+				"kpi_id": 77,
+				"status_id": 3,
+				"opened_at": "2023-10-01",
+				"closed_at": "2023-10-16T00:00:00.000Z",
+				"closure_date": "2023-10-27",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 534,
+				"supplier_id": 458,
+				"kpi_id": 77,
+				"status_id": 3,
+				"opened_at": "2022-04-20",
+				"closed_at": "2022-05-25T00:00:00.000Z",
+				"closure_date": "2022-06-03",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 821,
+				"supplier_id": 455,
+				"kpi_id": 77,
+				"status_id": 3,
+				"opened_at": "2021-11-16",
+				"closed_at": "2022-03-07T00:00:00.000Z",
+				"closure_date": "2023-01-19",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 841,
+				"supplier_id": 457,
+				"kpi_id": 77,
+				"status_id": 3,
+				"opened_at": "2023-07-27",
+				"closed_at": "2023-08-23T00:00:00.000Z",
+				"closure_date": "2023-08-29",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 391,
+		"kpi_id": 77,
+		"status_id": 3,
+		"opened_at": "2023-10-01",
+		"closed_at": "2023-10-16T00:00:00.000Z",
+		"closure_date": "2023-10-27",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 504,
+		"description": "Interpretation is unavailable/inadequate/unprofessional",
+		"level": 2,
+		"goal": "Employers of foreign workers are responsible for providing professional interpretation services to ensure clear communication between the company and its employees.  Any reports of unavailable, inadequate, or unprofessional interpretation should be addressed seriously by the company, including with safeguards for reporting workers, credible investigations, investments in human resources, and appropriate disciplinary measures.",
+		"kpi_category_id": 8,
+		"eti_base_code_id": 25,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 504,
+				"supplier_id": 391,
+				"kpi_id": 84,
+				"status_id": 3,
+				"opened_at": "2022-11-27",
+				"closed_at": "2023-01-17T00:00:00.000Z",
+				"closure_date": "2023-02-14",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 570,
+				"supplier_id": 455,
+				"kpi_id": 84,
+				"status_id": 3,
+				"opened_at": "2020-05-08",
+				"closed_at": "2020-06-11T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 655,
+				"supplier_id": 458,
+				"kpi_id": 84,
+				"status_id": 3,
+				"opened_at": "2023-02-04",
+				"closed_at": "2023-06-20T00:00:00.000Z",
+				"closure_date": "2023-08-23",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Employer-employee relations",
+		"supplier_id": 391,
+		"kpi_id": 84,
+		"status_id": 3,
+		"opened_at": "2022-11-27",
+		"closed_at": "2023-01-17T00:00:00.000Z",
+		"closure_date": "2023-02-14",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 91,
+		"description": "Issues with loans in the workplace: serious violation",
+		"level": 3,
+		"goal": "",
+		"kpi_category_id": 8,
+		"eti_base_code_id": null,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 8,
+			"name": "Labor - Employer-employee relations",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Employer-employee relations",
+		"lang": "en"
+	},
+	{
+		"id": 1190,
+		"description": "Hazardous or unsanitary living/dorm/canteen conditions",
+		"level": 3,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 10,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1190,
+				"supplier_id": 458,
+				"kpi_id": 58,
+				"status_id": 3,
+				"opened_at": "2021-08-30",
+				"closed_at": "2021-10-13T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1300,
+				"supplier_id": 455,
+				"kpi_id": 58,
+				"status_id": 3,
+				"opened_at": "2021-05-11",
+				"closed_at": "2021-08-26T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1483,
+				"supplier_id": 391,
+				"kpi_id": 58,
+				"status_id": 3,
+				"opened_at": "2022-03-24",
+				"closed_at": "2022-06-23T00:00:00.000Z",
+				"closure_date": "2023-10-30",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Living and eating conditions",
+		"supplier_id": 458,
+		"kpi_id": 58,
+		"status_id": 3,
+		"opened_at": "2021-08-30",
+		"closed_at": "2021-10-13T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1593,
+		"description": "Issues with security in living/dorm conditions",
+		"level": 2,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 10,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1593,
+				"supplier_id": 457,
+				"kpi_id": 59,
+				"status_id": 1,
+				"opened_at": "2022-03-17",
+				"closed_at": null,
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Living and eating conditions",
+		"supplier_id": 457,
+		"kpi_id": 59,
+		"status_id": 1,
+		"opened_at": "2022-03-17",
+		"closed_at": null,
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 123,
+		"description": "Issues with rent/utilities/other housing costs and how these should be paid",
+		"level": 2,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 17,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 123,
+				"supplier_id": 391,
+				"kpi_id": 60,
+				"status_id": 3,
+				"opened_at": "2022-11-27",
+				"closed_at": "2023-01-09T00:00:00.000Z",
+				"closure_date": "2023-02-08",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1313,
+				"supplier_id": 457,
+				"kpi_id": 60,
+				"status_id": 3,
+				"opened_at": "2021-02-11",
+				"closed_at": "2021-03-25T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 1316,
+				"supplier_id": 455,
+				"kpi_id": 60,
+				"status_id": 3,
+				"opened_at": "2021-02-11",
+				"closed_at": "2021-03-25T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Living and eating conditions",
+		"supplier_id": 391,
+		"kpi_id": 60,
+		"status_id": 3,
+		"opened_at": "2022-11-27",
+		"closed_at": "2023-01-09T00:00:00.000Z",
+		"closure_date": "2023-02-08",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 507,
+		"description": "Issues with transportation to workplace",
+		"level": 2,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 7,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 507,
+				"supplier_id": 458,
+				"kpi_id": 61,
+				"status_id": 3,
+				"opened_at": "2020-05-07",
+				"closed_at": "2020-07-27T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 575,
+				"supplier_id": 248,
+				"kpi_id": 61,
+				"status_id": 3,
+				"opened_at": "2020-05-28",
+				"closed_at": "2020-07-13T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			},
+			{
+				"id": 808,
+				"supplier_id": 391,
+				"kpi_id": 61,
+				"status_id": 3,
+				"opened_at": "2022-12-11",
+				"closed_at": "2023-03-20T00:00:00.000Z",
+				"closure_date": "2023-03-23",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Living and eating conditions",
+		"supplier_id": 458,
+		"kpi_id": 61,
+		"status_id": 3,
+		"opened_at": "2020-05-07",
+		"closed_at": "2020-07-27T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1508,
+		"description": "Lack of (or greatly restricted) freedom of movement",
+		"level": 3,
+		"goal": "Workers off-shift should be free to leave their workplace and dormitories, with no threats or assertions of control over their movements.  Workers should never be treated as the property of employers, recruiters, brokers, or agents; and, their movements should never be restricted by these actors.\r\n\r\nWorkers should be free to leave their jobs with reasonable notice.",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 2,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1508,
+				"supplier_id": 391,
+				"kpi_id": 62,
+				"status_id": 3,
+				"opened_at": "2021-10-05",
+				"closed_at": "2021-10-26T00:00:00.000Z",
+				"closure_date": "2022-04-27",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Living and eating conditions",
+		"supplier_id": 391,
+		"kpi_id": 62,
+		"status_id": 3,
+		"opened_at": "2021-10-05",
+		"closed_at": "2021-10-26T00:00:00.000Z",
+		"closure_date": "2022-04-27",
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 1494,
+		"description": "Substandard living conditions and privacy in dorm/bathrooms/living space",
+		"level": 2,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 10,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 1494,
+				"supplier_id": 391,
+				"kpi_id": 78,
+				"status_id": 3,
+				"opened_at": "2021-08-23",
+				"closed_at": "2021-09-15T00:00:00.000Z",
+				"closure_date": null,
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1774,
+				"supplier_id": 458,
+				"kpi_id": 78,
+				"status_id": 3,
+				"opened_at": "2022-11-10",
+				"closed_at": "2022-12-28T00:00:00.000Z",
+				"closure_date": "2022-12-28",
+				"open": true,
+				"hide": false
+			},
+			{
+				"id": 1814,
+				"supplier_id": 457,
+				"kpi_id": 78,
+				"status_id": 3,
+				"opened_at": "2023-01-22",
+				"closed_at": "2023-02-21T00:00:00.000Z",
+				"closure_date": "2023-03-09",
+				"open": true,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Living and eating conditions",
+		"supplier_id": 391,
+		"kpi_id": 78,
+		"status_id": 3,
+		"opened_at": "2021-08-23",
+		"closed_at": "2021-09-15T00:00:00.000Z",
+		"closure_date": null,
+		"open": true,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 443,
+		"description": "Insufficient security and high crime risk in living/dorm conditions",
+		"level": 3,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 10,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [
+			{
+				"id": 443,
+				"supplier_id": 391,
+				"kpi_id": 79,
+				"status_id": 3,
+				"opened_at": "2020-04-28",
+				"closed_at": "2020-12-04T00:00:00.000Z",
+				"closure_date": null,
+				"open": false,
+				"hide": false
+			}
+		],
+		"category_name": "Labor - Living and eating conditions",
+		"supplier_id": 391,
+		"kpi_id": 79,
+		"status_id": 3,
+		"opened_at": "2020-04-28",
+		"closed_at": "2020-12-04T00:00:00.000Z",
+		"closure_date": null,
+		"open": false,
+		"hide": false,
+		"lang": "en"
+	},
+	{
+		"id": 80,
+		"description": "Extortion or other serious issues related to rent/utilities/other housing costs",
+		"level": 3,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": 17,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Living and eating conditions",
+		"lang": "en"
+	},
+	{
+		"id": 89,
+		"description": "Serious crime with potential risk to life by employer or recruitment agency staff",
+		"level": 4,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": null,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Living and eating conditions",
+		"lang": "en"
+	},
+	{
+		"id": 90,
+		"description": "Serious crime with potential risk to life by informal broker or external party",
+		"level": 4,
+		"goal": "",
+		"kpi_category_id": 9,
+		"eti_base_code_id": null,
+		"kpi_legal_violation_id": null,
+		"kpi_recommended_remediation_id": null,
+		"kpi_systems_change_id": null,
+		"category": {
+			"id": 9,
+			"name": "Labor - Living and eating conditions",
+			"issue_category_id": 1
+		},
+		"supplierKpis": [],
+		"category_name": "Labor - Living and eating conditions",
+		"lang": "en"
+	}
+]

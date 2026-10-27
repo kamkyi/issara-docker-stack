@@ -1,0 +1,2146 @@
+{
+	"common": {
+		"yes": "Đúng",
+		"no": "KHÔNG",
+		"ok": "ĐƯỢC RỒI",
+		"cancel": "Hủy bỏ",
+		"save": "Cứu",
+		"delete": "Xóa bỏ",
+		"edit": "Biên tập",
+		"add": "Thêm vào",
+		"remove": "Di dời",
+		"search": "Tìm kiếm",
+		"filter": "Lọc",
+		"sort": "Loại",
+		"loading": "Đang tải...",
+		"error": "Lỗi",
+		"success": "Thành công",
+		"warning": "Cảnh báo",
+		"info": "Thông tin",
+		"close": "Đóng",
+		"open": "Mở",
+		"closed": "Đóng cửa",
+		"active": "Tích cực",
+		"inactive": "Không hoạt động",
+		"enabled": "Đã bật",
+		"disabled": "Tàn tật",
+		"required": "Yêu cầu",
+		"optional": "Không bắt buộc",
+		"all": "Tất cả",
+		"none": "Không có",
+		"select": "Lựa chọn",
+		"clear": "Thông thoáng",
+		"reset": "Cài lại",
+		"submit": "Nộp",
+		"next": "Kế tiếp",
+		"previous": "Trước",
+		"first": "Đầu tiên",
+		"last": "Cuối cùng",
+		"page": "Trang",
+		"of": "của",
+		"total": "Tổng cộng",
+		"count": "Đếm",
+		"name": "Tên",
+		"description": "Sự miêu tả",
+		"table": {
+			"rowsPerPage": "Số dòng trên mỗi trang:",
+			"searchColumn": "Tìm kiếm {{label}}"
+		},
+		"date": "Ngày",
+		"time": "Thời gian",
+		"status": "Trạng thái",
+		"category": "Loại",
+		"type": "Kiểu",
+		"level": "Mức độ",
+		"priority": "Sự ưu tiên",
+		"actions": "Hành động",
+		"details": "Chi tiết",
+		"view": "Xem",
+		"download": "Tải xuống",
+		"upload": "Tải lên",
+		"export": "Xuất khẩu",
+		"import": "Nhập khẩu",
+		"print": "In",
+		"refresh": "Làm cho khỏe lại",
+		"update": "Cập nhật",
+		"create": "Tạo nên",
+		"new": "Mới",
+		"copy": "Sao chép",
+		"move": "Di chuyển",
+		"settings": "Cài đặt",
+		"preferences": "Tùy chọn",
+		"profile": "Hồ sơ",
+		"account": "Tài khoản",
+		"login": "Đăng nhập",
+		"logout": "Đăng xuất",
+		"register": "Đăng ký",
+		"password": "Mật khẩu",
+		"email": "E-mail",
+		"username": "Tên người dùng",
+		"phone": "Điện thoại",
+		"address": "Địa chỉ",
+		"country": "Quốc gia",
+		"city": "Thành phố",
+		"language": "Ngôn ngữ",
+		"theme": "Chủ đề",
+		"light": "Ánh sáng",
+		"dark": "Tối tăm",
+		"auto": "Tự động",
+		"home": "Trang chủ"
+	},
+	"onboarding": {
+		"progress": "Quy trình hội nhập",
+		"firstLogin": "✦ Lần đăng nhập đầu tiên",
+		"welcomeTitlePart1": "Thẩm định trách nhiệm nhân quyền —",
+		"welcomeTitleAccent": "Chúng ta bắt đầu nào!",
+		"welcomeBody": "CASCADE không chỉ là một cuộc kiểm toán thông thường — mà là hoạt động thẩm định nhân quyền (HRDD) hàng ngày. Hãy dành chút thời gian tìm hiểu thêm về các tính năng của CASCADE và cách nó trang bị cho đội ngũ và công ty của bạn các công cụ và dữ liệu thời gian thực để đáp ứng các yêu cầu ngày càng cao về HRDD và tính toàn vẹn thương mại tại châu Mỹ, EU, Úc và các khu vực khác.",
+		"welcomeStep1Title": "Tham gia tour du lịch có hướng dẫn",
+		"welcomeStep1Desc": "— Tìm hiểu các tính năng chính, dữ liệu và giải pháp.",
+		"welcomeStep2Title": "Trang chủ của bạn",
+		"welcomeStep2Desc": "— Điền thông tin vào, và bạn đã sẵn sàng.",
+		"startTour": "Bắt đầu chuyến tham quan có hướng dẫn",
+		"back": "Mặt sau",
+		"next": "Kế tiếp",
+		"finish": "Hoàn thành",
+		"congratsEyebrow": "✦ Bạn đang ở trên CASCADE",
+		"congratsTitle": "Chúc mừng,",
+		"congratsBody": "Công ty của bạn đang thực sự cam kết thực hiện trách nhiệm thẩm định nhân quyền (HRDD) — và giờ đây bạn đã có các công cụ, dữ liệu và giải pháp để hỗ trợ điều đó. Không gian làm việc của bạn đã hoạt động! Đã đến lúc công khai Hồ sơ Công ty để các đối tác thương hiệu và ngành nghề có thể tìm thấy bạn.",
+		"statCompany": "Công ty",
+		"statMemberSince": "Thành viên từ",
+		"statRegion": "Vùng đất",
+		"statOnboarding": "Quy trình hội nhập",
+		"statComplete": "Hoàn thành",
+		"enterCascade": "Nhập CASCADE",
+		"congratsHint": "Bạn sẽ được chuyển đến trang Hồ sơ công ty của mình — sẵn sàng để điền thông tin.",
+		"sectionLabel": "Phần {{current}} của {{total}}",
+		"sections": {
+			"profile": {
+				"title": "Hồ sơ công ty",
+				"body": "Tìm Hồ sơ Công ty của bạn trong phần Tổng quan. Điền thông tin về công ty, ngành nghề và các thông tin cơ bản khác, và chia sẻ thêm thông tin chi tiết nếu bạn muốn, ví dụ như chính sách nhân quyền và tuyển dụng lao động của công ty. Mức độ mạnh mẽ của Hồ sơ công ty sẽ tăng lên khi bạn hoàn thành thêm thông tin. Chọn thông tin nào được hiển thị theo thương hiệu, ngành nghề và các đối tác khác trong Danh bạ Thành viên.",
+				"hits": [
+					"Sức mạnh hồ sơ",
+					"Thông tin công ty",
+					"Tùy chọn chia sẻ thông tin và chính sách"
+				]
+			},
+			"dashboard": {
+				"title": "Bảng điều khiển công ty",
+				"body": "Cũng nằm trong phần Tổng quan. Bảng điều khiển của công ty bạn theo dõi tiến độ thực tế về phạm vi bao phủ tiếng nói người lao động và các vấn đề lao động do người lao động báo cáo, cũng như các nỗ lực nhằm tăng cường các chính sách và hệ thống liên quan đến nhân quyền thông qua đào tạo và công cụ.",
+				"hits": [
+					"Phân tích tiếng nói người lao động",
+					"Theo dõi cải tiến liên tục",
+					"Dữ liệu xu hướng và báo cáo"
+				]
+			},
+			"marketplace": {
+				"title": "Chợ CASCADE",
+				"body": "Một nền tảng để 'mua sắm' các công cụ, khóa đào tạo, giải pháp và đối tác! Tìm kiếm và đăng ký các khóa học trực tuyến, công cụ và chẩn đoán, hoặc các dịch vụ đào tạo hoặc tư vấn chuyên biệt bằng ngôn ngữ và khu vực của bạn. Sự tham gia liên tục thúc đẩy cải tiến liên tục, giúp nâng cao Chỉ số CASCADE của công ty bạn.",
+				"hits": [
+					"Chẩn đoán và công cụ bất đồng bộ",
+					"Danh mục giải pháp",
+					"Cải tiến liên tục"
+				]
+			},
+			"grievance": {
+				"title": "Cơ chế giải quyết khiếu nại của công ty",
+				"body": "Thêm và xem phản hồi cũng như khiếu nại của người lao động, có thể được gửi đến thông qua cơ chế giải quyết khiếu nại của công ty hoặc thông qua hệ thống hỗ trợ tiếng nói người lao động của Issara. Theo dõi, quản lý và giải quyết các trường hợp tất cả ở cùng một nơi.",
+				"hits": [
+					"Quản lý khiếu nại",
+					"Công cụ khảo sát và phản hồi của nhân viên",
+					"Tích hợp tiếng nói người lao động"
+				]
+			},
+			"visibilityMembers": "Thành viên CASCADE",
+			"visibilityMembersDesc": "Chỉ hiển thị cho các thành viên CASCADE đã xác thực",
+			"visibilityPrivate": "Riêng tư",
+			"visibilityPrivateDesc": "Chỉ quản trị viên công ty của bạn có thể xem",
+			"noPolicies": "Chưa có chính sách nào được thêm",
+			"addFirst": "Thêm chính sách đầu tiên của bạn để bắt đầu đánh dấu các danh mục."
+		}
+	},
+	"navigation": {
+		"home": "Trang chủ",
+		"dashboard": "Bảng điều khiển",
+		"reports": "Báo cáo",
+		"analytics": "Phân tích",
+		"users": "Người dùng",
+		"admin": "Quản trị viên",
+		"help": "Giúp đỡ",
+		"support": "Ủng hộ",
+		"about": "Về",
+		"contact": "Liên hệ",
+		"companyOverview": "Tổng quan về công ty",
+		"companyProfile": "Hồ sơ công ty",
+		"companyDashboard": "Bảng điều khiển công ty",
+		"socialResponsibilityWorkplan": "Kế hoạch hành động trách nhiệm xã hội",
+		"companySupplyChain": "Chuỗi cung ứng của công ty",
+		"employeeRelations": "Quan hệ nhân viên",
+		"ourWorkplace": "Nơi làm việc của chúng tôi",
+		"workerFeedback": "Phản hồi của người lao động",
+		"viewWorkerFeedback": "Xem phản hồi của người lao động",
+		"messageBoard": "Bảng tin nhắn",
+		"workforcePolls": "Khảo sát lực lượng lao động",
+		"responsibleProcurement": "Mua sắm có trách nhiệm",
+		"supplyChainDesigner": "Nhà thiết kế chuỗi cung ứng",
+		"suppliers": "Nhà cung cấp",
+		"recruitmentAgencies": "Các công ty tuyển dụng",
+		"memberDirectory": "Danh bạ thành viên",
+		"cascadeMarketplace": "Chợ CASCADE",
+		"hrddOverview": "Tổng quan về HRDD"
+	},
+	"companyProfilePage": {
+		"title": "Hồ sơ công ty",
+		"titleWithCompany": "Hồ sơ {{companyName}}",
+		"subtitle": "Quản lý thông tin hình ảnh công khai của tổ chức bạn.",
+		"profileOwnerName": "Quản trị viên công ty",
+		"tabs": {
+			"profileDetails": "Thông tin hồ sơ",
+			"userManagement": "Quản lý người dùng",
+			"policiesCompliance": "Chính sách & Tuân thủ",
+			"companyQr": "Mã QR của công ty"
+		},
+		"sections": {
+			"basicInformation": "Thông tin cơ bản",
+			"workforceBreakdown": "Phân bổ lực lượng lao động",
+			"policiesCompliance": "Chính sách & Tuân thủ"
+		},
+		"businessImages": {
+			"title": "Hình ảnh doanh nghiệp",
+			"description": "Tải lên tối đa {{max}} hình ảnh giới thiệu doanh nghiệp của bạn. Định dạng hỗ trợ: JPEG, PNG, WEBP (tối đa 5MB mỗi ảnh).",
+			"maxReached": "Đã đạt giới hạn {{max}} hình ảnh.",
+			"invalidType": "Tệp '{{name}}' không phải định dạng hình ảnh hợp lệ. Vui lòng tải lên JPEG, PNG hoặc WEBP.",
+			"tooLarge": "Tệp '{{name}}' vượt quá giới hạn 5MB.",
+			"uploadFailed": "Không thể tải lên '{{name}}'. Vui lòng thử lại.",
+			"deleteFailed": "Không thể xóa hình ảnh. Vui lòng thử lại.",
+			"noImages": "Chưa có hình ảnh nào được tải lên.",
+			"uploadAreaLabel": "Nhấp hoặc kéo để tải lên hình ảnh doanh nghiệp",
+			"uploading": "Đang tải lên...",
+			"clickOrDrop": "Nhấp để tải lên hoặc kéo và thả",
+			"hint": "PNG, JPG, WEBP tối đa 5MB (đã tải {{current}}/{{max}})",
+			"imageAlt": "Hình ảnh doanh nghiệp",
+			"deleteAriaLabel": "Xóa hình ảnh này"
+		},
+		"policies": {
+			"coverageTitle": "Phạm vi bảo hiểm theo loại chính sách",
+			"coverageHelp": "Thêm các chính sách mà công ty bạn đang áp dụng — tải lên hoặc liên kết từng chính sách một lần, sau đó đánh dấu chọn vào tất cả các danh mục mà chính sách đó bao gồm.",
+			"viewHelp": "Các chính sách mà công ty bạn đã chia sẻ. Mỗi chính sách được gắn thẻ với các danh mục mà nó bao gồm — một tài liệu có thể đáp ứng nhiều yêu cầu. Nhân viên và đối tác có thể xem những chính sách này trên hồ sơ công khai của bạn.",
+			"noPoliciesShared": "Chưa có chính sách nào được chia sẻ.",
+			"addFirstSwitchToEdit": "Chuyển sang chế độ Chỉnh sửa để thêm tài liệu chính sách, liên kết hoặc tuyên bố đầu tiên của bạn.",
+			"textStatement": "Văn bản tuyên bố",
+			"howAdding": "Bạn thêm nó bằng cách nào?",
+			"policyName": "Tên chính sách",
+			"policyText": "Văn bản chính sách",
+			"clickToUpload": "Nhấp chuột để tải lên hoặc kéo và thả.",
+			"whichCategories": "Chính sách này bao gồm những đối tượng nào?",
+			"tickAll": "Hãy chọn tất cả các mục phù hợp — một chính sách có thể bao gồm nhiều mục.",
+			"visibleTo": "Hiển thị cho:",
+			"savedPlural": "{{count}} đã lưu",
+			"addPolicy": "Thêm chính sách",
+			"remove": "Di dời",
+			"policy": "Chính sách",
+			"type_text": "Chữ",
+			"type_link": "Liên kết",
+			"type_file": "Tài liệu",
+			"visibilityCustomers": "Thành viên CASCADE - Khách hàng hiện tại",
+			"visibilityCustomersDesc": "Chỉ hiển thị cho khách hàng hiện tại trên CASCADE",
+			"visibilityMembers": "Thành viên CASCADE",
+			"visibilityMembersDesc": "Chỉ hiển thị cho các thành viên CASCADE đã được xác minh",
+			"visibilityPrivate": "Riêng tư",
+			"visibilityPrivateDesc": "Chỉ quản trị viên công ty của bạn mới có thể xem được thông tin này.",
+			"noPolicies": "Chưa có chính sách nào được thêm vào.",
+			"addFirst": "Thêm chính sách đầu tiên của bạn để bắt đầu đánh dấu các danh mục."
+		},
+		"fields": {
+			"companyName": "Tên công ty",
+			"hqLocation": "Vị trí trụ sở chính",
+			"headquartersAddress": "Địa chỉ trụ sở chính",
+			"companyDescription": "Mô tả công ty",
+			"industries": "Các ngành công nghiệp",
+			"productCategories": "Danh mục sản phẩm",
+			"totalWorkers": "Tổng số công nhân",
+			"totalMaleWorkers": "Tổng số công nhân nam",
+			"totalFemaleWorkers": "Tổng số lao động nữ",
+			"thai": "Thái Lan",
+			"cambodian": "Campuchia",
+			"myanmar": "Myanmar",
+			"lao": "Lào",
+			"vietnamese": "Tiếng Việt",
+			"nepalese": "người Nepal",
+			"bangladeshi": "người Bangladesh",
+			"indonesian": "Tiếng Indonesia",
+			"malaysian": "Malaysia",
+			"indian": "Ấn Độ",
+			"pakistani": "người Pakistan",
+			"sriLankan": "người Sri Lanka",
+			"humanRightsPolicies": "Chính sách nhân quyền",
+			"responsibleRecruitmentPolicies": "Chính sách tuyển dụng có trách nhiệm",
+			"responsibleProcurementPolicies": "Chính sách mua sắm có trách nhiệm"
+		},
+		"placeholders": {
+			"selectCountry": "Chọn quốc gia",
+			"selectIndustries": "Chọn ngành công nghiệp",
+			"selectProductCategories": "Chọn danh mục sản phẩm",
+			"zero": "0"
+		},
+		"actions": {
+			"save": "Cứu",
+			"saving": "Đang lưu...",
+			"cancel": "Hủy bỏ",
+			"edit": "Biên tập",
+			"editSectionAria": "Chỉnh sửa {{title}}"
+		},
+		"messages": {
+			"unableDeterminePartnerId": "Không thể xác định ID đối tác chiến lược.",
+			"updateError": "Cập nhật hồ sơ công ty không thành công.",
+			"basicUpdated": "Thông tin cơ bản đã được cập nhật.",
+			"workforceUpdated": "Thông tin nhân sự đã được cập nhật.",
+			"policiesUpdated": "Chính sách đã được cập nhật.",
+			"categoryFallback": "Danh mục {{id}}",
+			"workerVerificationTargetMissing": "Mục tiêu xác minh người lao động bị thiếu.",
+			"workerVerified": "Nhân viên đã được xác minh.",
+			"workerVerifyFailed": "Yêu cầu của người lao động không thể được xác minh.",
+			"workerRejected": "Xác minh thông tin người lao động bị từ chối.",
+			"workerRejectFailed": "Yêu cầu của người lao động không thể bị từ chối.",
+			"avatarUpdated": "Ảnh đại diện đã được cập nhật."
+		},
+		"userManagement": {
+			"title": "Quản lý người dùng",
+			"subtitle": "Quản lý người dùng, vai trò và trạng thái lời mời của công ty.",
+			"totalUsers": "Tổng số người dùng",
+			"active": "Tích cực",
+			"pending": "Chưa giải quyết",
+			"inactive": "Không hoạt động",
+			"pendingInvites": "Thư mời đang chờ xử lý",
+			"strategicPartnerUser": "Người dùng đối tác chiến lược",
+			"invitationSent": "Thư mời đã được gửi",
+			"loadingUsers": "Đang tải người dùng...",
+			"loadUsersError": "Không thể tải người dùng đối tác chiến lược.",
+			"emptyUsers": "Không tìm thấy người dùng nào cho đối tác chiến lược này.",
+			"workerManagementTitle": "Quản lý công nhân",
+			"workerManagementSubtitle": "Xem xét các yêu cầu xác minh người lao động được gửi từ quá trình quét mã QR.",
+			"total": "Tổng cộng",
+			"verified": "Đã xác minh",
+			"loadingWorkerRequests": "Đang tải yêu cầu xác minh người lao động...",
+			"loadWorkerRequestsError": "Không thể tải các yêu cầu xác minh người lao động.",
+			"emptyWorkerRequests": "Hiện chưa có yêu cầu xác minh nhân viên nào.",
+			"unknownWorker": "Công nhân không rõ danh tính",
+			"noEmail": "Không có email",
+			"viewProfile": "Xem hồ sơ",
+			"updating": "Đang cập nhật...",
+			"verify": "Xác minh",
+			"unverify": "Hủy xác minh",
+			"reject": "Từ chối",
+			"columns": {
+				"name": "Tên",
+				"email": "E-mail",
+				"role": "Vai trò",
+				"status": "Trạng thái",
+				"lastActive": "Lần hoạt động cuối cùng"
+			},
+			"workerColumns": {
+				"worker": "Công nhân",
+				"workerId": "Mã số nhân viên",
+				"requested": "Đã yêu cầu",
+				"status": "Trạng thái",
+				"actions": "Hành động"
+			},
+			"workerStatus": {
+				"pending": "Chưa giải quyết",
+				"savedForLater": "Đã lưu để xem sau",
+				"verified": "Đã xác minh",
+				"rejected": "Vật bị loại bỏ"
+			}
+		},
+		"workerQr": {
+			"title": "Mã QR xác minh nhân viên",
+			"subtitle": "Nhân viên có thể quét mã này từ GD Lite để yêu cầu xác minh từ công ty.",
+			"defaultCompanyName": "Hồ sơ công ty",
+			"copySuccess": "Liên kết QR của nhân viên đã được sao chép.",
+			"copyError": "Không thể sao chép liên kết QR của nhân viên.",
+			"zoomOutAria": "Thu nhỏ mã QR xác minh nhân viên",
+			"resetZoomAria": "Đặt lại mã QR xác minh nhân viên thu phóng",
+			"zoomInAria": "Phóng to mã QR xác minh nhân viên",
+			"copyLinkAria": "Sao chép liên kết QR xác minh nhân viên",
+			"unavailable": "Mã QR của nhân viên không khả dụng vì hồ sơ công ty này không có mã định danh nhà cung cấp."
+		},
+		"profileStrength": {
+			"title": "Độ mạnh của hồ sơ",
+			"levels": {
+				"excellent": "Xuất sắc",
+				"good": "Tốt",
+				"decent": "Tử tế",
+				"basic": "Nền tảng"
+			}
+		},
+		"policyField": {
+			"audience": "Thành viên CASCADE",
+			"text": "Chữ",
+			"link": "Liên kết",
+			"file": "Tài liệu",
+			"linkPlaceholder": "https://example.com/policy",
+			"fileHint": "Kéo và thả tệp hoặc nhấp chuột để duyệt.",
+			"chooseFile": "Chọn tệp",
+			"characters": "{{count}} / {{max}} ký tự",
+			"notProvided": "Không được cung cấp"
+		},
+		"productCategories": {
+			"garments": "Quần áo",
+			"footwear": "Giày dép",
+			"accessories": "Phụ kiện",
+			"homeTextiles": "Hàng dệt gia dụng"
+		},
+		"avatar": {
+			"changeAria": "Thay đổi ảnh đại diện công ty",
+			"change": "Thay đổi ảnh",
+			"uploading": "Đang tải lên..."
+		}
+	},
+	"supplierDashboard": {
+		"title": "Bảng điều khiển công ty",
+		"subtitle": "Theo dõi tiến độ thực tế trên toàn bộ quy trình làm việc, mức độ gắn kết và cải tiến liên tục của nhân viên.",
+		"demographics": {
+			"pill": "Thông tin nhân khẩu học",
+			"title": "Thông tin nhân khẩu học về lực lượng lao động",
+			"byGender": "Theo giới tính",
+			"byGenderCard": "Lực lượng lao động theo giới tính",
+			"byNationality": "Theo quốc tịch",
+			"byNationalityCard": "Người lao động theo quốc tịch",
+			"totalWorkers": "Tổng số nhân viên: {{count}}",
+			"nationalitiesRepresented": "{{count}} quốc tịch được đại diện"
+		},
+		"engagement": {
+			"title": "Tương tác CASCADE",
+			"filter": "Lọc",
+			"allTracks": "Tất cả các bản nhạc",
+			"export": "Xuất khẩu",
+			"columns": {
+				"activity": "Hoạt động",
+				"track": "Theo dõi",
+				"location": "Vị trí",
+				"date": "Ngày",
+				"user": "Người dùng",
+				"roleHint": "(vai trò)"
+			},
+			"showing": "Hiển thị {{count}} trong {{total}}",
+			"rowsPerPage": "Hàng mỗi trang",
+			"searchColumn": "Tìm kiếm…",
+			"noResults": "Không có hoạt động phù hợp",
+			"showingRange": "Hiển thị {{from}}–{{to}} của {{total}}",
+			"rowsPerPageLabel": "Số hàng trên mỗi trang"
+		},
+		"tracks": {
+			"title": "Các tuyến đường cải tiến",
+			"subtitle": "5 bản nhạc · Nhấp vào hoạt động trên sân khấu để mở trong CASCADE Marketplace",
+			"stageStatus": {
+				"done": "Hoàn thành",
+				"progress": "Đang tiến hành",
+				"todo": "Chưa bắt đầu"
+			},
+			"noActivities": "Chưa có hoạt động nào",
+			"status": {
+				"done": "Xong",
+				"progress": "Đang tiến hành",
+				"todo": "Chưa bắt đầu"
+			},
+			"statusAcross": "Tình trạng trên toàn bộ",
+			"legend": {
+				"completed": "Đã hoàn thành · {{count}}",
+				"inProgress": "Đang tiến hành · {{count}}",
+				"notStarted": "Chưa bắt đầu · {{count}}"
+			}
+		},
+		"buyerPartners": {
+			"title": "ĐỐI TÁC MUA HÀNG HIỆN TẠI",
+			"subtitle": "{{count}} người mua tìm nguồn hàng từ bạn · Xác nhận lẫn nhau với người mua CASCADE",
+			"intro": "Đây là danh sách các nhà mua hàng trên CASCADE hiện đang nhập hàng từ bạn. Nhà mua hàng và nhà cung cấp xác nhận thông tin của nhau tại đây để đảm bảo tính chính xác của mối quan hệ đối tác. Thêm nhà mua hàng ngoài danh sách này, hoặc đánh dấu một nhà mua hàng — ví dụ, nếu nhà mua hàng đó không còn nhập hàng từ bạn nữa — và nhóm CASCADE sẽ điều chỉnh lại thông tin.",
+			"askOrFlag": "Hỏi hoặc báo cáo",
+			"addPartner": "Thêm đối tác mua hàng",
+			"cancel": "Hủy bỏ",
+			"done": "Xong",
+			"sending": "Đang gửi…",
+			"errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
+			"statusValidated": "Đã xác thực",
+			"statusPending": "Đang chờ xem xét",
+			"empty": "Hiện chưa có đối tác mua hàng nào. Vui lòng thêm đối tác mua hàng bên dưới và nhóm CASCADE sẽ xác minh mối quan hệ.",
+			"askReasons": {
+				"noLongerSources": {
+					"label": "Người mua này hiện không còn nhập hàng từ chúng tôi nữa.",
+					"placeholder": "Ví dụ: {{name}} đã ngừng đặt hàng với chúng tôi vào quý 4 năm 2025 — vui lòng cập nhật danh sách đối tác đang hoạt động của chúng tôi."
+				},
+				"updateStatus": {
+					"label": "Cập nhật trạng thái mối quan hệ của chúng ta",
+					"placeholder": "Ví dụ: Chúng tôi đã chuyển từ giai đoạn thử nghiệm sang sản xuất hàng loạt với {{name}} kể từ tháng 3 năm 2026."
+				},
+				"correctInfo": {
+					"label": "Hãy chỉnh sửa thông tin người mua này.",
+					"placeholder": "Ví dụ: Trụ sở chính của {{name}} đã chuyển đến Copenhagen — vui lòng cập nhật địa điểm trong hồ sơ."
+				},
+				"general": {
+					"label": "Câu hỏi hoặc ghi chú chung",
+					"placeholder": "Hãy bổ sung bất kỳ chi tiết nào giúp nhóm xác minh mối quan hệ đối tác với {{name}}…"
+				}
+			},
+			"askModal": {
+				"eyebrow": "Xác thực đối tác mua hàng",
+				"title": "Đặt câu hỏi hoặc báo cáo thay đổi",
+				"description": "Ghi chú của bạn sẽ được chuyển đến nhóm đối tác chiến lược CASCADE, họ sẽ đối chiếu với hồ sơ của người mua — nhờ đó, người mua và nhà cung cấp duy trì mối quan hệ chính xác với nhau.",
+				"reasonLabel": "Chuyện này là sao vậy?",
+				"noteLabel": "Ghi chú của bạn",
+				"submit": "Gửi tới CASCADE",
+				"sentTitle": "Đã gửi đến CASCADE",
+				"sentBody": "Ghi chú của bạn về <b>{{name}}</b> đã được gửi đến nhóm đối tác chiến lược của CASCADE. Họ sẽ theo dõi và cập nhật trạng thái xác thực."
+			},
+			"addModal": {
+				"eyebrow": "Thêm đối tác mua hàng",
+				"title": "Thêm người mua ngoài danh sách",
+				"description": "Bạn mua hàng từ một thương hiệu chưa có trên CASCADE? Hãy thêm họ vào đây. Họ sẽ hiển thị trạng thái chờ xử lý cho đến khi nhóm CASCADE xác minh mối quan hệ.",
+				"nameLabel": "Người mua / Tên thương hiệu",
+				"namePlaceholder": "Ví dụ: Tập đoàn bán lẻ Meridian",
+				"countryLabel": "Quốc gia",
+				"countryPlaceholder": "ví dụ: Nhật Bản",
+				"industryLabel": "Ngành công nghiệp",
+				"industryPlaceholder": "Ví dụ: Quần áo",
+				"noteLabel": "Ghi chú về mối quan hệ",
+				"notePlaceholder": "Ví dụ: Hoạt động từ năm 2024, có hai dây chuyền sản xuất quần áo ngoài.",
+				"optional": "(không bắt buộc)",
+				"routeNote": "Đã gửi để xác minh CASCADE",
+				"submit": "Thêm vào"
+			}
+		}
+	},
+	"navbar": {
+		"guest": {
+			"menu": {
+				"latestInIlm": "Tin tức mới nhất về ILM",
+				"overview": "Tổng quan",
+				"supplyChainMapping": "Lập bản đồ chuỗi cung ứng",
+				"companyGrievanceMechanism": "Cơ chế giải quyết khiếu nại của công ty",
+				"workerReportedIssues": "Các vấn đề do người lao động báo cáo",
+				"addWorkerFeedback": "Thêm phản hồi của người lao động",
+				"marketplace": "Chợ",
+				"socialResponsibility": "Trách nhiệm xã hội",
+				"socialResponsibilityOverview": "Tổng quan về trách nhiệm xã hội",
+				"labor": "Nhân công",
+				"recruitment": "Tuyển dụng",
+				"wages": "Tiền lương",
+				"continuousImprovement": "Cải tiến liên tục",
+				"ilmManagement": "Quản lý ILM",
+				"internalDashboard": "Bảng điều khiển nội bộ",
+				"metricsEntry": "Nhập số liệu",
+				"cascadeMarketplace": "Chợ CASCADE",
+				"ethicalSupplyChainDesigner": "Nhà thiết kế chuỗi cung ứng có đạo đức",
+				"userLogins": "Đăng nhập người dùng",
+				"messageBoard": "Bảng tin nhắn",
+				"productRoadmap": "Lộ trình sản phẩm"
+			},
+			"views": {
+				"buyer": "Góc nhìn của người mua",
+				"supplier": "Góc nhìn của nhà cung cấp",
+				"recruitmentAgency": "RA View",
+				"tester": "Chế độ xem người kiểm thử",
+				"ilmManagement": "Quan điểm quản lý của Issara"
+			}
+		},
+		"account": {
+			"aboutIlmCascade": "Giới thiệu về ILM Cascade",
+			"notifications": "Thông báo",
+			"profileSettings": "Cài đặt hồ sơ",
+			"signOut": "Đăng xuất",
+			"userFallback": "Người dùng"
+		}
+	},
+	"forms": {
+		"firstName": "Tên",
+		"lastName": "Họ",
+		"fullName": "Họ và tên đầy đủ",
+		"company": "Công ty",
+		"organization": "Tổ chức",
+		"department": "Phòng",
+		"position": "Chức vụ",
+		"role": "Vai trò",
+		"title": "Tiêu đề",
+		"message": "Tin nhắn",
+		"comment": "Bình luận",
+		"notes": "Ghi chú",
+		"remarks": "Ghi chú",
+		"issueSummary": "Tóm tắt vấn đề do người lao động báo cáo",
+		"note": "Ghi chú"
+	},
+	"validation": {
+		"required": "Trường này là bắt buộc",
+		"email": "Vui lòng nhập địa chỉ email hợp lệ.",
+		"phone": "Vui lòng nhập số điện thoại hợp lệ.",
+		"minLength": "Số ký tự tối thiểu cần thiết là {{count}}",
+		"maxLength": "Số ký tự tối đa được phép là {{count}}",
+		"numeric": "Vui lòng nhập số hợp lệ.",
+		"alphanumeric": "Chỉ cho phép chữ cái và số."
+	},
+	"messages": {
+		"saveSuccess": "Dữ liệu đã được lưu thành công",
+		"saveError": "Không thể lưu dữ liệu",
+		"deleteSuccess": "Dữ liệu đã được xóa thành công",
+		"deleteError": "Không thể xóa dữ liệu",
+		"updateSuccess": "Dữ liệu đã được cập nhật thành công.",
+		"updateError": "Không thể cập nhật dữ liệu",
+		"loadError": "Không thể tải dữ liệu",
+		"networkError": "Lỗi kết nối mạng",
+		"serverError": "Đã xảy ra lỗi máy chủ.",
+		"notFound": "Không tìm thấy dữ liệu",
+		"accessDenied": "Quyền truy cập bị từ chối",
+		"sessionExpired": "Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại."
+	},
+	"glossary": {
+		"remediation": "Khắc phục hậu quả",
+		"grievance": "Khiếu nại",
+		"workerVoice": "Tiếng nói của người lao động",
+		"supplier": "Nhà cung cấp",
+		"buyer": "Người mua",
+		"recruitmentAgency": "Công ty tuyển dụng",
+		"supplyChain": "Chuỗi cung ứng",
+		"workerFeedback": "Phản hồi của người lao động",
+		"responsibleProcurement": "Mua sắm có trách nhiệm"
+	},
+	"socialResponsibility": {
+		"hero": {
+			"title": "Tổng quan về trách nhiệm xã hội",
+			"subtitle": "Trách nhiệm xã hội do người lao động dẫn dắt thông qua việc trao quyền cho người lao động và quản lý khiếu nại.",
+			"description": "Thông tin cập nhật theo thời gian thực về điều kiện lao động, tuyển dụng, mức lương đủ sống và nhiều hơn nữa tại nơi làm việc và chuỗi cung ứng."
+		},
+		"kpis": {
+			"cascadeIndex": "Chỉ số CASCADE",
+			"cascadeIndexTooltip": "Chỉ số CASCADE thể hiện 65% khả năng đáp ứng trong chuỗi cung ứng đối với ý kiến phản hồi thực tế của người lao động, và 35% nỗ lực hướng tới cải tiến liên tục - về chính sách, quy trình và xây dựng năng lực. Xem thêm tại CASCADE Marketplace!",
+			"workerVoiceCoverage": "Phạm vi đưa tin về tiếng nói của người lao động"
+		},
+		"filters": {
+			"supplier": "Nhà cung cấp",
+			"country": "Quốc gia",
+			"industry": "Ngành công nghiệp",
+			"from": "Từ",
+			"to": "ĐẾN",
+			"reset": "Đặt lại bộ lọc",
+			"updating": "Đang cập nhật…",
+			"allSuppliers": "Tất cả các nhà cung cấp",
+			"allCountries": "Tất cả các quốc gia",
+			"allIndustries": "Tất cả các ngành công nghiệp",
+			"emptyStates": {
+				"noData": "Không tìm thấy dữ liệu.",
+				"noDataForFilters": "Không tìm thấy dữ liệu cho {{filters}}.",
+				"suppliers": "các nhà cung cấp đã chọn",
+				"country": "quốc gia đã chọn",
+				"countries": "các quốc gia đã chọn",
+				"industry": "ngành đã chọn",
+				"industries": "các ngành đã chọn",
+				"dateRange": "khoảng thời gian đã chọn"
+			}
+		},
+		"multiSelect": {
+			"search": "Tìm kiếm…",
+			"noResults": "Không có kết quả",
+			"apply": "Áp dụng",
+			"selected": "{{count}} đã chọn",
+			"noneSelected": "Không có mục nào được chọn"
+		},
+		"sections": {
+			"overviewSocial": "Tổng quan: Mạng xã hội",
+			"supplyChainDemographics": "Thông tin nhân khẩu học chuỗi cung ứng",
+			"workplaceDemographics": "Thông tin nhân khẩu học nơi làm việc",
+			"suppliersByCountry": "Nhà cung cấp theo quốc gia",
+			"workforceByGender": "Lực lượng lao động theo giới tính",
+			"workersByNationality": "Người lao động theo quốc tịch",
+			"supplierEngagement": "Tương tác với nhà cung cấp",
+			"supplyChainEngagement": "Sự tham gia của chuỗi cung ứng",
+			"workerVoiceOverview": "Tổng quan về Tiếng nói người lao động",
+			"remediationQuality": "Chất lượng khắc phục",
+			"topCommonIssues": "5 vấn đề lao động phổ biến nhất mà người lao động thường gặp phải",
+			"grievanceStrengths": "Điểm mạnh của cơ chế giải quyết khiếu nại",
+			"grievanceImprovements": "Cơ chế giải quyết khiếu nại: Các lĩnh vực cần cải thiện"
+		},
+		"workerIssues": {
+			"cases": "Số ca bệnh",
+			"casesUnit": "các trường hợp",
+			"speed": "Tốc độ",
+			"quality": "Chất lượng",
+			"days": "trung bình ngày",
+			"combinedScore": "Tốc độ/Chất lượng",
+			"scoreFormulaNote": "Điểm số (0–10) = Chất lượng (50%) + Tốc độ (50%). Chất lượng được đánh giá bởi người lao động về khả năng khắc phục sự cố (Kém = 2,5, Trung bình = 5, Tốt = 7,5, Xuất sắc = 10). Tốc độ được biểu diễn bằng đường cong sigmoid của số ngày hoàn thành (30 ngày ≈ 9,5, 90 ngày = 5,0, 150 ngày ≈ 0,5). Điểm mạnh thể hiện 5 điểm số cao nhất; Điểm cần cải thiện thể hiện 5 điểm số thấp nhất.",
+			"noItems": "Không có mục nào đủ điều kiện trong giai đoạn này.",
+			"noStrengths": "Trong giai đoạn này, không có vấn đề nào đáp ứng ngưỡng \"cần khắc phục mạnh mẽ\" — việc khắc phục có thể cần được chú trọng trên diện rộng.",
+			"noImprovements": "Hiện tại không có vấn đề nào gây ảnh hưởng tiêu cực — việc khắc phục sự cố trên toàn chuỗi cung ứng nhìn chung đang diễn ra tốt đẹp.",
+			"commonDescription": "Các vấn đề lao động được báo cáo thường xuyên nhất trong chuỗi cung ứng của bạn trong khoảng thời gian đã chọn, được xếp hạng theo tổng số vụ việc. Rủi ro lao động cưỡng bức được biểu thị bằng các con số màu cam.",
+			"strengthsDescription": "Các vấn đề mà chuỗi cung ứng của bạn thể hiện khả năng phản hồi khiếu nại mạnh mẽ — thời gian khắc phục nhanh chóng và chất lượng giải quyết cao được đánh giá bởi những người lao động bị ảnh hưởng.",
+			"improvementsDescription": "Các vấn đề cần chú ý trong việc giải quyết khiếu nại bao gồm: thời gian khắc phục chậm hơn và chất lượng giải quyết thấp hơn theo đánh giá của người lao động bị ảnh hưởng."
+		},
+		"workerVoiceOverviewChart": {
+			"description": "Hiển thị các trường hợp KPI theo thời gian được nhóm theo mức độ nghiêm trọng, dữ liệu của {{count}} tháng.",
+			"levels": {
+				"level1": "Cấp độ 1 (Tương tác)",
+				"level2": "Cấp độ 2 (Cảnh báo sớm)",
+				"level3_forced": "Cấp độ 3 (Nguy cơ lao động cưỡng bức)",
+				"level4_forced_urgent": "Cấp độ 4 (Nguy cơ lao động cưỡng bức - Khẩn cấp)",
+				"level3_supplier": "Cấp độ 3 (Vi phạm luật lao động)",
+				"level4_supplier": "Cấp độ 4 (Vi phạm không được khoan dung)"
+			}
+		},
+		"tags": {
+			"demographics": "Thông tin nhân khẩu học",
+			"bySeverity": "Theo mức độ nghiêm trọng"
+		},
+		"charts": {
+			"byCountry": "Theo quốc gia",
+			"byGender": "Theo giới tính",
+			"byNationality": "Theo quốc tịch",
+			"countriesRepresented": "{{count}} quốc gia được đại diện",
+			"nationalitiesRepresented": "{{count}} quốc tịch được đại diện",
+			"totalWorkers": "Tổng số nhân viên: {{count}}",
+			"noGenderData": "Không có dữ liệu về giới tính.",
+			"noData": "Không có dữ liệu",
+			"suppliersByCountryDescription": "Số lượng nhà cung cấp hoạt động tại mỗi quốc gia",
+			"workforceByGenderDescription": "Phân bổ giới tính trong toàn bộ người lao động trong chuỗi cung ứng",
+			"workersByNationalityDescription": "Sự đa dạng về quốc tịch của người lao động trong toàn bộ chuỗi cung ứng"
+		},
+		"engagementTable": {
+			"columns": {
+				"supplierName": "Tên nhà cung cấp",
+				"activityType": "Loại hoạt động",
+				"date": "Ngày",
+				"location": "Vị trí"
+			},
+			"description": "Tất cả các hoạt động tương tác với nhà cung cấp trong toàn bộ chuỗi cung ứng của bạn.",
+			"tooltip": "Nhật ký ghi lại tất cả các hoạt động tương tác trực tiếp được thực hiện với các nhà cung cấp trong chuỗi cung ứng của bạn, bao gồm khảo sát, kiểm toán, các buổi đào tạo và các chuyến thăm khắc phục sự cố."
+		},
+		"remediation": {
+			"basedOn": "Dựa trên các trường hợp đã đóng của {{count}}"
+		},
+		"states": {
+			"loading": "Đang tải...",
+			"loadError": "Không thể tải số liệu thống kê nơi làm việc.",
+			"noSupplierTitle": "Không tìm thấy dữ liệu nhà cung cấp nào cho tài khoản của bạn.",
+			"noSupplierForGlobalPartner": "Không tìm thấy nhà cung cấp nào cho chuỗi cung ứng của bạn. Vui lòng liên hệ với quản trị viên của bạn.",
+			"contactAdmin": "Vui lòng liên hệ với quản trị viên của bạn."
+		},
+		"slides": {
+			"overallTitle": "TRÁCH NHIỆM XÃ HỘI - TỔNG QUAN",
+			"overallDescription": "Điểm tổng thể về trách nhiệm xã hội",
+			"laborTitle": "NHÂN CÔNG",
+			"laborDescription": "Điểm số Quyền Lao động",
+			"recruitmentTitle": "TUYỂN DỤNG",
+			"recruitmentDescription": "Điểm số về thực tiễn tuyển dụng",
+			"wagesTitle": "TIỀN LƯƠNG",
+			"wagesDescription": "Điểm lương"
+		},
+		"severity": {
+			"engagement": "Hôn ước",
+			"earlyWarning": "Cảnh báo sớm",
+			"forcedLaborRisk": "Rủi ro lao động cưỡng bức",
+			"forcedLaborRiskUrgent": "Nguy cơ lao động cưỡng bức - Khẩn cấp",
+			"levelLabel": "Cấp độ {{level}} ({{description}})",
+			"laborViolation": "Vi phạm lao động",
+			"zeroToleranceViolation": "Vi phạm không khoan nhượng"
+		},
+		"fallbacks": {
+			"unassigned": "Chưa được chỉ định",
+			"others": "Người khác"
+		},
+		"emptyStates": {
+			"noData": "Không tìm thấy dữ liệu.",
+			"noDataForFilters": "Không tìm thấy dữ liệu cho {{filters}}.",
+			"suppliers": "các nhà cung cấp được lựa chọn",
+			"country": "quốc gia được chọn",
+			"countries": "các quốc gia được chọn",
+			"industry": "ngành công nghiệp được chọn",
+			"industries": "các ngành công nghiệp được lựa chọn",
+			"dateRange": "phạm vi ngày đã chọn"
+		}
+	},
+	"viewWorkerFeedback": {
+		"pageTitle": "Quan hệ nhân viên: Quản lý trường hợp phản hồi của người lao động",
+		"loading": "Đang tải phản hồi của người lao động...",
+		"loadError": "Không thể tải phản hồi của người lao động.",
+		"empty": "Không tìm thấy phản hồi nào từ người lao động.",
+		"addNew": "Thêm phản hồi mới từ người lao động",
+		"rowsPerPage": "Số hàng trên mỗi trang",
+		"pagination": "Trang {{current}} trên {{total}} • Hiển thị bản ghi {{visible}} trên {{count}}",
+		"searchPlaceholder": "Tìm kiếm",
+		"highestLevel": "Cấp độ cao nhất: {{level}}",
+		"moreSuffix": "{{first}} +{{count}} thêm",
+		"columns": {
+			"id": "NHẬN DẠNG",
+			"operatorName": "Tên nhà điều hành",
+			"issueCategories": "Các loại vấn đề",
+			"issueDescription": "Mô tả vấn đề",
+			"receivedVia": "Nhận được qua",
+			"date": "Ngày",
+			"level": "Mức độ",
+			"daysActive": "Số ngày hoạt động",
+			"assignedUsers": "Người dùng được chỉ định",
+			"status": "Trạng thái",
+			"actions": "Hành động"
+		},
+		"actions": {
+			"viewDetails": "Xem chi tiết",
+			"edit": "Biên tập"
+		},
+		"caseStatus": {
+			"open": "mở",
+			"close": "đóng",
+			"someProgress": "có một số tiến triển",
+			"fallback": "Trạng thái {{id}}"
+		},
+		"genders": {
+			"1": "Nam giới",
+			"2": "Nữ giới",
+			"3": "Khác",
+			"4": "Phi nhị giới"
+		},
+		"fallbacks": {
+			"channel": "Kênh {{id}}",
+			"category": "Danh mục {{id}}",
+			"user": "Người dùng {{id}}"
+		}
+	},
+	"workerFeedbackForm": {
+		"pageTitle": {
+			"create": "Phản hồi của người lao động",
+			"edit": "Chỉnh sửa phản hồi của người lao động"
+		},
+		"steps": {
+			"keyData": "Dữ liệu chính",
+			"caseSummary": "Tóm tắt vụ án",
+			"employeeInfo": "Thông tin nhân viên",
+			"employeeFeedback": "Phản hồi của nhân viên",
+			"supportActions": "Hỗ trợ & Hành động"
+		},
+		"requiredFields": {
+			"nationality": "Quốc tịch",
+			"caseCallType": "Loại trường hợp/cuộc gọi",
+			"hrOfficer": "Nhân viên Nhân sự",
+			"feedbackChannel": "Kênh phản hồi",
+			"interactionDate": "Ngày tương tác"
+		},
+		"validation": {
+			"fillIn": "Vui lòng điền vào: {{fields}}",
+			"completeKeyData": "Vui lòng hoàn tất bước Nhập dữ liệu chính trước khi tiếp tục."
+		},
+		"feedback": {
+			"loading": "Đang tải phản hồi của người lao động...",
+			"editLoadError": "Không thể tải bản ghi phản hồi của người lao động để chỉnh sửa.",
+			"submitError": "Gửi phản hồi của người lao động không thành công. Vui lòng thử lại.",
+			"updateError": "Không thể cập nhật phản hồi của người lao động. Vui lòng thử lại."
+		},
+		"buttons": {
+			"next": "Kế tiếp",
+			"back": "Mặt sau",
+			"submit": "Nộp",
+			"submitting": "Đang gửi..."
+		},
+		"attachments": {
+			"label": "Tệp đính kèm bổ sung",
+			"description": "Vui lòng tải lên bất kỳ tài liệu hoặc hình ảnh liên quan nào cung cấp thêm bối cảnh hoặc bằng chứng cho vụ việc này.",
+			"supportedFormats": "Các định dạng được hỗ trợ: .pdf, .png, .jpg",
+			"clickToUpload": "Nhấp chuột để tải lên tệp",
+			"uploadHint": "PDF, PNG, JPG, tối đa theo giới hạn tải lên của API.",
+			"existing": "Các tệp đính kèm hiện có",
+			"new": "Tệp đính kèm mới",
+			"remove": "Di dời"
+		},
+		"requiredStep": {
+			"title": "Dữ liệu chính",
+			"allFieldsRequired": "* Tất cả các trường đều bắt buộc",
+			"labels": {
+				"nationality": "Người lao động này mang quốc tịch gì?",
+				"caseCallType": "Lý do nào khiến người lao động này liên hệ với chúng tôi?",
+				"staff": "Cán bộ nhân sự nào đã nhận được phản hồi của người lao động?",
+				"channel": "Người lao động đã sử dụng kênh phản hồi nào?",
+				"interactionDate": "Người lao động đã gửi phản hồi này cho cán bộ công ty vào ngày nào?"
+			},
+			"placeholders": {
+				"nationality": "Chọn quốc tịch",
+				"caseCallType": "Chọn loại cuộc gọi/trường hợp",
+				"staff": "Chọn thành viên nhân sự",
+				"channel": "Chọn kênh phản hồi",
+				"interactionDate": "Chọn ngày"
+			}
+		},
+		"caseSummaryStep": {
+			"title": "Tóm tắt phản hồi của người lao động",
+			"placeholders": {
+				"summary": "Nhập tóm tắt phản hồi của người lao động"
+			}
+		},
+		"employeeInfoStep": {
+			"title": "Thông tin nhân viên",
+			"labels": {
+				"clientName": "Tên nhân viên",
+				"employeeDepartment": "Phòng Nhân viên Tiếp Nhận Phản Hồi/Khiếu Nại",
+				"employeeId": "Mã số nhân viên",
+				"phoneNumber": "Số điện thoại",
+				"gender": "Giới tính",
+				"lineId": "ID dòng"
+			},
+			"placeholders": {
+				"clientInformation": "Nhập thông tin khách hàng",
+				"clientName": "Nhập tên nhân viên",
+				"employeeDepartment": "Nhập bộ phận",
+				"employeeId": "Nhập mã số nhân viên",
+				"phoneNumber": "Nhập số điện thoại",
+				"gender": "Chọn giới tính",
+				"lineId": "Nhập ID dòng",
+				"whatsapp": "Nhập WhatsApp",
+				"zalo": "Nhập Zalo"
+			}
+		},
+		"employeeFeedbackStep": {
+			"title": "Phản hồi của nhân viên",
+			"labels": {
+				"feedbackDescription": "Mô tả phản hồi chi tiết",
+				"workersAffected": "Số lượng công nhân bị ảnh hưởng",
+				"workersAffectedDescription": "Mô tả về những người lao động bị ảnh hưởng",
+				"situationImproving": "Tình hình vấn đề có đang được cải thiện không?",
+				"situationImprovingDescription": "Mô tả cải thiện tình hình"
+			},
+			"placeholders": {
+				"feedbackDescription": "Nhập mô tả phản hồi chi tiết",
+				"workersAffected": "Nhập số lượng công nhân bị ảnh hưởng",
+				"workersAffectedDescription": "Hãy mô tả chi tiết hơn về những người lao động bị ảnh hưởng.",
+				"situationImprovingDescription": "Hãy cung cấp thông tin chi tiết về những thay đổi trong tình hình."
+			},
+			"options": {
+				"yes": "Đúng",
+				"no": "KHÔNG",
+				"unknown": "Không rõ"
+			}
+		},
+		"supportStep": {
+			"title": "Hỗ trợ nhân viên",
+			"labels": {
+				"caseStatusAssessment": "Dựa trên đánh giá của bạn về phản hồi và nhu cầu của nhân viên này, liệu công ty có cần thực hiện thêm hành động nào nữa không?",
+				"riskAssessment": "Theo phản hồi này, nhân viên cho biết nhu cầu cấp thiết nhất của họ là gì?",
+				"otherServicesSupport": "Bạn nghĩ còn dịch vụ hoặc hỗ trợ nào khác có thể hữu ích cho người lao động này không?",
+				"nextSteps": "Vui lòng điền chi tiết các bước tiếp theo để theo dõi và xử lý trường hợp của Issara.",
+				"nextStepsStaff": "Bước tiếp theo của nhân viên công ty là gì?",
+				"deadlineDate": "Vui lòng chọn Ngày hết hạn.",
+				"finalRemarks": "Vui lòng điền vào phần Lời kết.",
+				"safeguardRemarks": "Vui lòng điền vào phần ghi chú về các biện pháp bảo vệ."
+			},
+			"placeholders": {
+				"riskAssessment": "Những nhu cầu cấp thiết nhất của nhân viên là gì?",
+				"otherServicesSupport": "các dịch vụ hoặc hỗ trợ khác cũng có thể hữu ích cho người lao động",
+				"caseStatus": "Lựa chọn...",
+				"nextSteps": "Nhập các bước tiếp theo để theo dõi và xử lý trường hợp của Issara.",
+				"nextStepsStaff": "Chọn thành viên nhân viên",
+				"deadlineDate": "Chọn ngày hạn chót",
+				"finalRemarks": "Nhập lời kết",
+				"safeguardRemarks": "Nhập ghi chú bảo vệ"
+			}
+		},
+		"success": {
+			"title": "Thành công!",
+			"actionLabel": "Tiếp tục",
+			"submittedMessage": "Phản hồi của người lao động đã được gửi thành công!",
+			"updatedMessage": "Phản hồi của người lao động đã được cập nhật thành công!"
+		}
+	},
+	"workerFeedbackGrievance": {
+		"common": {
+			"yes": "Đúng",
+			"no": "KHÔNG",
+			"next": "Kế tiếp",
+			"saveAsDraft": "Lưu dưới dạng bản nháp",
+			"notePrefix": "Ghi chú: "
+		},
+		"tabs": {
+			"introduction": "1. Giới thiệu",
+			"informationCollection": "2. Thu thập thông tin",
+			"safeguardingWorkers": "3. Bảo vệ người lao động",
+			"ethicalInvestigation": "4. Điều tra đạo đức",
+			"workerCommunication": "5. Giao tiếp giữa người lao động",
+			"monitoringAndCommunication": "6. Giám sát & Truyền thông",
+			"training": "7. Đào tạo"
+		},
+		"intro": {
+			"title": "Công cụ quản lý khiếu nại đạo đức tương tác",
+			"description": "Công cụ này được thiết kế để hướng dẫn bạn qua quy trình quản lý khiếu nại về mặt đạo đức, đảm bảo rằng tất cả các khía cạnh về bảo vệ người lao động và điều tra công bằng đều được giải quyết.",
+			"overviewTitle": "Tổng quan về phản hồi/vấn đề",
+			"caseId": "Mã số vụ việc",
+			"issueCategories": "Các loại vấn đề",
+			"affectedWorkers": "Người lao động bị ảnh hưởng",
+			"issueDescription": "Mô tả vấn đề",
+			"dateReceived": "Ngày nhận",
+			"currentStatus": "Tình trạng hiện tại"
+		},
+		"informationCollection": {
+			"description": "Hãy xem xét kỹ các thông tin hiện có về vụ việc này trước khi tiến hành điều tra sâu hơn và lập kế hoạch khắc phục.",
+			"checkWithHr": "Bạn đã liên hệ với bộ phận nhân sự để xem liệu các vấn đề tương tự do người lao động báo cáo đã được ghi nhận và/hoặc giải quyết gần đây chưa?",
+			"repeatIssue": "Liệu vấn đề mà người lao động báo cáo này có phải là vấn đề lặp đi lặp lại, có nghĩa là có thể có nguyên nhân gốc rễ cần được xác định và giải quyết?",
+			"additionalNotes": "Ghi chú bổ sung",
+			"notesPlaceholder": "Ghi chú thêm bất kỳ thông tin nào khác về việc thu thập thông tin...",
+			"additionalAttachments": "Tệp đính kèm bổ sung",
+			"attachmentsDescription": "Hãy tải lên bất kỳ tài liệu hoặc hình ảnh hỗ trợ nào mà bạn đã thu thập được trong quá trình tìm kiếm thông tin cho vụ việc này.",
+			"browseFiles": "Duyệt các tệp",
+			"fileTypes": "PDF, PNG, JPG — mỗi định dạng tối đa 10 MB.",
+			"removeAttachment": "Xóa tệp đính kèm",
+			"undoRemove": "Hoàn tác xóa",
+			"undo": "Hoàn tác",
+			"willUploadOnSave": "Sẽ tải lên khi lưu",
+			"removeFile": "Xóa tệp"
+		},
+		"safeguarding": {
+			"title": "Bảo vệ người lao động bị ảnh hưởng",
+			"remediationAtRiskAlert": "Vụ việc khắc phục hậu quả đang gặp rủi ro. Nhóm Issara sẽ liên hệ với người phụ trách của công ty bạn để thảo luận về cách bảo vệ tất cả người lao động bị ảnh hưởng khỏi sự trả thù, và xây dựng các hệ thống tốt hơn để không dung thứ cho hành vi trả thù.",
+			"zeroTolerance": "Liệu tất cả những người liên quan trong vụ việc này có đang tuân thủ chính sách không khoan nhượng đối với hành động trả thù hay không?",
+			"reviewedIndividuals": "Bạn đã xem xét tất cả các cá nhân có thể liên quan đến vấn đề do người lao động báo cáo và tiến hành đánh giá rủi ro để đảm bảo an toàn cho người lao động trong suốt quá trình điều tra và khắc phục khiếu nại chưa?",
+			"involvedInGrievance": "Bạn đã xem xét tất cả các cá nhân có thể tham gia vào quá trình điều tra và giải quyết khiếu nại, bao gồm cả người phiên dịch, và đảm bảo rằng không có xung đột lợi ích nào chưa?",
+			"notes": "Ghi chú về bảo vệ trẻ em",
+			"notesPlaceholder": "Ghi chú thêm về các biện pháp bảo vệ..."
+		},
+		"ethicalInvestigation": {
+			"title": "Đảm bảo một cuộc điều tra có đạo đức",
+			"reviewedPlan": "Bạn đã xem xét lại kế hoạch điều tra để đảm bảo nó tuân thủ các nguyên tắc đạo đức chưa?",
+			"professional": "Bạn đã chắc chắn rằng cuộc điều tra được tiến hành một cách chuyên nghiệp chưa?",
+			"impartial": "Bạn đã đảm bảo rằng cuộc điều tra được tiến hành một cách khách quan chưa?",
+			"inclusive": "Quá trình điều tra có bao quát và dễ tiếp cận đối với tất cả người lao động bị ảnh hưởng không?",
+			"timely": "Liệu cuộc điều tra có đang được tiến hành một cách kịp thời và hiệu quả hay không?",
+			"notes": "Ghi chú điều tra",
+			"notesPlaceholder": "Nhập ghi chú về quy trình điều tra đạo đức..."
+		},
+		"workerCommunication": {
+			"title": "Giao tiếp với người lao động khi báo cáo các vấn đề",
+			"wellbeing": "Trong quá trình điều tra, bạn đã liên lạc với những người lao động bị ảnh hưởng để hỏi thăm tình hình sức khỏe của họ chưa?",
+			"complexConsequences": "Bạn có cần hỗ trợ thêm về những hậu quả phức tạp phát sinh từ vấn đề do người lao động báo cáo, chẳng hạn như hỗ trợ tâm lý xã hội cho người lao động, nhu cầu hồi hương nhanh chóng người lao động, v.v.?",
+			"complexConsequencesCheckbox": "Vâng, tôi cần hỗ trợ về những hậu quả phức tạp.",
+			"notes": "Ghi chú liên lạc",
+			"notesPlaceholder": "Ghi chú về việc liên lạc với người lao động bị ảnh hưởng..."
+		},
+		"monitoring": {
+			"title": "Theo dõi và truyền đạt kết quả",
+			"remediationActions": "Các biện pháp khắc phục",
+			"remediationPlaceholder": "Mô tả các biện pháp khắc phục đã được thực hiện...",
+			"systemStrengtheningMeasures": "Các biện pháp tăng cường hệ thống",
+			"systemStrengtheningPlaceholder": "Mô tả các biện pháp tăng cường hệ thống đã được thực hiện...",
+			"remediationHeader": "Biện pháp khắc phục:",
+			"systemStrengtheningHeader": "Tăng cường hệ thống và cải tiến liên tục:"
+		},
+		"trainings": {
+			"title": "Yêu cầu đào tạo",
+			"description": "Hãy chọn bất kỳ khóa đào tạo nào của Issara có thể liên quan đến việc ngăn ngừa các vấn đề tương tự:",
+			"currentActionItems": "Các mục hành động hiện tại",
+			"assignedStaff": "Nhân viên được chỉ định",
+			"nextSteps": "Các bước tiếp theo",
+			"deadline": "Thời hạn",
+			"notSpecified": "Không được chỉ định",
+			"noNextSteps": "Không có bước tiếp theo nào được xác định.",
+			"noDeadline": "Chưa có thời hạn cụ thể."
+		},
+		"summary": {
+			"remediationTitle": "Ghi chú của nhà cung cấp về việc khắc phục sự cố",
+			"systemStrengtheningTitle": "Ghi chú của nhà cung cấp về việc tăng cường hệ thống và cải tiến liên tục liên quan đến vấn đề do người lao động báo cáo này:"
+		},
+		"messages": {
+			"submitted": "Khiếu nại nhà cung cấp cho trường hợp {{caseId}} đã được gửi thành công!",
+			"saved": "Khiếu nại của nhà cung cấp đối với trường hợp {{caseId}} đã được lưu thành công!"
+		}
+	},
+	"memberDirectoryPage": {
+		"title": "DANH MỤC THÀNH VIÊN",
+		"search": {
+			"recruitmentAgencies": "Tìm kiếm các công ty tuyển dụng...",
+			"suppliers": "Tìm kiếm nhà cung cấp...",
+			"globalBuyers": "Tìm kiếm người mua toàn cầu..."
+		},
+		"tabs": {
+			"globalBuyers": "Người mua toàn cầu"
+		},
+		"memberTypes": {
+			"globalBuyer": "Người mua toàn cầu"
+		},
+		"filters": {
+			"title": "Bộ lọc",
+			"sortBy": "Sắp xếp theo",
+			"country": "Quốc gia",
+			"industry": "Ngành công nghiệp",
+			"basedCountry": "Quốc gia đặt trụ sở",
+			"sendingCountry": "Quốc gia gửi",
+			"placeholders": {
+				"basedCountry": "Chọn quốc gia dựa trên",
+				"sendingCountry": "Chọn quốc gia gửi",
+				"industry": "Chọn ngành"
+			},
+			"actions": {
+				"reset": "Cài lại",
+				"selectAll": "Chọn tất cả",
+				"deselectAll": "Bỏ chọn tất cả",
+				"apply": "Áp dụng",
+				"search": "Bộ lọc tìm kiếm"
+			}
+		},
+		"sortOptions": {
+			"-popularity": "Phổ biến nhất",
+			"popularity": "Ít được ưa chuộng nhất",
+			"-rating_score": "Được đánh giá cao nhất",
+			"rating_score": "Xếp hạng thấp nhất",
+			"name": "Tên A-Z",
+			"-name": "Tên Z-A"
+		},
+		"states": {
+			"loadingTitle": "Đang tải danh sách thành viên...",
+			"loadingSubtitle": "Thu thập dữ liệu từ các công ty tuyển dụng và nhà cung cấp.",
+			"loadingMore": "Đang tải thêm...",
+			"endReached": "Bạn đã đến cuối trang.",
+			"emptyTitle": "Không tìm thấy công ty nào.",
+			"emptyBody": "Hãy thử điều chỉnh bộ lọc để xem thêm kết quả."
+		},
+		"card": {
+			"typeFallback": "Nhà cung cấp",
+			"description": "{{name}} là một {{type}} hàng đầu.",
+			"viewDetails": "Xem chi tiết"
+		}
+	},
+	"memberDirectoryDetail": {
+		"types": {
+			"member": "Thành viên",
+			"recruitmentAgency": "Công ty tuyển dụng",
+			"supplier": "Nhà cung cấp",
+			"globalBuyer": "Người mua toàn cầu"
+		},
+		"unavailable": {
+			"title": "Thành viên không có mặt",
+			"body": "Loại thành viên này không phù hợp với vai trò của bạn."
+		},
+		"common": {
+			"notAvailable": "Không áp dụng",
+			"notProvided": "-"
+		},
+		"loading": {
+			"title": "Đang tải thông tin chi tiết thành viên...",
+			"subtitle": "Đang tải thông tin liên hệ, truyền thông và các thông tin khác của {{type}}"
+		},
+		"actions": {
+			"reload": "Tải lại"
+		},
+		"header": {
+			"registeredIn": "Đã đăng ký tại",
+			"reviews": "({{count}} đánh giá)",
+			"status": "Trạng thái"
+		},
+		"globalBuyer": {
+			"profileTitle": "Hồ sơ người mua toàn cầu",
+			"website": "Trang web",
+			"headquarters": "Trụ sở chính",
+			"productsSourced": "Sản phẩm được cung cấp",
+			"directoryMemberSince": "Thành viên thư mục từ",
+			"profileUpdated": "Hồ sơ đã được cập nhật",
+			"businessContact": "Liên hệ kinh doanh",
+			"name": "Tên",
+			"email": "E-mail",
+			"phone": "Điện thoại",
+			"sourcingProfile": "Hồ sơ nguồn cung",
+			"companyPolicies": "Chính sách của công ty",
+			"viewPolicy": "Xem chính sách"
+		},
+		"statuses": {
+			"Operational": "Vận hành",
+			"Processing": "Xử lý",
+			"Permanently Blacklisted": "Bị đưa vào danh sách đen vĩnh viễn",
+			"Temporarily Suspended": "Tạm thời đình chỉ",
+			"License is not extended": "Giấy phép không được gia hạn"
+		},
+		"description": {
+			"title": "Sự miêu tả",
+			"empty": "Không có mô tả nào."
+		},
+		"contact": {
+			"title": "Thông tin liên hệ",
+			"contactDetail": "Thông tin liên hệ",
+			"phone": "Điện thoại",
+			"facebook": "Facebook",
+			"zalo": "Zalo"
+		},
+		"generalInformation": {
+			"title": "Thông tin chung",
+			"sendingCountries": "Các quốc gia gửi",
+			"dateOfRegistration": "Ngày đăng ký",
+			"licenseValidDate": "Ngày hết hạn giấy phép",
+			"licenseNumber": "Số giấy phép",
+			"tillTermination": "Cho đến khi kết thúc"
+		},
+		"overallRating": {
+			"title": "Đánh giá tổng thể",
+			"reviews": "{{count}} Đánh giá",
+			"unknownCriteria": "Tiêu chí không xác định"
+		},
+		"verification": {
+			"title": "Giấy phép đã được xác minh",
+			"description": "Issara đã xác nhận giấy phép kinh doanh.",
+			"link": "Xem thông tin giấy phép"
+		}
+	},
+	"workforcePolls": {
+		"pageTitle": "Khảo sát lực lượng lao động",
+		"createPoll": "Tạo cuộc thăm dò ý kiến",
+		"companyLabel": "Công ty",
+		"companyValue": "Viện Issara",
+		"filters": "Bộ lọc",
+		"allGenders": "Tất cả các giới tính",
+		"allNationalities": "Tất cả các quốc tịch",
+		"clearFilters": "Xóa bộ lọc",
+		"pollsByNationality": "Khảo sát theo quốc tịch",
+		"pollsCardTitle": "Các cuộc thăm dò",
+		"nationality": "Quốc tịch",
+		"gender": "Giới tính",
+		"recordLabel": "Ghi",
+		"yearly": "Hàng năm",
+		"monthly": "Hàng tháng",
+		"pollResults": "Kết quả thăm dò ý kiến",
+		"selectDate": "Chọn ngày",
+		"searchPlaceholder": "Tìm kiếm theo câu hỏi...",
+		"downloadCsv": "Tải xuống CSV",
+		"empty": {
+			"title": "Không tìm thấy kết quả thăm dò nào.",
+			"body": "Không có cuộc thăm dò nào phù hợp với các bộ lọc và phạm vi ngày đã chọn. Hãy thử điều chỉnh bộ lọc hoặc tạo một cuộc thăm dò mới để bắt đầu."
+		},
+		"summary": {
+			"averagePollsByYear": "Kết quả thăm dò trung bình theo năm",
+			"totalPolls": "Tổng số cuộc thăm dò",
+			"totalPollsResponse": "Tổng số phản hồi thăm dò ý kiến"
+		},
+		"columns": {
+			"pollId": "Mã số thăm dò",
+			"question": "Câu hỏi",
+			"pollResults": "Kết quả thăm dò ý kiến",
+			"language": "Ngôn ngữ",
+			"totalVotes": "Tổng số phiếu bầu",
+			"gender": "Giới tính",
+			"createdAt": "Được tạo vào lúc",
+			"action": "Hoạt động",
+			"notApplicable": "Không áp dụng"
+		},
+		"actions": {
+			"published": "Đã xuất bản",
+			"unpublish": "Gỡ bỏ",
+			"publish": "Xuất bản",
+			"edit": "Biên tập",
+			"delete": "Xóa bỏ",
+			"viewDetail": "Xem chi tiết"
+		},
+		"genders": {
+			"M": "Nam giới",
+			"F": "Nữ giới",
+			"N": "Tôi không muốn nói",
+			"X": "Phi nhị giới"
+		},
+		"alerts": {
+			"publishTitle": "Kết quả cuộc thăm dò này sẽ được công bố trong nhóm nhân viên của công ty bạn.",
+			"publishMessage": "Bạn có muốn tiếp tục đăng tải cuộc thăm dò ý kiến này không?",
+			"unpublishTitle": "Bạn muốn gỡ bỏ cuộc thăm dò này?",
+			"unpublishMessage": "Nhân viên sẽ không còn thấy cuộc thăm dò này nữa. Bạn có thể đăng lại sau.",
+			"deleteTitle": "Xóa cuộc thăm dò này ư? Bạn chắc chắn chứ?",
+			"deleteMessage": "Hành động này không thể đảo ngược. Cuộc thăm dò ý kiến và tất cả dữ liệu của nó sẽ bị xóa vĩnh viễn."
+		},
+		"csv": {
+			"id": "NHẬN DẠNG",
+			"question": "Câu hỏi",
+			"language": "Ngôn ngữ",
+			"createdAt": "Được tạo vào lúc",
+			"totalVotes": "Tổng số phiếu bầu",
+			"choices": "Lựa chọn",
+			"country": "Quốc gia",
+			"nationality": "Quốc tịch",
+			"votesSuffix_one": "{{count}} bỏ phiếu",
+			"votesSuffix_other": "{{count}} phiếu bầu"
+		}
+	},
+	"workerReportedIssues": {
+		"pageTitle": "Các vấn đề do người lao động báo cáo",
+		"subtitle": "Theo dõi các vấn đề do người lao động báo cáo theo khoảng thời gian và danh mục.",
+		"filters": {
+			"startDate": "Ngày bắt đầu",
+			"endDate": "Ngày kết thúc",
+			"issueCategory": "Danh mục vấn đề"
+		},
+		"categories": {
+			"All": "Tất cả",
+			"Labor": "Nhân công",
+			"Recruitment": "Tuyển dụng",
+			"Wages": "Tiền lương"
+		},
+		"summary": {
+			"criticalLabel": "Nguy kịch (trên 60 ngày)",
+			"criticalSubtitle": "Các vụ việc chưa giải quyết, đã quá 60 ngày.",
+			"resolutionRateLabel": "Tỷ lệ độ phân giải",
+			"resolutionRateSubtitle": "% số vụ việc đã được giải quyết",
+			"openIssuesLabel": "Các vấn đề đang mở {{prefix}}",
+			"openIssuesSubtitle": "Các trường hợp đang hoạt động do người lao động báo cáo",
+			"closedIssuesLabel": "Đã đóng các vấn đề {{prefix}}",
+			"closedIssuesSubtitle": "Các vụ việc do người lao động báo cáo đã được giải quyết",
+			"workerReportedPrefix": "Do người lao động báo cáo"
+		},
+		"columns": {
+			"id": "NHẬN DẠNG",
+			"supplier": "Nhà cung cấp",
+			"category": "Loại",
+			"description": "Sự miêu tả",
+			"level": "Cấp độ (1-4)",
+			"daysActive": "Số ngày hoạt động",
+			"affected": "Ảnh hưởng",
+			"recommendationForSp": "Đề xuất cho SP",
+			"status": "Trạng thái",
+			"opened": "Đã mở",
+			"closed": "Đóng cửa",
+			"remediationOutcome": "Kết quả khắc phục"
+		},
+		"tables": {
+			"openTitle_one": "Vấn đề Vi phạm do Người lao động Báo cáo ({{count}} issue)",
+			"openTitle_other": "Các vi phạm do người lao động báo cáo ({{count}} issues)",
+			"closedTitle_one": "Đã đóng các vi phạm do người lao động báo cáo ({{count}} issue)",
+			"closedTitle_other": "Các vi phạm do người lao động báo cáo đã được đóng ({{count}} issues)"
+		},
+		"values": {
+			"yes": "Đúng",
+			"notAvailable": "Không áp dụng",
+			"supplierFallback": "Nhà cung cấp",
+			"supplierWithId": "Nhà cung cấp #{{id}}",
+			"workerFeedbackSubmission": "Biểu mẫu phản hồi của người lao động",
+			"closedViaWorkerFeedback": "Đã đóng thông qua biểu mẫu phản hồi của người lao động.",
+			"statusOpen": "Mở",
+			"statusClosed": "Đóng cửa"
+		},
+		"sources": {
+			"kpi": "KPI Trách nhiệm xã hội",
+			"workerFeedback": "Biểu mẫu phản hồi của người lao động"
+		},
+		"details": {
+			"kpiTitle": "Chi tiết KPI",
+			"workerFeedbackTitle": "Chi tiết biểu mẫu phản hồi của người lao động",
+			"source": "Nguồn",
+			"category": "Loại",
+			"opened": "Đã mở",
+			"closed": "Đóng cửa",
+			"status": "Trạng thái",
+			"affectedWorkers": "Người lao động bị ảnh hưởng",
+			"level": "Mức độ",
+			"description": "Sự miêu tả",
+			"notes": "Ghi chú",
+			"hrOfficer": "Nhân viên Nhân sự",
+			"caseStatus": "Tình trạng hồ sơ",
+			"issueSummary": "Tóm tắt vấn đề do người lao động báo cáo"
+		},
+		"grievanceIntro": {
+			"tabLabel": "1. Giới thiệu",
+			"descriptionBeforeLink": "Công cụ quản lý khiếu nại tương tác của ILM cho phép bạn nhận và xem xét phản hồi liên tục của người lao động và các vấn đề do người lao động báo cáo tại địa điểm của bạn, đồng thời phản hồi một cách kịp thời và có đạo đức. Các cơ chế giải quyết khiếu nại có đạo đức hoạt động hiệu quả luôn phải có hai điều: (1) Người lao động được bảo vệ, và (2) Người sử dụng lao động và người tuyển dụng đáp ứng, tôn trọng. Để xem xét thêm về 8 thành phần của Cơ chế Giải quyết Khiếu nại Có Đạo đức, vui lòng tải xuống tài liệu hướng dẫn một trang tại đây.",
+			"pdfLabel": "PDF",
+			"descriptionAfterLink": ".",
+			"reminder": "Nhắc nhở! 8 thành phần của Cơ chế Giải quyết Khiếu nại Đạo đức:",
+			"components": {
+				"ethical": "Đạo đức",
+				"professional": "Chuyên nghiệp",
+				"inclusive": "Bao gồm",
+				"accessible": "Có thể truy cập",
+				"safe": "An toàn",
+				"impartial": "Công bằng",
+				"timelyAction": "Hành động kịp thời",
+				"effective": "Hiệu quả"
+			}
+		}
+	},
+	"companyDashboard": {
+		"testerInfo": {
+			"summary": "Ý tưởng ở đây là khuyến khích các công ty xem thông tin của họ một cách nhanh chóng,",
+			"bodyBeforeFeedback": "Ý tưởng ở đây là khuyến khích các công ty xem thông tin của họ một cách nhanh chóng, có thể xác định các vấn đề ưu tiên cần giải quyết, sau đó có một nơi để truy cập - một Công cụ lập kế hoạch công việc - để có thể lên kế hoạch hoặc yêu cầu các hoạt động được cung cấp bởi các đối tác NGO khác nhau nhằm giúp giải quyết những lĩnh vực đó. Bạn có suy nghĩ, ý tưởng, đề xuất cải tiến nào? Hãy để lại bình luận của bạn ở phần bình luận bên dưới.",
+			"feedbackTab": "\"Bạn có phản hồi gì không?\" (tab)!",
+			"bodyAfterFeedback": "Bạn muốn bao nhiêu cuộc gọi tùy thích. Chúng ta cũng có thể tổ chức một số cuộc gọi để cùng nhau lên ý tưởng nếu thấy thuận tiện."
+		},
+		"hero": {
+			"title": "Bảng điều khiển công ty",
+			"subtitle": "Các chỉ số quan trọng theo thời gian thực của chuỗi cung ứng của bạn",
+			"description": "Tất cả dữ liệu bên dưới mặc định hiển thị dữ liệu trong 12 tháng qua - hoặc bạn có thể chọn phạm vi ngày mong muốn bằng cách sử dụng bộ lọc bên dưới.",
+			"reportPeriod": "Thời gian báo cáo",
+			"generated": "Được tạo ra",
+			"reset": "Cài lại",
+			"exportPdf": "Xuất dưới dạng PDF",
+			"previousMonth": "Tháng trước",
+			"nextMonth": "Tháng tới"
+		},
+		"kpis": {
+			"workerVoiceCoverage": {
+				"titleLine1": "Tiếng nói của người lao động",
+				"titleLine2": "Phạm vi phủ sóng",
+				"description": "Người lao động có quyền lên tiếng"
+			},
+			"resolvedWithoutEscalation": {
+				"titleLine1": "Tổng số vụ kiện lao động đã được giải quyết",
+				"titleLine2": "không leo thang",
+				"description": "Các vấn đề đã được xác định và khắc phục mà không cần phải leo thang lên cấp cao hơn."
+			},
+			"engagementActivities": {
+				"titleLine1": "Chuỗi cung ứng",
+				"titleLine2": "Các hoạt động tương tác",
+				"description": "Đào tạo, khảo sát, sự kiện tại chỗ và các hoạt động khác."
+			},
+			"activeEscalations": {
+				"titleLine1": "Hiện đang hoạt động",
+				"titleLine2": "Tăng giá cho người mua",
+				"description": "Các trường hợp được tiếp nhận để chuyển tiếp"
+			}
+		},
+		"liveStatus": {
+			"eyebrow": "Triển khai và duy trì sự tham gia của người lao động",
+			"title": "PHỦ SÓNG TIẾNG NÓI CỦA NGƯỜI LAO ĐỘNG: THEO DÕI TÌNH TRẠNG TRỰC TIẾP",
+			"tier1": "Cấp 1 - Nhà máy xuất khẩu",
+			"tier23": "Cấp 2 & 3 - Các trang trại, nhà máy và tàu đánh cá ở thượng nguồn",
+			"labels": {
+				"noWorkerVoice": "Không có tiếng nói của người lao động",
+				"withoutEngagement": "Không có sự tham gia của nhà cung cấp",
+				"withEngagement": "Thông qua sự tham gia của nhà cung cấp"
+			},
+			"descriptions": {
+				"noWorkerVoice": "Các nhà cung cấp không có kênh liên lạc bằng giọng nói chủ động với người lao động.",
+				"withoutEngagement": "Các nhà cung cấp có sự hiện diện của tiếng nói người lao động, nhưng không có sự tham gia tích cực từ phía nhà cung cấp.",
+				"withEngagement": "Các nhà cung cấp có kênh phản hồi từ người lao động và sự tham gia tích cực của nhà cung cấp."
+			},
+			"noSuppliersAvailable": "Hiện không có nhà cung cấp nào.",
+			"noSupplierListAvailable": "Không có danh sách nhà cung cấp.",
+			"suppliers_one": "{{count}} nhà cung cấp",
+			"suppliers_other": "{{count}} nhà cung cấp"
+		},
+		"issueTreemap": {
+			"title": "Tóm tắt các vấn đề đã được xác định và khắc phục",
+			"chartTitle": "Các vấn đề theo danh mục (Đã đóng)",
+			"issueLabel": "Vấn đề",
+			"totalCases": "Tổng số ca",
+			"closedIssues": "Các vấn đề đã được giải quyết",
+			"cases": "các trường hợp",
+			"categoryNames": {
+				"labor": "Nhân công",
+				"wages": "Tiền lương",
+				"recruitment": "Tuyển dụng",
+				"laborWorkingConditions": "Lao động - Điều kiện làm việc",
+				"laborEmployerEmployeeRelations": "Quan hệ lao động - Quan hệ chủ-người lao động",
+				"laborLivingAndEatingConditions": "Điều kiện lao động - Sinh hoạt và ăn uống",
+				"laborWorkingConditionsShort": "Điều kiện làm việc",
+				"laborEmployerEmployeeRelationsShort": "quan hệ chủ-người lao động",
+				"laborLivingAndEatingConditionsShort": "Điều kiện sinh hoạt và ăn uống"
+			}
+		},
+		"timeline": {
+			"title": "Diễn biến các vấn đề do người lao động báo cáo",
+			"toggle": "MỞ/ĐÓNG",
+			"viewing": "Xem",
+			"status": {
+				"open": "Mở",
+				"closed": "Đóng cửa"
+			},
+			"noCategories": "Không tìm thấy danh mục KPI nào. Vui lòng kiểm tra cấu hình của bạn.",
+			"noData": "Không có dữ liệu KPI nào khả dụng cho danh mục và trạng thái đã chọn.",
+			"unknownSupplier": "Không rõ",
+			"unknownIssue": "Vấn đề không xác định"
+		},
+		"performance": {
+			"title": "Thông tin chi tiết và số liệu về hiệu suất",
+			"sections": {
+				"riskManagement": "Quản lý rủi ro",
+				"workerEngagement": "Sự gắn kết của người lao động",
+				"capacityBuilding": "Xây dựng năng lực"
+			},
+			"metrics": {
+				"forcedLaborRisksResolved": {
+					"label": "Nguy cơ lao động cưỡng bức đã được giải quyết.",
+					"description": "Các nguy cơ lao động cưỡng bức đã được phát hiện và giải quyết."
+				},
+				"preventedEscalations": {
+					"labelLine1": "Nhận diện cảnh báo sớm /",
+					"labelLine2": "Ngăn chặn leo thang",
+					"description": "Phản hồi từ người lao động đã chỉ ra những vấn đề có thể leo thang thành các rủi ro và trách nhiệm pháp lý nghiêm trọng hơn."
+				},
+				"workerEngagementCalls": {
+					"label": "Các cuộc gọi và tin nhắn nhằm tăng cường sự gắn kết của người lao động",
+					"description": "Các cuộc gọi và tin nhắn với người lao động trong chuỗi cung ứng của công ty nhằm xây dựng lòng tin, trao quyền cho người lao động và giải đáp thắc mắc."
+				},
+				"supplierCapacityBuilding": {
+					"label": "Nâng cao năng lực nhà cung cấp",
+					"description": "Các nhà cung cấp tham gia các khóa đào tạo và hội thảo của cộng đồng CASCADE."
+				},
+				"recruitmentAgencyCapacityBuilding": {
+					"label": "Nâng cao năng lực của các công ty tuyển dụng",
+					"description": "Các công ty tuyển dụng tham gia các khóa đào tạo và hội thảo của cộng đồng CASCADE."
+				}
+			},
+			"trainedSuppliers": "Nhà cung cấp được đào tạo",
+			"noSuppliers": "Không có nhà cung cấp",
+			"lastFieldworkDate": "Cuối cùng",
+			"comingSoon": "Sắp ra mắt"
+		},
+		"topRisks": {
+			"title": "10 vấn đề lao động hàng đầu do người lao động báo cáo trong chuỗi cung ứng của bạn",
+			"quality": "Chất lượng",
+			"unknown": "Không rõ",
+			"level": "Cấp độ {{level}}",
+			"badges": {
+				"excellent": "Xuất sắc",
+				"good": "Tốt",
+				"fair": "Hội chợ",
+				"poor": "Nghèo"
+			},
+			"description": {
+				"beforeBlack": "Các vấn đề lao động được báo cáo thường xuyên nhất trong cơ sở nhà cung cấp của công ty bạn trong khoảng thời gian đã chọn, cùng với các rủi ro cảnh báo sớm được chỉ ra bởi...",
+				"blackNumbers": "số đen",
+				"beforeOrange": "và các rủi ro lao động cưỡng bức được chỉ ra bởi",
+				"orangeNumbers": "số màu cam",
+				"scorePrefix": "Điểm số trên thang điểm",
+				"scoreSuffix": "Đây là chất lượng trung bình của việc khắc phục các vấn đề này, được đánh giá và xác nhận bởi những người lao động bị ảnh hưởng."
+			}
+		}
+	},
+	"socialResponsibilityWorkplan": {
+		"hero": {
+			"title": "Kế hoạch công tác trách nhiệm xã hội",
+			"description": "Lập kế hoạch, theo dõi và quản lý các sáng kiến bền vững của công ty bạn một cách rõ ràng và hiệu quả."
+		},
+		"header": {
+			"title": "TIẾN ĐỘ THỰC HIỆN CÁC HOẠT ĐỘNG TRONG KẾ HOẠCH CÔNG VIỆC ƯU TIÊN"
+		},
+		"tabs": {
+			"workerVoice": "Tiếng nói của người lao động",
+			"laborRecruitment": "Tuyển dụng lao động",
+			"workingConditions": "Điều kiện làm việc",
+			"trainings": "Đào tạo",
+			"notesRemarks": "Ghi chú & Nhận xét"
+		},
+		"status": {
+			"notYetInitiated": "Chưa được khởi động",
+			"partialProgress": "Tiến độ từng phần",
+			"completedOngoing": "Đã hoàn thành/đang thực hiện"
+		},
+		"sections": {
+			"workerVoice": "CÁC HOẠT ĐỘNG CHO KHU VỰC 1 - TIẾNG NÓI CỦA NGƯỜI LAO ĐỘNG",
+			"laborRecruitment": "CÁC HOẠT ĐỘNG CHO KHU VỰC 2 - TUYỂN DỤNG LAO ĐỘNG",
+			"workingConditions": "CÁC HOẠT ĐỘNG CHO KHU VỰC 3 - ĐIỀU KIỆN LÀM VIỆC"
+		},
+		"loading": {
+			"activities": "Đang tải các hoạt động trong kế hoạch công việc...",
+			"trainings": "Đang tải các khóa đào tạo..."
+		},
+		"trainings": {
+			"title": "DANH SÁCH CÁC KHÓA ĐÀO TẠO ĐÃ THAM GIA",
+			"columns": {
+				"training": "Đào tạo",
+				"date": "Ngày"
+			}
+		},
+		"notesRemarks": {
+			"title": "Ghi chú & Nhận xét"
+		}
+	},
+	"cascadeMarketplace": {
+		"appName": "Chợ CASCADE",
+		"tabs": {
+			"dashboard": "Bảng điều khiển thị trường CASCADE",
+			"catalog": "Danh mục giải pháp",
+			"plan": "Kế hoạch cải tiến"
+		},
+		"dashboard": {
+			"loop": {
+				"title": "Vòng lặp cải tiến liên tục CASCADE",
+				"identifyRisk": "Xác định rủi ro",
+				"workerVoice": "Tiếng nói của người lao động",
+				"selectSolution": "Chọn giải pháp",
+				"implementVerify": "Thực hiện & Kiểm chứng",
+				"cascadeIndex": "Chỉ số CASCADE",
+				"marketAdvantage": "Lợi thế thị trường",
+				"ongoingAssurances": "Đảm bảo liên tục"
+			},
+			"score": {
+				"yourIndex": "Chỉ số CASCADE của bạn",
+				"composition": "Soạn nhạc",
+				"workerVoiceWeight": "(65% trọng lượng)",
+				"continuousImprovement": "Cải tiến liên tục",
+				"continuousImprovementWeight": "(35% trọng lượng)",
+				"finalFormula": "Công thức cuối cùng",
+				"excellent": "Xuất sắc",
+				"good": "Tốt",
+				"fair": "Hội chợ",
+				"poor": "Nghèo",
+				"performance": "{{status}} Hiệu suất",
+				"excellentPerformance": "Hiệu suất tuyệt vời",
+				"goodPerformance": "Hiệu suất tốt",
+				"roomForImprovement": "Còn chỗ để cải thiện",
+				"needsAttention": "Cần được chú ý"
+			},
+			"actions": {
+				"title": "Hãy hành động ngay!",
+				"subtitle": "Các công cụ miễn phí, tự học theo tốc độ riêng để đánh giá và tăng cường hoạt động của bạn.",
+				"freeTools": "Công cụ miễn phí",
+				"free": "Miễn phí",
+				"diagnosticMeta": "~15 phút · 9 phần",
+				"latestScore": "Điểm số mới nhất của bạn",
+				"lastAssessed": "Lần đánh giá cuối cùng {{date}}",
+				"diagnosticDescription": "Đánh giá cơ chế giải quyết khiếu nại của bạn dựa trên 9 thành phần quan trọng, xác định điểm yếu và theo dõi sự cải thiện theo thời gian.",
+				"retake": "Đánh giá lại",
+				"comingSoon": "Sắp ra mắt",
+				"comingSoonBody": "Công cụ tự chẩn đoán mới đang được phát triển."
+			},
+			"cta": {
+				"title": "Bạn đã sẵn sàng cải thiện điểm số của mình chưa?",
+				"body": "Hãy xem Danh mục Giải pháp của chúng tôi để tìm các khóa đào tạo, chứng chỉ và dịch vụ giúp nâng cao điểm số Cải tiến Liên tục của bạn.",
+				"button": "Xem danh mục giải pháp"
+			},
+			"activity": {
+				"title": "Hoạt động gần đây",
+				"empty": "Hiện chưa có hoạt động nào gần đây."
+			}
+		},
+		"sidebar": {
+			"currentScore": "Điểm số hiện tại",
+			"projectedScore": "Điểm dự kiến",
+			"breakdown": "Phân tích điểm số",
+			"workerVoice": "Ý kiến của người lao động (65%)",
+			"currentCi": "CI hiện tại (35%)",
+			"projectedCi": "CI dự kiến (35%)",
+			"itemsInPlan_one": "{{count}} mục trong kế hoạch cải tiến của bạn",
+			"itemsInPlan_other": "{{count}} các mục trong kế hoạch cải tiến của bạn",
+			"viewPlan": "Xem Kế hoạch Cải tiến",
+			"howItWorks": {
+				"title": "Cách thức hoạt động",
+				"items": {
+					"browse": "Tìm kiếm các giải pháp giúp cải thiện hoạt động của bạn",
+					"project": "Thêm mục để xem dự đoán điểm số theo thời gian thực",
+					"complete": "Hoàn thành các mục để tăng chỉ số CASCADE của bạn.",
+					"partnerships": "Điểm số cao hơn thu hút nhiều đối tác thương hiệu hơn."
+				}
+			},
+			"feedback": {
+				"title": "Hộp phản hồi",
+				"body": "Bạn có muốn đề xuất hoặc yêu cầu thêm hoạt động nào vào Chợ CASCADE không? Hãy cho chúng tôi biết thêm chi tiết tại đây!",
+				"name": "Tên của bạn",
+				"email": "Email của bạn",
+				"description": "Hãy mô tả hoạt động mà bạn muốn yêu cầu hoặc đề nghị...",
+				"submit": "Gửi yêu cầu",
+				"validation": "Vui lòng điền đầy đủ thông tin vào tất cả các trường.",
+				"success": "Yêu cầu đã được gửi — Cảm ơn!",
+				"error": "Yêu cầu gửi không thành công. Vui lòng thử lại sau."
+			}
+		},
+		"catalog": {
+			"loading": "Đang tải giải pháp…",
+			"categories": {
+				"workerVoice": "Tiếng nói của người lao động",
+				"ethicalRecruitment": "Tuyển dụng có đạo đức",
+				"livingAndWorkingConditions": "Điều kiện sống và làm việc",
+				"livingWages": "Mức lương đủ sống",
+				"climateResilientSupplyChains": "Chuỗi cung ứng thích ứng với biến đổi khí hậu",
+				"companyPoliciesSystems": "Chính sách và hệ thống của công ty"
+			},
+			"card": {
+				"mostRecommended": "Được đề xuất nhiều nhất",
+				"trainingAvailableIn": "Các khóa đào tạo hiện có",
+				"datesToBeConfirmed": "Ngày tháng sẽ được xác nhận sau.",
+				"ciScoreImpact": "Tác động của điểm CI",
+				"inPlan": "Trong kế hoạch",
+				"addToPlan": "+ Thêm vào gói dịch vụ",
+				"readMore": "Đọc thêm",
+				"readLess": "Đọc ít hơn",
+				"solutionColumn": "Giải pháp",
+				"typeColumn": "Kiểu",
+				"costColumn": "Trị giá"
+			},
+			"modal": {
+				"title": "Thêm vào kế hoạch:",
+				"subtitle": "Hãy chọn cách bạn muốn tích hợp giải pháp này vào kế hoạch cải tiến của mình.",
+				"forMyselfTitle": "Vì chính bản thân tôi",
+				"forMyselfBody": "Thêm vào kế hoạch tuân thủ của tổ chức tôi",
+				"sponsorTitle": "Nhà tài trợ cho các nhà cung cấp",
+				"sponsorBody": "Bạn sẽ thanh toán cho hoạt động này thay mặt cho các nhà cung cấp của mình.",
+				"youPay": "Bạn trả tiền",
+				"recommendTitle": "Đề xuất cho nhà cung cấp",
+				"recommendBody": "Hãy đề xuất hoạt động này cho nhà cung cấp của bạn để họ có thể tự chi trả chi phí.",
+				"theyPay": "Họ trả tiền",
+				"selfHint": "Thêm hoạt động này vào kế hoạch tuân thủ của riêng bạn.",
+				"selectSuppliers_one": "Chọn nhà cung cấp ({{count}} đã chọn)",
+				"selectSuppliers_other": "Chọn nhà cung cấp ({{count}} đã chọn)",
+				"loadingSuppliers": "Đang tải thông tin nhà cung cấp…",
+				"noSuppliersFound": "Không tìm thấy nhà cung cấp nào.",
+				"scoreLabel": "Điểm: {{score}}",
+				"noScore": "Không có điểm",
+				"selectSupplierValidation": "Vui lòng chọn ít nhất một nhà cung cấp để tiếp tục.",
+				"summary": "Bản tóm tắt",
+				"activity": "Hoạt động",
+				"scoreImpact": "Tác động của điểm số",
+				"suppliers": "Nhà cung cấp",
+				"noneSelected": "Không có mục nào được chọn"
+			}
+		},
+		"shared": {
+			"cost": {
+				"free": "Miễn phí",
+				"training": "Đào tạo",
+				"service": "Dịch vụ",
+				"investment": "Sự đầu tư",
+				"subscription": "Đăng ký",
+				"paid": "Trả",
+				"paidWithStruck": "Trả",
+				"paidWithSuffix": "Được người mua tài trợ"
+			}
+		},
+		"plan": {
+			"academy": {
+				"submitError": "Gửi không thành công. Vui lòng thử lại.",
+				"submittedTitle": "Đăng ký đã được gửi!",
+				"submittedBody": "Nhóm của chúng tôi sẽ liên hệ lại với bạn để xác nhận chi tiết.",
+				"availableLanguages": "Ngôn ngữ có sẵn",
+				"addYourDetails": "Thêm thông tin chi tiết của bạn",
+				"firstNamePlaceholder": "Tên",
+				"lastNamePlaceholder": "Họ",
+				"selectCountry": "Chọn quốc gia…",
+				"organizationCompany": "Tổ chức / Công ty",
+				"organizationPlaceholder": "Tên công ty hoặc tổ chức",
+				"positionHelp": "Vui lòng nêu rõ chức vụ và trách nhiệm liên quan đến vị trí của bạn.",
+				"positionPlaceholder": "Ví dụ: Quản lý chuỗi cung ứng — chịu trách nhiệm về…",
+				"attendedBeforeQuestion": "Bạn đã từng tham dự bất kỳ sự kiện nào của Học viện Issara trước đây chưa?",
+				"submitRegistration": "Gửi đăng ký"
+			},
+			"actionRequired": {
+				"title": "Các mặt hàng từ người mua — Cần thực hiện hành động",
+				"pending_one": "{{count}} đang chờ xử lý",
+				"pending_other": "{{count}} đang chờ xử lý",
+				"loading": "Đang tải các mục đang chờ xử lý…",
+				"sponsored": "Được tài trợ",
+				"recommended": "Khuyến khích",
+				"strategicPartner": "Đối tác chiến lược",
+				"fromBuyer": "Từ người mua #{{id}}",
+				"saving": "Đang lưu…",
+				"acceptAdd": "Chấp nhận & Thêm vào gói cước",
+				"decline": "Sự suy sụp"
+			},
+			"empty": {
+				"title": "Gói cước của bạn trống",
+				"body": "Hãy xem Danh mục Giải pháp của chúng tôi để tìm các khóa đào tạo, chứng chỉ và dịch vụ giúp cải thiện Chỉ số CASCADE của bạn.",
+				"button": "Xem danh mục giải pháp"
+			},
+			"item": {
+				"points_one": "+{{count}} điểm",
+				"points_other": "+{{count}} điểm",
+				"pointsPerSupplier_one": "+{{count}} pt/supplier",
+				"pointsPerSupplier_other": "+{{count}} điểm/nhà cung cấp",
+				"noActionAssigned": "Chưa có hành động nào được chỉ định.",
+				"totalCost": "Tổng chi phí",
+				"priceLabel": "Giá {{price}}",
+				"payNotify": "Thanh toán & Thông báo",
+				"subscribeDownload": "Đăng ký và tải xuống"
+			},
+			"actions": {
+				"selfCertify": "Tự xác nhận",
+				"scheduleKickoff": "Lịch trình Khởi động",
+				"requestQuote": "Yêu cầu báo giá",
+				"registerForTraining": "Đăng ký tham gia khóa đào tạo",
+				"notifySuppliers": "Thông báo cho nhà cung cấp"
+			},
+			"overview": {
+				"title": "Kế hoạch cải tiến của bạn",
+				"subtitle": "Xem xét và kích hoạt các giải pháp đã chọn để cải thiện Chỉ số CASCADE của bạn.",
+				"clearAll": "Xóa tất cả",
+				"totalProjectedImpact": "Tổng tác động dự kiến",
+				"itemsInPlan_one": "{{count}} mục trong kế hoạch của bạn",
+				"itemsInPlan_other": "{{count}} các mục trong kế hoạch của bạn",
+				"estimatedTime": "Thời gian ước tính",
+				"estimatedTimeValue": "2-6 tuần"
+			},
+			"sections": {
+				"sponsoringForSuppliers_one": "Tài trợ cho các nhà cung cấp ({{count}})",
+				"sponsoringForSuppliers_other": "Tài trợ cho các nhà cung cấp ({{count}})",
+				"youPay": "Bạn trả tiền",
+				"totalSponsoringCost": "Tổng chi phí tài trợ",
+				"items_one": "{{count}} mục",
+				"items_other": "{{count}} các mặt hàng",
+				"suppliers_one": "{{count}} nhà cung cấp",
+				"suppliers_other": "{{count}} nhà cung cấp",
+				"suppliersNotified": "Nhà cung cấp đã được thông báo ✓",
+				"processing": "Xử lý…",
+				"payNotifySuppliers": "Thanh toán và thông báo cho nhà cung cấp",
+				"sponsorHelpTitle": "Bạn đang tài trợ cho việc cải thiện tuân thủ quy định đối với các nhà cung cấp của mình.",
+				"sponsorHelpBody": "Với tư cách là một thương hiệu toàn cầu, các hoạt động tài trợ giúp nhà cung cấp của bạn cải thiện điểm CASCADE, từ đó củng cố toàn bộ chuỗi cung ứng của bạn.",
+				"recommendedToSuppliers_one": "Đề xuất cho nhà cung cấp ({{count}})",
+				"recommendedToSuppliers_other": "Đề xuất cho nhà cung cấp ({{count}})",
+				"theyPay": "Họ trả tiền",
+				"notificationSummary": "Tóm tắt thông báo",
+				"notifySuppliers": "Thông báo cho nhà cung cấp",
+				"recommendHelpTitle": "Bạn đang đề xuất những hoạt động này cho các nhà cung cấp của mình.",
+				"recommendHelpBody": "Các nhà cung cấp của bạn sẽ nhận được thông báo về những đề xuất này và có thể mua chúng một cách độc lập."
+			},
+			"nextSteps": {
+				"title": "Các bước tiếp theo",
+				"step1": "Kích hoạt ngay các tài nguyên miễn phí bằng cách tải xuống và tự xác nhận hoàn thành.",
+				"step2": "Yêu cầu báo giá cho các mặt hàng trả chậm và dịch vụ chuyên nghiệp.",
+				"step3": "Hoàn thành các mục để tự động tăng điểm chỉ số CASCADE của bạn.",
+				"step4": "Điểm số cao hơn sẽ thu hút nhiều đối tác thương hiệu và cơ hội thị trường hơn."
+			},
+			"modal": {
+				"registerForTrainingTitle": "Đăng ký tham gia khóa đào tạo",
+				"scheduleKickoffTitle": "Lịch trình Khởi động",
+				"requestQuoteTitle": "Yêu cầu báo giá",
+				"registerForTrainingDescription": "Chọn phiên học và điền đầy đủ thông tin của bạn.",
+				"scheduleKickoffDescription": "Đặt lịch buổi khai mạc cho",
+				"requestQuoteDescription": "Vui lòng yêu cầu báo giá cho",
+				"kickoffRequested": "Yêu cầu bắt đầu!",
+				"quoteRequested": "Yêu cầu báo giá!",
+				"followUp": "Đội ngũ của chúng tôi sẽ liên hệ lại trong vòng 1-2 ngày làm việc.",
+				"namePlaceholder": "Tên của bạn",
+				"companyPlaceholder": "Tên công ty",
+				"preferredDate": "Ngày ưu tiên",
+				"additionalNotes": "Ghi chú bổ sung",
+				"describeNeeds": "Hãy mô tả nhu cầu của bạn.",
+				"additionalNotesPlaceholder": "Bạn có yêu cầu hoặc câu hỏi cụ thể nào không...",
+				"describeNeedsPlaceholder": "Ngân sách hoặc các yêu cầu cụ thể...",
+				"requestKickoff": "Yêu cầu khởi động",
+				"submitRequest": "Gửi yêu cầu"
+			}
+		},
+		"dashboardDescription": "Theo dõi sự tiến bộ liên tục của bạn và tìm cách cải thiện điểm số.",
+		"catalogDescription": "Tìm kiếm và lựa chọn các giải pháp phù hợp với nhu cầu của bạn, tài trợ chúng cho nhà cung cấp của bạn, hoặc giới thiệu chúng cho nhà cung cấp của bạn. Mỗi mục đều thể hiện tác động của nó đến Chỉ số CASCADE của bạn.",
+		"supplierIdLabel": "Mã nhà cung cấp",
+		"partnerIdLabel": "Mã định danh đối tác",
+		"supplierFallback": "Nhà cung cấp"
+	},
+	"grievanceSelfDiagnostic": {
+		"header": {
+			"language": "Ngôn ngữ"
+		},
+		"progress": {
+			"sectionProgress": "Phần {{current}} của {{total}}",
+			"challenge": "Thử thách",
+			"complete": "{{percent}}% Hoàn thành",
+			"estTime": "~{{minutes}} phút",
+			"save": "Cứu",
+			"saved": "Đã lưu!",
+			"print": "In"
+		},
+		"intro": {
+			"title": "Cơ chế giải quyết khiếu nại CASCADE",
+			"subtitle": "Tự chẩn đoán",
+			"tagline": "Các cơ chế gắn kết người lao động đáng tin cậy và hiệu quả",
+			"purposeTitle": "Mục đích",
+			"purposeBody": "Công cụ đánh giá chẩn đoán này cung cấp một khuôn khổ rõ ràng và thiết thực để phân tích cấu trúc và hiệu quả của các cơ chế giải quyết khiếu nại hiện tại của công ty. Công cụ tự chẩn đoán này có thể giúp các nhà cung cấp và các công ty tuyển dụng xác định chính xác:",
+			"bullets": {
+				"strengths": "Điểm mạnh",
+				"improvements": "Những lĩnh vực cần cải thiện và cách tốt nhất để cải thiện chúng.",
+				"progress": "Làm thế nào để đo lường và trình bày tiến độ đã đạt được cho đến nay một cách hiệu quả hơn?"
+			},
+			"note": "Công cụ tự chẩn đoán cơ chế giải quyết khiếu nại là một công cụ miễn phí dành cho tất cả các nhà cung cấp và công ty tuyển dụng trên nền tảng CASCADE. Công cụ này có thể được sử dụng tối đa 4 lần mỗi năm để giúp các công ty theo dõi sự cải thiện của mình.",
+			"start": "Bắt đầu đánh giá",
+			"expectTitle": "Những điều cần biết",
+			"expectItems": {
+				"sections": "Hoàn thành 9 phần bao gồm các thành phần quan trọng của cơ chế giải quyết khiếu nại.",
+				"score": "Bạn sẽ nhận được điểm số chi tiết và các đề xuất cá nhân hóa vào cuối kỳ.",
+				"email": "Bạn sẽ nhận được kết quả qua email để tham khảo trong tương lai.",
+				"save": "Tiến trình của bạn được lưu trong trình duyệt — bạn có thể tạm dừng và tiếp tục bất cứ lúc nào."
+			},
+			"scoreTitle": "Cách tính điểm",
+			"scoreNote": "Điểm số cuối cùng của bạn được hiển thị dưới dạng phần trăm và xếp hạng từ 1 đến 5 sao, kèm theo thông tin chi tiết về từng phần và các đề xuất phù hợp. Một số câu hỏi được đánh dấu là câu hỏi \"Thử thách\" và có giá trị điểm gấp đôi.",
+			"resumeBanner": "Bạn đã lưu tiến trình. Tiếp tục từ chỗ bạn đã dừng lại?",
+			"resumeButton": "Đánh giá sơ yếu lý lịch",
+			"startFresh": "Bắt đầu lại từ đầu"
+		},
+		"components": {
+			"title": "9 thành phần quan trọng",
+			"subtitle": "Các cơ chế gắn kết người lao động đáng tin cậy và hiệu quả",
+			"videoLabel": "Xem video giới thiệu",
+			"videoCaption": "Video: Hiểu về 9 thành phần quan trọng",
+			"assessedTitle": "Những nội dung bạn sẽ được đánh giá",
+			"noteTitle": "Ghi chú:",
+			"noteBody": "Bài đánh giá có một số \"câu hỏi thử thách\" được tính điểm gấp đôi. Hãy dành thời gian và trả lời thành thật để nhận được kết quả và lời khuyên chính xác nhất.",
+			"continue": "Tiếp tục đánh giá",
+			"cards": {
+				"safeguards": "Các biện pháp bảo vệ đáng tin cậy và hiệu quả",
+				"communications": "Giao tiếp phù hợp về văn hóa và ngôn ngữ",
+				"access": "Truy cập riêng tư, không bị giám sát và miễn phí",
+				"remediation": "Khả năng đáp ứng và kết quả khắc phục",
+				"retaliation": "Chính sách không khoan nhượng đối với hành vi trả thù",
+				"conflicts": "Không có xung đột lợi ích",
+				"empowerment": "Cung cấp thông tin chi tiết về việc trao quyền và giáo dục cho người lao động",
+				"channels": "Các kênh độc lập để người lao động tiếp cận",
+				"mindset": "Tâm thế phục vụ chân thành"
+			}
+		},
+		"question": {
+			"challengeBadge": "Thử thách · 2× điểm",
+			"of": "Câu hỏi {{current}} của {{total}}",
+			"back": "Mặt sau",
+			"completeSection": "Hoàn thành phần",
+			"nextQuestion": "Câu hỏi tiếp theo"
+		},
+		"sectionComplete": {
+			"title": "Phần {{section}} đã hoàn tất!",
+			"promptLast": "Tất cả các phần đã hoàn tất. Bạn đã sẵn sàng xem kết quả chưa?",
+			"promptNext": "Tiến bộ tuyệt vời! Sẵn sàng cho Phần {{section}} chưa?",
+			"submitting": "Đang gửi...",
+			"viewResults": "Xem kết quả của bạn",
+			"continue": "Tiếp tục sang phần tiếp theo",
+			"halfwayTitle": "Bạn đã đi được nửa chặng đường rồi!",
+			"halfwayBody": "Đà tiến triển tuyệt vời! Bạn đã hoàn thành 4 trong số 9 phần. Hãy tiếp tục — phần thứ hai sẽ dựa trên nền tảng vững chắc mà bạn đã tạo ra.",
+			"halfwayEncourage": "Hãy tiếp tục phát huy!"
+		},
+		"options": {
+			"notAtAll": "Không có gì",
+			"partially": "Đang trong quá trình thực hiện (một phần)",
+			"yesFully": "Vâng, hoàn toàn",
+			"no": "KHÔNG",
+			"aLot": "Nhiều",
+			"notSure": "Tôi không chắc",
+			"sometimes": "Thỉnh thoảng",
+			"yes": "Đúng",
+			"yesRegularly": "Vâng, thường xuyên"
+		},
+		"results": {
+			"submitErrorFallback": "Không thể nộp bài đánh giá.",
+			"networkTitle": "Lỗi mạng — chỉ lưu cục bộ",
+			"assessmentComplete": "Bài kiểm tra đã hoàn tất!",
+			"personalized": "Dưới đây là kết quả và các đề xuất cá nhân dành cho bạn.",
+			"detailedScores": "Điểm số chi tiết từng phần",
+			"rememberTitle": "Nhớ:",
+			"rememberBody": "Điều quan trọng không phải là điểm số cuối cùng mà là việc xác định các lĩnh vực và ưu tiên bạn muốn củng cố và nâng cao. Điểm số và những hiểu biết từ quá trình tự đánh giá này cần được xem xét cùng với phản hồi của người lao động về hiệu quả của cơ chế giải quyết khiếu nại.",
+			"recommendedTitle": "Các khóa học và hoạt động được đề xuất",
+			"recommendedBody": "Dựa trên kết quả đánh giá của bạn, chúng tôi đề xuất các khóa học và hoạt động sau đây để giúp cải thiện cơ chế giải quyết khiếu nại của công ty bạn:",
+			"nextStepsTitle": "Các bước tiếp theo:",
+			"nextStepsBody": "Hãy khám phá các khóa học được đề xuất trên nền tảng CASCADE để bắt đầu cải thiện cơ chế giải quyết khiếu nại của bạn. Bạn có thể làm lại bài đánh giá này tối đa 4 lần mỗi năm để theo dõi tiến độ của mình.",
+			"retake": "Làm bài kiểm tra lại",
+			"messages": {
+				"excellent": "Tuyệt vời. Cơ chế giải quyết khiếu nại của các bạn là một ví dụ điển hình.",
+				"great": "Tuyệt vời! Cơ chế giải quyết khiếu nại mạnh mẽ với nhiều tiềm năng phát triển.",
+				"solid": "Nền tảng vững chắc. Một vài lĩnh vực cần cải thiện cụ thể để tạo ra sự khác biệt.",
+				"grow": "Còn rất nhiều tiềm năng phát triển. Hãy bắt đầu với những phần có điểm số thấp nhất - chúng mang lại lợi ích lớn nhất."
+			},
+			"emailTitle": "Nhận kết quả qua email",
+			"emailBody": "Nhập địa chỉ email của bạn để nhận bản sao kết quả chi tiết và các đề xuất cá nhân hóa.",
+			"emailPlaceholder": "your@email.com",
+			"emailOptIn": "Đăng ký nhận thông tin cập nhật và tài liệu từ Viện Issara.",
+			"emailSubmit": "Gửi kết quả",
+			"emailSending": "Đang gửi...",
+			"emailSent": "Kết quả sẽ được gửi đến hộp thư của bạn!"
+		}
+	},
+	"responsibleProcurement": {
+		"pageTitle": "QUY TRÌNH MUA SẮM CÓ TRÁCH NHIỆM THEO HÌNH TH",
+		"subtitle": "Các nhà cung cấp và công ty tuyển dụng đều có tiếng nói! Phản hồi ẩn danh giúp lan tỏa hoạt động mua sắm có trách nhiệm, tuyển dụng có đạo đức hơn và sự công bằng trong chuỗi cung ứng.",
+		"intro": "Tất cả phản hồi đều được giữ bí mật, tuy nhiên phải được liên kết với đơn đặt hàng hoặc hợp đồng dịch vụ quản lý để xác thực. Điểm số, cả tích cực và tiêu cực, sẽ đóng góp vào điểm tổng thể của công ty mà bạn đang phản hồi. Bằng cách coi trọng tiếng nói của các nhà cung cấp và nhà tuyển dụng trong chuỗi cung ứng toàn cầu về hành vi có trách nhiệm của các thương hiệu, nhà bán lẻ và nhà sản xuất lớn hơn, chúng tôi đang thúc đẩy sự công bằng và minh bạch xung quanh việc tìm nguồn cung ứng có trách nhiệm - và giúp lan tỏa các thực tiễn mua hàng tốt hơn. Có 3 câu hỏi.",
+		"feedbackAsSupplier": "Cung cấp phản hồi ẩn danh với tư cách là nhà cung cấp",
+		"feedbackAsRecruitmentAgency": "Cung cấp phản hồi ẩn danh với tư cách là một công ty tuyển dụng",
+		"thankYouTitle": "Phản hồi đã được gửi",
+		"thankYouMessage": "Cảm ơn bạn đã cung cấp phản hồi ẩn danh!",
+		"bannerAlt": "Hình ảnh minh họa về Giám sát Lao động Toàn diện"
+	},
+	"Additional Attachments": "Tệp đính kèm bổ sung",
+	"Additional Notes": "Ghi chú bổ sung",
+	"Browse files": "Duyệt các tệp",
+	"No Need": "Không cần",
+	"No": "KHÔNG",
+	"No, I do not think that is necessary": "Không, tôi không nghĩ điều đó là cần thiết.",
+	"No, not yet, but I will do so": "Chưa, chưa đâu, nhưng tôi sẽ làm vậy.",
+	"Note": "Ghi chú",
+	"PDF, PNG, JPG — up to 10 MB each": "PDF, PNG, JPG — mỗi định dạng tối đa 10 MB.",
+	"Please add notes on case remediation": "Vui lòng bổ sung ghi chú về việc khắc phục sự cố.",
+	"Please describe why?": "Hãy giải thích lý do?",
+	"Preview & Submit": "Xem trước & Gửi",
+	"Remediation": "Khắc phục hậu quả",
+	"Save as Draft": "Lưu dưới dạng bản nháp",
+	"Systems Strengthening and Continuous Improvement": "Tăng cường hệ thống và cải tiến liên tục",
+	"Updated At ": "Đã cập nhật lúc",
+	"Will upload on save": "Sẽ tải lên khi lưu",
+	"Yes": "Đúng",
+	"Yes, I already reached out to my Issara focal": "Vâng, tôi đã liên hệ với người phụ trách Issara của mình rồi.",
+	"written by -": "Được viết bởi -",
+	"All individuals have received the training ensuring they understand how to prioritize safety, confidentiality, privacy and company protocols for efficient response to worker-reported issues?": "Tất cả các cá nhân đã được đào tạo để đảm bảo họ hiểu cách ưu tiên an toàn, bảo mật, quyền riêng tư và các quy trình của công ty nhằm phản hồi hiệu quả các vấn đề do người lao động báo cáo?",
+	"Case updates entered here are time-stamped and viewable by your team, the Issara team, and your customers that are Strategic Partners in the ILM system. If there is any additional information that you would like to add regarding Remediation or Systems Strengthening and Continuous Improvement, please enter it here:": "Các cập nhật trường hợp được nhập ở đây sẽ được ghi lại thời gian và có thể được xem bởi nhóm của bạn, nhóm Issara và các khách hàng là Đối tác Chiến lược trong hệ thống ILM. Nếu bạn muốn bổ sung thêm bất kỳ thông tin nào liên quan đến Khắc phục sự cố hoặc Tăng cường Hệ thống và Cải tiến Liên tục, vui lòng nhập vào đây:",
+	"Do you need help with any more complex consequences arising from the worker-reported issue, such as psychosocial support for the worker, the need to quickly repatriate a worker, etc.?": "Bạn có cần hỗ trợ thêm về những hậu quả phức tạp phát sinh từ vấn đề do người lao động báo cáo, chẳng hạn như hỗ trợ tâm lý xã hội cho người lao động, nhu cầu hồi hương nhanh chóng người lao động, v.v.?",
+	"Has a trained and impartial individual reached out to the worker(s) to introduce themselves as the case focal point, inform them that the company is about to launch an investigation into their grievance, specify the start date, and confirm that there are no conflicts of interest within the investigation team?": "Liệu đã có cá nhân được đào tạo bài bản và khách quan liên hệ với người lao động để tự giới thiệu mình là người phụ trách vụ việc, thông báo cho họ rằng công ty sắp tiến hành điều tra khiếu nại của họ, nêu rõ ngày bắt đầu và xác nhận rằng không có xung đột lợi ích nào trong nhóm điều tra hay chưa?",
+	"Have you checked with the HR team to see if similar worker-reported issues have been filed and/or solved recently?": "Bạn đã liên hệ với bộ phận nhân sự để xem liệu các vấn đề tương tự do người lao động báo cáo đã được ghi nhận và/hoặc giải quyết gần đây chưa?",
+	"Have you reviewed all the possible individuals identified in the worker-reported issue and conducted a risk assessment to ensure that workers remain safe during the duration of the grievance investigation and remediation?": "Bạn đã xem xét tất cả các cá nhân có thể liên quan đến vấn đề do người lao động báo cáo và tiến hành đánh giá rủi ro để đảm bảo an toàn cho người lao động trong suốt quá trình điều tra và khắc phục khiếu nại chưa?",
+	"Have you reviewed all the possible individuals that would be involved in the grievance investigation and remediation process, including interpreters, and ensured that:": "Bạn đã xem xét tất cả các cá nhân có thể tham gia vào quá trình điều tra và khắc phục khiếu nại, bao gồm cả người phiên dịch, và đảm bảo rằng:",
+	"Is there any conflict of interest? Please do not proceed until it is certain that there are no relationships or conflicts of interest between grievance response personnel and the individual(s) who are the subjects of the complaint.": "Có xung đột lợi ích nào không? Vui lòng không tiếp tục cho đến khi chắc chắn rằng không có mối quan hệ hoặc xung đột lợi ích nào giữa nhân viên xử lý khiếu nại và cá nhân/các cá nhân là đối tượng của khiếu nại.",
+	"Is this worker-reported issue a repeat issue, meaning that there might be a root cause that needs to be identified and addressed?": "Liệu vấn đề mà người lao động báo cáo này có phải là vấn đề lặp đi lặp lại, có nghĩa là có thể có nguyên nhân gốc rễ cần được xác định và giải quyết?",
+	"Is zero tolerance of retaliation being followed by everyone involved in this case?": "Liệu tất cả những người liên quan trong vụ việc này có đang tuân thủ chính sách không khoan nhượng đối với hành động trả thù hay không?",
+	"Please add notes on Systems Strengthening and Continuous Improvement related to this worker-reported issue": "Vui lòng bổ sung ghi chú về việc Tăng cường Hệ thống và Cải tiến Liên tục liên quan đến vấn đề do người lao động báo cáo này.",
+	"Please review the information shared in ILM. Do you want to talk to Issara to get more context on the worker-reported issue?": "Vui lòng xem lại thông tin được chia sẻ trong ILM. Bạn có muốn nói chuyện với Issara để hiểu rõ hơn về vấn đề mà người lao động đã báo cáo không?",
+	"Please review the list of trainings below and indicate if you would like to request any of them from Issara.": "Vui lòng xem danh sách các khóa đào tạo bên dưới và cho biết nếu bạn muốn yêu cầu bất kỳ khóa đào tạo nào trong số đó từ Issara.",
+	"The Issara team will be notified of this and will reach out to you soon! Issara Institute has trained trauma-informed counselors, teams working in the origin countries of the workers, and a network of trusted service providers, all which are happy to help with complex cases and service needs.": "Nhóm Issara sẽ được thông báo về việc này và sẽ liên hệ với bạn sớm! Viện Issara có các chuyên viên tư vấn được đào tạo bài bản về xử lý chấn thương tâm lý, các nhóm làm việc tại các quốc gia xuất xứ của người lao động, và một mạng lưới các nhà cung cấp dịch vụ đáng tin cậy, tất cả đều sẵn lòng hỗ trợ các trường hợp phức tạp và nhu cầu dịch vụ khác nhau.",
+	"The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation, and build better systems for zero tolerance against retaliation.": "Vụ việc khắc phục hậu quả đang gặp rủi ro. Nhóm Issara sẽ liên hệ với người phụ trách của công ty bạn để thảo luận về cách bảo vệ tất cả người lao động bị ảnh hưởng khỏi sự trả thù, và xây dựng các hệ thống tốt hơn để không dung thứ cho hành vi trả thù.",
+	"The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation.": "Vụ việc khắc phục hậu quả đang gặp rủi ro. Nhóm Issara sẽ liên hệ với người phụ trách của công ty bạn để thảo luận về cách bảo vệ tất cả người lao động bị ảnh hưởng khỏi sự trả thù, và xây dựng các hệ thống tốt hơn để không dung thứ cho hành vi trả thù.",
+	"Throughout the investigation and upon its conclusion, have you stayed in touch with the worker to check on their well-being and whether the investigation has had any positive or negative impacts on them?": "Trong suốt quá trình điều tra và sau khi kết thúc, bạn có giữ liên lạc với người lao động để hỏi thăm tình trạng sức khỏe của họ và xem cuộc điều tra có tác động tích cực hay tiêu cực nào đến họ không?",
+	"Upload any supporting documents or images you have gathered while collecting information for this case.": "Hãy tải lên bất kỳ tài liệu hoặc hình ảnh hỗ trợ nào mà bạn đã thu thập được trong quá trình tìm kiếm thông tin cho vụ việc này.",
+	"Would you like assistance from Issara Institute to follow up on ethical grievance processes?": "Bạn có muốn nhận sự hỗ trợ từ Viện Issara để theo dõi các quy trình giải quyết khiếu nại về đạo đức không?",
+	"Would you like to save the grievance form as a draft before leaving?": "Bạn có muốn lưu lại đơn khiếu nại dưới dạng bản nháp trước khi rời đi không?",
+	"Yes, I want more information from my Issara focal": "Vâng, tôi muốn có thêm thông tin từ thiết bị Issara focal của mình.",
+	"Your Issara focal has been notified; they will reach out to you soon.": "Thông báo đã được gửi đến người phụ trách của bạn tại Issara; họ sẽ liên hệ lại với bạn sớm.",
+	"Previous": "Trước",
+	"Next": "Kế tiếp",
+	"Saving...": "Đang lưu...",
+	"Step {{current}} of {{total}}": "Bước {{current}} của {{total}}",
+	"2. Information Collection": "2. Thu thập thông tin",
+	"3. Safeguarding Affected Workers": "3. Bảo vệ người lao động bị ảnh hưởng",
+	"4. Ensuring an Ethical Investigation": "4. Đảm bảo một cuộc điều tra có đạo đức",
+	"5. Communicating With The Workers Reporting Issues": "5. Giao tiếp với người lao động khi họ báo cáo các vấn đề",
+	"6. Monitoring & Communication": "6. Giám sát & Truyền thông",
+	"7. Trainings": "7. Đào tạo",
+	"Unable to submit supplier KPI grievance.": "Không thể gửi khiếu nại về chỉ số KPI của nhà cung cấp.",
+	"Note: ": "Ghi chú: ",
+	"Remediation ": "Khắc phục hậu quả",
+	"Systems Strengthening and Continuous Improvement: ": "Tăng cường hệ thống và cải tiến liên tục:",
+	"Undo remove": "Hoàn tác xóa",
+	"Remove attachment": "Xóa tệp đính kèm",
+	"Undo": "Hoàn tác",
+	"Remove file": "Xóa tệp",
+	"Ethical. Have you reviewed all possible individuals to be involved in the investigation, including interpreters, and ensured that all are fully committed to 'do no harm' and maintaining worker safeguards at all times?": "Về mặt đạo đức. Bạn đã xem xét tất cả các cá nhân có thể tham gia vào cuộc điều tra, bao gồm cả người phiên dịch, và đảm bảo rằng tất cả đều hoàn toàn cam kết \"không gây hại\" và duy trì các biện pháp bảo vệ người lao động mọi lúc chưa?",
+	"Ethical Recruitment 101 Introductory modules": "Tuyển dụng có đạo đức: Những kiến thức cơ bản (Nhập môn)",
+	"Ethical Recruitment Advanced training 201": "Đào tạo nâng cao về tuyển dụng có đạo đức 201",
+	"Business and Human Rights & HRDD: Going Beyond Audit": "Kinh doanh và Nhân quyền & Phát triển nguồn nhân lực: Vượt ra ngoài phạm vi kiểm toán",
+	"Ethical Grievance Mechanism 101": "Cơ chế giải quyết khiếu nại đạo đức 101",
+	"Ethical Grievance Mechanism 201": "Cơ chế giải quyết khiếu nại đạo đức 201",
+	"Line Supervisors Training": "Đào tạo Giám sát viên Dây chuyền",
+	"Interpreters Training": "Đào tạo phiên dịch viên",
+	"Grievance Details": "Chi tiết khiếu nại",
+	"Close": "Đóng",
+	"FEEDBACK/ISSUE OVERVIEW": "TỔNG QUAN VỀ PHẢN HỒI/VẤN ĐỀ",
+	"CASE ID": "MÃ SỐ HỒ SƠ",
+	"DATE RECEIVED": "NGÀY NHẬN",
+	"ISSUE CATEGORIES": "DANH MỤC VẤN ĐỀ",
+	"AFFECTED WORKERS": "CÔNG NHÂN BỊ ẢNH HƯỞNG",
+	"CURRENT STATUS": "TÌNH TRẠNG HIỆN TẠI",
+	"ISSUE DESCRIPTION": "MÔ TẢ VẤN ĐỀ",
+	"Information Collection": "Thu thập thông tin",
+	"CHECKED WITH HR TEAM FOR SIMILAR ISSUES": "ĐÃ KIỂM TRA VỚI NHÓM NHÂN SỰ VỀ CÁC VẤN ĐỀ TƯƠNG TỰ",
+	"IS THIS A REPEAT ISSUE": "ĐÂY CÓ PHẢI LÀ VẤN ĐỀ LẶP LẠI KHÔNG?",
+	"ADDITIONAL NOTES": "GHI CHÚ BỔ SUNG",
+	"ADDITIONAL ATTACHMENTS": "TÀI LIỆU ĐÍNH KÈM BỔ SUNG",
+	"Pending upload": "Đang chờ tải lên",
+	"Will be removed": "Sẽ bị xóa",
+	"No attachments": "Không có tệp đính kèm",
+	"Safeguarding Affected Workers": "Bảo vệ người lao động bị ảnh hưởng",
+	"ZERO TOLERANCE OF RETALIATION BEING FOLLOWED": "TUYỆT ĐỐI KHÔNG KHOAN DUNG CHO BẤT KỲ HÀNH VI TRẢ THÙ NÀO.",
+	"REVIEWED INDIVIDUALS AND CONDUCTED RISK ASSESSMENT": "ĐÃ XEM XÉT CÁC CÁ NHÂN VÀ TIẾN HÀNH ĐÁNH GIÁ RỦI RO",
+	"REVIEWED INDIVIDUALS INVOLVED IN GRIEVANCE INVESTIGATION": "DANH SÁCH CÁC CÁ NHÂN ĐƯỢC XEM XÉT TRONG QUÁ TRÌNH ĐIỀU TRA KHIẾU NAI",
+	"SAFEGUARDING NOTES": "GHI CHÚ VỀ BẢO VỆ TRẺ EM",
+	"Ensuring an Ethical Investigation": "Đảm bảo một cuộc điều tra có đạo đức",
+	"INVESTIGATION PLAN FOLLOWS ETHICAL GUIDELINES": "KẾ HOẠCH ĐIỀU TRA TUÂN THỦ CÁC NGUYÊN TẮC ĐẠO ĐỨC",
+	"INVESTIGATION CONDUCTED PROFESSIONALLY": "CUỘC ĐIỀU TRA ĐƯỢC TIẾN HÀNH MỘT CÁCH CHUYÊN NGHIỆP",
+	"INVESTIGATION IS IMPARTIAL": "CUỘC ĐIỀU TRA ĐƯỢC TIẾN HÀNH KHÁCH QUAN",
+	"INVESTIGATION PROCESS INCLUSIVE AND ACCESSIBLE": "QUY TRÌNH ĐIỀU TRA BAO DŨNG VÀ DỄ TIẾP CẬN",
+	"INVESTIGATION CONDUCTED TIMELY AND EFFECTIVELY": "CUỘC ĐIỀU TRA ĐƯỢC TIẾN HÀNH KỊP THỜI VÀ HIỆU QUẢ",
+	"INVESTIGATION NOTES": "GHI CHÚ ĐIỀU TRA",
+	"Communicating with Workers Reporting Issues": "Giao tiếp với người lao động khi báo cáo các vấn đề",
+	"COMMUNICATED WITH AFFECTED WORKERS ABOUT WELLBEING": "THÔNG TIN VỀ SỨC KHỎE CỦA NGƯỜI LAO ĐỘNG BỊ ẢNH HƯỞNG",
+	"NEED HELP WITH COMPLEX CONSEQUENCES": "CẦN HỖ TRỢ VỚI NHỮNG HẬU QUẢ PHỨC TẠP",
+	"COMMUNICATION NOTES": "GHI CHÚ LIÊN LẠC",
+	"Monitoring and Communicating Findings": "Theo dõi và truyền đạt kết quả",
+	"REMEDIATION ACTIONS": "CÁC BIỆN PHÁP KHẮC PHỤC",
+	"SYSTEM STRENGTHENING MEASURES": "CÁC BIỆN PHÁP TĂNG CƯỜNG HỆ THỐNG",
+	"No monitoring information available yet.": "Hiện chưa có thông tin giám sát nào.",
+	"Training Requirements": "Yêu cầu đào tạo",
+	"SELECTED TRAININGS": "CÁC KHÓA ĐÀO TẠO ĐƯỢC CHỌN LỌC",
+	"None selected": "Không có mục nào được chọn",
+	"CURRENT ACTION ITEMS": "CÁC MỤC HÀNH ĐỘNG HIỆN TẠI",
+	"Active Under 15 days": "Hoạt động trong vòng chưa đầy 15 ngày",
+	"Some Progress (16-59 days)": "Đã có một số tiến triển (16-59 ngày)",
+	"No Progress (31-59 days)": "Không có tiến triển (31-59 ngày)",
+	"Some Progress (60+ days)": "Đã có một số tiến triển (hơn 60 ngày)",
+	"No Progress (60+ days)": "Không có tiến triển (hơn 60 ngày)",
+	"Some Progress": "Đã có một số tiến triển",
+	"No Progress": "Không có tiến triển",
+	"Some Progress for over 60 days": "Đã có một số tiến triển (hơn 60 ngày)",
+	"No Progress for over 60 days": "Không có tiến triển (hơn 60 ngày)",
+	"Unfair dismissal": "Sa thải không công bằng",
+	"Denial of benefits to pregnant workers": "Từ chối trợ cấp cho người lao động mang thai",
+	"Hazardous or unsanitary living/dorm/canteen conditions": "Điều kiện sinh hoạt/ký túc xá/nhà ăn nguy hiểm hoặc mất vệ sinh.",
+	"Very late or missing payments": "Thanh toán trễ hạn hoặc thiếu sót",
+	"Charged fees for services by HR and/or interpreter": "Phí dịch vụ do bộ phận nhân sự và/hoặc phiên dịch viên tính phí.",
+	"Issue with annual leave or sick leave": "Vấn đề liên quan đến nghỉ phép thường niên hoặc nghỉ ốm.",
+	"Dispute without violation of law or employment contract": "Tranh chấp không vi phạm pháp luật hoặc hợp đồng lao động",
+	"Fees charged by upstream/village-level broker: legal but not ethical": "Phí do các nhà môi giới cấp thượng nguồn/làng thu: hợp pháp nhưng không đúng đạo đức.",
+	"Issue with targets and/or bonuses (related to production and incentives): Serious violation": "Vấn đề liên quan đến chỉ tiêu và/hoặc tiền thưởng (liên quan đến sản xuất và khuyến khích): Vi phạm nghiêm trọng",
+	"Poor": "Nghèo",
+	"Fair": "Khá",
+	"Good": "Tốt",
+	"Excellent": "Xuất sắc",
+	"Issues with transportation to workplace": "Các vấn đề liên quan đến việc đi lại đến nơi làm việc",
+	"Issue with wages: unethical but not illegal ": "Vấn đề về tiền lương: phi đạo đức nhưng không bất hợp pháp",
+	"Issue with wages: unethical but not illegal": "Vấn đề về tiền lương: phi đạo đức nhưng không bất hợp pháp",
+	"Weak company policies and/or poor communication of policies": "Chính sách công ty yếu kém và/hoặc việc truyền đạt chính sách không hiệu quả.",
+	"Verbal abuse and/or other poor treatment by HR or production (not illegal)": "Lạm dụng lời nói và/hoặc các hình thức đối xử tệ khác từ phía bộ phận nhân sự hoặc sản xuất (không phải là bất hợp pháp)",
+	"Inaccurate / misleading / poor information about job: minor miscommunication": "Thông tin không chính xác/gây hiểu nhầm/kém chất lượng về công việc: sự hiểu lầm nhỏ.",
+	"Contract provided was not in native language": "Hợp đồng được cung cấp không phải bằng ngôn ngữ bản địa.",
+	"Living Conditions": "Điều kiện sống",
+	"Recruitment Fees": "Phí tuyển dụng",
+	"Wages & Benefits": "Tiền lương và phúc lợi",
+	"Reimbursement process unclear + add 1": "Quy trình hoàn trả không rõ ràng + thêm 1",
+	"Dormitory water pressure + add 1": "Áp lực nước ký túc xá + thêm 1",
+	"In-person": "Trực tiếp",
+	"Overtime pay discrepancy + add 1": "Chênh lệch lương làm thêm giờ + thêm 1",
+	"Company Staff 1": "Nhân viên công ty 1",
+	"Company Staff 2": "Nhân viên công ty 2",
+	"Company Staff 3": "Nhân viên công ty 3",
+	"Recruitment Agency": "Đơn vị tuyển dụng",
+	"Supplier": "Nhà cung cấp",
+	"Worker Grievance Response Training": "Đào tạo về xử lý khiếu nại của người lao động",
+	"Ethical Recruitment Policy Updated": "Chính sách tuyển dụng có đạo đức được cập nhật",
+	"Supplier-Recruitment Agency Contract Diagnostic": "Hợp đồng chẩn đoán giữa nhà cung cấp và công ty tuyển dụng",
+	"Systems: Procedures for Worker Voice": "Hệ thống: Quy trình để người lao động lên tiếng",
+	"Roll-out of independent worker voice channels alongside company mechanisms.": "Triển khai các kênh giao tiếp độc lập giữa người lao động và các cơ chế của công ty.",
+	"Communications: Worker Voice Channels": "Truyền thông: Các kênh tiếng nói của người lao động",
+	"Language-appropriate communication to workers regarding grievance access.": "Cung cấp thông tin phù hợp với ngôn ngữ cho người lao động về việc tiếp cận các khiếu nại.",
+	"Capacity Building: Ethical Grievance Training": "Nâng cao năng lực: Đào tạo về khiếu nại có đạo đức",
+	"Issara Academy training (online/in-person) on the 8 key components of grievance mechanisms.": "Khóa đào tạo của Học viện Issara (trực tuyến/trực tiếp) về 8 thành phần chính của cơ chế giải quyết khiếu nại.",
+	"Activity: Worker Satisfaction Surveys": "Hoạt động: Khảo sát mức độ hài lòng của người lao động",
+	"Periodic independent or internal surveys to gauge worker morale and risks.": "Tiến hành các cuộc khảo sát định kỳ độc lập hoặc nội bộ để đánh giá tinh thần làm việc và rủi ro của người lao động.",
+	"Activity: Outreach & Education": "Hoạt động: Tiếp cận và Giáo dục",
+	"Direct education for workers on rights, contracts, and payment terms.": "Cung cấp kiến thức trực tiếp cho người lao động về quyền lợi, hợp đồng và điều khoản thanh toán.",
+	"Systems: Procedures for Ethical Recruitment": "Hệ thống: Quy trình tuyển dụng có đạo đức",
+	"Strengthening contracts (MSAs) and vetting criteria for recruitment agencies.": "Tăng cường các hợp đồng khung (MSA) và tiêu chí thẩm định đối với các công ty tuyển dụng.",
+	"Communications: Agency Disclosure": "Thông tin liên lạc: Thông tin do cơ quan công bố",
+	"Transparency by suppliers to buyers regarding all recruitment agencies used.": "Các nhà cung cấp phải minh bạch với người mua về tất cả các công ty tuyển dụng được sử dụng.",
+	"Systems": "Hệ thống",
+	"Communications": "Truyền thông",
+	"Capacity Building: Ethical Recruitment Training": "Nâng cao năng lực: Đào tạo tuyển dụng có đạo đức",
+	"Capacity Building": "Nâng cao năng lực",
+	"Activity: Golden Dreams Platform": "Hoạt động: Nền tảng Giấc mơ Vàng",
+	"Activity": "Hoạt động",
+	"Use of the Golden Dreams app for transparent, electronic recruitment and job offers.": "Sử dụng ứng dụng Golden Dreams để tuyển dụng và nhận việc minh bạch, trực tuyến.",
+	"Activity: Recruitment Surveys": "Hoạt động: Khảo sát tuyển dụng",
+	"Site-level surveys to identify hidden recruitment fees and system weaknesses.": "Thực hiện khảo sát tại chỗ để xác định các khoản phí tuyển dụng ẩn và điểm yếu của hệ thống.",
+	"Activity: Recruitment Fee Repayment": "Hoạt động: Hoàn trả phí tuyển dụng",
+	"Verifiable, timely repayment of recruitment fees to eligible workers.": "Hoàn trả phí tuyển dụng kịp thời và có thể kiểm chứng cho người lao động đủ điều kiện.",
+	"Ethical Recruitment 101": "Tuyển dụng có đạo đức: Những điều cơ bản",
+	"Online group course to strengthen recruitment systems, verify worker recruitment experiences, reduce business risk, and improve worker retention through case studies and policy analysis.": "Khóa học nhóm trực tuyến nhằm tăng cường hệ thống tuyển dụng, xác minh kinh nghiệm tuyển dụng lao động, giảm thiểu rủi ro kinh doanh và cải thiện tỷ lệ giữ chân lao động thông qua các nghiên cứu trường hợp và phân tích chính sách.",
+	"Ethical Recruitment 201": "Tuyển dụng có đạo đức 201",
+	"Practical tools to support worker-voice approaches to ethical recruitment, including vetting and contracting tools and tech-driven solutions.": "Các công cụ thiết thực hỗ trợ cách tiếp cận lấy tiếng nói người lao động làm trọng tâm trong tuyển dụng có đạo đức, bao gồm các công cụ sàng lọc và ký kết hợp đồng cũng như các giải pháp dựa trên công nghệ.",
+	"Activity: Feedback Loop to Workers": "Hoạt động: Vòng phản hồi cho người lao động",
+	"Effective, language-appropriate communication to workers about continuous improvement being made in response to worker feedback.": "Truyền đạt thông tin hiệu quả, phù hợp với ngôn ngữ cho người lao động về những cải tiến liên tục được thực hiện dựa trên phản hồi của người lao động.",
+	"Capacity Building: Business and Human Rights / HRDD": "Nâng cao năng lực: Kinh doanh và Nhân quyền / HRDD",
+	"Issara Academy training for managers and working-level staff on HRDD and going beyond audit: the significance of Human Rights Due Diligence in supply chains, with focus on practical approaches and emerging EU & U.S. requirements.": "Khóa đào tạo của Học viện Issara dành cho các nhà quản lý và nhân viên cấp cơ sở về HRDD và vượt ra ngoài phạm vi kiểm toán: tầm quan trọng của thẩm định nhân quyền trong chuỗi cung ứng, tập trung vào các phương pháp thực tiễn và các yêu cầu mới nổi của EU và Hoa Kỳ.",
+	"Capacity Building: Interpreters and Line Supervisors": "Nâng cao năng lực: Phiên dịch viên và Giám sát viên tuyến dưới",
+	"Issara Academy training for interpreters and line supervisors: ethical approaches to working with migrant workers, applicable labor-related policies, and strengthening grievance mechanisms and workplace systems.": "Khóa đào tạo của Học viện Issara dành cho phiên dịch viên và giám sát viên: các phương pháp đạo đức khi làm việc với người lao động nhập cư, các chính sách lao động hiện hành và tăng cường cơ chế giải quyết khiếu nại cũng như hệ thống tại nơi làm việc.",
+	"Capacity Building: Management & Leadership": "Nâng cao năng lực: Quản lý & Lãnh đạo",
+	"Issara Academy training for management on ethical grievance mechanisms, remediation, and ongoing coaching. Includes Ethics & Guidelines for Worker Welfare Committee Members.": "Khóa đào tạo của Học viện Issara dành cho quản lý về các cơ chế giải quyết khiếu nại có đạo đức, khắc phục hậu quả và huấn luyện liên tục. Bao gồm Đạo đức & Hướng dẫn dành cho các thành viên Ủy ban Phúc lợi Người lao động.",
+	"Action: Worker Satisfaction Survey": "Hoạt động: Khảo sát sự hài lòng của người lao động",
+	"Roll-out of periodic independent worker satisfaction surveys with comparative analysis of internal vs. independent results.": "Triển khai các cuộc khảo sát định kỳ độc lập về sự hài lòng của người lao động, kèm theo phân tích so sánh kết quả nội bộ và kết quả độc lập.",
+	"Activity: Wages in Context Analysis": "Hoạt động: Phân tích tiền lương trong bối cảnh cụ thể",
+	"WAGEINDICATOR": "CHỈSỐTIỀNLƯƠNG",
+	"Analysis of minimum wage, adequate wage, premiums, targets, deductions, and other factors with WageIndicator data and technical support to inform CSRD reporting, company policies, and purchasing agreements.": "Phân tích mức lương tối thiểu, mức lương thỏa đáng, phụ cấp, mục tiêu, các khoản khấu trừ và các yếu tố khác bằng dữ liệu WageIndicator và hỗ trợ kỹ thuật để phục vụ báo cáo CSRD, chính sách công ty và thỏa thuận mua bán.",
+	"Systems: Wage Transparency": "Hệ thống: Minh bạch tiền lương",
+	"Development of digital/printed wage slips and \"Wage Literacy\" sessions for workers.": "Phát triển phiếu lương điện tử/in ấn và các buổi \"Kiến thức về tiền lương\" cho người lao động.",
+	"WageIndicator Data Access": "Truy cập dữ liệu WageIndicator",
+	"Annual subscription to living wage data for 208 countries and 10,000 industries.": "Đăng ký hàng năm để truy cập dữ liệu về mức lương đủ sống tại 208 quốc gia và 10.000 ngành nghề.",
+	"Activity: Feedback on Pay": "Hoạt động: Phản hồi về lương",
+	"Effective communication to workers regarding pay structures. Use worker satisfaction surveys to verify wages are sufficient for basic needs.": "Truyền đạt thông tin hiệu quả cho người lao động về cơ cấu tiền lương. Sử dụng khảo sát mức độ hài lòng của người lao động để xác minh tiền lương có đủ đáp ứng nhu cầu cơ bản hay không.",
+	"Activity: Wage Gap Analysis & Disclosure": "Hoạt động: Phân tích và công bố chênh lệch tiền lương",
+	"Transparent analysis and disclosure of wage gaps to facilitate buyer negotiations.": "Phân tích và công khai minh bạch chênh lệch tiền lương để tạo điều kiện thuận lợi cho quá trình đàm phán của người mua.",
+	"Action": "Hoạt động",
+	"Issara Academy training for managers and working-level staff on HRDD and going beyond audit: the significance of Human Rights Due Diligence in supply chains, with focus on practical approaches and emerging EU &amp; U.S. requirements.": "Khóa đào tạo của Học viện Issara dành cho các nhà quản lý và nhân viên cấp cơ sở về HRDD và vượt ra ngoài phạm vi kiểm toán: tầm quan trọng của thẩm định nhân quyền trong chuỗi cung ứng, tập trung vào các phương pháp thực tiễn và các yêu cầu mới nổi của EU và Hoa Kỳ.",
+	"Issara Academy training for management on ethical grievance mechanisms, remediation, and ongoing coaching. Includes Ethics &amp; Guidelines for Worker Welfare Committee Members.": "Khóa đào tạo của Học viện Issara dành cho quản lý về các cơ chế giải quyết khiếu nại có đạo đức, khắc phục hậu quả và huấn luyện liên tục. Bao gồm Đạo đức & Hướng dẫn dành cho các thành viên Ủy ban Phúc lợi Người lao động.",
+	"ASSIGNED STAFF": "NHÂN VIÊN ĐƯỢC PHÂN CÔNG",
+	"DEADLINE": "THỜI HẠN",
+	"NEXT STEPS": "CÁC BƯỚC TIẾP THEO",
+	"No next steps defined": "Không có bước tiếp theo nào được xác định.",
+	"Not specified": "Không được chỉ định",
+	"Submit": "Nộp",
+	"Submitting…": "Đang gửi…",
+	"Remediation: ": "Biện pháp khắc phục:",
+	"System Strengthenings: ": "Tăng cường hệ thống:",
+	"Supplier's notes on case remediation": "Ghi chú của nhà cung cấp về việc khắc phục sự cố",
+	"Supplier's notes on systems strengthening and continuous improvement related to this worker-reported issue:": "Ghi chú của nhà cung cấp về việc tăng cường hệ thống và cải tiến liên tục liên quan đến vấn đề do người lao động báo cáo này:"
+}

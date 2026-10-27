@@ -1,0 +1,60 @@
+.viewport {
+	position: relative;
+	overflow: hidden;
+}
+
+.track {
+	display: flex;
+	width: 100%;
+	will-change: transform;
+}
+
+.slide {
+	min-width: 100%;
+	box-sizing: border-box;
+	padding: 0.5rem;
+}
+
+.nav {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-50%);
+	pointer-events: none;
+	padding: 0 0.5rem;
+}
+
+.navButton {
+	pointer-events: auto;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 9999px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dots {
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+	margin-top: 0.75rem;
+}
+
+.dot {
+	width: 10px;
+	height: 10px;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 9999px;
+	border: none;
+}
+
+.active {
+	background: rgba(20, 134, 150, 0.95);
+}

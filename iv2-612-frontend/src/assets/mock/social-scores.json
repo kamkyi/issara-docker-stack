@@ -1,0 +1,12 @@
+{
+	"overall": 75,
+	"labor": 80,
+	"recruitment": 60,
+	"livingWage": 90,
+	"trends": {
+		"overall": 3,
+		"labor": 3,
+		"recruitment": -2,
+		"livingWage": 3
+	}
+}

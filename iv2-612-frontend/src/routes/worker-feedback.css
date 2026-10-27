@@ -1,0 +1,77 @@
+.worker-feedback-container {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.worker-feedback-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 24px;
+	width: 100%;
+	text-align: center;
+}
+
+.step-label {
+	font-weight: 500;
+}
+
+.step-label-active {
+	font-weight: 600;
+}
+
+.back-button {
+	color: #006666; /* dark teal for light theme */
+	border-color: #008080;
+}
+
+.step-circle-inactive {
+	border-color: #008080;
+	background-color: #e0f2f2; /* very light teal for light theme */
+	color: #006666;
+}
+
+.step-connector {
+	background-color: #d0e0e0; /* light teal gray for connectors in light theme */
+}
+
+.step-connector-completed {
+	background-color: #008080; /* teal for completed connectors */
+}
+
+/* Input placeholder styles for light theme */
+.worker-feedback-container input::placeholder {
+	color: #006666; /* Dark teal for better visibility in light theme */
+	opacity: 0.8;
+}
+
+:global(.dark) .step-label {
+	color: #00a0a0; /* lighter teal for dark theme */
+}
+
+:global(.dark) .step-label-active {
+	color: #00c0c0; /* brighter teal for active state in dark theme */
+}
+
+:global(.dark) .back-button {
+	color: #00a0a0; /* lighter teal for dark theme */
+	border-color: #00a0a0;
+}
+
+:global(.dark) .step-circle-inactive {
+	border-color: #00a0a0;
+	background-color: #003030; /* very dark teal for dark theme */
+	color: #00c0c0;
+}
+
+:global(.dark) .step-connector {
+	background-color: #004040; /* dark teal gray for connectors in dark theme */
+}
+
+/* Input placeholder styles for dark theme */
+:global(.dark) .worker-feedback-container input::placeholder {
+	color: #6fcece; /* Light teal for better visibility in dark theme */
+	opacity: 0.7;
+}

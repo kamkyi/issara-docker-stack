@@ -1,0 +1,325 @@
+{
+	"supplyChains": [
+		{
+			"id": 29,
+			"name": "SP Test buyer  - BeneBuyer",
+			"strategic_partner": 28,
+			"suppliers": [
+				{
+					"supplier": 394,
+					"supplier_name": "Crabby Seafoods",
+					"status": "active",
+					"country_name": "Thailand"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active",
+					"country_name": "Thailand"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active",
+					"country_name": "Myanmar"
+				},
+				{
+					"supplier": 1110,
+					"supplier_name": "Very Huge Electronics Co.",
+					"status": "active",
+					"country_name": "Cambodia"
+				}
+			]
+		}
+	],
+	"supplierKPIs": [
+		{
+			"id": 2001,
+			"supplier": 394,
+			"supplier_name": "Crabby Seafoods",
+			"category": "Recruitment",
+			"description": "Inaccurate / misleading / poor information about job: minor miscommunication",
+			"level": 2,
+			"status": 1,
+			"status_name": "Some Progress",
+			"opened_at": "2026-2-14",
+			"closed_at": null,
+			"affected_workers": 80,
+			"source_recruiter_count": 2,
+			"destination_recruiter_count": 1,
+			"total_update_count": 3,
+			"remediation_sp_recommendation": [
+				"Conduct fee audit for all migrant workers",
+				"Establish fee repayment scheme"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 2,
+					"name": "Deception"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 2002,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Recruitment",
+			"description": "Fees charged by employer: illegal and unethical",
+			"level": 3,
+			"status": 1,
+			"status_name": "No Progress",
+			"opened_at": "2026-2-20",
+			"closed_at": null,
+			"affected_workers": 70,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				},
+				{
+					"id": 9,
+					"name": "Debt bondage"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 104,
+					"name": "Slavery and workplace oppression"
+				}
+			]
+		},
+		{
+			"id": 2003,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Recruitment",
+			"description": "Document retention",
+			"level": 3,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-5",
+			"closed_at": null,
+			"affected_workers": 22,
+			"call_count": 6,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 4,
+			"remediation_sp_recommendation": [
+				"Return all confiscated documents immediately",
+				"Implement policy prohibiting document retention"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 7,
+					"name": "Retention of identity documents"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				}
+			]
+		},
+		{
+			"id": 2004,
+			"supplier": 1110,
+			"supplier_name": "Very Huge Electronics Co.",
+			"category": "Recruitment",
+			"description": "Inaccurate / misleading / poor information about job: serious, deceptive mis-information",
+			"level": 3,
+			"status": 1,
+			"status_name": "Some progress",
+			"opened_at": "2026-01-22",
+			"closed_at": null,
+			"affected_workers": 30,
+			"call_count": 2,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 1,
+			"total_update_count": 1,
+			"remediation_sp_recommendation": [
+				"Provide contracts in worker-preferred language",
+				"Conduct mandatory pre-departure briefing"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 2,
+					"name": "Deception"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				}
+			]
+		},
+		{
+			"id": 2005,
+			"supplier": 394,
+			"supplier_name": "Crabby Seafoods",
+			"category": "Recruitment",
+			"description": "Proper legal documents not provided to workers",
+			"level": 3,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-01-22",
+			"closed_at": null,
+			"affected_workers": 24,
+			"call_count": 4,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Issue SSO cards to all affected workers within 30 days and confirm receipt with each worker",
+				"Reconcile and disclose to workers all past SSO contributions deducted from their wages, in Burmese"
+			],
+			"closed_quality": null,
+			"worker_issue_summary": "The workers reported that they have still not been provided with their social security (SSO) cards, although the business has been deducting the SSO contribution monthly from their salaries for months. The workers consent to their names being shared with their employer, to remediate this issue for them asap.",
+			"issara_action": "We conveyed this information to the head of HR via a phone call and noted that the workers should have their cards in-hand as per the law.",
+			"supplier_action": "The head of HR said she would investigate what the cause of the delay has been in giving the cards to the workers. She explained that if the workers needed to visit the hospital, they should still be able to do so. But she also agreed that the workers should have their cards in-hand.",
+			"ilo_indicators": [
+				{
+					"id": 7,
+					"name": "Retention of identity documents"
+				},
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 109,
+					"name": "Other serious omission of care"
+				}
+			]
+		},
+		{
+			"id": 2006,
+			"supplier": 178,
+			"supplier_name": "Fish Seafood Co.",
+			"category": "Recruitment",
+			"description": "Fees charged by upstream/village-level broker: legal but not ethical",
+			"level": 2,
+			"status": 2,
+			"status_name": "Some Progress",
+			"opened_at": "2026-02-20",
+			"closed_at": null,
+			"affected_workers": 11,
+			"call_count": 3,
+			"source_recruiter_count": 0,
+			"destination_recruiter_count": 0,
+			"total_update_count": 2,
+			"remediation_sp_recommendation": [
+				"Disclose all deductions in writing",
+				"Refund unexplained wage deductions"
+			],
+			"closed_quality": null,
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				},
+				{
+					"id": 9,
+					"name": "Debt bondage"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 2007,
+			"supplier": 227,
+			"supplier_name": "Sunshine Seafood",
+			"category": "Recruitment",
+			"description": "Inaccurate / misleading / poor information about job: minor miscommunication",
+			"level": 2,
+			"status": 3,
+			"status_name": "Closed",
+			"opened_at": "2025-05-10",
+			"closed_at": "2025-12-01",
+			"affected_workers": 30,
+			"call_count": 7,
+			"source_recruiter_count": 1,
+			"destination_recruiter_count": 1,
+			"total_update_count": 6,
+			"remediation_sp_recommendation": [
+				"The Management Service Agreement and Code of Conduct should be clearly communicated and reinforced with all suppliers to ensure full understanding and compliance. For future recruitment processes, suppliers should engage directly with the source recruiter to maintain transparency and proper oversight. Additionally, the Service Provider should require the engagement of Civil Society Organizations (CSOs) in the source country to help monitor recruitment practices and minimize potential risks starting from the first miles."
+			],
+			"closed_quality": "Good",
+			"ilo_indicators": [
+				{
+					"id": 2,
+					"name": "Deception"
+				}
+			],
+			"lksg_indicators": []
+		},
+		{
+			"id": 2008,
+			"supplier": 1110,
+			"supplier_name": "Very Huge Electronics Co.",
+			"category": "Recruitment",
+			"description": "Fees charged by recruitment agency: illegal and unethical",
+			"level": 3,
+			"status": 3,
+			"status_name": "Closed",
+			"opened_at": "2025-07-20",
+			"closed_at": "2025-09-20",
+			"affected_workers": 200,
+			"call_count": 9,
+			"source_recruiter_count": 2,
+			"destination_recruiter_count": 0,
+			"total_update_count": 8,
+			"remediation_sp_recommendation": [
+				"The message should be reinforced with all suppliers, and verification should be conducted to ensure that all suppliers provide employment contracts in languages that workers can clearly understand. If translation support for workers' contracts is required, Issara Institute is available to assist in providing accurate translations. In addition, the Management Service Agreement between suppliers and the SP should be clearly explained to suppliers. All requirements and key terms should be communicated in languages that are familiar and easily understood by the suppliers to ensure full comprehension and compliance."
+			],
+			"closed_quality": "Fair",
+			"ilo_indicators": [
+				{
+					"id": 1,
+					"name": "Abuse of vulnerability"
+				},
+				{
+					"id": 9,
+					"name": "Debt bondage"
+				}
+			],
+			"lksg_indicators": [
+				{
+					"id": 103,
+					"name": "Forced labor"
+				},
+				{
+					"id": 104,
+					"name": "Slavery and workplace oppression"
+				}
+			]
+		}
+	],
+	"openClosedSummary": [
+		{
+			"name": "Recruitment",
+			"open_cases": 6,
+			"closed_cases": 2
+		}
+	]
+}

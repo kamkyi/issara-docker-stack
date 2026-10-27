@@ -1,0 +1,228 @@
+.sidebar {
+	width: 420px;
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 1rem;
+	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+	/* gap: 0.75rem; */
+}
+
+/* Hide sidebar on mobile, show on md+ screens */
+@media (max-width: 767px) {
+	.sidebar {
+		display: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		display: flex;
+		flex-direction: column;
+	}
+}
+.mapArea {
+	flex: 1 1 auto;
+	min-height: 480px;
+	background: linear-gradient(180deg, #eef2ff, #ffffff);
+	/* border-radius: 8px; */
+	/* padding: 0.5rem; */
+	position: relative;
+}
+.filtersRow {
+	display: flex;
+	/* gap: 0.5rem; */
+	align-items: center;
+}
+.filterLabel {
+	font-weight: 600;
+	margin-bottom: 0.25rem;
+}
+.searchBox {
+	width: 100%;
+	padding: 0.5rem 0.5rem;
+	border-radius: 6px;
+	border: 1px solid #e5e7eb;
+}
+.optionsList {
+	max-height: 160px;
+	overflow: auto;
+	border: 1px solid #eef2ff;
+	padding: 0.5rem;
+	border-radius: 6px;
+	background: #fbfdff;
+}
+.optionItem {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	padding: 0.25rem 0.25rem;
+}
+.controls {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	margin-top: 0.5rem;
+}
+.moreFiltersToggle {
+	background: transparent;
+	border: none;
+	color: #2563eb;
+	cursor: pointer;
+}
+.results {
+	margin-top: 1rem;
+}
+.tabs {
+	display: flex;
+	gap: 0.5rem;
+	border-bottom: 1px solid #e6eef8;
+	padding-bottom: 0.5rem;
+}
+.tabButton {
+	background: transparent;
+	border: none;
+	padding: 0.5rem 0.75rem;
+	cursor: pointer;
+}
+.tabActive {
+	border-bottom: 2px solid #148696;
+	font-weight: 700;
+}
+.supplierList {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin-top: 0.75rem;
+}
+.supplierCard {
+	padding: 0.75rem;
+	border-radius: 6px;
+	/* background: #fff; */
+	border: 1px solid #dddddd;
+}
+.summaryChart {
+	width: 100%;
+	max-width: 640px;
+}
+.mapPlaceholder {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #475569;
+}
+
+.legend {
+	position: absolute;
+	left: 1rem;
+	bottom: 1rem;
+	background: #ffffff;
+	padding: 0.5rem;
+	border-radius: 8px;
+	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.authAccountButton {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	max-width: 180px;
+	min-width: 0;
+	padding: 0.35rem 0.75rem;
+	border: 1px solid #148696;
+	border-radius: 8px;
+	background: white;
+	color: #148696;
+	font-size: 0.875rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition:
+		background-color 160ms ease,
+		box-shadow 160ms ease,
+		transform 160ms ease;
+}
+
+.authAccountButton:hover {
+	background: rgba(20, 134, 150, 0.1);
+	box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+	transform: translateY(-1px);
+}
+
+.authAccountButton:focus-visible {
+	outline: 2px solid #148696;
+	outline-offset: 2px;
+}
+
+.authAccountAvatar {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.75rem;
+	height: 1.75rem;
+	border-radius: 999px;
+	background: #148696;
+	color: white;
+	font-size: 0.75rem;
+	font-weight: 600;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+.authAccountAvatarImage {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.authAccountLabel {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* Cluster marker styles */
+:global(.marker-cluster) {
+	background-clip: padding-box;
+}
+
+:global(.marker-cluster div) {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+
+:global(.marker-cluster-small div) {
+	background-color: rgba(50, 178, 195, 0.6);
+	border: 3px solid rgba(50, 178, 195, 0.9);
+}
+
+:global(.marker-cluster-medium div) {
+	background-color: rgba(50, 178, 195, 0.7);
+	border: 4px solid rgba(50, 178, 195, 1);
+}
+
+:global(.marker-cluster-large div) {
+	background-color: rgba(50, 178, 195, 0.8);
+	border: 5px solid rgba(50, 178, 195, 1);
+	font-size: 16px;
+}
+
+:global(.marker-cluster-small div span),
+:global(.marker-cluster-medium div span),
+:global(.marker-cluster-large div span) {
+	line-height: 1;
+}

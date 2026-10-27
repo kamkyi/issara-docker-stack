@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    env_file:
+      - .env.local.docker
+    user: "${UID}:${GID}"
+    environment:
+      - UID=${UID:-1000}
+      - GID=${GID:-1000}
+    command: ["npm", "run", "dev", "--", "--host"]

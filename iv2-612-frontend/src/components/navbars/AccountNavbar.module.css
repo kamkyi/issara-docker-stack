@@ -1,0 +1,192 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.15rem 1.5rem;
+	background: #00516a;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 1300;
+	/* box-shadow removed for flat design */
+}
+
+:global(.dark) .navbar {
+	background: #00516a;
+}
+
+:global(.light) .navbar {
+	background: #00516a !important;
+}
+
+.logoContainer {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.logoImg {
+	height: 32px;
+	width: auto;
+	object-fit: contain;
+	/* filter removed for flat design */
+}
+
+.logo {
+	color: #fff; /* flat color for logo text */
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin: 0;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+	text-shadow: none;
+	background: none;
+	-webkit-background-clip: initial;
+	background-clip: initial;
+	transition: transform 0.2s ease;
+}
+
+:global(.dark) .logo {
+	color: #fff;
+}
+
+.logo:hover {
+	transform: scale(1.05);
+}
+
+.navItems {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+
+.navbar button {
+	cursor: pointer;
+	font-weight: bold;
+	color: #333 !important;
+	text-shadow: none;
+}
+
+:global(.dark) .navbar button {
+	color: white !important;
+}
+
+.navbar :global(.rt-Button) {
+	color: #333;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+:global(.dark) .navbar :global(.rt-Button) {
+	color: white;
+}
+
+.navbar :global(.rt-ButtonInner) {
+	color: #333;
+	font-weight: bold;
+}
+
+:global(.dark) .navbar :global(.rt-ButtonInner) {
+	color: white;
+}
+
+/* Improve theme switcher visibility */
+.navbar :global(.theme-switcher) {
+	color: #333;
+	filter: none;
+	transform: scale(1.2);
+}
+
+.navbar :global(.theme-switcher svg) {
+	width: 22px;
+	height: 22px;
+	color: #333;
+}
+
+:global(.dark) .navbar :global(.theme-switcher),
+:global(.dark) .navbar :global(.theme-switcher svg) {
+	color: white;
+}
+
+.navbarContent {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+	.navbar {
+		padding: 0.5rem 0.25rem;
+		flex-direction: column;
+		gap: 0.5rem;
+		width: 100vw;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	.navbarContent {
+		width: 100%;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	.logo {
+		font-size: 1.1rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 100%;
+	}
+
+	.logoContainer {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.logoImg {
+		height: 28px;
+	}
+
+	.navItems {
+		width: 100%;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 0 0.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.logoImg {
+		height: 24px;
+	}
+
+	.navItems {
+		gap: 0.5rem;
+	}
+
+	.navbar :global(.rt-Button) {
+		padding: 0 0.5rem;
+		font-size: 0.875rem;
+	}
+
+	.logo {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 360px) {
+	.logoContainer {
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.logo {
+		text-align: center;
+	}
+}

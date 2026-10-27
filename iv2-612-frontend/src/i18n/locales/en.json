@@ -1,0 +1,2500 @@
+{
+	"common": {
+		"home": "Home",
+		"yes": "Yes",
+		"no": "No",
+		"ok": "OK",
+		"cancel": "Cancel",
+		"save": "Save",
+		"delete": "Delete",
+		"edit": "Edit",
+		"add": "Add",
+		"remove": "Remove",
+		"search": "Search",
+		"filter": "Filter",
+		"sort": "Sort",
+		"loading": "Loading...",
+		"error": "Error",
+		"success": "Success",
+		"warning": "Warning",
+		"info": "Information",
+		"close": "Close",
+		"open": "Open",
+		"closed": "Closed",
+		"active": "Active",
+		"inactive": "Inactive",
+		"enabled": "Enabled",
+		"disabled": "Disabled",
+		"required": "Required",
+		"optional": "Optional",
+		"all": "All",
+		"none": "None",
+		"select": "Select",
+		"clear": "Clear",
+		"reset": "Reset",
+		"submit": "Submit",
+		"next": "Next",
+		"previous": "Previous",
+		"first": "First",
+		"last": "Last",
+		"page": "Page",
+		"of": "of",
+		"total": "Total",
+		"count": "Count",
+		"name": "Name",
+		"description": "Description",
+		"table": {
+			"rowsPerPage": "Rows per page:",
+			"searchColumn": "Search {{label}}"
+		},
+		"date": "Date",
+		"time": "Time",
+		"status": "Status",
+		"category": "Category",
+		"type": "Type",
+		"level": "Level",
+		"priority": "Priority",
+		"actions": "Actions",
+		"details": "Details",
+		"view": "View",
+		"download": "Download",
+		"upload": "Upload",
+		"export": "Export",
+		"import": "Import",
+		"print": "Print",
+		"refresh": "Refresh",
+		"update": "Update",
+		"create": "Create",
+		"new": "New",
+		"copy": "Copy",
+		"move": "Move",
+		"settings": "Settings",
+		"preferences": "Preferences",
+		"profile": "Profile",
+		"account": "Account",
+		"login": "Login",
+		"logout": "Logout",
+		"register": "Register",
+		"password": "Password",
+		"email": "Email",
+		"username": "Username",
+		"phone": "Phone",
+		"address": "Address",
+		"country": "Country",
+		"city": "City",
+		"language": "Language",
+		"theme": "Theme",
+		"light": "Light",
+		"dark": "Dark",
+		"auto": "Auto"
+	},
+	"onboarding": {
+		"progress": "Onboarding",
+		"firstLogin": "✦ First login",
+		"welcomeTitlePart1": "Human rights due diligence —",
+		"welcomeTitleAccent": "let's begin!",
+		"welcomeBody": "CASCADE isn't another audit — it's human rights due diligence (HRDD), day to day. Take a moment to learn more about CASCADE's features and how it equips your teams and company with the tools and real-time data to meet the evolving HRDD and trade integrity requirements in the Americas, EU, Australia, and beyond.",
+		"welcomeStep1Title": "Take a guided tour",
+		"welcomeStep1Desc": "— check out key features, data, and solutions.",
+		"welcomeStep2Title": "Land on your Profile",
+		"welcomeStep2Desc": "— fill it in, and you're live.",
+		"startTour": "Start the guided tour",
+		"back": "Back",
+		"next": "Next",
+		"finish": "Finish",
+		"congratsEyebrow": "✦ You're on CASCADE",
+		"congratsTitle": "Congratulations,",
+		"congratsBody": "Your company is making a real commitment to human rights due diligence (HRDD) — and now you have the tools, data, and solutions to back it up. Your workspace is live! Time to make your Company Profile public so that brand and industry partners can find you.",
+		"statCompany": "Company",
+		"statMemberSince": "Member since",
+		"statRegion": "Region",
+		"statOnboarding": "Onboarding",
+		"statComplete": "Complete",
+		"enterCascade": "Enter CASCADE",
+		"congratsHint": "You'll land on your Company Profile — ready to fill in",
+		"sectionLabel": "Section {{current}} of {{total}}",
+		"sections": {
+			"profile": {
+				"title": "Company Profile",
+				"body": "Find your Company Profile in the Overview section. Fill in your company, industry, and other basic information, and share more detailed information if you wish, for example, your company's human rights and labor recruitment policies. Your company's Profile Strength meter ticks up as more information is completed. Choose which information is viewable by brand, industry, and other partners in the Member Directory.",
+				"hits": [
+					"Profile strength",
+					"Company info",
+					"Options for information and policy sharing"
+				]
+			},
+			"dashboard": {
+				"title": "Company Dashboard",
+				"body": "Also in the Overview section. Your Company Dashboard tracks real-time progress on worker voice coverage and worker-reported labor issues, as well as on efforts to strengthen human rights-related policies and systems through trainings and tools.",
+				"hits": [
+					"Worker voice analytics",
+					"Continuous improvement tracking",
+					"Trend data and reporting"
+				]
+			},
+			"marketplace": {
+				"title": "CASCADE Marketplace",
+				"body": "A Marketplace to 'shop' for tools, training, solutions, and partnerships! Find and register for online learning, tools and diagnostics, or tailored training or advisory services in your language and locality. Continuous engagement drives continuous improvement which lifts your company's CASCADE Index.",
+				"hits": [
+					"Asynchronous diagnostics and tools",
+					"Solutions catalog",
+					"Continuous improvement"
+				]
+			},
+			"grievance": {
+				"title": "Company Grievance Mechanism",
+				"body": "Add and view feedback and grievances of workers, which may be incoming through your company's grievance mechanism or through Issara's worker voice support. Track, manage, and resolve cases all in one place.",
+				"hits": [
+					"Grievance management",
+					"Employee feedback polls and tools",
+					"Worker voice integrations"
+				]
+			}
+		}
+	},
+	"navigation": {
+		"home": "Home",
+		"dashboard": "Dashboard",
+		"reports": "Reports",
+		"analytics": "Analytics",
+		"users": "Users",
+		"admin": "Admin",
+		"help": "Help",
+		"support": "Support",
+		"about": "About",
+		"contact": "Contact",
+		"companyOverview": "Company Overview",
+		"companyProfile": "Company Profile",
+		"companyDashboard": "Company Dashboard",
+		"hrddOverview": "HRDD Overview",
+		"lksgOverview": "LkSG Overview",
+		"socialResponsibilityWorkplan": "Social Responsibility Workplan",
+		"companySupplyChain": "Company Supply Chain",
+		"employeeRelations": "Employee Relations",
+		"ourWorkplace": "Our Workplace",
+		"workerFeedback": "Worker Feedback",
+		"viewWorkerFeedback": "View Worker Feedback",
+		"messageBoard": "Message Board",
+		"workforcePolls": "Workforce Polls",
+		"responsibleProcurement": "Responsible Procurement",
+		"supplyChainDesigner": "Supply Chain Designer",
+		"suppliers": "Suppliers",
+		"recruitmentAgencies": "Recruitment Agencies",
+		"memberDirectory": "Member Directory",
+		"cascadeMarketplace": "CASCADE Marketplace"
+	},
+	"companyProfilePage": {
+		"title": "Company Profile",
+		"titleWithCompany": "{{companyName}} Profile",
+		"subtitle": "Manage your organisation's public profile information.",
+		"profileOwnerName": "Company Administrator",
+		"tabs": {
+			"profileDetails": "Profile Details",
+			"userManagement": "User Management",
+			"policiesCompliance": "Policies & Compliance",
+			"companyQr": "Company QR"
+		},
+		"sections": {
+			"basicInformation": "Basic Information",
+			"workforceBreakdown": "Workforce Breakdown",
+			"policiesCompliance": "Policies & Compliance"
+		},
+		"businessImages": {
+			"title": "Business Images",
+			"description": "Upload up to {{max}} images showcasing your business. Supported formats: JPEG, PNG, WEBP (max 5MB each).",
+			"maxReached": "Maximum of {{max}} images reached.",
+			"invalidType": "File '{{name}}' is not a valid image type. Please upload JPEG, PNG, or WEBP images.",
+			"tooLarge": "File '{{name}}' exceeds 5MB size limit.",
+			"uploadFailed": "Failed to upload '{{name}}'. Please try again.",
+			"deleteFailed": "Failed to delete image. Please try again.",
+			"noImages": "No images uploaded yet.",
+			"uploadAreaLabel": "Click or drag to upload business images",
+			"uploading": "Uploading...",
+			"clickOrDrop": "Click to upload, or drag & drop",
+			"hint": "PNG, JPG, WEBP up to 5MB ({{current}}/{{max}} uploaded)",
+			"imageAlt": "Business image",
+			"deleteAriaLabel": "Delete this image"
+		},
+		"policies": {
+			"coverageTitle": "Policy category coverage",
+			"coverageHelp": "Add the policies your company has in place — upload or link each policy once, then tick every category it covers.",
+			"viewHelp": "Policies your company has shared. Each policy is tagged with the categories it covers — one document can satisfy several. Workers and partners see these on your public directory profile.",
+			"noPoliciesShared": "No policies shared yet",
+			"addFirstSwitchToEdit": "Switch to Edit to add your first policy document, link, or statement.",
+			"textStatement": "Text statement",
+			"howAdding": "How are you adding it?",
+			"policyName": "Policy name",
+			"policyText": "Policy text",
+			"clickToUpload": "Click to upload, or drag & drop",
+			"whichCategories": "Which categories does this policy cover?",
+			"tickAll": "Tick all that apply — one policy can cover several.",
+			"visibleTo": "Visible to:",
+			"savedPlural": "{{count}} saved",
+			"addPolicy": "Add policy",
+			"remove": "Remove",
+			"policy": "Policy",
+			"type_text": "Text",
+			"type_link": "Link",
+			"type_file": "File",
+			"visibilityCustomers": "CASCADE Members - Current Customers",
+			"visibilityCustomersDesc": "Visible to current customers on CASCADE only",
+			"visibilityMembers": "CASCADE Members",
+			"visibilityMembersDesc": "Visible to verified CASCADE members only",
+			"visibilityPrivate": "Private",
+			"visibilityPrivateDesc": "Only your company admins can see this",
+			"noPolicies": "No policies added yet",
+			"addFirst": "Add your first policy to start ticking off categories."
+		},
+		"fields": {
+			"companyName": "Company Name",
+			"hqLocation": "HQ Location",
+			"headquartersAddress": "Headquarters Address",
+			"companyDescription": "Company Description",
+			"industries": "Industries",
+			"productCategories": "Product Categories",
+			"totalWorkers": "Total workers",
+			"totalMaleWorkers": "Total male workers",
+			"totalFemaleWorkers": "Total female workers",
+			"thai": "Thai",
+			"cambodian": "Cambodian",
+			"myanmar": "Myanmar",
+			"lao": "Lao",
+			"vietnamese": "Vietnamese",
+			"nepalese": "Nepalese",
+			"bangladeshi": "Bangladeshi",
+			"indonesian": "Indonesian",
+			"malaysian": "Malaysian",
+			"indian": "Indian",
+			"pakistani": "Pakistani",
+			"sriLankan": "Sri Lankan",
+			"humanRightsPolicies": "Human Rights Policies",
+			"responsibleRecruitmentPolicies": "Responsible Recruitment Policies",
+			"responsibleProcurementPolicies": "Responsible Procurement Policies"
+		},
+		"placeholders": {
+			"selectCountry": "Select country",
+			"selectIndustries": "Select industries",
+			"selectProductCategories": "Select product categories",
+			"zero": "0"
+		},
+		"actions": {
+			"save": "Save",
+			"saving": "Saving...",
+			"cancel": "Cancel",
+			"edit": "Edit",
+			"editSectionAria": "Edit {{title}}"
+		},
+		"messages": {
+			"unableDeterminePartnerId": "Unable to determine strategic partner ID.",
+			"updateError": "Failed to update company profile.",
+			"basicUpdated": "Basic information updated.",
+			"workforceUpdated": "Workforce details updated.",
+			"avatarUpdated": "Profile photo updated.",
+			"policiesUpdated": "Policies updated.",
+			"categoryFallback": "Category {{id}}",
+			"workerVerificationTargetMissing": "Worker verification target is missing.",
+			"workerVerified": "Worker verified.",
+			"workerVerifyFailed": "Worker request could not be verified.",
+			"workerRejected": "Worker verification rejected.",
+			"workerRejectFailed": "Worker request could not be rejected."
+		},
+		"userManagement": {
+			"title": "User Management",
+			"subtitle": "Manage company users, roles, and invitation status.",
+			"totalUsers": "Total Users",
+			"active": "Active",
+			"pending": "Pending",
+			"inactive": "Inactive",
+			"pendingInvites": "Pending Invites",
+			"strategicPartnerUser": "Strategic Partner User",
+			"invitationSent": "Invitation sent",
+			"loadingUsers": "Loading users...",
+			"loadUsersError": "Failed to load strategic partner users.",
+			"emptyUsers": "No users found for this strategic partner.",
+			"workerManagementTitle": "Workers Management",
+			"workerManagementSubtitle": "Review worker verification requests submitted from QR scan.",
+			"total": "Total",
+			"verified": "Verified",
+			"loadingWorkerRequests": "Loading worker verification requests...",
+			"loadWorkerRequestsError": "Failed to load worker verification requests.",
+			"emptyWorkerRequests": "No worker verification requests yet.",
+			"unknownWorker": "Unknown Worker",
+			"noEmail": "No email",
+			"viewProfile": "View Profile",
+			"updating": "Updating...",
+			"verify": "Verify",
+			"unverify": "Unverify",
+			"reject": "Reject",
+			"columns": {
+				"name": "Name",
+				"email": "Email",
+				"role": "Role",
+				"status": "Status",
+				"lastActive": "Last Active"
+			},
+			"workerColumns": {
+				"worker": "Worker",
+				"workerId": "Worker ID",
+				"requested": "Requested",
+				"status": "Status",
+				"actions": "Actions"
+			},
+			"workerStatus": {
+				"pending": "Pending",
+				"savedForLater": "Saved for Later",
+				"verified": "Verified",
+				"rejected": "Rejected"
+			}
+		},
+		"workerQr": {
+			"title": "Worker Verification QR",
+			"subtitle": "Workers can scan this from GD Lite to request company verification.",
+			"defaultCompanyName": "Company profile",
+			"copySuccess": "Worker QR link copied.",
+			"copyError": "Unable to copy worker QR link.",
+			"zoomOutAria": "Zoom out worker verification QR",
+			"resetZoomAria": "Reset worker verification QR zoom",
+			"zoomInAria": "Zoom in worker verification QR",
+			"copyLinkAria": "Copy worker verification QR link",
+			"unavailable": "Worker QR is unavailable because this company profile has no supplier ID."
+		},
+		"profileStrength": {
+			"title": "Profile Strength",
+			"levels": {
+				"excellent": "Excellent",
+				"good": "Good",
+				"decent": "Decent",
+				"basic": "Basic"
+			}
+		},
+		"avatar": {
+			"changeAria": "Change company avatar",
+			"change": "Change photo",
+			"uploading": "Uploading..."
+		},
+		"policyField": {
+			"audience": "CASCADE Members",
+			"text": "Text",
+			"link": "Link",
+			"file": "File",
+			"linkPlaceholder": "https://example.com/policy",
+			"fileHint": "Drag & drop a file, or click to browse",
+			"chooseFile": "Choose file",
+			"characters": "{{count}} / {{max}} characters",
+			"notProvided": "Not provided"
+		},
+		"productCategories": {
+			"garments": "Garments",
+			"footwear": "Footwear",
+			"accessories": "Accessories",
+			"homeTextiles": "Home Textiles"
+		}
+	},
+	"navbar": {
+		"guest": {
+			"menu": {
+				"latestInIlm": "Latest in ILM",
+				"overview": "Overview",
+				"supplyChainMapping": "Supply Chain Mapping",
+				"companyGrievanceMechanism": "Company Grievance Mechanism",
+				"workerReportedIssues": "Worker Reported Issues",
+				"addWorkerFeedback": "Add Worker Feedback",
+				"marketplace": "Marketplace",
+				"socialResponsibility": "Social Responsibility",
+				"socialResponsibilityOverview": "Social Responsibility Overview",
+				"labor": "Labor",
+				"recruitment": "Recruitment",
+				"wages": "Wages",
+				"continuousImprovement": "Continuous Improvement",
+				"ilmManagement": "ILM Management",
+				"internalDashboard": "Internal Dashboard",
+				"metricsEntry": "Metrics Entry",
+				"messageBoard": "Message Board",
+				"userLogins": "User Logins",
+				"marketplaceManagement": "Marketplace Management",
+				"productRoadmap": "Product Roadmap",
+				"cascadeMarketplace": "CASCADE Marketplace",
+				"ethicalSupplyChainDesigner": "Ethical Supply Chain Designer"
+			},
+			"views": {
+				"buyer": "Buyer View",
+				"supplier": "Supplier View",
+				"recruitmentAgency": "RA View",
+				"tester": "Tester View",
+				"ilmManagement": "Issara Management View"
+			}
+		},
+		"account": {
+			"aboutIlmCascade": "About ILM Cascade",
+			"notifications": "Notifications",
+			"profileSettings": "Profile Settings",
+			"signOut": "Sign Out",
+			"userFallback": "User"
+		}
+	},
+	"forms": {
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"fullName": "Full Name",
+		"company": "Company",
+		"organization": "Organization",
+		"department": "Department",
+		"position": "Position",
+		"role": "Role",
+		"title": "Title",
+		"message": "Message",
+		"comment": "Comment",
+		"note": "Note",
+		"remarks": "Remarks"
+	},
+	"validation": {
+		"required": "This field is required",
+		"email": "Please enter a valid email address",
+		"phone": "Please enter a valid phone number",
+		"minLength": "Minimum {{count}} characters required",
+		"maxLength": "Maximum {{count}} characters allowed",
+		"numeric": "Please enter a valid number",
+		"alphanumeric": "Only letters and numbers are allowed"
+	},
+	"messages": {
+		"saveSuccess": "Data saved successfully",
+		"saveError": "Failed to save data",
+		"deleteSuccess": "Data deleted successfully",
+		"deleteError": "Failed to delete data",
+		"updateSuccess": "Data updated successfully",
+		"updateError": "Failed to update data",
+		"loadError": "Failed to load data",
+		"networkError": "Network connection error",
+		"serverError": "Server error occurred",
+		"notFound": "Data not found",
+		"accessDenied": "Access denied",
+		"sessionExpired": "Session expired, please login again"
+	},
+	"glossary": {
+		"remediation": "Remediation",
+		"grievance": "Grievance",
+		"workerVoice": "Worker Voice",
+		"supplier": "Supplier",
+		"buyer": "Buyer",
+		"recruitmentAgency": "Recruitment Agency",
+		"supplyChain": "Supply Chain",
+		"workerFeedback": "Worker Feedback",
+		"responsibleProcurement": "Responsible Procurement"
+	},
+	"socialResponsibility": {
+		"hero": {
+			"title": "Social Responsibility Overview",
+			"subtitle": "Worker-driven social responsibility through empowered worker voice & grievance management",
+			"description": "Real-time workplace and supply chain insights on labor conditions, recruitment, living wage and more."
+		},
+		"kpis": {
+			"cascadeIndex": "CASCADE Index",
+			"cascadeIndexTooltip": "The CASCADE Index is 65% responsiveness in the supply chain to real-time worker voice, and 35% efforts toward continuous improvement - on policies, procedures, and capacity building. See the CASCADE Marketplace for more!",
+			"workerVoiceCoverage": "Worker Voice Coverage"
+		},
+		"filters": {
+			"supplier": "Supplier",
+			"country": "Country",
+			"industry": "Industry",
+			"from": "From",
+			"to": "To",
+			"reset": "Reset filters",
+			"updating": "Updating…",
+			"allSuppliers": "All Suppliers",
+			"allCountries": "All Countries",
+			"allIndustries": "All Industries"
+		},
+		"emptyStates": {
+			"noData": "No data found.",
+			"noDataForFilters": "No data found for {{filters}}.",
+			"suppliers": "the selected suppliers",
+			"country": "the selected country",
+			"countries": "the selected countries",
+			"industry": "the selected industry",
+			"industries": "the selected industries",
+			"dateRange": "the selected date range"
+		},
+		"multiSelect": {
+			"search": "Search…",
+			"noResults": "No results",
+			"apply": "Apply",
+			"selected": "{{count}} selected",
+			"noneSelected": "None selected"
+		},
+		"sections": {
+			"overviewSocial": "Overview: Social",
+			"supplyChainDemographics": "Supply Chain Demographics",
+			"workplaceDemographics": "Workplace Demographics",
+			"suppliersByCountry": "Suppliers by Country",
+			"workforceByGender": "Workforce by Gender",
+			"workersByNationality": "Workers by Nationality",
+			"supplierEngagement": "Supplier Engagement",
+			"supplyChainEngagement": "Supply Chain Engagement",
+			"workerVoiceOverview": "Worker Voice Overview",
+			"remediationQuality": "Remediation Quality",
+			"topCommonIssues": "Top 5 Most Common Worker Reported Labor Issues",
+			"grievanceStrengths": "Grievance Mechanism Strengths",
+			"grievanceImprovements": "Grievance Mechanism Areas for Improvement"
+		},
+		"workerIssues": {
+			"cases": "# of Cases",
+			"casesUnit": "cases",
+			"speed": "Speed",
+			"quality": "Quality",
+			"days": "days avg.",
+			"combinedScore": "Speed/Quality",
+			"scoreFormulaNote": "Score (0–10) = Quality (50%) + Speed (50%). Quality is worker-rated remediation (Poor=2.5, Fair=5, Good=7.5, Excellent=10). Speed is a sigmoid of days-to-close (30d ≈ 9.5, 90d = 5.0, 150d ≈ 0.5). Strengths shows the top 5 highest scores; Improvements shows the top 5 lowest.",
+			"noItems": "No qualifying items in this period.",
+			"noStrengths": "No issues meet the 'strong remediation' threshold in this period — remediation may need attention across the board.",
+			"noImprovements": "No issues are currently underperforming — remediation across the supply chain is generally strong.",
+			"commonDescription": "The most frequently reported labor issues across your supply chain during the selected timeframe, ranked by total number of cases. Forced labor risks are indicated by orange numbers.",
+			"strengthsDescription": "Issues where your supply chain demonstrates strong grievance response — fast time to remediation and high quality of resolution as scored by impacted workers.",
+			"improvementsDescription": "Issues where grievance response needs attention — slower time to remediation and lower quality of resolution as scored by impacted workers."
+		},
+		"workerVoiceOverviewChart": {
+			"description": "Showing KPI cases over time grouped by severity level, {{count}} months of data.",
+			"levels": {
+				"level1": "Level 1 (Engagement)",
+				"level2": "Level 2 (Early Warning)",
+				"level3_forced": "Level 3 (Forced Labor Risk)",
+				"level4_forced_urgent": "Level 4 (Forced Labor Risk - Urgent)",
+				"level3_supplier": "Level 3 (Labor Violation)",
+				"level4_supplier": "Level 4 (Zero-tolerance Violation)"
+			}
+		},
+		"tags": {
+			"demographics": "Demographics",
+			"bySeverity": "By Severity"
+		},
+		"charts": {
+			"byCountry": "By Country",
+			"byGender": "By Gender",
+			"byNationality": "By Nationality",
+			"countriesRepresented": "{{count}} countries represented",
+			"nationalitiesRepresented": "{{count}} nationalities represented",
+			"totalWorkers": "Total workers: {{count}}",
+			"noGenderData": "No gender data available",
+			"noData": "No data",
+			"suppliersByCountryDescription": "Number of suppliers operating in each country",
+			"workforceByGenderDescription": "Gender breakdown across all workers in the supply chain",
+			"workersByNationalityDescription": "Nationality mix of workers across the supply chain"
+		},
+		"engagementTable": {
+			"columns": {
+				"supplierName": "Supplier Name",
+				"activityType": "Type of Activity",
+				"date": "Date",
+				"location": "Location"
+			},
+			"description": "All supplier engagement activities across your supply chain",
+			"tooltip": "A log of all direct engagement activities conducted with suppliers in your supply chain, including surveys, audits, training sessions, and remediation visits."
+		},
+		"remediation": {
+			"basedOn": "Based on {{count}} closed cases"
+		},
+		"states": {
+			"loading": "Loading...",
+			"loadError": "Failed to load workplace stats.",
+			"noSupplierTitle": "No supplier data found for your account.",
+			"noSupplierForGlobalPartner": "No suppliers found for your supply chains. Please contact your administrator.",
+			"contactAdmin": "Please contact your administrator."
+		},
+		"slides": {
+			"overallTitle": "SOCIAL RESPONSIBILITY - OVERALL",
+			"overallDescription": "Overall Social Responsibility Score",
+			"laborTitle": "LABOR",
+			"laborDescription": "Labor Rights Score",
+			"recruitmentTitle": "RECRUITMENT",
+			"recruitmentDescription": "Recruitment Practices Score",
+			"wagesTitle": "WAGES",
+			"wagesDescription": "Wages Score"
+		},
+		"severity": {
+			"engagement": "Engagement",
+			"earlyWarning": "Early Warning",
+			"forcedLaborRisk": "Forced Labor Risk",
+			"forcedLaborRiskUrgent": "Forced Labor Risk - Urgent",
+			"levelLabel": "Level {{level}} ({{description}})",
+			"laborViolation": "Labor Violation",
+			"zeroToleranceViolation": "Zero-tolerance Violation"
+		},
+		"fallbacks": {
+			"unassigned": "Unassigned",
+			"others": "Others"
+		}
+	},
+	"viewWorkerFeedback": {
+		"pageTitle": "Employee Relations: Worker Feedback Case Management",
+		"loading": "Loading worker feedback...",
+		"loadError": "Failed to load worker feedback.",
+		"empty": "No worker feedback found.",
+		"addNew": "Add New Worker Feedback",
+		"rowsPerPage": "Rows per page",
+		"pagination": "Page {{current}} of {{total}} • Showing {{visible}} of {{count}} records",
+		"searchPlaceholder": "Search",
+		"highestLevel": "Highest Level: {{level}}",
+		"moreSuffix": "{{first}} +{{count}} more",
+		"columns": {
+			"id": "ID",
+			"operatorName": "Operator Name",
+			"issueCategories": "Issue Categories",
+			"issueDescription": "Issue Description",
+			"receivedVia": "Received Via",
+			"date": "Date",
+			"level": "Level",
+			"daysActive": "Days Active",
+			"assignedUsers": "Assigned Users",
+			"status": "Status",
+			"actions": "Actions"
+		},
+		"actions": {
+			"viewDetails": "View Details",
+			"edit": "Edit"
+		},
+		"caseStatus": {
+			"open": "open",
+			"close": "close",
+			"someProgress": "some progress",
+			"fallback": "Status {{id}}"
+		},
+		"genders": {
+			"1": "Male",
+			"2": "Female",
+			"3": "Other",
+			"4": "Non-Binary"
+		},
+		"fallbacks": {
+			"channel": "Channel {{id}}",
+			"category": "Category {{id}}",
+			"user": "User {{id}}"
+		}
+	},
+	"workerFeedbackForm": {
+		"pageTitle": {
+			"create": "Worker Feedback",
+			"edit": "Edit Worker Feedback"
+		},
+		"steps": {
+			"keyData": "Key Data",
+			"caseSummary": "Case Summary",
+			"employeeInfo": "Employee Info",
+			"employeeFeedback": "Employee Feedback",
+			"supportActions": "Support & Actions"
+		},
+		"requiredFields": {
+			"nationality": "Nationality",
+			"caseCallType": "Case/Call Type",
+			"hrOfficer": "HR Officer",
+			"feedbackChannel": "Feedback Channel",
+			"interactionDate": "Interaction Date"
+		},
+		"validation": {
+			"fillIn": "Please fill in: {{fields}}",
+			"completeKeyData": "Please complete the Key Data step before proceeding."
+		},
+		"feedback": {
+			"loading": "Loading worker feedback...",
+			"editLoadError": "Unable to load the worker feedback record for editing.",
+			"submitError": "Failed to submit worker feedback. Please try again.",
+			"updateError": "Failed to update worker feedback. Please try again."
+		},
+		"buttons": {
+			"next": "Next",
+			"back": "Back",
+			"submit": "Submit",
+			"submitting": "Submitting..."
+		},
+		"attachments": {
+			"label": "Additional Attachments",
+			"description": "Upload any relevant documents or images that provide further context or evidence for this case.",
+			"supportedFormats": "Supported formats: .pdf, .png, .jpg",
+			"clickToUpload": "Click to upload files",
+			"uploadHint": "PDF, PNG, JPG up to the API upload limit",
+			"existing": "Existing Attachments",
+			"new": "New Attachments",
+			"remove": "Remove"
+		},
+		"requiredStep": {
+			"title": "Key Data",
+			"allFieldsRequired": "* All fields are required",
+			"labels": {
+				"nationality": "What is the nationality of the worker?",
+				"caseCallType": "What is the reason that this worker contacted us?",
+				"staff": "Which human resources officer received the worker feedback?",
+				"channel": "Which feedback channel did the worker use?",
+				"interactionDate": "On what date was this feedback shared from the worker to the company officer?"
+			},
+			"placeholders": {
+				"nationality": "Select nationality",
+				"caseCallType": "Select Case/Call Type",
+				"staff": "Select HR staff member",
+				"channel": "Select feedback channel",
+				"interactionDate": "Select date"
+			}
+		},
+		"caseSummaryStep": {
+			"title": "Summary of Worker Feedback",
+			"placeholders": {
+				"summary": "Enter worker feedback summary"
+			}
+		},
+		"employeeInfoStep": {
+			"title": "Employee Information",
+			"labels": {
+				"clientName": "Employee Name",
+				"employeeDepartment": "Department of Employees who Raise Feedback/Complaint",
+				"employeeId": "Employee ID",
+				"phoneNumber": "Phone Number",
+				"gender": "Gender",
+				"lineId": "Line ID"
+			},
+			"placeholders": {
+				"clientInformation": "Enter client information",
+				"clientName": "Enter employee name",
+				"employeeDepartment": "Enter department",
+				"employeeId": "Enter employee ID",
+				"phoneNumber": "Enter phone number",
+				"gender": "Select Gender",
+				"lineId": "Enter Line ID",
+				"whatsapp": "Enter WhatsApp",
+				"zalo": "Enter Zalo"
+			}
+		},
+		"employeeFeedbackStep": {
+			"title": "Employee Feedback",
+			"labels": {
+				"feedbackDescription": "Detailed Feedback Description",
+				"workersAffected": "Number of Workers Affected",
+				"workersAffectedDescription": "Workers Affected Description",
+				"situationImproving": "Is the issue situation improving?",
+				"situationImprovingDescription": "Situation Improvement Description"
+			},
+			"placeholders": {
+				"feedbackDescription": "Enter detailed feedback description",
+				"workersAffected": "Enter number of affected workers",
+				"workersAffectedDescription": "Describe more about the affected workers",
+				"situationImprovingDescription": "Provide details about changes in the situation"
+			},
+			"options": {
+				"yes": "Yes",
+				"no": "No",
+				"unknown": "Unknown"
+			}
+		},
+		"supportStep": {
+			"title": "Employee Support",
+			"labels": {
+				"caseStatusAssessment": "From your assessment of this employee's feedback and their needs, are further actions needed on the part of the company?",
+				"riskAssessment": "What does the employee say are their most urgent needs related to this feedback, if anything?",
+				"otherServicesSupport": "What other services or support do you perceive may also be helpful to this worker, if anything?",
+				"nextSteps": "Please fill the detail of Next Steps for Issara follow-up and action",
+				"nextStepsStaff": "Who is the next step for company staff?",
+				"deadlineDate": "Please choose the Deadline Date.",
+				"finalRemarks": "Please fill the Final Remarks.",
+				"safeguardRemarks": "Please fill the Safeguards remarks."
+			},
+			"placeholders": {
+				"riskAssessment": "What are the most urgent needs of the employee",
+				"otherServicesSupport": "other services or support that may also be helpful to the worker",
+				"caseStatus": "Select...",
+				"nextSteps": "Enter next steps for Issara follow-up and action",
+				"nextStepsStaff": "Select staff member",
+				"deadlineDate": "Select deadline date",
+				"finalRemarks": "Enter final remarks",
+				"safeguardRemarks": "Enter safeguard remarks"
+			}
+		},
+		"success": {
+			"title": "Success!",
+			"actionLabel": "Continue",
+			"submittedMessage": "Worker feedback submitted successfully!",
+			"updatedMessage": "Worker feedback updated successfully!"
+		}
+	},
+	"workerFeedbackGrievance": {
+		"common": {
+			"yes": "Yes",
+			"no": "No",
+			"next": "Next",
+			"saveAsDraft": "Save as Draft",
+			"notePrefix": "Note: "
+		},
+		"tabs": {
+			"introduction": "1. Introduction",
+			"informationCollection": "2. Information Collection",
+			"safeguardingWorkers": "3. Safeguarding Workers",
+			"ethicalInvestigation": "4. Ethical Investigation",
+			"workerCommunication": "5. Worker Communication",
+			"monitoringAndCommunication": "6. Monitoring & Communication",
+			"training": "7. Training"
+		},
+		"intro": {
+			"title": "Interactive Ethical Grievance Management Tool",
+			"description": "This tool is designed to guide you through the ethical grievance management process, ensuring that all aspects of worker protection and fair investigation are addressed.",
+			"overviewTitle": "Feedback/Issue Overview",
+			"caseId": "Case ID",
+			"issueCategories": "Issue Categories",
+			"affectedWorkers": "Affected Workers",
+			"issueDescription": "Issue Description",
+			"dateReceived": "Date Received",
+			"currentStatus": "Current Status"
+		},
+		"informationCollection": {
+			"description": "Review the immediate information available for this case before moving into deeper investigation and remediation planning.",
+			"checkWithHr": "Have you checked with the HR team to see if similar worker-reported issues have been filed and/or solved recently?",
+			"repeatIssue": "Is this worker-reported issue a repeat issue, meaning that there might be a root cause that needs to be identified and addressed?",
+			"additionalNotes": "Additional Notes",
+			"notesPlaceholder": "Enter any additional notes about information collection...",
+			"additionalAttachments": "Additional Attachments",
+			"attachmentsDescription": "Upload any supporting documents or images you have gathered while collecting information for this case.",
+			"browseFiles": "Browse files",
+			"fileTypes": "PDF, PNG, JPG — up to 10 MB each",
+			"removeAttachment": "Remove attachment",
+			"undoRemove": "Undo remove",
+			"undo": "Undo",
+			"willUploadOnSave": "Will upload on save",
+			"removeFile": "Remove file"
+		},
+		"safeguarding": {
+			"title": "Safeguarding Affected Workers",
+			"remediationAtRiskAlert": "The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation.",
+			"zeroTolerance": "Is zero tolerance of retaliation being followed by everyone involved in this case?",
+			"reviewedIndividuals": "Have you reviewed all the possible individuals identified in the worker-reported issue and conducted a risk assessment to ensure that workers remain safe during the duration of the grievance investigation and remediation?",
+			"involvedInGrievance": "Have you reviewed all the possible individuals that would be involved in the grievance investigation and remediation process, including interpreters, and ensured that there are no conflicts of interest?",
+			"notes": "Safeguarding Notes",
+			"notesPlaceholder": "Enter additional notes about safeguarding measures..."
+		},
+		"ethicalInvestigation": {
+			"title": "Ensuring an Ethical Investigation",
+			"reviewedPlan": "Have you reviewed the investigation plan to ensure it follows ethical guidelines?",
+			"professional": "Have you ensured that the investigation is conducted professionally?",
+			"impartial": "Have you ensured that the investigation is impartial?",
+			"inclusive": "Is the investigation process inclusive and accessible to all affected workers?",
+			"timely": "Is the investigation being conducted in a timely and effective manner?",
+			"notes": "Investigation Notes",
+			"notesPlaceholder": "Enter notes about the ethical investigation process..."
+		},
+		"workerCommunication": {
+			"title": "Communicating With Workers Reporting Issues",
+			"wellbeing": "Have you communicated with the affected workers about their wellbeing during the investigation?",
+			"complexConsequences": "Do you need help with any more complex consequences arising from the worker-reported issue, such as psychosocial support for the worker, the need to quickly repatriate a worker, etc.?",
+			"complexConsequencesCheckbox": "Yes, I need assistance with complex consequences",
+			"notes": "Communication Notes",
+			"notesPlaceholder": "Enter notes about communication with affected workers..."
+		},
+		"monitoring": {
+			"title": "Monitoring and Communicating Findings",
+			"remediationActions": "Remediation Actions",
+			"remediationPlaceholder": "Describe the remediation actions taken...",
+			"systemStrengtheningMeasures": "System Strengthening Measures",
+			"systemStrengtheningPlaceholder": "Describe system strengthening measures implemented...",
+			"remediationHeader": "Remediation: ",
+			"systemStrengtheningHeader": "Systems Strengthening and Continuous Improvement: "
+		},
+		"trainings": {
+			"title": "Training Requirements",
+			"description": "Select any Issara trainings that might be relevant for preventing similar issues:",
+			"currentActionItems": "Current Action Items",
+			"assignedStaff": "Assigned Staff",
+			"nextSteps": "Next Steps",
+			"deadline": "Deadline",
+			"notSpecified": "Not specified",
+			"noNextSteps": "No next steps defined",
+			"noDeadline": "No deadline set"
+		},
+		"summary": {
+			"remediationTitle": "Supplier's notes on case remediation",
+			"systemStrengtheningTitle": "Supplier's notes on systems strengthening and continuous improvement related to this worker-reported issue:"
+		},
+		"messages": {
+			"submitted": "Supplier grievance for case {{caseId}} has been submitted successfully!",
+			"saved": "Supplier grievance for case {{caseId}} has been saved successfully!"
+		}
+	},
+	"memberDirectoryPage": {
+		"title": "MEMBER DIRECTORY",
+		"search": {
+			"recruitmentAgencies": "Search recruitment agencies...",
+			"suppliers": "Search suppliers...",
+			"globalBuyers": "Search global buyers..."
+		},
+		"tabs": {
+			"globalBuyers": "Global Buyers"
+		},
+		"memberTypes": {
+			"globalBuyer": "Global Buyer"
+		},
+		"filters": {
+			"title": "Filters",
+			"sortBy": "Sort By",
+			"country": "Country",
+			"industry": "Industry",
+			"basedCountry": "Based Country",
+			"sendingCountry": "Sending Country",
+			"placeholders": {
+				"basedCountry": "Select based country",
+				"sendingCountry": "Select sending country",
+				"industry": "Select industry"
+			},
+			"actions": {
+				"reset": "Reset",
+				"selectAll": "Select All",
+				"deselectAll": "Deselect All",
+				"apply": "Apply",
+				"search": "Search filters"
+			}
+		},
+		"sortOptions": {
+			"-popularity": "Most Popular",
+			"popularity": "Least Popular",
+			"-rating_score": "Highest Rated",
+			"rating_score": "Lowest Rated",
+			"name": "Name A-Z",
+			"-name": "Name Z-A"
+		},
+		"states": {
+			"loadingTitle": "Loading member directory...",
+			"loadingSubtitle": "Fetching recruitment agencies and suppliers data",
+			"loadingMore": "Loading more...",
+			"endReached": "You've reached the end.",
+			"emptyTitle": "No companies found",
+			"emptyBody": "Try adjusting your filters to see more results"
+		},
+		"card": {
+			"typeFallback": "Supplier",
+			"description": "{{name}} is a leading {{type}}.",
+			"viewDetails": "View Details"
+		}
+	},
+	"memberDirectoryDetail": {
+		"types": {
+			"member": "Member",
+			"recruitmentAgency": "Recruitment Agency",
+			"supplier": "Supplier",
+			"globalBuyer": "Global Buyer"
+		},
+		"unavailable": {
+			"title": "Member not available",
+			"body": "This member type is not available for your role."
+		},
+		"common": {
+			"notAvailable": "N/A",
+			"notProvided": "-"
+		},
+		"loading": {
+			"title": "Loading member detail...",
+			"subtitle": "Fetching {{type}} contact, media and other information"
+		},
+		"actions": {
+			"reload": "Reload"
+		},
+		"header": {
+			"registeredIn": "Registered in",
+			"reviews": "({{count}} reviews)",
+			"status": "Status"
+		},
+		"globalBuyer": {
+			"profileTitle": "Global Buyer Profile",
+			"website": "Website",
+			"headquarters": "Headquarters",
+			"productsSourced": "Products sourced",
+			"directoryMemberSince": "Directory member since",
+			"profileUpdated": "Profile updated",
+			"businessContact": "Business contact",
+			"name": "Name",
+			"email": "Email",
+			"phone": "Phone",
+			"sourcingProfile": "Sourcing Profile",
+			"companyPolicies": "Company Policies",
+			"viewPolicy": "View policy"
+		},
+		"statuses": {
+			"Operational": "Operational",
+			"Processing": "Processing",
+			"Permanently Blacklisted": "Permanently Blacklisted",
+			"Temporarily Suspended": "Temporarily Suspended",
+			"License is not extended": "License is not extended"
+		},
+		"description": {
+			"title": "Description",
+			"empty": "No description available."
+		},
+		"contact": {
+			"title": "Contact Information",
+			"contactDetail": "Contact detail",
+			"phone": "Phone",
+			"facebook": "Facebook",
+			"zalo": "Zalo"
+		},
+		"generalInformation": {
+			"title": "General Information",
+			"sendingCountries": "Sending Countries",
+			"dateOfRegistration": "Date of Registration",
+			"licenseValidDate": "License Valid Date",
+			"licenseNumber": "License No.",
+			"tillTermination": "Till Termination"
+		},
+		"overallRating": {
+			"title": "Overall Rating",
+			"reviews": "{{count}} Reviews",
+			"unknownCriteria": "Unknown Criteria"
+		},
+		"verification": {
+			"title": "Verified License",
+			"description": "Issara confirmed a business license.",
+			"link": "See License Information"
+		}
+	},
+	"workforcePolls": {
+		"pageTitle": "Workforce Polls",
+		"createPoll": "Create Poll",
+		"companyLabel": "Company",
+		"companyValue": "Issara Institute",
+		"filters": "Filters",
+		"allGenders": "All Genders",
+		"allNationalities": "All Nationalities",
+		"clearFilters": "Clear Filters",
+		"pollsByNationality": "Polls by Nationality",
+		"pollsCardTitle": "Polls",
+		"nationality": "Nationality",
+		"gender": "Gender",
+		"recordLabel": "Record",
+		"yearly": "Yearly",
+		"monthly": "Monthly",
+		"pollResults": "Poll Results",
+		"selectDate": "Select date",
+		"searchPlaceholder": "Search by question...",
+		"downloadCsv": "Download CSV",
+		"empty": {
+			"title": "No Poll Results Found",
+			"body": "There are no polls matching the selected filters and date range. Try adjusting filters or create a new poll to get started."
+		},
+		"summary": {
+			"averagePollsByYear": "Average Polls by year",
+			"totalPolls": "Total Polls",
+			"totalPollsResponse": "Total Polls Response"
+		},
+		"columns": {
+			"pollId": "Poll ID",
+			"question": "Question",
+			"pollResults": "Poll Results",
+			"language": "Language",
+			"totalVotes": "Total Votes",
+			"gender": "Gender",
+			"createdAt": "Created At",
+			"action": "Action",
+			"notApplicable": "N/A"
+		},
+		"actions": {
+			"published": "Published",
+			"unpublish": "Unpublish",
+			"publish": "Publish",
+			"edit": "Edit",
+			"delete": "Delete",
+			"viewDetail": "View Detail"
+		},
+		"genders": {
+			"M": "Male",
+			"F": "Female",
+			"N": "Prefer not to say",
+			"X": "Non-Binary"
+		},
+		"alerts": {
+			"publishTitle": "This poll will be published to your company group.",
+			"publishMessage": "Do you want to proceed with publishing this poll?",
+			"unpublishTitle": "Unpublish this poll?",
+			"unpublishMessage": "Workers will no longer see this poll. You can republish it later.",
+			"deleteTitle": "Delete this poll? Are you sure?",
+			"deleteMessage": "This action cannot be undone. The poll and all its data will be permanently removed."
+		},
+		"csv": {
+			"id": "ID",
+			"question": "Question",
+			"language": "Language",
+			"createdAt": "Created At",
+			"totalVotes": "Total Votes",
+			"choices": "Choices",
+			"country": "Country",
+			"nationality": "Nationality",
+			"votesSuffix_one": "{{count}} vote",
+			"votesSuffix_other": "{{count}} votes"
+		}
+	},
+	"workerReportedIssues": {
+		"pageTitle": "Worker Reported Issues",
+		"subtitle": "Track worker-reported issues by date range and category.",
+		"loading": {
+			"updating": "Updating Data…",
+			"title": "Loading worker-reported issues…",
+			"subtitle": "Fetching worker-reported issues and KPI details"
+		},
+		"filters": {
+			"startDate": "Start Date",
+			"endDate": "End Date",
+			"issueCategory": "Issue Category"
+		},
+		"categories": {
+			"All": "All",
+			"Labor": "Labor",
+			"Recruitment": "Recruitment",
+			"Wages": "Wages"
+		},
+		"summary": {
+			"criticalLabel": "Critical",
+			"criticalSubtitle": "(60+ days)",
+			"resolutionRateLabel": "Resolution Rate",
+			"resolutionRateSubtitle": "% of cases closed",
+			"resolutionRateEarlyWarning": "Resolution Rate\n(Early Warning Risk)",
+			"resolutionRateForcedLabor": "Resolution Rate\n(Forced Labor Risk)",
+			"resolutionRateEarlyWarningSubtitle": "(Early Warning Risk)",
+			"resolutionRateForcedLaborSubtitle": "(Forced Labor Risk)",
+			"criticalBreakdownTitle": "Critical (60+ days) Breakdown",
+			"earlyWarningRiskLabel": "Early Warning Risk:",
+			"forcedLaborRiskLabel": "Forced Labor Risk:",
+			"earlyWarningRiskTitle": "EARLY WARNING RISK",
+			"earlyWarningRiskSubtitle": "(Worker-reported Issues)",
+			"forcedLaborRiskTitle": "FORCED LABOR RISK",
+			"openIssuesLabel": "Open {{prefix}} Issues",
+			"openIssuesSubtitle": "Active worker-reported cases",
+			"closedIssuesLabel": "Closed {{prefix}} Issues",
+			"closedIssuesSubtitle": "Resolved worker-reported cases",
+			"workerReportedPrefix": "Worker-Reported"
+		},
+		"columns": {
+			"id": "ID",
+			"supplier": "Supplier",
+			"category": "Category",
+			"description": "Description",
+			"iloIndicator": "ILO Indicator",
+			"lksgIndicator": "LkSG Indicator",
+			"level": "Level (1-4)",
+			"daysActive": "Days Active",
+			"affected": "Affected",
+			"recommendationForSp": "Recommendation for SP",
+			"status": "Status",
+			"opened": "Opened",
+			"closed": "Closed",
+			"remediationOutcome": "Remediation Outcome"
+		},
+		"tables": {
+			"openTitle_one": "Open Worker-reported Violations ({{count}} issue)",
+			"openTitle_other": "Open Worker-reported Violations ({{count}} issues)",
+			"closedTitle_one": "Closed Worker-reported Violations ({{count}} issue)",
+			"closedTitle_other": "Closed Worker-reported Violations ({{count}} issues)"
+		},
+		"values": {
+			"yes": "Yes",
+			"notAvailable": "N/A",
+			"supplierFallback": "Supplier",
+			"supplierWithId": "Supplier #{{id}}",
+			"workerFeedbackSubmission": "Worker feedback form submission",
+			"closedViaWorkerFeedback": "Closed via worker feedback form",
+			"statusOpen": "Open",
+			"statusClosed": "Closed"
+		},
+		"sources": {
+			"kpi": "Social Responsibility KPI",
+			"workerFeedback": "Worker Feedback Form"
+		},
+		"details": {
+			"kpiTitle": "KPI Details",
+			"workerFeedbackTitle": "Worker Feedback Form Details",
+			"source": "Source",
+			"category": "Category",
+			"opened": "Opened",
+			"closed": "Closed",
+			"status": "Status",
+			"affectedWorkers": "Affected Workers",
+			"level": "Level",
+			"description": "Description",
+			"notes": "Notes",
+			"issueSummary": "Issue summary reported by workers",
+			"hrOfficer": "HR Officer",
+			"caseStatus": "Case Status",
+			"iloIndicators": "ILO forced-labor indicators",
+			"lksgIndicators": "LkSG indicators"
+		},
+		"grievanceIntro": {
+			"tabLabel": "1. Introduction",
+			"descriptionBeforeLink": "The ILM interactive grievance management tool allows you to receive and review ongoing worker feedback and worker-reported issues at your site, and respond in a timely and ethical manner. Functioning ethical grievance mechanisms must always have two things: (1) Safeguarded workers, and (2) Responsive, respectful employers and recruiters. To review more on the 8 components of Ethical Grievance Mechanisms, please download the one-page primer here",
+			"pdfLabel": "PDF",
+			"descriptionAfterLink": ".",
+			"reminder": "Reminder! The 8 components of Ethical Grievance Mechanisms:",
+			"components": {
+				"ethical": "Ethical",
+				"professional": "Professional",
+				"inclusive": "Inclusive",
+				"accessible": "Accessible",
+				"safe": "Safe",
+				"impartial": "Impartial",
+				"timelyAction": "Timely action",
+				"effective": "Effective"
+			}
+		}
+	},
+	"supplierDashboard": {
+		"title": "Company Dashboard",
+		"subtitle": "Real-time progress across your workforce, engagement, and continuous improvement tracks.",
+		"demographics": {
+			"title": "Workforce Demographics",
+			"pill": "Demographics",
+			"byGenderCard": "Workforce by Gender",
+			"byGender": "By Gender",
+			"byNationalityCard": "Workers by Nationality",
+			"byNationality": "By Nationality",
+			"totalWorkers": "Total workers: {{count}}",
+			"nationalitiesRepresented": "{{count}} nationalities represented"
+		},
+		"engagement": {
+			"title": "CASCADE Engagement",
+			"filter": "Filter",
+			"export": "Export",
+			"allTracks": "All tracks",
+			"searchColumn": "Search…",
+			"noResults": "No matching activity",
+			"showingRange": "Showing {{from}}–{{to}} of {{total}}",
+			"rowsPerPageLabel": "Rows per page",
+			"columns": {
+				"activity": "Activity",
+				"track": "Track",
+				"location": "Location",
+				"date": "Date",
+				"user": "User",
+				"roleHint": "(role)"
+			}
+		},
+		"tracks": {
+			"title": "Improvement Tracks",
+			"subtitle": "5 tracks · Click a stage activity to open in CASCADE Marketplace",
+			"statusAcross": "Status across",
+			"noActivities": "No activities yet",
+			"status": {
+				"done": "Done",
+				"progress": "In progress",
+				"todo": "Not started"
+			},
+			"stageStatus": {
+				"done": "Completed",
+				"progress": "In progress",
+				"todo": "Not started"
+			},
+			"legend": {
+				"completed": "Completed · {{count}}",
+				"inProgress": "In progress · {{count}}",
+				"notStarted": "Not started · {{count}}"
+			}
+		},
+		"buyerPartners": {
+			"title": "CURRENT BUYER PARTNERS",
+			"subtitle": "{{count}} buyers sourcing from you · Mutual validation with CASCADE buyers",
+			"intro": "These are the buyers on CASCADE currently sourcing from <b>you</b>. Buyers and suppliers <b>validate each other</b> here to keep partnerships accurate. Add buyers outside this list, or flag one — for example, if a buyer <b>no longer sources from you</b> — and the CASCADE team will reconcile it.",
+			"askOrFlag": "Ask or flag",
+			"addPartner": "Add a buyer partner",
+			"cancel": "Cancel",
+			"done": "Done",
+			"sending": "Sending…",
+			"errorGeneric": "Something went wrong. Please try again.",
+			"statusValidated": "Validated",
+			"statusPending": "Pending review",
+			"empty": "No buyer partners yet. Add a buyer below and the CASCADE team will verify the relationship.",
+			"askReasons": {
+				"noLongerSources": {
+					"label": "This buyer no longer sources from us",
+					"placeholder": "e.g. {{name}} stopped placing orders with us in Q4 2025 — please update our active partnership list."
+				},
+				"updateStatus": {
+					"label": "Update our relationship status",
+					"placeholder": "e.g. We've moved from pilot to full production with {{name}} as of March 2026."
+				},
+				"correctInfo": {
+					"label": "Correct this buyer's information",
+					"placeholder": "e.g. {{name}}'s head office moved to Copenhagen — please update the location on file."
+				},
+				"general": {
+					"label": "General question or note",
+					"placeholder": "Add any detail that helps the team verify the partnership with {{name}}…"
+				}
+			},
+			"askModal": {
+				"eyebrow": "Validate a buyer partner",
+				"title": "Ask a question or flag a change",
+				"description": "Your note goes to the CASCADE strategic partners team, who reconcile it against the buyer's own record — so buyers and suppliers keep each other's relationships accurate.",
+				"reasonLabel": "What's this about?",
+				"noteLabel": "Your note",
+				"submit": "Send to CASCADE",
+				"sentTitle": "Sent to CASCADE",
+				"sentBody": "Your note about <b>{{name}}</b> has been sent to the CASCADE strategic partners team. They will follow up and update the validation status."
+			},
+			"addModal": {
+				"eyebrow": "Add a buyer partner",
+				"title": "Add a buyer outside the list",
+				"description": "Buy from a brand that isn't on CASCADE yet? Add them here. They'll show as pending until the CASCADE team verifies the relationship.",
+				"nameLabel": "Buyer / brand name",
+				"namePlaceholder": "e.g. Meridian Retail Group",
+				"countryLabel": "Country",
+				"countryPlaceholder": "e.g. Japan",
+				"industryLabel": "Industry",
+				"industryPlaceholder": "e.g. Apparel",
+				"noteLabel": "Relationship note",
+				"notePlaceholder": "e.g. Active since 2024, two production lines for outerwear.",
+				"optional": "(optional)",
+				"routeNote": "Sent for CASCADE verification",
+				"submit": "Add"
+			}
+		}
+	},
+	"companyDashboard": {
+		"testerInfo": {
+			"summary": "The idea here is to encourage companies to see their information at-a-glance,",
+			"bodyBeforeFeedback": "The idea here is to encourage companies to see their information at-a-glance, be able to discern priority issues needing engaging, then having a place to go - a Workplanner - to be able to plan or request the activities being offered by different NGO partners to help address those areas. Thoughts, ideas, improvements? Put your comments in the",
+			"feedbackTab": "\"Got feedback?\" tab!",
+			"bodyAfterFeedback": "As many as you want. We can also have some calls for ideation if that is convenient."
+		},
+		"hero": {
+			"title": "Human Rights Due Diligence (HRDD) Overview",
+			"subtitle": "6 components of HRDD, driven by real-time worker voice",
+			"description": "All data below shows the past 12 months by default - or choose your desired date range using the filter below.",
+			"reportPeriod": "Report period",
+			"generated": "Generated",
+			"reset": "Reset",
+			"exportPdf": "Export as PDF",
+			"previousMonth": "Previous month",
+			"nextMonth": "Next month"
+		},
+		"hrdd": {
+			"component1": "HRDD Component 1. Embed Policy Commitments",
+			"component2": "HRDD Component 2. Identify & Assess Adverse Impacts",
+			"component3": "HRDD Component 3. Cease, Prevent & Mitigate Impacts",
+			"component4": "HRDD Component 4. Track Implementation & Results",
+			"component5": "HRDD Component 5. Communicate Progress & Impacts",
+			"component6": "HRDD Component 6. Provide for or Cooperate in Remediation"
+		},
+		"kpis": {
+			"workerVoiceCoverage": {
+				"titleLine1": "Worker Voice",
+				"titleLine2": "Coverage",
+				"description": "Workers with access to worker voice"
+			},
+			"resolvedWithoutEscalation": {
+				"titleLine1": "Total Labor Cases Resolved",
+				"titleLine2": "without Escalation",
+				"description": "Cases identified and remediated without requiring escalation"
+			},
+			"engagementActivities": {
+				"titleLine1": "Supply Chain",
+				"titleLine2": "Engagement Activities",
+				"description": "Trainings, surveys, on-site events, and other activities"
+			},
+			"activeEscalations": {
+				"titleLine1": "Current Active",
+				"titleLine2": "Escalations to Buyers",
+				"description": "Suppliers with Escalated Cases"
+			}
+		},
+		"liveStatus": {
+			"eyebrow": "",
+			"title": "WORKER VOICE COVERAGE: LIVE STATUS MONITOR",
+			"tier1": "Tier 1 – Export-Level Factories & Farms",
+			"tier23": "Upstream Supply Chain: Farms, Plants, Mills & Fishing Vessels",
+			"labels": {
+				"noWorkerVoice": "No Worker Voice",
+				"withoutEngagement": "Without Supplier Engagement",
+				"withEngagement": "With Supplier Engagement"
+			},
+			"descriptions": {
+				"noWorkerVoice": "Suppliers without active worker voice channels.",
+				"withoutEngagement": "Suppliers with worker voice present, but no active supplier engagement.",
+				"withEngagement": "Suppliers with worker voice channels and active supplier engagement."
+			},
+			"noSuppliersAvailable": "No suppliers available",
+			"noSupplierListAvailable": "No supplier list available.",
+			"suppliers_one": "{{count}} supplier",
+			"suppliers_other": "{{count}} suppliers"
+		},
+		"issueTreemap": {
+			"title": "SUMMARY OF CASES IDENTIFIED AND REMEDIATED",
+			"chartTitle": "CASES BY CATEGORY (CLOSED)",
+			"issueLabel": "Issue",
+			"totalCases": "Total Cases",
+			"closedIssues": "Closed Issues",
+			"cases": "cases",
+			"categoryNames": {
+				"labor": "Labor",
+				"wages": "Wages",
+				"recruitment": "Recruitment",
+				"laborWorkingConditions": "Labor - Working conditions",
+				"laborEmployerEmployeeRelations": "Labor - Employer-employee relations",
+				"laborLivingAndEatingConditions": "Labor - Living and eating conditions",
+				"laborWorkingConditionsShort": "Working conditions",
+				"laborEmployerEmployeeRelationsShort": "Employer-employee relations",
+				"laborLivingAndEatingConditionsShort": "Living and eating conditions"
+			}
+		},
+		"timeline": {
+			"title": "Timeline of Worker-Reported Issues",
+			"toggle": "OPEN/CLOSED",
+			"viewing": "Viewing",
+			"status": {
+				"open": "Open",
+				"closed": "Closed"
+			},
+			"noCategories": "No KPI categories found. Please check your configuration.",
+			"noData": "No KPI data available for the selected category and status.",
+			"unknownSupplier": "Unknown",
+			"unknownIssue": "Unknown issue"
+		},
+		"performance": {
+			"title": "Performance Insights & Metrics",
+			"sections": {
+				"riskManagement": "Risk Management",
+				"workerEngagement": "Worker Engagement",
+				"capacityBuilding": "Capacity Building"
+			},
+			"metrics": {
+				"forcedLaborRisksResolved": {
+					"label": "Forced Labor Risks Resolved",
+					"description": "Forced labor risks that were detected and resolved."
+				},
+				"preventedEscalations": {
+					"labelLine1": "Early Warning Identification /",
+					"labelLine2": "Prevented Escalations",
+					"description": "Worker feedback identified issues that could escalate to more serious risks and liabilities."
+				},
+				"workerEngagementCalls": {
+					"label": "Worker Engagement Calls and Messages",
+					"description": "Calls and messages with workers within the company's supply chain that build trust, empowered workers, and answered questions."
+				},
+				"supplierCapacityBuilding": {
+					"label": "Supplier Capacity Building",
+					"description": "Suppliers participating in CASCADE Community training and workshops."
+				},
+				"recruitmentAgencyCapacityBuilding": {
+					"label": "Recruitment Agency Capacity Building",
+					"description": "Recruitment agencies participating in CASCADE Community training and workshops."
+				}
+			},
+			"trainedSuppliers": "Trained suppliers",
+			"noSuppliers": "No suppliers",
+			"lastFieldworkDate": "Last",
+			"comingSoon": "Coming Soon"
+		},
+		"topRisks": {
+			"title": "Top 10 Worker-reported Labor Issues in your Supply Chain",
+			"quality": "Quality",
+			"unknown": "Unknown",
+			"level": "Level {{level}}",
+			"badges": {
+				"excellent": "Excellent",
+				"good": "Good",
+				"fair": "Fair",
+				"poor": "Poor"
+			},
+			"description": {
+				"beforeBlack": "The most frequently reported labor issues in your company's supplier base during the selected timeframe, with early warning risks indicated by",
+				"blackNumbers": "black numbers",
+				"beforeOrange": "and forced labor risks indicated by",
+				"orangeNumbers": "orange numbers",
+				"scorePrefix": "The score on a scale of",
+				"scoreSuffix": "is the average quality of remediation of these issues, as scored and verified by impacted workers."
+			}
+		}
+	},
+	"socialResponsibilityWorkplan": {
+		"hero": {
+			"title": "Social Responsibility Workplanning",
+			"description": "Plan, track and manage your company's sustainability initiatives with clarity and efficiency."
+		},
+		"header": {
+			"title": "PROGRESS ON PRIORITY WORKPLAN ACTIVITIES"
+		},
+		"tabs": {
+			"workerVoice": "Worker Voice",
+			"laborRecruitment": "Labor Recruitment",
+			"workingConditions": "Working Conditions",
+			"trainings": "Trainings",
+			"notesRemarks": "Notes & Remarks"
+		},
+		"status": {
+			"notYetInitiated": "Not yet initiated",
+			"partialProgress": "Partial progress",
+			"completedOngoing": "Completed/ongoing"
+		},
+		"sections": {
+			"workerVoice": "ACTIVITIES FOR AREA 1 - WORKER VOICE",
+			"laborRecruitment": "ACTIVITIES FOR AREA 2 - LABOR RECRUITMENT",
+			"workingConditions": "ACTIVITIES FOR AREA 3 - WORKING CONDITIONS"
+		},
+		"loading": {
+			"activities": "Loading workplan activities...",
+			"trainings": "Loading trainings..."
+		},
+		"trainings": {
+			"title": "LIST OF TRAININGS JOINED",
+			"columns": {
+				"training": "Training",
+				"date": "Date"
+			}
+		},
+		"notesRemarks": {
+			"title": "Notes & Remarks"
+		}
+	},
+	"cascadeMarketplace": {
+		"appName": "CASCADE Marketplace",
+		"tabs": {
+			"dashboard": "CASCADE Marketplace Dashboard",
+			"catalog": "Solutions Catalog",
+			"plan": "Improvement Plan"
+		},
+		"dashboard": {
+			"loop": {
+				"title": "CASCADE Continuous Improvement Loop",
+				"identifyRisk": "Identify Risk",
+				"workerVoice": "Worker Voice",
+				"selectSolution": "Select Solution",
+				"implementVerify": "Implement & Verify",
+				"cascadeIndex": "CASCADE Index",
+				"marketAdvantage": "Market Advantage",
+				"ongoingAssurances": "Ongoing Assurances"
+			},
+			"score": {
+				"yourIndex": "Your CASCADE Index",
+				"composition": "Score Composition",
+				"workerVoiceWeight": "(65% weight)",
+				"continuousImprovement": "Continuous Improvement",
+				"continuousImprovementWeight": "(35% weight)",
+				"finalFormula": "Final Formula",
+				"excellent": "Excellent",
+				"good": "Good",
+				"fair": "Fair",
+				"poor": "Poor",
+				"performance": "{{status}} Performance",
+				"excellentPerformance": "Excellent Performance",
+				"goodPerformance": "Good Performance",
+				"roomForImprovement": "Room for Improvement",
+				"needsAttention": "Needs Attention"
+			},
+			"actions": {
+				"title": "Take Action Now",
+				"subtitle": "Free, self-paced tools to assess and strengthen your operations.",
+				"freeTools": "Free Tools",
+				"free": "Free",
+				"diagnosticMeta": "~15 min · 9 sections",
+				"latestScore": "Your Latest Score",
+				"lastAssessed": "Last assessed {{date}}",
+				"diagnosticDescription": "Score your grievance mechanism across 9 critical components, identify weak points, track improvement over time.",
+				"retake": "Retake Assessment",
+				"comingSoon": "Coming Soon",
+				"comingSoonBody": "New self-diagnostic tool in the works."
+			},
+			"cta": {
+				"title": "Ready to Improve Your Score?",
+				"body": "Browse our Solutions Catalog to find training, certifications, and services that will boost your Continuous Improvement score.",
+				"button": "Browse Solutions Catalog"
+			},
+			"activity": {
+				"title": "Recent Activity",
+				"empty": "There are no recent activities yet."
+			}
+		},
+		"sidebar": {
+			"currentScore": "Current Score",
+			"projectedScore": "Projected Score",
+			"breakdown": "Score Breakdown",
+			"workerVoice": "Worker Voice (65%)",
+			"currentCi": "Current CI (35%)",
+			"projectedCi": "Projected CI (35%)",
+			"itemsInPlan_one": "{{count}} item in your improvement plan",
+			"itemsInPlan_other": "{{count}} items in your improvement plan",
+			"viewPlan": "View Improvement Plan",
+			"howItWorks": {
+				"title": "How It Works",
+				"items": {
+					"browse": "Browse solutions that improve your practices",
+					"project": "Add items to see real-time score projections",
+					"complete": "Complete items to boost your CASCADE Index",
+					"partnerships": "Higher scores attract more brand partnerships"
+				}
+			},
+			"feedback": {
+				"title": "Feedback Box",
+				"body": "Would you like to request or offer an activity to be added to the CASCADE Marketplace? Tell us more here!",
+				"name": "Your Name",
+				"email": "Your Email",
+				"description": "Describe the activity you'd like to request or offer...",
+				"submit": "Submit Request",
+				"validation": "Please fill out all fields",
+				"success": "Request sent — thank you!",
+				"error": "Failed to send request. Please try again later."
+			}
+		},
+		"catalog": {
+			"loading": "Loading solutions…",
+			"categories": {
+				"workerVoice": "Worker Voice",
+				"ethicalRecruitment": "Ethical Recruitment",
+				"livingAndWorkingConditions": "Living and Working Conditions",
+				"livingWages": "Living Wages",
+				"climateResilientSupplyChains": "Climate Resilient Supply Chains",
+				"companyPoliciesSystems": "Company Policies & Systems"
+			},
+			"card": {
+				"mostRecommended": "Most Recommended",
+				"trainingAvailableIn": "Training Available In",
+				"datesToBeConfirmed": "Dates to be confirmed",
+				"ciScoreImpact": "CI Score Impact",
+				"inPlan": "In Plan",
+				"addToPlan": "+ Add to Plan",
+				"readMore": "Read more",
+				"readLess": "Read less",
+				"solutionColumn": "Solution",
+				"typeColumn": "Type",
+				"costColumn": "Cost"
+			},
+			"modal": {
+				"title": "Add to Plan:",
+				"subtitle": "Choose how you'd like to add this solution to your improvement plan",
+				"forMyselfTitle": "For Myself",
+				"forMyselfBody": "Add to my organization's compliance plan",
+				"sponsorTitle": "Sponsor for Suppliers",
+				"sponsorBody": "Pay for this activity on behalf of your suppliers",
+				"youPay": "You Pay",
+				"recommendTitle": "Recommend to Suppliers",
+				"recommendBody": "Recommend this activity to your suppliers so they can pay for it themselves",
+				"theyPay": "They Pay",
+				"selfHint": "Add this activity to your own compliance plan",
+				"selectSuppliers_one": "Select Suppliers ({{count}} selected)",
+				"selectSuppliers_other": "Select Suppliers ({{count}} selected)",
+				"loadingSuppliers": "Loading suppliers…",
+				"noSuppliersFound": "No suppliers found",
+				"scoreLabel": "Score: {{score}}",
+				"noScore": "No score",
+				"selectSupplierValidation": "Please select at least one supplier to continue",
+				"summary": "Summary",
+				"activity": "Activity",
+				"scoreImpact": "Score Impact",
+				"suppliers": "Suppliers",
+				"noneSelected": "None selected"
+			}
+		},
+		"shared": {
+			"cost": {
+				"free": "Free",
+				"training": "Training",
+				"service": "Service",
+				"investment": "Investment",
+				"subscription": "Subscription",
+				"paid": "Paid",
+				"paidWithStruck": "Paid",
+				"paidWithSuffix": "Buyers-Funded"
+			}
+		},
+		"plan": {
+			"academy": {
+				"submitError": "Submission failed. Please try again.",
+				"submittedTitle": "Registration Submitted!",
+				"submittedBody": "Our team will reach out with confirmation details.",
+				"availableLanguages": "Available Languages",
+				"addYourDetails": "Add Your Details",
+				"firstNamePlaceholder": "First name",
+				"lastNamePlaceholder": "Last name",
+				"selectCountry": "Select country…",
+				"organizationCompany": "Organization / Company",
+				"organizationPlaceholder": "Company or organization name",
+				"positionHelp": "Please specify the position and responsibilities related to your position",
+				"positionPlaceholder": "e.g. Supply Chain Manager — responsible for…",
+				"attendedBeforeQuestion": "Have you ever attended any of the Issara Academy's events before?",
+				"submitRegistration": "Submit Registration"
+			},
+			"actionRequired": {
+				"title": "Items from Buyers — Action Required",
+				"pending_one": "{{count}} pending",
+				"pending_other": "{{count}} pending",
+				"loading": "Loading pending items…",
+				"sponsored": "Sponsored",
+				"recommended": "Recommended",
+				"strategicPartner": "Strategic Partner",
+				"fromBuyer": "From Buyer #{{id}}",
+				"saving": "Saving…",
+				"acceptAdd": "Accept & Add to Plan",
+				"decline": "Decline"
+			},
+			"empty": {
+				"title": "Your plan is empty",
+				"body": "Browse our Solutions Catalog to find training, certifications, and services that will help improve your CASCADE Index.",
+				"button": "Browse Solutions Catalog"
+			},
+			"item": {
+				"points_one": "+{{count}} point",
+				"points_other": "+{{count}} points",
+				"pointsPerSupplier_one": "+{{count}} pt/supplier",
+				"pointsPerSupplier_other": "+{{count}} pts/supplier",
+				"noActionAssigned": "No action assigned yet",
+				"totalCost": "Total Cost",
+				"priceLabel": "Price {{price}}",
+				"payNotify": "Pay & Notify",
+				"subscribeDownload": "Subscribe & Download"
+			},
+			"actions": {
+				"selfCertify": "Self-Certify",
+				"scheduleKickoff": "Schedule Kick-off",
+				"requestQuote": "Request Quote",
+				"registerForTraining": "Register for Training",
+				"notifySuppliers": "Notify Suppliers",
+				"enterHere": "Enter Here",
+				"uploadDocuments": "Upload Documents"
+			},
+			"overview": {
+				"title": "Your Improvement Plan",
+				"subtitle": "Review and activate your selected solutions to improve your CASCADE Index",
+				"clearAll": "Clear All",
+				"totalProjectedImpact": "Total Projected Impact",
+				"itemsInPlan_one": "{{count}} item in your plan",
+				"itemsInPlan_other": "{{count}} items in your plan",
+				"estimatedTime": "Estimated Time",
+				"estimatedTimeValue": "2-6 weeks"
+			},
+			"sections": {
+				"sponsoringForSuppliers_one": "Sponsoring for Suppliers ({{count}})",
+				"sponsoringForSuppliers_other": "Sponsoring for Suppliers ({{count}})",
+				"youPay": "You Pay",
+				"totalSponsoringCost": "Total Sponsoring Cost",
+				"items_one": "{{count}} item",
+				"items_other": "{{count}} items",
+				"suppliers_one": "{{count}} supplier",
+				"suppliers_other": "{{count}} suppliers",
+				"suppliersNotified": "Suppliers Notified ✓",
+				"processing": "Processing…",
+				"payNotifySuppliers": "Pay & Notify Suppliers",
+				"sponsorHelpTitle": "You're sponsoring compliance improvements for your suppliers",
+				"sponsorHelpBody": "As a global brand, sponsoring activities helps your suppliers improve their CASCADE scores, which strengthens your entire supply chain.",
+				"recommendedToSuppliers_one": "Recommended to Suppliers ({{count}})",
+				"recommendedToSuppliers_other": "Recommended to Suppliers ({{count}})",
+				"theyPay": "They Pay",
+				"notificationSummary": "Notification Summary",
+				"notifySuppliers": "Notify Suppliers",
+				"recommendHelpTitle": "You're recommending these activities to your suppliers",
+				"recommendHelpBody": "Your suppliers will receive notifications about these recommendations and can purchase them independently."
+			},
+			"nextSteps": {
+				"title": "Next Steps",
+				"step1": "Activate free resources immediately by downloading and self-certifying completion",
+				"step2": "Request quotes for credit-based items and professional services",
+				"step3": "Complete items to automatically boost your CASCADE Index score",
+				"step4": "Higher scores attract more brand partnerships and market opportunities"
+			},
+			"modal": {
+				"registerForTrainingTitle": "Register for Training",
+				"scheduleKickoffTitle": "Schedule Kick-off",
+				"requestQuoteTitle": "Request a Quote",
+				"registerForTrainingDescription": "Choose your session and complete your details for",
+				"scheduleKickoffDescription": "Book a kick-off session for",
+				"requestQuoteDescription": "Request pricing for",
+				"kickoffRequested": "Kick-off Requested!",
+				"quoteRequested": "Quote Requested!",
+				"followUp": "Our team will reach out within 1–2 business days.",
+				"namePlaceholder": "Your name",
+				"companyPlaceholder": "Company name",
+				"preferredDate": "Preferred Date",
+				"additionalNotes": "Additional Notes",
+				"describeNeeds": "Describe your needs",
+				"additionalNotesPlaceholder": "Any specific requirements or questions...",
+				"describeNeedsPlaceholder": "Budget range or specific requirements...",
+				"requestKickoff": "Request Kick-off",
+				"submitRequest": "Submit Request",
+				"agencyDisclosureTitle": "Form for Communications: Agency Disclosure",
+				"agencyDisclosureSubtitle": "Please write the names of the recruitment agencies that you use.",
+				"agencyLabel": "AGENCY {{n}}",
+				"agencyNameLabel": "Recruitment Agency Name",
+				"agencyNamePlaceholder": "e.g. Global Staffing Solutions Co.",
+				"originCountryLabel": "Origin Country",
+				"selectCountryPlaceholder": "Select country...",
+				"destinationCountriesLabel": "Destination Country/s",
+				"destinationCountriesPlaceholder": "e.g. Thailand, Malaysia",
+				"addMoreAgency": "+ Add More",
+				"agencyDisclosureSubmittedTitle": "Agency Disclosure Submitted!",
+				"agencyDisclosureSubmitError": "Something went wrong submitting your agency disclosure. Please try again.",
+				"uploadPolicyDocumentsTitle": "Upload Policy Documents",
+				"uploadPolicyDocumentsSubtitle": "Share your existing policies for review and support — e.g. grievance mechanism procedures, responsible recruitment guidelines.",
+				"policyLabel": "Policy {{n}}",
+				"howAreYouAddingIt": "How are you adding it?",
+				"modeLink": "Link",
+				"modeFile": "File",
+				"policyNameLabel": "Policy Name",
+				"policyNamePlaceholder": "e.g. Global Code of Conduct & Human Rights Statement",
+				"policyDocumentLabel": "Policy Document",
+				"clickToUploadOrDragDrop": "Click to upload or drag & drop",
+				"fileTypeHint": "PDF, DOCX, XLSX — up to 20 MB",
+				"fileTypeError": "File type not supported. Please upload a PDF, DOCX, or XLSX file.",
+				"fileSizeError": "File is too large. Maximum size is 20 MB.",
+				"whichCategoriesLabel": "Which categories does this policy cover?",
+				"categoriesHelp": "Tick all that apply — one policy can cover several.",
+				"addAnotherPolicy": "+ Add Another Policy",
+				"submitForReview": "Submit for Review",
+				"uploadPolicyDocumentsSubmittedTitle": "Policy Documents Submitted!",
+				"uploadPolicyDocumentsSubmitError": "Something went wrong submitting your policy documents. Please try again."
+			}
+		},
+		"dashboardDescription": "Track your continuous improvement, and discover ways to improve your score",
+		"catalogDescription": "Browse and select solutions for yourself, sponsor them for your suppliers, or recommend them to your suppliers. Each item shows its impact on your CASCADE Index.",
+		"supplierIdLabel": "Supplier ID",
+		"partnerIdLabel": "Partner ID",
+		"supplierFallback": "Supplier"
+	},
+	"grievanceSelfDiagnostic": {
+		"header": {
+			"language": "Language"
+		},
+		"progress": {
+			"sectionProgress": "Section {{current}} of {{total}}",
+			"challenge": "Challenge",
+			"complete": "{{percent}}% Complete",
+			"estTime": "~{{minutes}} min",
+			"save": "Save",
+			"saved": "Saved!",
+			"print": "Print"
+		},
+		"intro": {
+			"title": "CASCADE Grievance Mechanism",
+			"subtitle": "Self-Diagnostic",
+			"tagline": "Trusted, Effective Worker Engagement Mechanisms",
+			"purposeTitle": "Purpose",
+			"purposeBody": "This diagnostic assessment tool provides a clear and practical framework to analyze the structure and effectiveness of current company grievance mechanisms. This self-diagnostic tool can help suppliers and recruitment agencies to pinpoint:",
+			"bullets": {
+				"strengths": "Areas of strength",
+				"improvements": "Areas requiring improvement and how to best improve them",
+				"progress": "How to measure and articulate progress made to date more effectively"
+			},
+			"expectTitle": "What to Expect",
+			"expectItems": {
+				"sections": "Complete 9 sections covering the critical components of grievance mechanisms",
+				"score": "Receive your detailed score and personalized recommendations at the end",
+				"email": "Get your results emailed to you for future reference",
+				"save": "Your progress is saved in your browser — you can pause and resume anytime"
+			},
+			"scoreTitle": "How You'll Be Scored",
+			"scoreNote": "Your final score appears as a percentage and a 1–5 star rating, with section-level insights and tailored recommendations. Some questions are marked as \"Challenge\" questions and are worth double points.",
+			"resumeBanner": "You have saved progress. Continue where you left off?",
+			"resumeButton": "Resume Assessment",
+			"startFresh": "Start Fresh",
+			"note": "The grievance mechanism self-diagnostic is a free tool available to all suppliers and recruitment agencies on the CASCADE platform. It can be taken up to 4 times per year in order to help companies track their improvement.",
+			"start": "Start Assessment"
+		},
+		"components": {
+			"title": "The 9 Critical Components",
+			"subtitle": "of Trusted, Effective Worker Engagement Mechanisms",
+			"videoLabel": "Play introduction video",
+			"videoCaption": "Video: Understanding the 9 Critical Components",
+			"assessedTitle": "What You'll Be Assessed On",
+			"noteTitle": "Note:",
+			"noteBody": "The assessment contains some \"challenge questions\" as double points. Take your time and answer honestly to get the most accurate results and recommendations.",
+			"continue": "Continue to Assessment",
+			"cards": {
+				"safeguards": "Credible and effective safeguards",
+				"communications": "Culturally and linguistically appropriate communications",
+				"access": "Private, unmonitored, and free access",
+				"remediation": "Remediation responsiveness and results",
+				"retaliation": "Zero tolerance policies against retaliation",
+				"conflicts": "No conflicts of interest",
+				"empowerment": "Detailed empowerment and education for workers",
+				"channels": "Independent channels for worker access",
+				"mindset": "Genuine service mindset"
+			}
+		},
+		"question": {
+			"challengeBadge": "Challenge · 2× pts",
+			"of": "Question {{current}} of {{total}}",
+			"back": "Back",
+			"completeSection": "Complete Section",
+			"nextQuestion": "Next Question"
+		},
+		"sectionComplete": {
+			"title": "Section {{section}} Complete!",
+			"promptLast": "All sections complete. Ready to see your results?",
+			"promptNext": "Great progress! Ready for Section {{section}}?",
+			"submitting": "Submitting...",
+			"viewResults": "View Your Results",
+			"continue": "Continue to Next Section",
+			"halfwayTitle": "You're Halfway There!",
+			"halfwayBody": "Excellent momentum! You've completed 4 of 9 sections. Keep going — the second half builds on the strong foundation you've already created.",
+			"halfwayEncourage": "Keep it up!"
+		},
+		"options": {
+			"notAtAll": "Not at all",
+			"partially": "Partially, in progress",
+			"yesFully": "Yes, fully",
+			"no": "No",
+			"aLot": "A lot",
+			"notSure": "I'm not sure",
+			"sometimes": "Sometimes",
+			"yes": "Yes",
+			"yesRegularly": "Yes, regularly"
+		},
+		"results": {
+			"submitErrorFallback": "Could not submit assessment.",
+			"networkTitle": "Network issue — saved locally only",
+			"assessmentComplete": "Assessment Complete!",
+			"personalized": "Here are your results and personalized recommendations",
+			"detailedScores": "Detailed Section Scores",
+			"rememberTitle": "Remember:",
+			"rememberBody": "The main point is not what the final score is - rather, it is about identifying the areas and priorities you want to strengthen and raise. The scoring and insights from this self-diagnostic should be taken in consideration alongside worker feedback regarding the effectiveness of your grievance mechanism.",
+			"recommendedTitle": "Recommended Courses & Activities",
+			"recommendedBody": "Based on your assessment results, we recommend the following courses and activities to help improve your company's grievance mechanisms:",
+			"nextStepsTitle": "Next Steps:",
+			"nextStepsBody": "Explore these recommended courses on the CASCADE platform to start improving your grievance mechanisms. You can retake this assessment up to 4 times per year to track your progress.",
+			"retake": "Take Assessment Again",
+			"emailTitle": "Get Your Results by Email",
+			"emailBody": "Enter your email to receive a copy of your detailed results and personalized recommendations.",
+			"emailPlaceholder": "your@email.com",
+			"emailOptIn": "Subscribe to Issara Institute updates and resources",
+			"emailSubmit": "Send Results",
+			"emailSending": "Sending...",
+			"emailSent": "Results sent to your inbox!",
+			"messages": {
+				"excellent": "Excellent. Your grievance mechanisms are leading practice.",
+				"great": "Great work! Strong grievance mechanisms with room to excel",
+				"solid": "Solid foundation. A few sections where targeted improvements will move the needle.",
+				"grow": "Plenty of room to grow. Start with the lowest-scoring sections - they offer the biggest return."
+			}
+		}
+	},
+	"responsibleProcurement": {
+		"pageTitle": "CASCADING RESPONSIBLE PROCUREMENT",
+		"subtitle": "Suppliers and recruitment agencies have a voice! Anonymous feedback helps cascade responsible procurement, more ethical recruitment, and equity in supply chains",
+		"intro": "All feedback is anonymous, though must be tied to a purchase order or management services contract for validation. Scores, both positive and negative, will contribute to the overall score of the company you are providing feedback on. By giving weight to the voice to the suppliers and recruiters in global supply chains regarding the responsible conduct of brands, retailers, and larger producers, we are driving equity and transparency around responsible sourcing - and helping to cascade better buying practices. There are 3 questions.",
+		"feedbackAsSupplier": "Provide Anonymous Feedback as a Supplier",
+		"feedbackAsRecruitmentAgency": "Provide Anonymous Feedback as a Recruitment Agency",
+		"thankYouTitle": "Feedback Submitted",
+		"thankYouMessage": "Thank you for providing your anonymous feedback!",
+		"bannerAlt": "A visual representation of Inclusive Labor Monitoring"
+	},
+	"Additional Attachments": "Additional Attachments",
+	"Additional Notes": "Additional Notes",
+	"Browse files": "Browse files",
+	"No Need": "No Need",
+	"No": "No",
+	"No, I do not think that is necessary": "No, I do not think that is necessary",
+	"No, not yet, but I will do so": "No, not yet, but I will do so",
+	"Note": "Note",
+	"PDF, PNG, JPG — up to 10 MB each": "PDF, PNG, JPG — up to 10 MB each",
+	"Please add notes on case remediation": "Please add notes on case remediation",
+	"Please describe why?": "Please describe why?",
+	"Preview & Submit": "Preview & Submit",
+	"Remediation": "Remediation",
+	"Save as Draft": "Save as Draft",
+	"Systems Strengthening and Continuous Improvement": "Systems Strengthening and Continuous Improvement",
+	"Updated At ": "Updated At ",
+	"Will upload on save": "Will upload on save",
+	"Yes": "Yes",
+	"Yes, I already reached out to my Issara focal": "Yes, I already reached out to my Issara focal",
+	"written by -": "written by -",
+	"All individuals have received the training ensuring they understand how to prioritize safety, confidentiality, privacy and company protocols for efficient response to worker-reported issues?": "All individuals have received the training ensuring they understand how to prioritize safety, confidentiality, privacy and company protocols for efficient response to worker-reported issues?",
+	"Case updates entered here are time-stamped and viewable by your team, the Issara team, and your customers that are Strategic Partners in the ILM system. If there is any additional information that you would like to add regarding Remediation or Systems Strengthening and Continuous Improvement, please enter it here:": "Case updates entered here are time-stamped and viewable by your team, the Issara team, and your customers that are Strategic Partners in the ILM system. If there is any additional information that you would like to add regarding Remediation or Systems Strengthening and Continuous Improvement, please enter it here:",
+	"Do you need help with any more complex consequences arising from the worker-reported issue, such as psychosocial support for the worker, the need to quickly repatriate a worker, etc.?": "Do you need help with any more complex consequences arising from the worker-reported issue, such as psychosocial support for the worker, the need to quickly repatriate a worker, etc.?",
+	"Has a trained and impartial individual reached out to the worker(s) to introduce themselves as the case focal point, inform them that the company is about to launch an investigation into their grievance, specify the start date, and confirm that there are no conflicts of interest within the investigation team?": "Has a trained and impartial individual reached out to the worker(s) to introduce themselves as the case focal point, inform them that the company is about to launch an investigation into their grievance, specify the start date, and confirm that there are no conflicts of interest within the investigation team?",
+	"Have you checked with the HR team to see if similar worker-reported issues have been filed and/or solved recently?": "Have you checked with the HR team to see if similar worker-reported issues have been filed and/or solved recently?",
+	"Have you reviewed all the possible individuals identified in the worker-reported issue and conducted a risk assessment to ensure that workers remain safe during the duration of the grievance investigation and remediation?": "Have you reviewed all the possible individuals identified in the worker-reported issue and conducted a risk assessment to ensure that workers remain safe during the duration of the grievance investigation and remediation?",
+	"Have you reviewed all the possible individuals that would be involved in the grievance investigation and remediation process, including interpreters, and ensured that:": "Have you reviewed all the possible individuals that would be involved in the grievance investigation and remediation process, including interpreters, and ensured that:",
+	"Is there any conflict of interest? Please do not proceed until it is certain that there are no relationships or conflicts of interest between grievance response personnel and the individual(s) who are the subjects of the complaint.": "Is there any conflict of interest? Please do not proceed until it is certain that there are no relationships or conflicts of interest between grievance response personnel and the individual(s) who are the subjects of the complaint.",
+	"Is this worker-reported issue a repeat issue, meaning that there might be a root cause that needs to be identified and addressed?": "Is this worker-reported issue a repeat issue, meaning that there might be a root cause that needs to be identified and addressed?",
+	"Is zero tolerance of retaliation being followed by everyone involved in this case?": "Is zero tolerance of retaliation being followed by everyone involved in this case?",
+	"Please add notes on Systems Strengthening and Continuous Improvement related to this worker-reported issue": "Please add notes on Systems Strengthening and Continuous Improvement related to this worker-reported issue",
+	"Please review the information shared in ILM. Do you want to talk to Issara to get more context on the worker-reported issue?": "Please review the information shared in ILM. Do you want to talk to Issara to get more context on the worker-reported issue?",
+	"Please review the list of trainings below and indicate if you would like to request any of them from Issara.": "Please review the list of trainings below and indicate if you would like to request any of them from Issara.",
+	"The Issara team will be notified of this and will reach out to you soon! Issara Institute has trained trauma-informed counselors, teams working in the origin countries of the workers, and a network of trusted service providers, all which are happy to help with complex cases and service needs.": "The Issara team will be notified of this and will reach out to you soon! Issara Institute has trained trauma-informed counselors, teams working in the origin countries of the workers, and a network of trusted service providers, all which are happy to help with complex cases and service needs.",
+	"The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation, and build better systems for zero tolerance against retaliation.": "The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation, and build better systems for zero tolerance against retaliation.",
+	"The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation.": "The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation.",
+	"Throughout the investigation and upon its conclusion, have you stayed in touch with the worker to check on their well-being and whether the investigation has had any positive or negative impacts on them?": "Throughout the investigation and upon its conclusion, have you stayed in touch with the worker to check on their well-being and whether the investigation has had any positive or negative impacts on them?",
+	"Upload any supporting documents or images you have gathered while collecting information for this case.": "Upload any supporting documents or images you have gathered while collecting information for this case.",
+	"Would you like assistance from Issara Institute to follow up on ethical grievance processes?": "Would you like assistance from Issara Institute to follow up on ethical grievance processes?",
+	"Would you like to save the grievance form as a draft before leaving?": "Would you like to save the grievance form as a draft before leaving?",
+	"Yes, I want more information from my Issara focal": "Yes, I want more information from my Issara focal",
+	"Your Issara focal has been notified; they will reach out to you soon.": "Your Issara focal has been notified; they will reach out to you soon.",
+	"Previous": "Previous",
+	"Next": "Next",
+	"Saving...": "Saving...",
+	"Step {{current}} of {{total}}": "Step {{current}} of {{total}}",
+	"2. Information Collection": "2. Information Collection",
+	"3. Safeguarding Affected Workers": "3. Safeguarding Affected Workers",
+	"4. Ensuring an Ethical Investigation": "4. Ensuring an Ethical Investigation",
+	"5. Communicating With The Workers Reporting Issues": "5. Communicating With The Workers Reporting Issues",
+	"6. Monitoring & Communication": "6. Monitoring & Communication",
+	"7. Trainings": "7. Trainings",
+	"Unable to submit supplier KPI grievance.": "Unable to submit supplier KPI grievance.",
+	"Note: ": "Note: ",
+	"Remediation ": "Remediation ",
+	"Systems Strengthening and Continuous Improvement: ": "Systems Strengthening and Continuous Improvement: ",
+	"Undo remove": "Undo remove",
+	"Remove attachment": "Remove attachment",
+	"Undo": "Undo",
+	"Remove file": "Remove file",
+	"Ethical. Have you reviewed all possible individuals to be involved in the investigation, including interpreters, and ensured that all are fully committed to 'do no harm' and maintaining worker safeguards at all times?": "Ethical. Have you reviewed all possible individuals to be involved in the investigation, including interpreters, and ensured that all are fully committed to 'do no harm' and maintaining worker safeguards at all times?",
+	"Ethical Recruitment 101 Introductory modules": "Ethical Recruitment 101 Introductory modules",
+	"Ethical Recruitment Advanced training 201": "Ethical Recruitment Advanced training 201",
+	"Business and Human Rights & HRDD: Going Beyond Audit": "Business and Human Rights & HRDD: Going Beyond Audit",
+	"Ethical Grievance Mechanism 101": "Ethical Grievance Mechanism 101",
+	"Ethical Grievance Mechanism 201": "Ethical Grievance Mechanism 201",
+	"Line Supervisors Training": "Line Supervisors Training",
+	"Interpreters Training": "Interpreters Training",
+	"Grievance Details": "Grievance Details",
+	"Close": "Close",
+	"FEEDBACK/ISSUE OVERVIEW": "FEEDBACK/ISSUE OVERVIEW",
+	"CASE ID": "CASE ID",
+	"DATE RECEIVED": "DATE RECEIVED",
+	"ISSUE CATEGORIES": "ISSUE CATEGORIES",
+	"AFFECTED WORKERS": "AFFECTED WORKERS",
+	"CURRENT STATUS": "CURRENT STATUS",
+	"ISSUE DESCRIPTION": "ISSUE DESCRIPTION",
+	"Information Collection": "Information Collection",
+	"CHECKED WITH HR TEAM FOR SIMILAR ISSUES": "CHECKED WITH HR TEAM FOR SIMILAR ISSUES",
+	"IS THIS A REPEAT ISSUE": "IS THIS A REPEAT ISSUE",
+	"ADDITIONAL NOTES": "ADDITIONAL NOTES",
+	"ADDITIONAL ATTACHMENTS": "ADDITIONAL ATTACHMENTS",
+	"Pending upload": "Pending upload",
+	"Will be removed": "Will be removed",
+	"No attachments": "No attachments",
+	"Safeguarding Affected Workers": "Safeguarding Affected Workers",
+	"ZERO TOLERANCE OF RETALIATION BEING FOLLOWED": "ZERO TOLERANCE OF RETALIATION BEING FOLLOWED",
+	"REVIEWED INDIVIDUALS AND CONDUCTED RISK ASSESSMENT": "REVIEWED INDIVIDUALS AND CONDUCTED RISK ASSESSMENT",
+	"REVIEWED INDIVIDUALS INVOLVED IN GRIEVANCE INVESTIGATION": "REVIEWED INDIVIDUALS INVOLVED IN GRIEVANCE INVESTIGATION",
+	"SAFEGUARDING NOTES": "SAFEGUARDING NOTES",
+	"Ensuring an Ethical Investigation": "Ensuring an Ethical Investigation",
+	"INVESTIGATION PLAN FOLLOWS ETHICAL GUIDELINES": "INVESTIGATION PLAN FOLLOWS ETHICAL GUIDELINES",
+	"INVESTIGATION CONDUCTED PROFESSIONALLY": "INVESTIGATION CONDUCTED PROFESSIONALLY",
+	"INVESTIGATION IS IMPARTIAL": "INVESTIGATION IS IMPARTIAL",
+	"INVESTIGATION PROCESS INCLUSIVE AND ACCESSIBLE": "INVESTIGATION PROCESS INCLUSIVE AND ACCESSIBLE",
+	"INVESTIGATION CONDUCTED TIMELY AND EFFECTIVELY": "INVESTIGATION CONDUCTED TIMELY AND EFFECTIVELY",
+	"INVESTIGATION NOTES": "INVESTIGATION NOTES",
+	"Communicating with Workers Reporting Issues": "Communicating with Workers Reporting Issues",
+	"COMMUNICATED WITH AFFECTED WORKERS ABOUT WELLBEING": "COMMUNICATED WITH AFFECTED WORKERS ABOUT WELLBEING",
+	"NEED HELP WITH COMPLEX CONSEQUENCES": "NEED HELP WITH COMPLEX CONSEQUENCES",
+	"COMMUNICATION NOTES": "COMMUNICATION NOTES",
+	"Monitoring and Communicating Findings": "Monitoring and Communicating Findings",
+	"REMEDIATION ACTIONS": "REMEDIATION ACTIONS",
+	"SYSTEM STRENGTHENING MEASURES": "SYSTEM STRENGTHENING MEASURES",
+	"No monitoring information available yet.": "No monitoring information available yet.",
+	"Training Requirements": "Training Requirements",
+	"SELECTED TRAININGS": "SELECTED TRAININGS",
+	"None selected": "None selected",
+	"CURRENT ACTION ITEMS": "CURRENT ACTION ITEMS",
+	"ASSIGNED STAFF": "ASSIGNED STAFF",
+	"DEADLINE": "DEADLINE",
+	"NEXT STEPS": "NEXT STEPS",
+	"No next steps defined": "No next steps defined",
+	"Not specified": "Not specified",
+	"Submit": "Submit",
+	"Submitting…": "Submitting…",
+	"Remediation: ": "Remediation: ",
+	"System Strengthenings: ": "System Strengthenings: ",
+	"Supplier's notes on case remediation": "Supplier's notes on case remediation",
+	"Supplier's notes on systems strengthening and continuous improvement related to this worker-reported issue:": "Supplier's notes on systems strengthening and continuous improvement related to this worker-reported issue:",
+	"lksgOverview": {
+		"hero": {
+			"title": "German Supply Chain Act (LkSG) Overview",
+			"subtitle": "Due diligence obligations of LkSG, supported by real-time worker voice and remediation partnerships"
+		},
+		"sections": {
+			"section4": "LkSG SECTION 4. RISK MANAGEMENT",
+			"section5": "LkSG SECTION 5. RISK ANALYSIS",
+			"section6": "LkSG SECTION 6. PREVENTIVE MEASURES",
+			"section7": "LkSG SECTION 7. REMEDIAL ACTION",
+			"section7Intro": "The details of open and closed worker-reported violations in direct and indirect supplier sites can be found in the Worker Reported Issues page of the Social Responsibility section",
+			"section8": "LkSG SECTION 8. COMPLAINTS PROCEDURE"
+		},
+		"treemap": {
+			"title": "Worker-Reported Issues by Category",
+			"openIssues": "Open Issues",
+			"openChartTitle": "Open Issues by Category",
+			"closed": "Closed",
+			"open": "Open"
+		},
+		"states": {
+			"loading": "Loading LkSG Overview...",
+			"loadingSubtitle": "Fetching LkSG dashboard metrics and data",
+			"updating": "Updating dashboard…",
+			"applyingDateRange": "Applying the selected date range"
+		},
+		"riskManagement": {
+			"boxTitle": "Risk Management System",
+			"colRequirements": "Requirements",
+			"colStatus": "Status",
+			"req1": "Measures to identify human rights risks",
+			"req2": "Measures to end or minimize human rights risks"
+		}
+	},
+	"workerVoicePage": {
+		"add": {
+			"title": "Add Worker Voice"
+		},
+		"edit": {
+			"title": "Edit Worker Voice"
+		},
+		"cases": {
+			"title": "Case Management",
+			"subtitle": "Review and update the KPIs connected to your organization's Worker Voice cases.",
+			"tabs": {
+				"status": "KPI Status Overview",
+				"remediation": "Assessment: remediation",
+				"systems": "Assessment: systems change",
+				"next": "Next steps"
+			},
+			"bulkUpdate": {
+				"title": "Bulk KPI update",
+				"subtitle": "Work through the Supplier KPIs you selected in Case Management."
+			}
+		},
+		"view": {
+			"title": "View Worker Voice",
+			"subtitle": "Every worker voice call your organization has logged, and every call referred to it by a partner organization.",
+			"callNumber": "call #{{id}}",
+			"totalCount": "{{count}} calls",
+			"updating": "Updating…",
+			"loading": "Loading logged calls…",
+			"error": "Could not load the logged calls. Please try again.",
+			"empty": "Your organization has not logged any worker voice calls yet.",
+			"noMatches": "No logged call matches “{{search}}”.",
+			"pagination": "Page {{current}} of {{total}}",
+			"previousPage": "Previous page",
+			"nextPage": "Next page",
+			"search": {
+				"label": "Search logged calls",
+				"placeholder": "Search by worker, phone, supplier, summary, issue or call number",
+				"clear": "Clear search"
+			},
+			"columnFilter": {
+				"label": "Filter by {{column}}",
+				"placeholder": "Filter",
+				"any": "Any"
+			},
+			"columns": {
+				"id": "Call",
+				"date": "Date",
+				"worker": "Worker",
+				"phone": "Phone Number",
+				"nationality": "Nationality",
+				"supplier": "Supplier",
+				"kpi": "Issue Description",
+				"staff": "Staff",
+				"kpi_risk": "Forced labor risk level",
+				"actions": "Actions"
+			},
+			"actions": {
+				"view": "View details of {{call}}",
+				"viewShort": "View details",
+				"edit": "Edit {{call}}",
+				"editShort": "Edit call",
+				"delete": "Delete {{call}}",
+				"deleteShort": "Delete call"
+			},
+			"delete": {
+				"title": "Delete this worker voice call?",
+				"message": "{{call}} will be permanently removed, along with any files attached to it. This cannot be undone.",
+				"confirm": "Delete call",
+				"deleting": "Deleting…",
+				"cancel": "Cancel",
+				"success": "The worker voice call has been deleted.",
+				"error": "Could not delete this worker voice call. Please try again."
+			},
+			"details": {
+				"title": "Worker voice call #{{id}}",
+				"loggedBy": "Logged by {{organization}} on {{date}}",
+				"loggedOn": "Logged on {{date}}",
+				"close": "Close",
+				"error": "Could not load this worker voice call. Please try again.",
+				"uncategorizedKpis": "Other",
+				"interactionDate": "Date of interaction",
+				"nationality": "Nationality",
+				"reason": "Reason for contact",
+				"officer": "Officer who received the feedback",
+				"channel": "Feedback channel",
+				"firstContact": "First time contacting us",
+				"workerType": "Worker type",
+				"summary": "Interaction summary",
+				"workerName": "Worker name or nickname",
+				"gender": "Gender",
+				"origin": "Place of origin",
+				"crossing": "Border crossing",
+				"workerInformation": "Worker information",
+				"contact": "Contact details",
+				"monthsAtWorkplace": "Months at the workplace",
+				"contractType": "Contract type",
+				"documentType": "Document type",
+				"employerDebtBondage": "Debt bondage to the employer",
+				"employerDebtBondageDetail": "Employer debt bondage details",
+				"brokerDebtBondage": "Debt bondage to a broker",
+				"brokerDebtBondageDetail": "Broker debt bondage details",
+				"workersAffected": "Workers affected",
+				"situationImproving": "Is the situation improving",
+				"issueDescription": "Issue description",
+				"situationImprovingDescription": "How the situation is changing",
+				"issueCategories": "Issue categories",
+				"riskLevel": "Worker identification risk",
+				"caseStatus": "Case status",
+				"shareInfoConsent": "Consent to share information",
+				"discussAnonymously": "Consent to discuss anonymously",
+				"referralAction": "Referral action",
+				"referralOrg": "Referred to organization",
+				"nextStepsOfficer": "Officer responsible for next steps",
+				"deadline": "Deadline",
+				"urgentNeeds": "Urgent needs",
+				"nextSteps": "Next steps",
+				"finalRemarks": "Final remarks",
+				"safeguardsRemarks": "Safeguards remarks",
+				"attachments": "Attachments",
+				"referredBy": "Referred to you by {{organization}} — logged {{date}}",
+				"sharedBy": "Shared by {{organization}}"
+			},
+			"scope": {
+				"label": "Which calls to show",
+				"all": "All calls",
+				"own": "Logged by us",
+				"shared": "Referred to us"
+			},
+			"sharedBadge": "Referred",
+			"sharedBy": "Referred to your organization by {{organization}}",
+			"emptyScope": {
+				"all": "Your organization has not logged any worker voice calls yet.",
+				"own": "Your organization has not logged any worker voice calls yet.",
+				"shared": "No partner organization has referred a worker voice call to you yet."
+			}
+		}
+	},
+	"workerVoiceForm": {
+		"requiredNote": "All fields marked * are required",
+		"steps": {
+			"keyData": "Key Data",
+			"workerInfo": "Worker Info",
+			"recruitmentInfo": "Recruitment Info",
+			"issueDetails": "Issue Details",
+			"supportActions": "Support & Actions"
+		},
+		"actions": {
+			"back": "Back",
+			"next": "Next",
+			"submit": "Submit Form",
+			"submitting": "Submitting..."
+		},
+		"fields": {
+			"nationality": {
+				"label": "What is the nationality of the worker?",
+				"placeholder": "Select nationality"
+			},
+			"contactReason": {
+				"label": "What is the reason that this worker contacted us?",
+				"placeholder": "Select reason"
+			},
+			"officer": {
+				"label": "Which officer in the organization received the worker feedback?",
+				"placeholder": "Select officer"
+			},
+			"channel": {
+				"label": "Which feedback channel did the worker use?",
+				"placeholder": "Select channel"
+			},
+			"firstTime": {
+				"label": "Is this the first time calling/ contacting the organization?"
+			},
+			"workerType": {
+				"label": "What is the worker type/caller status of the client?",
+				"placeholder": "Select worker type"
+			},
+			"interactionDate": {
+				"label": "On what date was this feedback shared from the worker to the organization?"
+			},
+			"summary": {
+				"label": "Summary of worker feedback",
+				"placeholder": "Summary of the interaction. Include the following information:\n-> Specify whether if its a new case or a follow-up call\n-> Brief summary of the interaction\n-> Info about worker consent/ risk assessment (e.g. worker identification risk)\n-> Expected remediation and any urgent needs"
+			},
+			"workerInformation": {
+				"label": "Enter worker information",
+				"placeholder": "A brief description about the client"
+			},
+			"workerName": {
+				"label": "Worker Name",
+				"placeholder": "Full name"
+			},
+			"gender": {
+				"label": "Gender",
+				"placeholder": "Select gender"
+			},
+			"contact": {
+				"legend": "Contact Information (if any)",
+				"phone": "Phone number",
+				"whatsapp": "WhatsApp",
+				"viber": "Viber number",
+				"telegram": "Telegram number",
+				"facebook": "Facebook",
+				"line": "Line",
+				"zalo": "Zalo",
+				"countryCode": "Country code",
+				"numberPlaceholder": "number",
+				"handlePlaceholder": "Profile name, ID or URL",
+				"other": "Other",
+				"otherPlaceholder": "Social Media Platform - Profile name, ID, URL, Country code - number",
+				"countrySearch": "Search country or code",
+				"noCountry": "No matching country"
+			},
+			"originCountry": {
+				"label": "Worker origin country"
+			},
+			"crossingCountry": {
+				"label": "Worker crossing border"
+			},
+			"location": {
+				"country": "Country",
+				"province": "Province",
+				"district": "District"
+			},
+			"monthsAtWorkplace": {
+				"label": "How many months have the worker been working at this place?"
+			},
+			"employerDebtBondage": {
+				"label": "Employer Debt Bondage?"
+			},
+			"brokerDebtBondage": {
+				"label": "Broker Debt Bondage?"
+			},
+			"debtBondageDetail": {
+				"label": "Details",
+				"placeholder": "Please provide details on amount paid, to whom, and paid how, etc."
+			},
+			"contractType": {
+				"label": "Contract Type",
+				"placeholder": "Select contract type"
+			},
+			"documentType": {
+				"label": "Document Type",
+				"placeholder": "Select document type"
+			},
+			"issueDescription": {
+				"label": "Detailed issue description",
+				"placeholder": "Provide details about the issue reported by the worker"
+			},
+			"workersAffected": {
+				"label": "Number of workers affected"
+			},
+			"situationImproving": {
+				"label": "Is the issue situation improving?"
+			},
+			"situationImprovingDescription": {
+				"label": "Situation improvement description",
+				"placeholder": "Provide details about changes in situation"
+			},
+			"issueCategories": {
+				"label": "Issue Categories"
+			},
+			"urgentNeeds": {
+				"label": "What does the worker say are their most urgent needs related to this issue, if any?",
+				"placeholder": "Describe the worker's most urgent needs"
+			},
+			"shareInfoConsent": {
+				"label": "Consent to pass on details to employer, agency, referral partner?"
+			},
+			"discussAnonymously": {
+				"label": "Consent for the organization to discuss the issue with the employer, without revealing the worker's identity"
+			},
+			"riskLevel": {
+				"label": "Worker identification risk level",
+				"legacyHint": "Currently recorded as “{{level}}”, set outside this form. Choosing an option below replaces it."
+			},
+			"caseStatus": {
+				"label": "Case status based on worker validation",
+				"placeholder": "Select case status"
+			},
+			"referralAction": {
+				"label": "Referral Actions",
+				"placeholder": "Select referral action"
+			},
+			"referralOrg": {
+				"label": "Organization Name",
+				"placeholder": "Select partner organization",
+				"hint": "The organization the referral was provided to. Their users get access to this case and a follow-up task."
+			},
+			"nextSteps": {
+				"label": "Please fill the details of next steps for follow-up and action",
+				"placeholder": "Describe the planned next steps"
+			},
+			"nextStepsOfficer": {
+				"label": "Who is the next step for organization staff?",
+				"placeholder": "Select staff member"
+			},
+			"deadline": {
+				"label": "Please choose the deadline date."
+			},
+			"finalRemarks": {
+				"label": "Please fill in the final remarks.",
+				"placeholder": "Final remarks"
+			},
+			"safeguardsRemarks": {
+				"label": "Please fill in the safeguards remarks.",
+				"placeholder": "Safeguards remarks"
+			},
+			"supplier": {
+				"label": "Supplier / workplace",
+				"placeholder": "Search for a supplier by name",
+				"empty": "No suppliers match that name",
+				"error": "Could not load suppliers. Check your connection and try again."
+			},
+			"supplierLocation": {
+				"label": "Workplace location"
+			}
+		},
+		"issueCategories": {
+			"hint": "Select the KPIs that apply, across the five categories.",
+			"selectedCount": "{{count}} selected",
+			"loading": "Loading issue categories...",
+			"empty": "No issue categories are available.",
+			"noKpis": "No KPIs in this category."
+		},
+		"attachments": {
+			"label": "Additional attachments (Click to upload)",
+			"description": "Upload any relevant documents or images that provide further context or evidence for this case.",
+			"supportedFormats": "Supported formats: .pdf, .png, .jpg (max 10MB each)",
+			"remove": "Remove"
+		},
+		"options": {
+			"yesNo": {
+				"yes": "Yes",
+				"no": "No"
+			},
+			"firstTime": {
+				"cannotRemember": "Cannot remember"
+			},
+			"improving": {
+				"aboutTheSame": "About the same"
+			},
+			"gender": {
+				"male": "Male",
+				"female": "Female",
+				"other": "Other",
+				"nonBinary": "Non-binary"
+			},
+			"risk": {
+				"low": "Low risk",
+				"medium": "Medium risk",
+				"high": "High risk",
+				"earlyWarning": "Early warning risk",
+				"forcedLabor": "Forced labor risk"
+			},
+			"kpiRisk": {
+				"earlyWarning": "Early warning",
+				"forcedLabor": "Forced labor risk"
+			}
+		},
+		"validation": {
+			"required": "This field is required.",
+			"completeBeforeContinuing": "Please complete these fields before continuing: {{fields}}"
+		},
+		"feedback": {
+			"loading": "Loading worker voice call...",
+			"submitError": "Could not log this worker voice call. Please try again.",
+			"updateError": "Could not update this worker voice call. Please try again."
+		},
+		"success": {
+			"title": "Worker Voice logged",
+			"submittedMessage": "The worker voice call has been logged against your organization.",
+			"updatedMessage": "The worker voice call has been updated.",
+			"actionLabel": "Done"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+FROM python:3.8-slim
+
+# 1. Disable python process buffering
+ENV PYTHONUNBUFFERED 1
+
+# 2. Install MySQL dev tools and Git
+RUN apt-get update && apt-get install gcc default-libmysqlclient-dev pkg-config git -y
+
+# 3. Change working directory to /app/server
+WORKDIR /code
+
+# 4. Copy requirements.txt
+COPY requirements.txt .
+
+# 5. Install python packages
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# 6. Copy files
+COPY . .
+
+# 7. Start production server
+CMD ["gunicorn", "-b", "0.0.0.0:8080", \
+                 "--workers", "2", \
+                 "--threads", "1", \
+                 "issara.wsgi:application"]

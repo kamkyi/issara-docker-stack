@@ -1,0 +1,26 @@
+.table-row-even {
+	background-color: #e5e5e5;
+}
+
+.dark .table-row-even,
+[data-theme="dark"] .table-row-even {
+	background-color: #003d4a;
+}
+
+.table-row-odd {
+	background-color: white;
+}
+
+.dark .table-row-odd,
+[data-theme="dark"] .table-row-odd {
+	background-color: #00516a;
+}
+
+.table-row-hover:hover {
+	background-color: #e6f2f7;
+}
+
+.dark .table-row-hover:hover,
+[data-theme="dark"] .table-row-hover:hover {
+	background-color: rgb(0, 42, 56);
+}

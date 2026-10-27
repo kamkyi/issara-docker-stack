@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1289,
+		"fieldwork_date": "2025-12-19",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "Thai Garment Export Co." },
+		"type": { "name": "Community outreach – d." },
+		"notes": null,
+		"links": null
+	},
+	{
+		"id": 1288,
+		"fieldwork_date": "2025-12-19",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "King Pac Industrial Co." },
+		"type": { "name": "Community outreach – d." },
+		"notes": null,
+		"links": null
+	},
+	{
+		"id": 1287,
+		"fieldwork_date": "2025-12-13",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "Southeast Asian Packag." },
+		"type": { "name": "Worksite – canteen outre." },
+		"notes": null,
+		"links": null
+	},
+	{
+		"id": 1275,
+		"fieldwork_date": "2025-12-13",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "Lakeside Food Group Lt." },
+		"type": { "name": "Worksite – canteen outre." },
+		"notes": null,
+		"links": null
+	},
+	{
+		"id": 1274,
+		"fieldwork_date": "2025-12-13",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "8 Food Products Interna." },
+		"type": { "name": "Community outreach – d." },
+		"notes": null,
+		"links": null
+	},
+	{
+		"id": 1286,
+		"fieldwork_date": "2025-12-12",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "Southeast Asian Packag." },
+		"type": { "name": "Community outreach – d." },
+		"notes": null,
+		"links": null
+	},
+	{
+		"id": 1285,
+		"fieldwork_date": "2025-12-11",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "Mong Pue Industrial Co." },
+		"type": { "name": "Worksite – canteen outre." },
+		"notes": null,
+		"links": null
+	},
+	{
+		"id": 1273,
+		"fieldwork_date": "2025-12-01",
+		"country": { "name": "Thailand" },
+		"suppliers": { "name": "8 Food Products Interna." },
+		"type": { "name": "Worksite – canteen outre." },
+		"notes": null,
+		"links": null
+	}
+]

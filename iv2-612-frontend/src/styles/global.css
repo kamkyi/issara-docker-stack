@@ -1,0 +1,1490 @@
+@import "tailwindcss";
+/* Load the legacy JS config so theme tokens (colors, spacing scale, fontSize,
+   fontFamily) and darkMode:"class" are available as Tailwind utilities. */
+@config "../../tailwind.config.js";
+
+/* Theme-based CSS custom properties */
+:root {
+	/* === Style guide design tokens === */
+	/* Brand */
+	--color-primary: #004a60; /* navy — headings, Alt-1 buttons */
+	--color-secondary: #148696; /* teal — Primary buttons, focus */
+	--color-bg: #fbf6ec; /* cream — authenticated page background */
+	--color-surface: #ffffff; /* elevated card surface on the cream bg */
+	/* Action palette */
+	--color-action-teal: #a6dfdd;
+	--color-action-purple: #6f2e97;
+	--color-action-yellow-soft: #ffedaf;
+	--color-action-yellow: #fdda61;
+	--color-action-coral: #fb8379; /* error / destructive */
+	--color-action-cream: #fff8de; /* tab hover */
+	/* Neutrals */
+	--color-ink: #333333; /* H4 / strong body */
+	--color-body: #56666c; /* paragraph */
+	--color-caption: #8a979c; /* caption / disabled text */
+	--color-border: #d2d2d2; /* input borders, dividers */
+	/* Spacing scale */
+	--space-xs: 5px;
+	--space-s: 10px;
+	--space-m: 15px;
+	--space-l: 25px;
+	--space-xl: 40px;
+	--space-xxl: 65px;
+
+	/* Light theme text roles (consumed across the app) */
+	--text-primary: #333333;
+	--text-secondary: #004a60;
+	--text-muted: #56666c;
+}
+
+[data-theme="dark"],
+.dark {
+	/* Dark theme overrides — brand/action hues keep their hex */
+	--color-bg: #0f2730; /* dark substitute for cream */
+	--color-surface: #16323b; /* elevated card surface, lighter than dark bg */
+	--color-ink: #e4e4e4;
+	--color-body: #cbd3d6;
+	--color-caption: #8a979c;
+	--color-border: #33555f;
+
+	--text-primary: #e4e4e4;
+	--text-secondary: #a6dfdd; /* navy is unreadable on dark → light teal */
+	--text-muted: #cbd3d6;
+}
+
+/* Apply theme colors to common elements */
+body {
+	color: var(--color-body);
+	font-family: "DM Sans", sans-serif;
+}
+
+/* Utility classes for theme-aware text colors */
+.text-theme-primary {
+	color: var(--text-primary);
+}
+
+.text-theme-secondary {
+	color: var(--text-secondary);
+}
+
+.text-theme-muted {
+	color: var(--text-muted);
+}
+
+#root > div.radix-themes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	height: auto;
+}
+
+/* Provide CSS variables consumed by Radix `Heading` (.rt-Heading) so DM Sans is used by default */
+#root > div.radix-themes {
+	--heading-font-family: "DM Sans";
+	--default-font-family: "DM Sans";
+	--code-font-family: "DM Sans";
+	--strong-font-family: "DM Sans";
+	--em-font-family: "DM Sans";
+	--heading-font-style: normal;
+	--font-weight-bold: 900;
+	--line-height: 1.1;
+}
+
+/* Heading defaults in @layer base so Tailwind utility classes (text-white,
+   text-[#…], etc.) always win via layer precedence — no :not() hacks needed. */
+@layer base {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "DM Sans", sans-serif;
+		font-weight: 900;
+	}
+
+	h1 {
+		font-size: 40px;
+		line-height: 1.2;
+		color: var(--text-secondary);
+	}
+	h2 {
+		font-size: 32px;
+		line-height: 1.25;
+		color: var(--text-secondary);
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 1.3;
+		color: var(--text-secondary);
+	}
+	h4 {
+		font-size: 16px;
+		line-height: 1.25;
+		font-weight: 600;
+		color: var(--text-primary);
+	}
+
+	/* Display variant — larger sizes for short/hero titles */
+	h1.heading-display,
+	h2.heading-display,
+	h3.heading-display {
+		font-family: "Fugaz One", sans-serif;
+		/* Fugaz One ships a single weight (400); avoid faux-bold */
+		font-weight: 400;
+	}
+	h1.heading-display {
+		font-size: 52px;
+		line-height: 1.1;
+		/* Display-font (Fugaz One) headers render black, not navy */
+		color: var(--text-primary);
+		text-transform: uppercase;
+	}
+
+	h2.heading-display {
+		color: var(--text-primary) !important;
+		text-transform: uppercase;
+	}
+	h3.heading-display {
+		font-size: 22px;
+		line-height: 1.2;
+		color: var(--text-primary);
+		text-transform: uppercase;
+	}
+	h4.heading-display {
+		font-size: 20px;
+		line-height: 1.2;
+		color: var(--text-primary);
+	}
+}
+
+/* Ensure body copy uses DM Sans to prevent Fugaz One leaking into paragraphs */
+p,
+li,
+a,
+span,
+button,
+input,
+textarea,
+select,
+option,
+optgroup,
+label,
+fieldset,
+legend {
+	font-family: "DM Sans", sans-serif;
+}
+
+/* Ensure native radio/checkbox labels and their inline text use DM Sans */
+input[type="radio"],
+input[type="checkbox"],
+input[type="radio"] + *,
+input[type="checkbox"] + * {
+	font-family: "DM Sans", sans-serif;
+}
+
+/* Accordion headings contain native buttons/spans, which otherwise pick up
+   the global body font instead of the display heading font. */
+.hrdd-accordion-trigger,
+.hrdd-accordion-title {
+	font-family: "Fugaz One", sans-serif;
+	font-size: inherit;
+	font-weight: 400;
+	line-height: inherit;
+	text-transform: inherit;
+}
+
+/* Allow full-width elements (footer, etc.) to escape the centred flex layout */
+#root > div.radix-themes > footer,
+#root > div.radix-themes > main,
+#root > div.radix-themes > div,
+#root > div.radix-themes > section {
+	align-self: stretch;
+	width: 100%;
+}
+
+.container-fluid {
+	width: 100%;
+	max-width: 1400px; /* Adjust as needed */
+	margin: 0 auto;
+	padding: 0 16px;
+}
+.custom-card {
+	grid-column: span 4; /* Each chart spans 4 columns */
+	background: #f5f5f5; /* Optional: Add a background for better visibility */
+	border: 1px solid #ccc; /* Optional: Add a border */
+	border-radius: 8px; /* Optional: Add rounded corners */
+	padding: 16px; /* Optional: Add padding */
+}
+.full-width {
+	width: 100%;
+}
+/* Standardize radio and checkbox size for all form tabs */
+.standard-input-size[type="radio"],
+.standard-input-size[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	min-width: 18px;
+	min-height: 18px;
+	accent-color: #bf1291; /* Optional: match your theme color */
+	vertical-align: middle;
+}
+._dropdown_5hpjk_8 {
+	width: auto !important;
+}
+
+/* === Style guide tabs === */
+.cascade-tab {
+	color: var(--color-body);
+	border-radius: 6px;
+	transition:
+		background-color 0.15s ease,
+		color 0.15s ease;
+}
+.cascade-tab:hover {
+	background-color: var(--color-action-cream); /* #FFF8DE */
+}
+.cascade-tab[data-state="active"] {
+	background-color: var(--color-action-teal); /* #A6DFDD */
+	color: var(--color-primary);
+}
+/* Radix paints an active underline indicator — hide it for the pill style */
+.cascade-tab::before,
+.cascade-tab::after {
+	display: none !important;
+}
+
+/* === Style guide buttons === */
+.cascade-btn {
+	color: #ffffff;
+	transition:
+		background-color 0.15s ease,
+		border-color 0.15s ease,
+		color 0.15s ease;
+}
+
+/* Primary — teal fill */
+.cascade-btn--primary {
+	background-color: var(--color-secondary) !important; /* #148696 */
+}
+.cascade-btn--primary:not(:disabled):hover {
+	background-color: #0f6f7c !important; /* darkened teal */
+}
+
+/* Alternative 1 — navy fill, hover teal, disabled grey */
+.cascade-btn--alt1 {
+	background-color: var(--color-primary) !important; /* #004A60 */
+}
+.cascade-btn--alt1:not(:disabled):hover {
+	background-color: var(--color-secondary) !important; /* #148696 */
+}
+
+/* Alternative 2 — outline, teal border + text, hover light-teal */
+.cascade-btn--alt2 {
+	background-color: #ffffff !important;
+	color: var(--color-secondary) !important;
+	border: 1px solid var(--color-secondary) !important;
+	box-shadow: none !important;
+}
+.cascade-btn--alt2:not(:disabled):hover {
+	background-color: var(--color-action-teal) !important; /* #A6DFDD */
+}
+
+/* Shared disabled state (Alt-1 / Primary) */
+.cascade-btn--primary:disabled,
+.cascade-btn--alt1:disabled {
+	background-color: var(--color-border) !important; /* #D2D2D2 */
+	color: var(--color-caption) !important;
+}
+.cascade-btn--alt2:disabled {
+	color: var(--color-caption) !important;
+	border-color: var(--color-border) !important;
+}
+
+/* === Onboarding tour === */
+/* The tour marks the menu item it is pointing at with one of the navbar's own
+   pill colors, so the rounded rectangle moves along with the tour. The navbar
+   paints those states with utility classes, hence the !important. */
+[data-onboarding-active] > button,
+[data-onboarding-active] > a {
+	color: var(--color-primary) !important; /* #004A60 */
+	font-weight: 700 !important;
+}
+
+[data-onboarding-active="teal"] > button,
+[data-onboarding-active="teal"] > a {
+	background-color: var(--color-action-teal) !important; /* #A6DFDD */
+}
+
+[data-onboarding-active="cream"] > button,
+[data-onboarding-active="cream"] > a {
+	background-color: var(--color-action-cream) !important; /* #FFF8DE */
+}
+
+.bg-pink {
+	background-color: #d1046b;
+}
+
+.text-pink {
+	color: #d1046b;
+}
+
+.bg-light-orange {
+	background-color: #faa17a;
+}
+
+.text-light-orange {
+	color: #faa17a;
+}
+
+.bg-yellow {
+	background-color: #faef70;
+}
+
+.text-yellow {
+	color: #faef70;
+}
+
+.bg-green {
+	background-color: #4ede8f;
+}
+
+.text-green {
+	color: #4ede8f;
+}
+
+.bg-teal {
+	background-color: #148696;
+}
+
+.text-teal {
+	color: #148696;
+}
+
+.title-small {
+	font-size: 1.25rem;
+}
+
+/* Add common custom colors as utility classes */
+.text-cyan {
+	color: #2dcce3 !important;
+}
+
+.text-light-blue {
+	color: #2dcce3 !important;
+}
+
+.bg-cyan {
+	background-color: #2dcce3 !important;
+}
+
+.bg-light-blue {
+	background-color: #2dcce3 !important;
+}
+
+/* Override for specific cases where you want to force theme colors */
+.force-theme-text {
+	color: var(--text-primary) !important;
+}
+
+.force-theme-text-muted {
+	color: var(--text-muted) !important;
+}
+
+/* Apply theme colors only to elements without explicit color classes */
+h1:not([class*="text-"]):not([class*="heading-display"]),
+h2:not([class*="text-"]):not([class*="heading-display"]),
+h3:not([class*="text-"]):not([class*="heading-display"]),
+h4:not([class*="text-"]),
+h5:not([class*="text-"]),
+h6:not([class*="text-"]) {
+	color: var(--text-primary);
+}
+
+p:not([class*="text-"]),
+span:not([class*="text-"]),
+div:not([class*="text-"]):not([class*="bg-"]) {
+	color: var(--text-primary);
+}
+
+/* MUI DataGrid Menu Styles for Dark Theme */
+.dark .MuiMenu-list,
+[data-theme="dark"] .MuiMenu-list {
+	background-color: #00516a !important;
+	color: #e4e4e4 !important;
+}
+
+.dark .MuiDataGrid-menuList,
+[data-theme="dark"] .MuiDataGrid-menuList {
+	background-color: #00516a !important;
+	color: #e4e4e4 !important;
+}
+
+.dark .MuiMenuItem-root,
+[data-theme="dark"] .MuiMenuItem-root {
+	color: #e4e4e4 !important;
+}
+
+.dark .MuiMenuItem-root:hover,
+[data-theme="dark"] .MuiMenuItem-root:hover {
+	background-color: #148696 !important;
+}
+
+.dark .MuiPaper-root,
+[data-theme="dark"] .MuiPaper-root {
+	background-color: #00516a !important;
+	color: #e4e4e4 !important;
+}
+
+/* Specific styles for DataGrid menu items */
+.dark .MuiDataGrid-menu .MuiMenuItem-root,
+[data-theme="dark"] .MuiDataGrid-menu .MuiMenuItem-root {
+	color: #e4e4e4 !important;
+}
+
+.dark .MuiDataGrid-menu .MuiMenuItem-root:hover,
+[data-theme="dark"] .MuiDataGrid-menu .MuiMenuItem-root:hover {
+	background-color: #148696 !important;
+}
+
+/* DataGrid Cell Styles */
+.dark .MuiDataGrid-cell,
+[data-theme="dark"] .MuiDataGrid-cell {
+	color: #e4e4e4 !important;
+	border-color: rgba(20, 134, 150, 0.2) !important;
+}
+
+.dark .MuiDataGrid-row,
+[data-theme="dark"] .MuiDataGrid-row {
+	background-color: #00516a !important;
+}
+
+.dark .MuiDataGrid-row:hover,
+[data-theme="dark"] .MuiDataGrid-row:hover {
+	background-color: rgba(20, 134, 150, 0.2) !important;
+}
+
+.dark .MuiDataGrid-row.Mui-selected,
+[data-theme="dark"] .MuiDataGrid-row.Mui-selected {
+	background-color: rgba(20, 134, 150, 0.3) !important;
+}
+
+/* DataGrid Footer/Pagination */
+.dark .MuiTablePagination-root,
+[data-theme="dark"] .MuiTablePagination-root {
+	color: #e4e4e4 !important;
+}
+
+.dark .MuiTablePagination-selectIcon,
+[data-theme="dark"] .MuiTablePagination-selectIcon {
+	color: #e4e4e4 !important;
+}
+
+.dark .MuiSelect-select,
+[data-theme="dark"] .MuiSelect-select {
+	color: #e4e4e4 !important;
+}
+
+.card-radius {
+	border-radius: 5px !important;
+}
+
+.input-radius {
+	border-radius: 5px !important;
+}
+
+.dark .react-datepicker {
+	background-color: #00516a; /* Example: light grey background */
+}
+
+.dark .react-datepicker__header {
+	background-color: #148696; /* Replace with your desired color */
+}
+
+.react-datepicker__calendar-icon {
+	/* Adjust margin or position to move the icon */
+	position: absolute;
+	right: -20px;
+}
+
+/* Company Dashboard datepicker: white day cells, teal selected */
+.react-datepicker {
+	min-width: 340px;
+	width: 340px;
+}
+
+.react-datepicker__month-container,
+.react-datepicker__year-wrapper,
+.react-datepicker__month-wrapper {
+	width: 100% !important;
+	max-width: 340px !important;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.react-datepicker__header,
+.react-datepicker__current-month,
+.react-datepicker-year-header,
+.react-datepicker__year-text,
+.react-datepicker__month-text,
+.react-datepicker__year-toggle {
+	font-size: 1.2rem !important;
+	font-weight: 800 !important;
+	line-height: 1.2 !important;
+	color: #00516a !important;
+}
+
+.react-datepicker__year-toggle {
+	text-decoration: underline !important;
+	background: none !important;
+	border: none !important;
+	cursor: pointer !important;
+}
+
+.react-datepicker__header {
+	min-height: 46px !important;
+	padding: 8px 0 !important;
+}
+
+.react-datepicker-custom-header {
+	min-height: 46px;
+}
+
+.react-datepicker-custom-header {
+	min-height: 42px;
+	line-height: 1.1;
+	width: 100%;
+}
+
+.react-datepicker-custom-nav {
+	background: #f3f8f8;
+	border: 1px solid #d3e6e7;
+	border-radius: 4px;
+	width: 30px;
+	height: 30px;
+	line-height: 1;
+	color: #00516a;
+	font-weight: 800;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.react-datepicker-custom-nav:hover {
+	background-color: #e5f2f2;
+}
+
+.react-datepicker__current-month {
+	font-size: 1.2rem;
+	font-weight: 900;
+	color: #00516a;
+}
+
+.react-datepicker__year-toggle {
+	font-size: 1.2rem;
+	font-weight: 900;
+	color: #00516a;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.react-datepicker__year-text,
+.react-datepicker__month-text {
+	width: 70px !important;
+	margin: 6px !important;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.react-datepicker__month {
+	margin: 5px;
+}
+
+.react-datepicker__navigation,
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+	margin-top: 0.2rem;
+}
+
+.react-datepicker__day {
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+
+.react-datepicker__day:hover {
+	background-color: #c8eeec !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__day--range-start,
+.react-datepicker__day--range-end,
+.react-datepicker__day--keyboard-selected {
+	background-color: #a6dfdd !important;
+	color: #00516a !important;
+	font-weight: bold;
+}
+
+.react-datepicker-wrapper {
+	width: 100%;
+}
+
+.cascade-datepicker-popper {
+	z-index: 60 !important;
+	padding-top: 8px !important;
+}
+
+.cascade-datepicker {
+	--cascade-datepicker-width: 320px;
+	--cascade-datepicker-gap: 2px;
+	--cascade-datepicker-cell-size: 2.25rem;
+	width: 320px !important;
+	min-width: 320px !important;
+	border: 1px solid #e5e7eb !important;
+	border-radius: 1rem !important;
+	overflow: hidden !important;
+	box-shadow: 0 20px 35px rgba(0, 81, 106, 0.12) !important;
+	background: linear-gradient(180deg, #f8fbfb 0%, #ffffff 28%) !important;
+	font-family: inherit !important;
+}
+
+.cascade-datepicker .react-datepicker__month-container {
+	width: 100% !important;
+	max-width: var(--cascade-datepicker-width) !important;
+	padding: 0 12px 12px !important;
+	box-sizing: border-box;
+}
+
+.cascade-datepicker .react-datepicker__year-wrapper,
+.cascade-datepicker .react-datepicker__month-wrapper {
+	width: 100% !important;
+	max-width: var(--cascade-datepicker-width) !important;
+	display: grid !important;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 8px;
+	justify-content: stretch;
+	padding: 4px 12px 12px !important;
+	box-sizing: border-box;
+	margin: 0 auto !important;
+}
+
+.cascade-datepicker .react-datepicker__header {
+	background: transparent !important;
+	border-bottom: 0 !important;
+	padding: 14px 12px 8px !important;
+	min-height: auto !important;
+	width: 100% !important;
+	box-sizing: border-box;
+}
+
+.cascade-datepicker__header {
+	display: grid;
+	grid-template-columns: 32px 1fr 32px;
+	align-items: center;
+	gap: 8px;
+	min-height: 32px;
+	margin-bottom: 10px;
+}
+
+.cascade-datepicker__title {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #111827;
+	text-transform: capitalize;
+}
+
+.cascade-datepicker__nav {
+	display: inline-flex;
+	height: 32px;
+	width: 32px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #d3e6e7;
+	border-radius: 9999px;
+	background: #ffffff;
+	color: #00516a;
+	transition:
+		background-color 0.2s ease,
+		border-color 0.2s ease,
+		transform 0.2s ease;
+}
+
+.cascade-datepicker__nav:hover:not(:disabled) {
+	background: rgba(20, 134, 150, 0.08);
+	border-color: #148696;
+	transform: translateY(-1px);
+}
+
+.cascade-datepicker__nav:disabled {
+	opacity: 0.35;
+	cursor: not-allowed;
+}
+
+.cascade-datepicker .react-datepicker__current-month {
+	display: none !important;
+}
+
+/* Month/year dropdowns (dropdownMode="select"): keep them at the standard
+   control size and aligned on one centred row instead of inheriting the
+   oversized theme font. */
+.cascade-datepicker .react-datepicker__header__dropdown {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin: 0 !important;
+	padding: 0;
+}
+
+.cascade-datepicker .react-datepicker__month-dropdown-container,
+.cascade-datepicker .react-datepicker__year-dropdown-container {
+	display: inline-flex !important;
+	align-items: center;
+	margin: 0 !important;
+}
+
+.cascade-datepicker .react-datepicker__month-select,
+.cascade-datepicker .react-datepicker__year-select {
+	appearance: none;
+	-webkit-appearance: none;
+	height: 32px;
+	padding: 0 26px 0 10px;
+	border: 1px solid #d3e6e7;
+	border-radius: 0.5rem;
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M2.5 4.5L6 8l3.5-3.5' stroke='%2300516a' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 8px center;
+	font-family: inherit;
+	font-size: 0.875rem;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #111827;
+	cursor: pointer;
+	transition:
+		border-color 0.2s ease,
+		background-color 0.2s ease;
+}
+
+.cascade-datepicker .react-datepicker__month-select:hover,
+.cascade-datepicker .react-datepicker__year-select:hover {
+	border-color: #148696;
+	background-color: rgba(20, 134, 150, 0.06);
+}
+
+.cascade-datepicker .react-datepicker__month-select:focus-visible,
+.cascade-datepicker .react-datepicker__year-select:focus-visible {
+	outline: 2px solid #148696;
+	outline-offset: 1px;
+}
+
+.cascade-datepicker .react-datepicker__month-select option,
+.cascade-datepicker .react-datepicker__year-select option {
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+
+.cascade-datepicker .react-datepicker__day-names {
+	display: grid !important;
+	grid-template-columns: repeat(7, minmax(0, 1fr));
+	gap: var(--cascade-datepicker-gap);
+	margin-bottom: 8px !important;
+	width: 260px !important;
+}
+
+.cascade-datepicker .react-datepicker__day-name {
+	width: 100% !important;
+	margin: 0 !important;
+	font-size: 0.76rem !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #111827 !important;
+	line-height: 1.9rem !important;
+}
+
+.cascade-datepicker .react-datepicker__month {
+	margin: 0 !important;
+}
+
+.cascade-datepicker .react-datepicker__week {
+	display: grid !important;
+	grid-template-columns: repeat(7, minmax(0, 1fr));
+	gap: var(--cascade-datepicker-gap);
+	margin-bottom: 4px;
+}
+
+.cascade-datepicker .react-datepicker__day,
+.cascade-datepicker .react-datepicker__day--outside-month {
+	width: 100% !important;
+	margin: 0 !important;
+	border-radius: 9999px !important;
+	line-height: var(--cascade-datepicker-cell-size) !important;
+	height: var(--cascade-datepicker-cell-size);
+	font-size: 0.95rem;
+	font-weight: 500;
+	color: #1f2937 !important;
+	box-sizing: border-box;
+	transition:
+		background-color 0.2s ease,
+		color 0.2s ease,
+		transform 0.2s ease;
+}
+
+.cascade-datepicker .react-datepicker__month-text,
+.cascade-datepicker .react-datepicker__year-text {
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0.7rem 0.4rem !important;
+	border-radius: 0.75rem !important;
+	font-size: 0.95rem !important;
+	font-weight: 600 !important;
+	line-height: 1.25 !important;
+	box-sizing: border-box;
+}
+
+.cascade-datepicker .react-datepicker__day--outside-month {
+	color: #9ca3af !important;
+	opacity: 0.7;
+}
+
+.cascade-datepicker .react-datepicker__day:hover,
+.cascade-datepicker .react-datepicker__month-text:hover,
+.cascade-datepicker .react-datepicker__year-text:hover {
+	background: rgba(20, 134, 150, 0.12) !important;
+	color: #00516a !important;
+	transform: none;
+}
+
+.cascade-datepicker .react-datepicker__day--today {
+	background: rgba(20, 134, 150, 0.08) !important;
+	color: #00516a !important;
+	font-weight: 700;
+}
+
+.cascade-datepicker .react-datepicker__day--selected,
+.cascade-datepicker .react-datepicker__day--keyboard-selected,
+.cascade-datepicker .react-datepicker__month-text--selected,
+.cascade-datepicker .react-datepicker__year-text--selected {
+	background: #148696 !important;
+	color: #ffffff !important;
+	font-weight: 700;
+	box-shadow: none;
+}
+
+.cascade-datepicker .react-datepicker__day--disabled,
+.cascade-datepicker .react-datepicker__month-text--disabled,
+.cascade-datepicker .react-datepicker__year-text--disabled {
+	color: #c0c6cc !important;
+	background: transparent !important;
+	cursor: not-allowed;
+	opacity: 0.65;
+}
+
+.cascade-datepicker .react-datepicker__navigation {
+	display: none !important;
+}
+
+/* Float animations for cloud elements */
+@keyframes float1 {
+	0%,
+	100% {
+		transform: translateY(0px) translateX(0px);
+	}
+	50% {
+		transform: translateY(-20px) translateX(10px);
+	}
+}
+
+@keyframes float2 {
+	0%,
+	100% {
+		transform: translateY(0px) translateX(0px);
+	}
+	50% {
+		transform: translateY(-15px) translateX(-8px);
+	}
+}
+
+@keyframes float3 {
+	0%,
+	100% {
+		transform: translateY(0px) translateX(0px);
+	}
+	50% {
+		transform: translateY(-25px) translateX(12px);
+	}
+}
+
+/* Animated underline hover effect */
+.animated-underline {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.animated-underline::after {
+	content: "";
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background: #148696;
+	transition: width 0.4s ease-in-out;
+}
+
+.animated-underline:hover::after {
+	width: 100%;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+	.animated-underline::after {
+		bottom: -2px;
+		height: 2px;
+	}
+
+	/* Adjust cloud animations for mobile */
+	@keyframes float1 {
+		0%,
+		100% {
+			transform: translateY(0px) translateX(0px);
+		}
+		50% {
+			transform: translateY(-10px) translateX(5px);
+		}
+	}
+
+	@keyframes float2 {
+		0%,
+		100% {
+			transform: translateY(0px) translateX(0px);
+		}
+		50% {
+			transform: translateY(-8px) translateX(-4px);
+		}
+	}
+
+	@keyframes float3 {
+		0%,
+		100% {
+			transform: translateY(0px) translateX(0px);
+		}
+		50% {
+			transform: translateY(-12px) translateX(6px);
+		}
+	}
+}
+
+/* Responsive text sizes */
+@media (max-width: 640px) {
+	h1,
+	h2,
+	.text-4xl,
+	.text-5xl {
+		font-size: 1.875rem !important; /* 30px */
+		line-height: 2.25rem !important;
+	}
+
+	h3,
+	.text-3xl {
+		font-size: 1.5rem !important; /* 24px */
+		line-height: 2rem !important;
+	}
+
+	h4,
+	.text-2xl {
+		font-size: 1.25rem !important; /* 20px */
+		line-height: 1.75rem !important;
+	}
+}
+
+/* Improve container padding on mobile */
+@media (max-width: 768px) {
+	.container {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+.sr-cover-image {
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat;
+}
+
+/* Hide print-only elements on screen */
+.print-only {
+	display: none;
+}
+
+/* ─── Print / PDF Export ──────────────────────────────────────────────────── */
+@media print {
+	/* Page: landscape A4 fits the wide dashboard better */
+	@page {
+		size: A4 landscape;
+		margin: 10mm 12mm;
+	}
+
+	/* Force accurate color rendering */
+	* {
+		-webkit-print-color-adjust: exact !important;
+		print-color-adjust: exact !important;
+	}
+
+	/* ── Hide all interactive / nav / filter UI ── */
+	.no-print,
+	nav,
+	header,
+	footer,
+	.react-datepicker,
+	button,
+	input[type="button"],
+	.navbar,
+	.responsive-navbar,
+	.logoContainer,
+	.logoImg,
+	img[alt="ILM Logo"],
+	img[alt="member-banner-img"],
+	.sr-cover-image {
+		display: none !important;
+	}
+
+	/* Accordion controls remain visible as section headings in exported PDFs,
+	   and all panels print even when they are collapsed on screen. */
+	.hrdd-accordion-trigger {
+		display: flex !important;
+	}
+	.hrdd-accordion-panel {
+		display: grid !important;
+		grid-template-rows: 1fr !important;
+		opacity: 1 !important;
+	}
+	.hrdd-accordion-panel-content {
+		overflow: visible !important;
+	}
+
+	/* ── Show print-only elements (e.g. the print header) ── */
+	.print-only {
+		display: block !important;
+	}
+
+	/* ── Base layout ── */
+	body,
+	html {
+		overflow: visible !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.container,
+	.container-fluid,
+	#root > div.radix-themes > main,
+	.mainArea,
+	.content {
+		max-width: 100% !important;
+		width: 100% !important;
+		padding: 0 2mm !important;
+		margin: 0 !important;
+	}
+
+	/* ── Cards: flatten but keep a subtle border so sections stay distinct ── */
+	.bg-white,
+	.custom-card,
+	.card-radius {
+		background: #ffffff !important;
+		box-shadow: none !important;
+		border: 1px solid #e5e7eb !important;
+		border-radius: 4px !important;
+	}
+
+	/* ── Page breaks: sections 2+ start on a new page (first section has no break) ── */
+	.print-section-break {
+		break-before: page !important;
+		page-break-before: always !important;
+	}
+
+	/* KPI cards: keep individual cards from splitting */
+	.grid.lg\:grid-cols-4 > div {
+		break-inside: avoid !important;
+		page-break-inside: avoid !important;
+	}
+
+	/* Performance Insights card: force whole card onto one page */
+	.bg-white.overflow-hidden {
+		break-inside: avoid !important;
+		page-break-inside: avoid !important;
+	}
+
+	/* Top-10 grid: each risk item must not split across pages */
+	.space-y-10 > * {
+		break-inside: avoid !important;
+		page-break-inside: avoid !important;
+	}
+
+	/* ── KPI card grid: force 4 columns so all cards sit on one row ── */
+	.grid.lg\:grid-cols-4 {
+		display: grid !important;
+		grid-template-columns: repeat(4, 1fr) !important;
+		gap: 6px !important;
+	}
+
+	/* ── Charts: give ECharts a usable fixed height.
+	      height:auto collapses canvas-based charts to 0 — avoid it. ── */
+	.echarts-for-react {
+		max-width: 100% !important;
+		width: 100% !important;
+		height: 260px !important;
+		min-height: 260px !important;
+		break-inside: avoid !important;
+	}
+	.echarts-for-react > div,
+	.echarts-for-react canvas {
+		width: 100% !important;
+		height: 100% !important;
+		max-height: 260px !important;
+	}
+
+	/* Treemap wrapper needs an explicit height too */
+	.grow.flex.items-center.justify-center {
+		height: 280px !important;
+		min-height: 280px !important;
+		max-height: 280px !important;
+	}
+
+	/* Standalone images / SVG */
+	img,
+	svg {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+
+	/* ── Compress spacers ── */
+	.mt-8,
+	.mb-8 {
+		margin-top: 3mm !important;
+		margin-bottom: 3mm !important;
+	}
+	.mt-4,
+	.mb-4 {
+		margin-top: 1.5mm !important;
+		margin-bottom: 1.5mm !important;
+	}
+	.mb-10,
+	.mb-6,
+	.mb-2 {
+		margin-bottom: 1.5mm !important;
+	}
+	.p-8 {
+		padding: 4mm !important;
+	}
+	.p-6 {
+		padding: 3mm !important;
+	}
+	.py-8,
+	.py-6,
+	.py-4 {
+		padding-top: 1.5mm !important;
+		padding-bottom: 1.5mm !important;
+	}
+	.pb-2 {
+		padding-bottom: 1mm !important;
+	}
+	.gap-4 {
+		gap: 3px !important;
+	}
+	.gap-12 {
+		gap: 5mm !important;
+	}
+	/* Performance Insights: compress stat-row spacing */
+	.space-y-6 > * + * {
+		margin-top: 2mm !important;
+	}
+	/* Performance Insights: shrink the large green metric numbers */
+	.text-2xl.font-black {
+		font-size: 11pt !important;
+	}
+	/* Top-10: shrink number circles */
+	.space-y-10 .w-10 {
+		width: 22px !important;
+		height: 22px !important;
+		font-size: 7.5pt !important;
+		flex-shrink: 0 !important;
+	}
+	/* Top-10 risks: 2-column grid so all 10 fit on one landscape page */
+	.space-y-10 {
+		display: grid !important;
+		grid-template-columns: 1fr 1fr !important;
+		gap: 2mm 8mm !important;
+	}
+	.space-y-10 > * {
+		margin-top: 0 !important;
+	}
+	.space-y-10 > * + * {
+		margin-top: 0 !important;
+	}
+
+	/* ── Typography ── */
+	h1 {
+		font-size: 16pt !important;
+		margin-bottom: 2mm !important;
+	}
+	h2 {
+		font-size: 12pt !important;
+		margin-bottom: 1.5mm !important;
+	}
+	h3,
+	h4 {
+		font-size: 10pt !important;
+	}
+	p,
+	span,
+	li {
+		font-size: 8.5pt !important;
+	}
+}
+
+/* Dialog / modal animations (used by TermsAcceptModal) */
+@keyframes modal-overlay-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes modal-overlay-out {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes modal-content-in {
+	from {
+		opacity: 0;
+		transform: translate(-50%, -48%) scale(0.96);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+@keyframes modal-content-out {
+	from {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(1);
+	}
+	to {
+		opacity: 0;
+		transform: translate(-50%, -48%) scale(0.97);
+	}
+}
+
+.animate-fade-in {
+	animation: modal-overlay-in 180ms ease-out;
+}
+
+.animate-fade-out {
+	animation: modal-overlay-out 140ms ease-in;
+}
+
+.animate-modal-in {
+	animation: modal-content-in 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-modal-out {
+	animation: modal-content-out 150ms ease-in;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.animate-fade-in,
+	.animate-fade-out,
+	.animate-modal-in,
+	.animate-modal-out {
+		animation: none;
+	}
+}
+
+/* Action toasts (sonner). Let `richColors` keep its per-type text colours;
+   forcing white text makes light success/error/info toasts unreadable. */
+.toast-custom [data-title],
+.toast-custom [data-description] {
+	color: inherit;
+}
+
+/* ── Maintenance screen ─────────────────────────────────────────────────
+   Uses the app's own cream/navy/teal system so the paused state still reads
+   as CASCADE. The one distinctive element is the cascade: a staircase of
+   stepped bars, one per slice of the maintenance window, filling as time
+   passes. Follows the app's light/dark theme. */
+.mtn {
+	--mtn-ground: var(--color-bg);
+	--mtn-surface: var(--color-surface);
+	--mtn-line: #e2d9c5;
+	--mtn-teal: #148696;
+	--mtn-pale: #a6dfdd;
+	--mtn-ink: #004a60;
+	--mtn-body: var(--color-body);
+	--mtn-caption: var(--color-caption);
+	--mtn-coral: #fb8379;
+	--mtn-indent: 26px;
+
+	background-color: var(--mtn-ground);
+	color: var(--mtn-body);
+}
+
+[data-theme="dark"] .mtn,
+.dark .mtn {
+	--mtn-line: var(--color-border);
+	--mtn-ink: var(--color-action-teal);
+	--mtn-teal: #4fb9c6;
+}
+
+[data-theme="dark"] .mtn-step,
+.dark .mtn-step {
+	border-color: rgb(166 223 221 / 26%);
+}
+
+@media (width <= 640px) {
+	.mtn {
+		--mtn-indent: 11px;
+	}
+}
+
+/* Single soft light source, behind the cascade. */
+.mtn-glow {
+	background: radial-gradient(
+		60% 60% at 70% 30%,
+		rgb(166 223 221 / 45%),
+		transparent 70%
+	);
+}
+
+/* Time readout — Fugaz One has no tabular figures, so each digit gets a
+   fixed box to stop the seconds from shifting the layout every tick. */
+.mtn-digit {
+	display: inline-block;
+	width: 0.66em;
+	text-align: center;
+}
+
+/* The cascade */
+.mtn-cascade {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	width: 100%;
+}
+
+.mtn-step {
+	position: relative;
+	width: calc(100% - 7 * var(--mtn-indent));
+	height: 16px;
+	margin-left: calc(var(--i) * var(--mtn-indent));
+	/* Unfilled steps stay transparent — a white fill here reads as a skeleton
+	   loader rather than an empty vessel waiting to fill. */
+	border: 1px solid rgb(0 74 96 / 20%);
+	border-radius: 2px;
+	overflow: hidden;
+	animation: mtn-step-in 520ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+	animation-delay: calc(var(--i) * 70ms + 160ms);
+}
+
+.mtn-step-fill {
+	position: absolute;
+	inset: 0 auto 0 0;
+	width: var(--fill);
+	background-color: var(--mtn-pale);
+	transition: width 1s linear;
+}
+
+.mtn-step--active {
+	border-color: rgb(20 134 150 / 45%);
+	animation:
+		mtn-step-in 520ms cubic-bezier(0.16, 1, 0.3, 1) backwards,
+		mtn-pulse 2.6s ease-in-out 1.2s infinite;
+}
+
+.mtn-step--active .mtn-step-fill {
+	background-image: linear-gradient(90deg, var(--mtn-pale), var(--mtn-teal));
+}
+
+/* Unknown window: nothing to count down, so the cascade drifts instead. */
+.mtn-drift {
+	background-image: linear-gradient(
+		90deg,
+		transparent,
+		rgb(166 223 221 / 55%),
+		transparent
+	);
+	background-size: 45% 100%;
+	background-repeat: no-repeat;
+	animation: mtn-drift 2.4s ease-in-out infinite;
+}
+
+@keyframes mtn-step-in {
+	from {
+		opacity: 0;
+		transform: translateX(-18px);
+	}
+}
+
+@keyframes mtn-pulse {
+	0%,
+	100% {
+		box-shadow: 0 0 0 0 rgb(20 134 150 / 0%);
+	}
+	50% {
+		box-shadow: 0 0 16px 0 rgb(20 134 150 / 32%);
+	}
+}
+
+@keyframes mtn-drift {
+	from {
+		background-position: -50% 0;
+	}
+	to {
+		background-position: 150% 0;
+	}
+}
+
+@keyframes mtn-rise {
+	from {
+		opacity: 0;
+		transform: translateY(14px);
+	}
+}
+
+.mtn-rise {
+	animation: mtn-rise 620ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+	animation-delay: calc(var(--d, 0) * 1ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.mtn-step,
+	.mtn-step--active,
+	.mtn-rise,
+	.mtn-drift {
+		animation: none;
+	}
+
+	.mtn-step-fill {
+		transition: none;
+	}
+}

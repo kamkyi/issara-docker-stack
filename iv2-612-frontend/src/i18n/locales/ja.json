@@ -1,0 +1,2034 @@
+{
+	"common": {
+		"yes": "はい",
+		"no": "いいえ",
+		"ok": "わかりました",
+		"cancel": "キャンセル",
+		"save": "保存",
+		"delete": "消去",
+		"edit": "編集",
+		"add": "追加",
+		"remove": "取り除く",
+		"search": "検索",
+		"filter": "フィルター",
+		"sort": "選別",
+		"loading": "読み込み中…",
+		"error": "エラー",
+		"success": "成功",
+		"warning": "警告",
+		"info": "情報",
+		"close": "近い",
+		"open": "開ける",
+		"closed": "閉店",
+		"active": "アクティブ",
+		"inactive": "非アクティブ",
+		"enabled": "有効",
+		"disabled": "無効",
+		"required": "必須",
+		"optional": "オプション",
+		"all": "全て",
+		"none": "なし",
+		"select": "選択",
+		"clear": "クリア",
+		"reset": "リセット",
+		"submit": "提出する",
+		"next": "次",
+		"previous": "前の",
+		"first": "初め",
+		"last": "最後",
+		"page": "ページ",
+		"of": "の",
+		"total": "合計",
+		"count": "カウント",
+		"name": "名前",
+		"description": "説明",
+		"date": "日付",
+		"time": "時間",
+		"status": "状態",
+		"category": "カテゴリ",
+		"type": "タイプ",
+		"level": "レベル",
+		"priority": "優先度",
+		"actions": "行動",
+		"details": "詳細",
+		"view": "ビュー",
+		"download": "ダウンロード",
+		"upload": "アップロード",
+		"export": "輸出",
+		"import": "輸入",
+		"print": "印刷",
+		"refresh": "更新",
+		"update": "アップデート",
+		"create": "作成する",
+		"new": "新しい",
+		"copy": "コピー",
+		"move": "動く",
+		"settings": "設定",
+		"preferences": "設定",
+		"profile": "プロフィール",
+		"account": "アカウント",
+		"login": "ログイン",
+		"logout": "ログアウト",
+		"register": "登録する",
+		"password": "パスワード",
+		"email": "メール",
+		"username": "ユーザー名",
+		"phone": "電話",
+		"address": "住所",
+		"country": "国",
+		"city": "市",
+		"language": "言語",
+		"theme": "テーマ",
+		"light": "ライト",
+		"dark": "暗い",
+		"auto": "自動",
+		"home": "家",
+		"table": {
+			"rowsPerPage": "1ページあたりの行数：",
+			"searchColumn": "検索 {{label}}"
+		}
+	},
+	"onboarding": {
+		"progress": "オンボーディング",
+		"firstLogin": "✦ 初回ログイン",
+		"welcomeTitlePart1": "人権デューデリジェンス —",
+		"welcomeTitleAccent": "さあ、始めましょう！",
+		"welcomeBody": "CASCADEは単なる監査ツールではありません。人権デューデリジェンス（HRDD）を日々実践するためのツールです。CASCADEの機能と、それがどのようにチームと企業に、南北アメリカ、EU、オーストラリア、そしてそれ以外の地域で進化し続けるHRDDおよび貿易の健全性に関する要件を満たすためのツールとリアルタイムデータを提供するのか、ぜひご確認ください。",
+		"welcomeStep1Title": "ガイド付きツアーに参加する",
+		"welcomeStep1Desc": "主な機能、データ、ソリューションをご確認ください。",
+		"welcomeStep2Title": "プロフィールページにアクセス",
+		"welcomeStep2Desc": "記入すれば、ライブ配信開始です。",
+		"startTour": "ガイド付きツアーを開始する",
+		"back": "戻る",
+		"next": "次",
+		"finish": "仕上げる",
+		"congratsEyebrow": "✦ あなたはCASCADEにいます",
+		"congratsTitle": "おめでとう、",
+		"congratsBody": "貴社は人権デューデリジェンス（HRDD）に真剣に取り組んでおり、それを裏付けるツール、データ、ソリューションも揃っています。ワークスペースが公開されました！ブランドや業界パートナーが貴社を見つけられるよう、企業プロフィールを公開しましょう。",
+		"statCompany": "会社",
+		"statMemberSince": "会員登録日",
+		"statRegion": "地域",
+		"statOnboarding": "オンボーディング",
+		"statComplete": "完了",
+		"enterCascade": "カスケードに入る",
+		"congratsHint": "会社プロフィールページに移動します。入力準備完了です。",
+		"sectionLabel": "{{current}} の {{total}} セクション",
+		"sections": {
+			"profile": {
+				"title": "会社概要",
+				"body": "概要セクションで、貴社の企業プロフィールを見つけてください。会社名、業界、その他の基本情報を入力し、必要に応じて、企業の人権や人材採用に関する方針など、より詳細な情報も共有してください。入力された情報が増えるにつれて、企業プロフィールの強さを示すメーターが上昇します。会員ディレクトリで、ブランド、業界、その他のパートナーごとに表示する情報を選択できます。",
+				"hits": ["プロフィール強度", "会社情報", "情報・ポリシー共有オプション"]
+			},
+			"dashboard": {
+				"title": "企業ダッシュボード",
+				"body": "概要セクションにも記載されています。貴社のダッシュボードでは、従業員の意見表明の普及状況や従業員から報告された労働問題に関する進捗状況、および研修やツールを通じて人権関連の方針や制度を強化する取り組み状況をリアルタイムで追跡できます。",
+				"hits": [
+					"ワーカーボイス分析",
+					"継続的改善トラッキング",
+					"トレンドデータとレポート"
+				]
+			},
+			"marketplace": {
+				"title": "カスケード・マーケットプレイス",
+				"body": "ツール、トレーニング、ソリューション、パートナーシップを「購入」できるマーケットプレイス！オンライン学習、ツール、診断ツール、またはご希望の言語と地域でカスタマイズされたトレーニングやアドバイザリーサービスを見つけて登録しましょう。継続的な取り組みが継続的な改善を促し、企業のCASCADEインデックスを向上させます。",
+				"hits": ["非同期診断・ツール", "ソリューションカタログ", "継続的改善"]
+			},
+			"grievance": {
+				"title": "社内苦情処理メカニズム",
+				"body": "従業員からのフィードバックや苦情を追加・閲覧できます。これらは、社内の苦情処理メカニズムやIssaraの従業員の声サポートを通じて寄せられる可能性があります。すべてのケースを1か所で追跡、管理、解決できます。",
+				"hits": [
+					"苦情管理",
+					"従業員フィードバックと調査ツール",
+					"ワーカーボイス連携"
+				]
+			}
+		}
+	},
+	"navigation": {
+		"home": "家",
+		"dashboard": "ダッシュボード",
+		"reports": "報告書",
+		"analytics": "分析",
+		"users": "ユーザー",
+		"admin": "管理者",
+		"help": "ヘルプ",
+		"support": "サポート",
+		"about": "について",
+		"contact": "接触",
+		"companyOverview": "会社概要",
+		"companyProfile": "会社概要",
+		"ourCompanyProfile": "当社のプロフィール",
+		"companyDashboard": "企業ダッシュボード",
+		"socialResponsibilityWorkplan": "社会的責任に関する活動計画",
+		"companySupplyChain": "企業サプライチェーン",
+		"employeeRelations": "従業員関係",
+		"ourWorkplace": "私たちの職場",
+		"workerFeedback": "従業員からのフィードバック",
+		"viewWorkerFeedback": "従業員のフィードバックを見る",
+		"messageBoard": "メッセージボード",
+		"workforcePolls": "労働力に関する世論調査",
+		"responsibleProcurement": "責任ある調達",
+		"supplyChainDesigner": "サプライチェーンデザイナー",
+		"suppliers": "サプライヤー",
+		"recruitmentAgencies": "人材紹介会社",
+		"memberDirectory": "会員名簿",
+		"cascadeMarketplace": "カスケード・マーケットプレイス",
+		"hrddOverview": "HRDDの概要"
+	},
+	"companyProfilePage": {
+		"title": "会社概要",
+		"titleWithCompany": "{{companyName}}のプロフィール",
+		"subtitle": "組織の公開プロフィール情報を管理しましょう。",
+		"profileOwnerName": "会社管理者",
+		"tabs": {
+			"profileDetails": "プロフィール詳細",
+			"userManagement": "ユーザー管理",
+			"policiesCompliance": "ポリシーとコンプライアンス",
+			"companyQr": "会社のQRコード"
+		},
+		"sections": {
+			"basicInformation": "基本情報",
+			"workforceBreakdown": "労働力構成の内訳",
+			"policiesCompliance": "ポリシーとコンプライアンス"
+		},
+		"businessImages": {
+			"title": "ビジネス画像",
+			"description": "ビジネスを紹介する画像を最大{{max}}枚アップロードしてください。対応形式：JPEG、PNG、WEBP（各最大5MB）。",
+			"maxReached": "最大{{max}}枚の画像に達しました。",
+			"invalidType": "ファイル '{{name}}' は有効な画像タイプではありません。JPEG、PNG、またはWEBPをアップロードしてください。",
+			"tooLarge": "ファイル '{{name}}' は5MBのサイズ制限を超えています。",
+			"uploadFailed": "'{{name}' のアップロードに失敗しました。もう一度お試しください。",
+			"deleteFailed": "画像の削除に失敗しました。もう一度お試しください。",
+			"noImages": "まだ画像がアップロードされていません。",
+			"uploadAreaLabel": "クリックまたはドラッグしてビジネス画像をアップロード",
+			"uploading": "アップロード中...",
+			"clickOrDrop": "クリックしてアップロード、またはドラッグ＆ドロップ",
+			"hint": "PNG、JPG、WEBP 最大5MB（{{current}}/{{max}}アップロード済み）",
+			"imageAlt": "ビジネス画像",
+			"deleteAriaLabel": "この画像を削除"
+		},
+		"policies": {
+			"coverageTitle": "保険カテゴリーの補償範囲",
+			"coverageHelp": "貴社が定めているポリシーを追加してください。各ポリシーを一度アップロードまたはリンクし、該当するすべてのカテゴリにチェックを入れてください。",
+			"viewHelp": "貴社が共有しているポリシー。各ポリシーには、対象となるカテゴリがタグ付けされています。1つの文書で複数のカテゴリに対応できる場合もあります。従業員やパートナーは、貴社の公開ディレクトリのプロフィールでこれらのポリシーを確認できます。",
+			"noPoliciesShared": "まだポリシーは共有されていません",
+			"addFirstSwitchToEdit": "最初のポリシー文書、リンク、または声明を追加するには、「編集」に切り替えてください。",
+			"textStatement": "テキストステートメント",
+			"howAdding": "どのように追加していますか？",
+			"policyName": "ポリシー名",
+			"policyText": "ポリシーテキスト",
+			"clickToUpload": "クリックしてアップロードするか、ドラッグ＆ドロップしてください。",
+			"whichCategories": "このポリシーはどのカテゴリーを対象としていますか？",
+			"tickAll": "該当する項目すべてにチェックを入れてください。1つの保険で複数の項目をカバーできます。",
+			"visibleTo": "表示対象:",
+			"savedPlural": "{{count}} 保存済み",
+			"addPolicy": "ポリシーを追加する",
+			"remove": "取り除く",
+			"policy": "ポリシー",
+			"type_text": "文章",
+			"type_link": "リンク",
+			"type_file": "ファイル",
+			"visibilityCustomers": "CASCADメンバー - 現在のお客様",
+			"visibilityCustomersDesc": "CASCADEの既存顧客のみに表示されます",
+			"visibilityMembers": "CASCADメンバー",
+			"visibilityMembersDesc": "認証済みのCASCADEメンバーのみ閲覧可能",
+			"visibilityPrivate": "プライベート",
+			"visibilityPrivateDesc": "会社の管理者のみがこれを見ることができます",
+			"noPolicies": "ポリシーはまだ追加されていません",
+			"addFirst": "最初のポリシーを追加して、カテゴリのチェックを開始しましょう。"
+		},
+		"fields": {
+			"companyName": "会社名",
+			"hqLocation": "本社所在地",
+			"headquartersAddress": "本社住所",
+			"companyDescription": "会社概要",
+			"industries": "産業",
+			"productCategories": "製品カテゴリ",
+			"totalWorkers": "総労働者数",
+			"totalMaleWorkers": "男性労働者の総数",
+			"totalFemaleWorkers": "女性労働者の総数",
+			"thai": "タイ",
+			"cambodian": "カンボジア",
+			"myanmar": "ミャンマー",
+			"lao": "ラオス",
+			"vietnamese": "ベトナム語",
+			"nepalese": "ネパール人",
+			"bangladeshi": "バングラデシュ",
+			"indonesian": "インドネシア語",
+			"malaysian": "マレーシア人",
+			"indian": "インド人",
+			"pakistani": "パキスタン人",
+			"sriLankan": "スリランカ人",
+			"humanRightsPolicies": "人権政策",
+			"responsibleRecruitmentPolicies": "責任ある採用方針",
+			"responsibleProcurementPolicies": "責任ある調達方針"
+		},
+		"placeholders": {
+			"selectCountry": "国を選択してください",
+			"selectIndustries": "業界を選択",
+			"selectProductCategories": "製品カテゴリを選択してください",
+			"zero": "0"
+		},
+		"actions": {
+			"save": "保存",
+			"saving": "保存中...",
+			"cancel": "キャンセル",
+			"edit": "編集",
+			"editSectionAria": "{{title}} を編集"
+		},
+		"messages": {
+			"unableDeterminePartnerId": "戦略的パートナーのIDを特定できませんでした。",
+			"updateError": "会社プロフィールの更新に失敗しました。",
+			"basicUpdated": "基本情報が更新されました。",
+			"workforceUpdated": "従業員情報が更新されました。",
+			"policiesUpdated": "ポリシーが更新されました。",
+			"categoryFallback": "カテゴリ {{id}}",
+			"workerVerificationTargetMissing": "作業者確認対象が見つかりません。",
+			"workerVerified": "従業員確認済み。",
+			"workerVerifyFailed": "作業員の申請内容を確認できませんでした。",
+			"workerRejected": "従業員確認が拒否されました。",
+			"workerRejectFailed": "労働者の要求を拒否することはできませんでした。",
+			"avatarUpdated": "プロフィール写真を更新しました。"
+		},
+		"userManagement": {
+			"title": "ユーザー管理",
+			"subtitle": "会社のユーザー、役割、招待ステータスを管理します。",
+			"totalUsers": "総ユーザー数",
+			"active": "アクティブ",
+			"pending": "保留中",
+			"inactive": "非アクティブ",
+			"pendingInvites": "招待待ち",
+			"strategicPartnerUser": "戦略的パートナーユーザー",
+			"invitationSent": "招待状が送信されました",
+			"loadingUsers": "ユーザーを読み込んでいます...",
+			"loadUsersError": "戦略的パートナーユーザーの読み込みに失敗しました。",
+			"emptyUsers": "この戦略的パートナーのユーザーは見つかりませんでした。",
+			"workerManagementTitle": "労働者管理",
+			"workerManagementSubtitle": "QRコードスキャンから送信された従業員確認依頼を確認してください。",
+			"total": "合計",
+			"verified": "検証済み",
+			"loadingWorkerRequests": "従業員認証リクエストを読み込んでいます...",
+			"loadWorkerRequestsError": "従業員認証リクエストの読み込みに失敗しました。",
+			"emptyWorkerRequests": "従業員確認の依頼はまだありません。",
+			"unknownWorker": "身元不明の労働者",
+			"noEmail": "メールなし",
+			"viewProfile": "プロフィールを見る",
+			"updating": "更新中...",
+			"verify": "確認する",
+			"unverify": "検証解除",
+			"reject": "拒否する",
+			"columns": {
+				"name": "名前",
+				"email": "メール",
+				"role": "役割",
+				"status": "状態",
+				"lastActive": "最終アクティブ"
+			},
+			"workerColumns": {
+				"worker": "ワーカー",
+				"workerId": "従業員ID",
+				"requested": "リクエスト",
+				"status": "状態",
+				"actions": "行動"
+			},
+			"workerStatus": {
+				"pending": "保留中",
+				"savedForLater": "後で保存",
+				"verified": "検証済み",
+				"rejected": "拒否されました"
+			}
+		},
+		"workerQr": {
+			"title": "従業員確認用QRコード",
+			"subtitle": "従業員はGD Liteからこれをスキャンして、会社による認証をリクエストできます。",
+			"defaultCompanyName": "会社概要",
+			"copySuccess": "従業員用QRコードリンクをコピーしました。",
+			"copyError": "作業員のQRコードリンクをコピーできませんでした。",
+			"zoomOutAria": "従業員確認用QRコードをズームアウト",
+			"resetZoomAria": "従業員認証のリセット QRズーム",
+			"zoomInAria": "従業員確認用QRコードを拡大表示",
+			"copyLinkAria": "コピーワーカー確認用QRコードリンク",
+			"unavailable": "この企業プロフィールにはサプライヤーIDが登録されていないため、従業員のQRコードは利用できません。"
+		},
+		"profileStrength": {
+			"title": "プロフィールの強み",
+			"levels": {
+				"excellent": "素晴らしい",
+				"good": "良い",
+				"decent": "ちゃんとした",
+				"basic": "基本"
+			}
+		},
+		"policyField": {
+			"audience": "CASCADメンバー",
+			"text": "文章",
+			"link": "リンク",
+			"file": "ファイル",
+			"linkPlaceholder": "https://example.com/policy",
+			"fileHint": "ファイルをドラッグ＆ドロップするか、クリックして参照してください。",
+			"chooseFile": "ファイルを選択",
+			"characters": "{{count}} / {{max}} 文字",
+			"notProvided": "提供されていません"
+		},
+		"productCategories": {
+			"garments": "服装",
+			"footwear": "履物",
+			"accessories": "アクセサリー",
+			"homeTextiles": "ホームテキスタイル"
+		},
+		"avatar": {
+			"changeAria": "会社のアバターを変更する",
+			"change": "写真を変更する",
+			"uploading": "アップロード中..."
+		}
+	},
+	"supplierDashboard": {
+		"title": "企業ダッシュボード",
+		"subtitle": "従業員の進捗状況、エンゲージメント、継続的改善の状況をリアルタイムで把握できます。",
+		"demographics": {
+			"pill": "人口統計",
+			"title": "労働力人口統計",
+			"byGender": "性別別",
+			"byGenderCard": "男女別労働力構成",
+			"byNationality": "国籍別",
+			"byNationalityCard": "国籍別労働者数",
+			"totalWorkers": "総労働者数: {{count}}",
+			"nationalitiesRepresented": "{{count}} 代表される国籍"
+		},
+		"engagement": {
+			"title": "カスケードエンゲージメント",
+			"filter": "フィルター",
+			"allTracks": "全トラック",
+			"export": "輸出",
+			"columns": {
+				"activity": "活動",
+				"track": "追跡",
+				"location": "位置",
+				"date": "日付",
+				"user": "ユーザー",
+				"roleHint": "（役割）"
+			},
+			"showing": "表示中: {{count}} / {{total}}",
+			"rowsPerPage": "1ページあたりの行数",
+			"searchColumn": "検索…",
+			"noResults": "一致するアクティビティはありません",
+			"showingRange": "{{from}}–{{to}} を表示中 {{total}}",
+			"rowsPerPageLabel": "1ページあたりの行数"
+		},
+		"tracks": {
+			"title": "改善の道筋",
+			"subtitle": "5つのトラック · ステージアクティビティをクリックしてCASCADE Marketplaceで開きます",
+			"stageStatus": {
+				"done": "完了",
+				"progress": "進行中",
+				"todo": "開始されていません"
+			},
+			"noActivities": "まだアクティビティはありません",
+			"status": {
+				"done": "終わり",
+				"progress": "進行中",
+				"todo": "開始されていません"
+			},
+			"statusAcross": "ステータス",
+			"legend": {
+				"completed": "完了 · {{count}}",
+				"inProgress": "進行中 · {{count}}",
+				"notStarted": "開始されていません · {{count}}"
+			}
+		},
+		"buyerPartners": {
+			"title": "現在の購入パートナー",
+			"subtitle": "{{count}} あなたから調達するバイヤー · CASCADEバイヤーとの相互検証",
+			"intro": "現在CASCADE上で<b>あなた</b>から仕入れを行っているバイヤーは以下のとおりです。バイヤーとサプライヤーはここで<b>互いを検証</b>し、パートナーシップの正確性を維持します。このリストにないバイヤーを追加したり、バイヤーが<b>あなたから仕入れなくなった</b>場合など、バイヤーにフラグを立てたりすれば、CASCADEチームが調整します。",
+			"askOrFlag": "質問または報告する",
+			"addPartner": "購入者パートナーを追加する",
+			"cancel": "キャンセル",
+			"done": "終わり",
+			"sending": "送信中…",
+			"errorGeneric": "エラーが発生しました。もう一度お試しください。",
+			"statusValidated": "検証済み",
+			"statusPending": "審査待ち",
+			"empty": "まだ購入パートナーがいません。下記から購入パートナーを追加してください。CASCADEチームが関係性を確認いたします。",
+			"askReasons": {
+				"noLongerSources": {
+					"label": "このバイヤーはもはや当社から仕入れを行っていません。",
+					"placeholder": "例：{{name}} は 2025 年第 4 四半期に弊社への発注を停止しました。弊社の有効なパートナーシップ リストを更新してください。"
+				},
+				"updateStatus": {
+					"label": "関係のステータスを更新します",
+					"placeholder": "例：2026年3月現在、{{name}} のパイロット版から本格的な生産に移行しました。"
+				},
+				"correctInfo": {
+					"label": "この購入者の情報を修正してください",
+					"placeholder": "例：{{name}}の本社がコペンハーゲンに移転しました。登録されている所在地を更新してください。"
+				},
+				"general": {
+					"label": "一般的な質問またはメモ",
+					"placeholder": "チームが{{name}}とのパートナーシップを確認するのに役立つ詳細情報を追加してください…"
+				}
+			},
+			"askModal": {
+				"eyebrow": "購入パートナーを検証する",
+				"title": "質問したり、変更点を報告したりする",
+				"description": "お客様からのメモはCASCADEの戦略的パートナーチームに送られ、彼らがそれをバイヤー自身の記録と照合することで、バイヤーとサプライヤーが互いの関係を正確に維持できるようにします。",
+				"reasonLabel": "これは一体どういうことですか？",
+				"noteLabel": "あなたのメモ",
+				"submit": "CASCADEに送信する",
+				"sentTitle": "カスケードへ送信",
+				"sentBody": "<b>{{name}}</b>に関するお客様のご連絡は、CASCADEの戦略的パートナーチームに送信されました。担当者が確認の上、検証状況を更新いたします。"
+			},
+			"addModal": {
+				"eyebrow": "購入者パートナーを追加する",
+				"title": "リスト外の購入者を追加する",
+				"description": "CASCADEにまだ登録されていないブランドの商品を購入されましたか？こちらから追加してください。CASCADEチームが関係性を確認するまで、保留中として表示されます。",
+				"nameLabel": "購入者／ブランド名",
+				"namePlaceholder": "例：メリディアン・リテール・グループ",
+				"countryLabel": "国",
+				"countryPlaceholder": "例：日本",
+				"industryLabel": "業界",
+				"industryPlaceholder": "例：アパレル",
+				"noteLabel": "関係性に関する注記",
+				"notePlaceholder": "例：2024年から稼働しており、アウターウェアの生産ラインが2つあります。",
+				"optional": "（任意）",
+				"routeNote": "CASCADE検証のために送信されました",
+				"submit": "追加"
+			}
+		}
+	},
+	"navbar": {
+		"guest": {
+			"menu": {
+				"latestInIlm": "ILMの最新情報",
+				"overview": "概要",
+				"supplyChainMapping": "サプライチェーンマッピング",
+				"companyGrievanceMechanism": "社内苦情処理メカニズム",
+				"workerReportedIssues": "従業員から報告された問題点",
+				"addWorkerFeedback": "従業員のフィードバックを追加する",
+				"marketplace": "市場",
+				"socialResponsibility": "社会的責任",
+				"socialResponsibilityOverview": "社会的責任の概要",
+				"labor": "労働",
+				"recruitment": "採用",
+				"wages": "賃金",
+				"continuousImprovement": "継続的な改善",
+				"ilmManagement": "ILMマネジメント",
+				"internalDashboard": "内部ダッシュボード",
+				"metricsEntry": "指標入力",
+				"cascadeMarketplace": "カスケード・マーケットプレイス",
+				"ethicalSupplyChainDesigner": "倫理的なサプライチェーン設計者",
+				"userLogins": "ユーザーログイン",
+				"messageBoard": "メッセージボード",
+				"productRoadmap": "製品ロードマップ"
+			},
+			"views": {
+				"buyer": "購入者の視点",
+				"supplier": "サプライヤーの視点",
+				"recruitmentAgency": "RAビュー",
+				"tester": "テスタービュー",
+				"ilmManagement": "イサラ経営陣の見解"
+			}
+		},
+		"account": {
+			"aboutIlmCascade": "ILM Cascadeについて",
+			"notifications": "通知",
+			"profileSettings": "プロフィール設定",
+			"signOut": "サインアウト",
+			"userFallback": "ユーザー"
+		}
+	},
+	"forms": {
+		"firstName": "ファーストネーム",
+		"lastName": "苗字",
+		"fullName": "フルネーム",
+		"company": "会社",
+		"organization": "組織",
+		"department": "部門",
+		"position": "位置",
+		"role": "役割",
+		"title": "タイトル",
+		"message": "メッセージ",
+		"comment": "コメント",
+		"note": "注記",
+		"remarks": "備考"
+	},
+	"validation": {
+		"required": "この項目は必須です",
+		"email": "有効なメールアドレスを入力してください",
+		"phone": "有効な電話番号を入力してください",
+		"minLength": "最低限必要な文字数は{{count}}です。",
+		"maxLength": "最大{{count}}文字数",
+		"numeric": "有効な数字を入力してください",
+		"alphanumeric": "文字と数字のみ使用可能です。"
+	},
+	"messages": {
+		"saveSuccess": "データが正常に保存されました",
+		"saveError": "データの保存に失敗しました",
+		"deleteSuccess": "データが正常に削除されました",
+		"deleteError": "データの削除に失敗しました",
+		"updateSuccess": "データが正常に更新されました",
+		"updateError": "データの更新に失敗しました",
+		"loadError": "データの読み込みに失敗しました",
+		"networkError": "ネットワーク接続エラー",
+		"serverError": "サーバーエラーが発生しました",
+		"notFound": "データが見つかりません",
+		"accessDenied": "アクセスが拒否されました",
+		"sessionExpired": "セッションの有効期限が切れました。再度ログインしてください。"
+	},
+	"glossary": {
+		"remediation": "修復",
+		"grievance": "苦情",
+		"workerVoice": "労働者の声",
+		"supplier": "サプライヤー",
+		"buyer": "買い手",
+		"recruitmentAgency": "人材紹介会社",
+		"supplyChain": "サプライチェーン",
+		"workerFeedback": "従業員からのフィードバック",
+		"responsibleProcurement": "責任ある調達"
+	},
+	"socialResponsibility": {
+		"hero": {
+			"title": "社会的責任の概要",
+			"subtitle": "労働者主導の社会的責任を、労働者の発言権の強化と苦情処理を通じて実現する。",
+			"description": "労働条件、採用、生活賃金などに関する、職場とサプライチェーンに関するリアルタイムの情報。"
+		},
+		"kpis": {
+			"cascadeIndex": "カスケードインデックス",
+			"cascadeIndexTooltip": "CASCADEインデックスは、サプライチェーンにおけるリアルタイムの労働者の声への対応力が65%、ポリシー、手順、能力開発における継続的な改善への取り組みが35%であることを示しています。詳細はCASCADEマーケットプレイスをご覧ください。",
+			"workerVoiceCoverage": "労働者の声に関する報道"
+		},
+		"filters": {
+			"supplier": "サプライヤー",
+			"country": "国",
+			"industry": "業界",
+			"from": "から",
+			"to": "に",
+			"reset": "フィルターをリセット",
+			"updating": "更新中…",
+			"allSuppliers": "すべてのサプライヤー",
+			"allCountries": "すべての国",
+			"allIndustries": "全産業",
+			"emptyStates": {
+				"noData": "データが見つかりません。",
+				"noDataForFilters": "{{filters}}のデータが見つかりません。",
+				"suppliers": "選択されたサプライヤー",
+				"country": "選択された国",
+				"countries": "選択された国",
+				"industry": "選択された産業",
+				"industries": "選択された産業",
+				"dateRange": "選択された期間"
+			}
+		},
+		"multiSelect": {
+			"search": "検索…",
+			"noResults": "検索結果なし",
+			"apply": "適用する",
+			"selected": "{{count}} 選択済み",
+			"noneSelected": "選択なし"
+		},
+		"sections": {
+			"overviewSocial": "概要：ソーシャル",
+			"supplyChainDemographics": "サプライチェーンの人口統計",
+			"workplaceDemographics": "職場の人口統計",
+			"suppliersByCountry": "国別サプライヤー一覧",
+			"workforceByGender": "男女別労働力構成",
+			"workersByNationality": "国籍別労働者数",
+			"supplierEngagement": "サプライヤーとの連携",
+			"supplyChainEngagement": "サプライチェーンへの関与",
+			"workerVoiceOverview": "労働者の声の概要",
+			"remediationQuality": "修復品質",
+			"topCommonIssues": "労働者が報告する最も一般的な労働問題トップ5",
+			"grievanceStrengths": "苦情処理メカニズムの強み",
+			"grievanceImprovements": "苦情処理メカニズムの改善点"
+		},
+		"workerIssues": {
+			"cases": "症例数",
+			"casesUnit": "ケース",
+			"speed": "スピード",
+			"quality": "品質",
+			"days": "平均日数",
+			"combinedScore": "スピード／品質",
+			"scoreFormulaNote": "スコア（0～10）＝品質（50％）＋スピード（50％）。品質は作業員による修復評価（不良＝2.5、普通＝5、良好＝7.5、優良＝10）です。スピードは完了までの日数のシグモイド曲線（30日 ≈ 9.5、90日 ≈ 5.0、150日 ≈ 0.5）です。強みは上位5つの最高スコアを示し、改善点は下位5つの最低スコアを示します。",
+			"noItems": "この期間には対象となる商品はありませんでした。",
+			"noStrengths": "この期間において、「強力な是正措置」の基準を満たす問題はなかった。ただし、是正措置は全体的に見直す必要があるかもしれない。",
+			"noImprovements": "現在、パフォーマンスが低下している問題はなく、サプライチェーン全体における改善策は概ね良好である。",
+			"commonDescription": "選択した期間中にサプライチェーン全体で最も頻繁に報告された労働問題（件数順）。強制労働のリスクはオレンジ色の数字で示されています。",
+			"strengthsDescription": "サプライチェーンが苦情対応において優れた能力を発揮している事例（影響を受けた労働者による評価に基づく、迅速な是正措置と質の高い解決策）。",
+			"improvementsDescription": "苦情対応において注意が必要な問題点としては、是正措置までの時間の遅さ、および影響を受けた労働者による評価に基づく解決の質の低さが挙げられる。"
+		},
+		"workerVoiceOverviewChart": {
+			"description": "重症度レベル別にグループ化された、時間の経過に伴うKPIケースを表示します。{{count}} ヶ月分のデータです。",
+			"levels": {
+				"level1": "レベル1（エンゲージメント）",
+				"level2": "レベル2（早期警戒）",
+				"level3_forced": "レベル3（強制労働のリスク）",
+				"level4_forced_urgent": "レベル4（強制労働リスク - 緊急）",
+				"level3_supplier": "レベル3（労働法違反）",
+				"level4_supplier": "レベル4（違反行為に対するゼロトレランス）"
+			}
+		},
+		"tags": {
+			"demographics": "人口統計",
+			"bySeverity": "重症度別"
+		},
+		"charts": {
+			"byCountry": "国別",
+			"byGender": "性別別",
+			"byNationality": "国籍別",
+			"countriesRepresented": "{{count}} 代表国",
+			"nationalitiesRepresented": "{{count}} 代表される国籍",
+			"totalWorkers": "総労働者数: {{count}}",
+			"noGenderData": "性別データは利用できません",
+			"noData": "データなし",
+			"suppliersByCountryDescription": "各国で事業を展開しているサプライヤーの数",
+			"workforceByGenderDescription": "サプライチェーン全体の労働者における男女比",
+			"workersByNationalityDescription": "サプライチェーン全体における労働者の国籍構成"
+		},
+		"engagementTable": {
+			"columns": {
+				"supplierName": "サプライヤー名",
+				"activityType": "活動の種類",
+				"date": "日付",
+				"location": "位置"
+			},
+			"description": "サプライチェーン全体にわたるすべてのサプライヤーエンゲージメント活動",
+			"tooltip": "サプライチェーン内のサプライヤーと実施したすべての直接的な関わり活動の記録。これには、アンケート調査、監査、研修、是正訪問などが含まれます。"
+		},
+		"remediation": {
+			"basedOn": "{{count}} クローズされたケースに基づく"
+		},
+		"states": {
+			"loading": "読み込み中…",
+			"loadError": "職場統計データの読み込みに失敗しました。",
+			"noSupplierTitle": "お客様のアカウントに関する仕入先データが見つかりませんでした。",
+			"noSupplierForGlobalPartner": "お客様のサプライチェーンに該当するサプライヤーが見つかりませんでした。システム管理者にお問い合わせください。",
+			"contactAdmin": "管理者にご連絡ください。"
+		},
+		"slides": {
+			"overallTitle": "社会的責任 - 全体",
+			"overallDescription": "総合的な社会的責任スコア",
+			"laborTitle": "労働",
+			"laborDescription": "労働者の権利スコア",
+			"recruitmentTitle": "採用",
+			"recruitmentDescription": "採用活動評価",
+			"wagesTitle": "賃金",
+			"wagesDescription": "賃金スコア"
+		},
+		"severity": {
+			"engagement": "婚約",
+			"earlyWarning": "早期警報",
+			"forcedLaborRisk": "強制労働のリスク",
+			"forcedLaborRiskUrgent": "強制労働のリスク - 緊急",
+			"levelLabel": "レベル {{level}} ({{description}})",
+			"laborViolation": "労働法違反",
+			"zeroToleranceViolation": "違反行為は一切許容しません"
+		},
+		"fallbacks": {
+			"unassigned": "未割り当て",
+			"others": "その他"
+		},
+		"emptyStates": {
+			"noData": "データが見つかりませんでした。",
+			"noDataForFilters": "{{filters}} のデータは見つかりませんでした。",
+			"suppliers": "選定されたサプライヤー",
+			"country": "選択された国",
+			"countries": "選択された国々",
+			"industry": "選択された業界",
+			"industries": "選択された産業",
+			"dateRange": "選択された日付範囲"
+		}
+	},
+	"viewWorkerFeedback": {
+		"pageTitle": "従業員関係：従業員からのフィードバックに関するケースマネジメント",
+		"loading": "従業員からのフィードバックを読み込んでいます...",
+		"loadError": "作業者フィードバックの読み込みに失敗しました。",
+		"empty": "従業員からのフィードバックは見つかりませんでした。",
+		"addNew": "新しい従業員のフィードバックを追加する",
+		"rowsPerPage": "1ページあたりの行数",
+		"pagination": "{{current}} / {{total}} ページ • {{visible}} / {{count}} のレコードを表示しています",
+		"searchPlaceholder": "検索",
+		"highestLevel": "最高レベル: {{level}}",
+		"moreSuffix": "{{first}} +{{count}} その他",
+		"columns": {
+			"id": "ID",
+			"operatorName": "オペレーター名",
+			"issueCategories": "問題カテゴリ",
+			"issueDescription": "問題の説明",
+			"receivedVia": "受信元",
+			"date": "日付",
+			"level": "レベル",
+			"daysActive": "活動日数",
+			"assignedUsers": "割り当てられたユーザー",
+			"status": "状態",
+			"actions": "行動"
+		},
+		"actions": {
+			"viewDetails": "詳細を見る",
+			"edit": "編集"
+		},
+		"caseStatus": {
+			"open": "開ける",
+			"close": "近い",
+			"someProgress": "いくらか進展があった",
+			"fallback": "ステータス {{id}}"
+		},
+		"genders": {
+			"1": "男",
+			"2": "女性",
+			"3": "他の",
+			"4": "ノンバイナリー"
+		},
+		"fallbacks": {
+			"channel": "チャンネル {{id}}",
+			"category": "カテゴリ {{id}}",
+			"user": "ユーザー {{id}}"
+		}
+	},
+	"workerFeedbackForm": {
+		"pageTitle": {
+			"create": "従業員からのフィードバック",
+			"edit": "従業員のフィードバックを編集する"
+		},
+		"steps": {
+			"keyData": "主要データ",
+			"caseSummary": "症例概要",
+			"employeeInfo": "従業員情報",
+			"employeeFeedback": "従業員からのフィードバック",
+			"supportActions": "サポートとアクション"
+		},
+		"requiredFields": {
+			"nationality": "国籍",
+			"caseCallType": "ケース／通話の種類",
+			"hrOfficer": "人事担当者",
+			"feedbackChannel": "フィードバックチャネル",
+			"interactionDate": "交流日"
+		},
+		"validation": {
+			"fillIn": "記入してください：{{fields}}",
+			"completeKeyData": "先に進む前に、主要データの入力手順を完了してください。"
+		},
+		"feedback": {
+			"loading": "従業員からのフィードバックを読み込んでいます...",
+			"editLoadError": "従業員フィードバック記録を編集のために読み込むことができませんでした。",
+			"submitError": "従業員からのフィードバックの送信に失敗しました。もう一度お試しください。",
+			"updateError": "従業員のフィードバックの更新に失敗しました。もう一度お試しください。"
+		},
+		"buttons": {
+			"next": "次",
+			"back": "戻る",
+			"submit": "提出する",
+			"submitting": "送信中..."
+		},
+		"attachments": {
+			"label": "追加添付ファイル",
+			"description": "この事件に関するさらなる背景情報や証拠となる関連文書や画像をアップロードしてください。",
+			"supportedFormats": "対応フォーマット：.pdf、.png、.jpg",
+			"clickToUpload": "クリックしてファイルをアップロード",
+			"uploadHint": "APIアップロード制限までのPDF、PNG、JPG",
+			"existing": "既存の添付ファイル",
+			"new": "新しい添付ファイル",
+			"remove": "取り除く"
+		},
+		"requiredStep": {
+			"title": "主要データ",
+			"allFieldsRequired": "* すべての項目は必須です",
+			"labels": {
+				"nationality": "その労働者の国籍は何ですか？",
+				"caseCallType": "この従業員が当社に連絡してきた理由は何ですか？",
+				"staff": "どの人事担当者が従業員からのフィードバックを受け取ったのか？",
+				"channel": "従業員はどのフィードバックチャネルを利用しましたか？",
+				"interactionDate": "この従業員からのフィードバックは、いつ会社役員に伝えられましたか？"
+			},
+			"placeholders": {
+				"nationality": "国籍を選択してください",
+				"caseCallType": "ケース/通話タイプを選択してください",
+				"staff": "人事担当者を選択してください",
+				"channel": "フィードバックチャネルを選択してください",
+				"interactionDate": "日付を選択してください"
+			}
+		},
+		"caseSummaryStep": {
+			"title": "従業員からのフィードバックの概要",
+			"placeholders": {
+				"summary": "従業員のフィードバックの概要を入力してください"
+			}
+		},
+		"employeeInfoStep": {
+			"title": "従業員情報",
+			"labels": {
+				"clientName": "従業員名",
+				"employeeDepartment": "フィードバック／苦情を申し立てる従業員部門",
+				"employeeId": "社員番号",
+				"phoneNumber": "電話番号",
+				"gender": "性別",
+				"lineId": "ラインID"
+			},
+			"placeholders": {
+				"clientInformation": "顧客情報を入力してください",
+				"clientName": "従業員名を入力してください",
+				"employeeDepartment": "部門に入る",
+				"employeeId": "従業員IDを入力してください",
+				"phoneNumber": "電話番号を入力してください",
+				"gender": "性別を選択してください",
+				"lineId": "LINE IDを入力してください",
+				"whatsapp": "WhatsAppを入力する",
+				"zalo": "Zaloに入る"
+			}
+		},
+		"employeeFeedbackStep": {
+			"title": "従業員からのフィードバック",
+			"labels": {
+				"feedbackDescription": "詳細なフィードバックの説明",
+				"workersAffected": "影響を受けた労働者の数",
+				"workersAffectedDescription": "影響を受ける労働者の説明",
+				"situationImproving": "問題の状況は改善していますか？",
+				"situationImprovingDescription": "状況改善の説明"
+			},
+			"placeholders": {
+				"feedbackDescription": "詳細なフィードバック内容を入力してください",
+				"workersAffected": "影響を受ける労働者の数を入力してください",
+				"workersAffectedDescription": "影響を受けた労働者についてさらに詳しく説明してください",
+				"situationImprovingDescription": "状況の変化について詳細を述べてください。"
+			},
+			"options": {
+				"yes": "はい",
+				"no": "いいえ",
+				"unknown": "未知"
+			}
+		},
+		"supportStep": {
+			"title": "従業員サポート",
+			"labels": {
+				"riskAssessment": "このフィードバックに関して、従業員が最も緊急に必要としていることは何だと答えていますか？",
+				"otherServicesSupport": "この労働者にとって他にどのようなサービスや支援が役立つとお考えですか？",
+				"nextSteps": "Issaraのフォローアップと対応に関する次のステップの詳細を記入してください。",
+				"nextStepsStaff": "会社の従業員にとって、次のステップはどのようなものになるのでしょうか？",
+				"deadlineDate": "締め切り日を選択してください。",
+				"finalRemarks": "最終コメント欄にご記入ください。",
+				"safeguardRemarks": "安全対策に関する備考欄にご記入ください。",
+				"caseStatusAssessment": "この従業員のフィードバックとニーズを評価した結果、会社側でさらなる対応が必要でしょうか？"
+			},
+			"placeholders": {
+				"riskAssessment": "従業員の最も緊急なニーズは何ですか？",
+				"otherServicesSupport": "労働者にとって役立つ可能性のあるその他のサービスやサポート",
+				"caseStatus": "選択...",
+				"nextSteps": "Issaraのフォローアップと対応に関する次のステップを入力してください",
+				"nextStepsStaff": "スタッフメンバーを選択",
+				"deadlineDate": "締め切り日を選択してください",
+				"finalRemarks": "最後にコメントを入力してください",
+				"safeguardRemarks": "安全対策に関するコメントを入力してください"
+			}
+		},
+		"success": {
+			"title": "成功！",
+			"actionLabel": "続く",
+			"submittedMessage": "従業員からのフィードバックが正常に送信されました！",
+			"updatedMessage": "従業員からのフィードバックが正常に更新されました！"
+		}
+	},
+	"workerFeedbackGrievance": {
+		"common": {
+			"yes": "はい",
+			"no": "いいえ",
+			"next": "次",
+			"saveAsDraft": "下書きとして保存",
+			"notePrefix": "注記： "
+		},
+		"tabs": {
+			"introduction": "1. はじめに",
+			"informationCollection": "2. 情報収集",
+			"safeguardingWorkers": "3. 労働者の安全確保",
+			"ethicalInvestigation": "4. 倫理的調査",
+			"workerCommunication": "5. 従業員間のコミュニケーション",
+			"monitoringAndCommunication": "6. モニタリングとコミュニケーション",
+			"training": "7. トレーニング"
+		},
+		"intro": {
+			"title": "対話型倫理的苦情管理ツール",
+			"description": "このツールは、倫理的な苦情処理プロセスを円滑に進めるためのガイドとして設計されており、労働者の保護と公正な調査に関するあらゆる側面が確実に考慮されるようにします。",
+			"overviewTitle": "フィードバック／問題の概要",
+			"caseId": "ケースID",
+			"issueCategories": "問題カテゴリ",
+			"affectedWorkers": "影響を受けた労働者",
+			"issueDescription": "問題の説明",
+			"dateReceived": "受領日",
+			"currentStatus": "現在の状況"
+		},
+		"informationCollection": {
+			"description": "より詳細な調査や是正計画に進む前に、この件に関して入手可能な最新情報を確認してください。",
+			"checkWithHr": "人事部に確認して、同様の従業員からの報告があったり、最近解決されたりした事例がないか調べてみましたか？",
+			"repeatIssue": "この従業員から報告された問題は再発している問題でしょうか？つまり、根本原因を特定して対処する必要がある可能性があるということでしょうか？",
+			"additionalNotes": "補足事項",
+			"notesPlaceholder": "情報収集に関する追加の注意事項があれば入力してください。",
+			"additionalAttachments": "追加添付ファイル",
+			"attachmentsDescription": "本件に関する情報収集の際に収集した、裏付けとなる文書や画像があればアップロードしてください。",
+			"browseFiles": "ファイルを参照する",
+			"fileTypes": "PDF、PNG、JPG形式（各ファイル最大10MB）",
+			"removeAttachment": "添付ファイルを削除",
+			"undoRemove": "削除を取り消す",
+			"undo": "元に戻す",
+			"willUploadOnSave": "保存時にアップロードします",
+			"removeFile": "ファイルを削除する"
+		},
+		"safeguarding": {
+			"title": "影響を受ける労働者の保護",
+			"remediationAtRiskAlert": "是正措置の実施が危ぶまれています。Issaraチームは、貴社の担当者と連絡を取り、影響を受けるすべての従業員を報復から守る方法、そして報復行為を一切容認しないためのより良いシステムを構築する方法について協議いたします。",
+			"zeroTolerance": "この事件に関わる全員が、報復行為を一切容認しないという方針を遵守しているのでしょうか？",
+			"reviewedIndividuals": "従業員から報告された問題で特定された可能性のあるすべての個人を検討し、苦情調査および是正措置の期間中、従業員の安全が確保されるようリスク評価を実施しましたか？",
+			"involvedInGrievance": "通訳者を含め、苦情調査および是正プロセスに関わる可能性のあるすべての人物を検討し、利益相反がないことを確認しましたか？",
+			"notes": "安全対策に関する注意事項",
+			"notesPlaceholder": "安全対策に関する追加メモを入力してください..."
+		},
+		"ethicalInvestigation": {
+			"title": "倫理的な調査の確保",
+			"reviewedPlan": "調査計画が倫理ガイドラインに準拠していることを確認するために、調査計画を精査しましたか？",
+			"professional": "調査が専門的に実施されていることを確認しましたか？",
+			"impartial": "調査が公平に行われていることを確認しましたか？",
+			"inclusive": "調査プロセスは、影響を受けるすべての労働者にとって包括的でアクセスしやすいものでしょうか？",
+			"timely": "調査は迅速かつ効果的に実施されているか？",
+			"notes": "調査メモ",
+			"notesPlaceholder": "倫理調査プロセスに関するメモを入力してください..."
+		},
+		"workerCommunication": {
+			"title": "問題報告を行う従業員とのコミュニケーション",
+			"wellbeing": "調査期間中、影響を受けた従業員の方々の健康状態について連絡を取りましたか？",
+			"complexConsequences": "労働者から報告された問題から生じる、より複雑な結果（例えば、労働者への心理社会的支援、労働者の迅速な帰国措置など）について、何か支援が必要ですか？",
+			"complexConsequencesCheckbox": "はい、複雑な結果への対応について支援が必要です。",
+			"notes": "コミュニケーションノート",
+			"notesPlaceholder": "影響を受けた従業員とのコミュニケーションに関するメモを入力してください。"
+		},
+		"monitoring": {
+			"title": "モニタリングと調査結果の伝達",
+			"remediationActions": "是正措置",
+			"remediationPlaceholder": "講じられた是正措置について説明してください。",
+			"systemStrengtheningMeasures": "システム強化策",
+			"systemStrengtheningPlaceholder": "実施されたシステム強化策について説明してください。",
+			"remediationHeader": "修復：",
+			"systemStrengtheningHeader": "システム強化と継続的改善："
+		},
+		"trainings": {
+			"title": "トレーニング要件",
+			"description": "同様の問題の予防に役立つと思われるIssaraの研修を選択してください。",
+			"currentActionItems": "現在の対応事項",
+			"assignedStaff": "担当スタッフ",
+			"nextSteps": "次のステップ",
+			"deadline": "締め切り",
+			"notSpecified": "指定されていない",
+			"noNextSteps": "次のステップは定義されていません",
+			"noDeadline": "期限は設定されていません"
+		},
+		"summary": {
+			"remediationTitle": "サプライヤーによる事案解決に関する注記",
+			"systemStrengtheningTitle": "従業員から報告されたこの問題に関連する、サプライヤーによるシステム強化と継続的改善に関する注記："
+		},
+		"messages": {
+			"submitted": "案件{{caseId}}のサプライヤーからの苦情が正常に送信されました！",
+			"saved": "ケース{{caseId}}のサプライヤーからの苦情が正常に保存されました！"
+		}
+	},
+	"memberDirectoryPage": {
+		"title": "会員名簿",
+		"search": {
+			"recruitmentAgencies": "人材紹介会社を探す...",
+			"suppliers": "サプライヤーを検索...",
+			"globalBuyers": "世界中のバイヤーを検索..."
+		},
+		"tabs": {
+			"globalBuyers": "グローバルバイヤー"
+		},
+		"memberTypes": {
+			"globalBuyer": "グローバルバイヤー"
+		},
+		"filters": {
+			"title": "フィルター",
+			"sortBy": "並べ替え",
+			"country": "国",
+			"industry": "業界",
+			"basedCountry": "拠点国",
+			"sendingCountry": "送信国",
+			"placeholders": {
+				"sendingCountry": "発送国を選択してください",
+				"basedCountry": "国を選択してください",
+				"industry": "業界を選択"
+			},
+			"actions": {
+				"reset": "リセット",
+				"selectAll": "すべて選択",
+				"deselectAll": "すべて選択解除",
+				"apply": "適用する",
+				"search": "検索フィルター"
+			}
+		},
+		"sortOptions": {
+			"-popularity": "人気ランキング",
+			"popularity": "最も人気のない",
+			"-rating_score": "最高評価",
+			"rating_score": "最低評価",
+			"name": "名前（アルファベット順）",
+			"-name": "名前 Z-A"
+		},
+		"states": {
+			"loadingTitle": "メンバーディレクトリを読み込んでいます...",
+			"loadingSubtitle": "人材紹介会社とサプライヤーのデータを取得する",
+			"loadingMore": "さらに読み込み中...",
+			"endReached": "これで終わりです。",
+			"emptyTitle": "該当する企業は見つかりませんでした",
+			"emptyBody": "フィルターを調整して、より多くの結果を表示してみてください。"
+		},
+		"card": {
+			"typeFallback": "サプライヤー",
+			"description": "{{name}} は、主要な {{type}} です。",
+			"viewDetails": "詳細を見る"
+		}
+	},
+	"memberDirectoryDetail": {
+		"types": {
+			"member": "メンバー",
+			"recruitmentAgency": "人材紹介会社",
+			"supplier": "サプライヤー",
+			"globalBuyer": "グローバルバイヤー"
+		},
+		"unavailable": {
+			"title": "メンバーが利用できません",
+			"body": "このメンバータイプは、あなたの役割では利用できません。"
+		},
+		"common": {
+			"notAvailable": "該当なし",
+			"notProvided": "-"
+		},
+		"loading": {
+			"title": "会員詳細を読み込んでいます...",
+			"subtitle": "{{type}}の連絡先、メディア、その他の情報を取得しています"
+		},
+		"actions": {
+			"reload": "リロード"
+		},
+		"header": {
+			"registeredIn": "登録済み",
+			"reviews": "({{count}} レビュー)",
+			"status": "状態"
+		},
+		"globalBuyer": {
+			"profileTitle": "グローバルバイヤープロフィール",
+			"website": "Webサイト",
+			"headquarters": "本部",
+			"productsSourced": "調達した製品",
+			"directoryMemberSince": "ディレクトリメンバー",
+			"profileUpdated": "プロフィールが更新されました",
+			"businessContact": "ビジネス連絡先",
+			"name": "名前",
+			"email": "メール",
+			"phone": "電話",
+			"sourcingProfile": "調達プロファイル",
+			"companyPolicies": "会社の方針",
+			"viewPolicy": "ポリシーを表示"
+		},
+		"statuses": {
+			"Operational": "運用中",
+			"Processing": "処理",
+			"Permanently Blacklisted": "永久ブラックリスト入り",
+			"Temporarily Suspended": "一時停止中",
+			"License is not extended": "ライセンスは延長されません"
+		},
+		"description": {
+			"title": "説明",
+			"empty": "説明はありません。"
+		},
+		"contact": {
+			"title": "連絡先",
+			"contactDetail": "連絡先情報",
+			"phone": "電話",
+			"facebook": "Facebook",
+			"zalo": "ザロ"
+		},
+		"generalInformation": {
+			"title": "一般情報",
+			"sendingCountries": "送り出し国",
+			"dateOfRegistration": "登録日",
+			"licenseValidDate": "ライセンスの有効期限",
+			"licenseNumber": "ライセンス番号",
+			"tillTermination": "終了まで"
+		},
+		"overallRating": {
+			"title": "総合評価",
+			"reviews": "{{count}} レビュー",
+			"unknownCriteria": "不明な基準"
+		},
+		"verification": {
+			"title": "認証済みライセンス",
+			"description": "イサラは営業許可証を取得したことを確認した。",
+			"link": "ライセンス情報を参照してください"
+		}
+	},
+	"workforcePolls": {
+		"pageTitle": "労働力に関する世論調査",
+		"createPoll": "アンケートを作成する",
+		"companyLabel": "会社",
+		"companyValue": "イサラ研究所",
+		"filters": "フィルター",
+		"allGenders": "すべての性別",
+		"allNationalities": "すべての国籍",
+		"clearFilters": "フィルターをクリア",
+		"pollsByNationality": "国籍別世論調査",
+		"pollsCardTitle": "世論調査",
+		"nationality": "国籍",
+		"gender": "性別",
+		"recordLabel": "記録",
+		"yearly": "年間",
+		"monthly": "月刊",
+		"pollResults": "世論調査結果",
+		"selectDate": "日付を選択してください",
+		"searchPlaceholder": "質問で検索...",
+		"downloadCsv": "CSVをダウンロード",
+		"empty": {
+			"title": "投票結果は見つかりませんでした",
+			"body": "選択したフィルターと日付範囲に一致するアンケートはありません。フィルターを調整するか、新しいアンケートを作成して開始してください。"
+		},
+		"summary": {
+			"averagePollsByYear": "年ごとの平均世論調査結果",
+			"totalPolls": "総投票数",
+			"totalPollsResponse": "総回答数"
+		},
+		"columns": {
+			"pollId": "投票ID",
+			"question": "質問",
+			"pollResults": "世論調査結果",
+			"language": "言語",
+			"totalVotes": "総投票数",
+			"gender": "性別",
+			"createdAt": "作成日時",
+			"action": "アクション",
+			"notApplicable": "該当なし"
+		},
+		"actions": {
+			"published": "公開済み",
+			"unpublish": "非公開",
+			"publish": "公開",
+			"edit": "編集",
+			"delete": "消去",
+			"viewDetail": "詳細を見る"
+		},
+		"genders": {
+			"M": "男",
+			"F": "女性",
+			"N": "言いたくない",
+			"X": "ノンバイナリー"
+		},
+		"alerts": {
+			"publishTitle": "このアンケートは、貴社のグループ内で公開されます。",
+			"publishMessage": "このアンケートを公開しますか？",
+			"unpublishTitle": "このアンケートを非公開にしますか？",
+			"unpublishMessage": "従業員は今後このアンケート結果を見ることができなくなります。後で再掲載できます。",
+			"deleteTitle": "このアンケートを削除しますか？本当に削除しますか？",
+			"deleteMessage": "この操作は取り消すことができません。アンケートとそのすべてのデータは永久に削除されます。"
+		},
+		"csv": {
+			"id": "ID",
+			"question": "質問",
+			"language": "言語",
+			"createdAt": "作成日時",
+			"totalVotes": "総投票数",
+			"choices": "選択肢",
+			"country": "国",
+			"nationality": "国籍",
+			"votesSuffix_one": "{{count}} 投票",
+			"votesSuffix_other": "{{count}} 投票"
+		}
+	},
+	"workerReportedIssues": {
+		"pageTitle": "従業員から報告された問題点",
+		"subtitle": "従業員から報告された問題を、日付範囲とカテゴリ別に追跡します。",
+		"filters": {
+			"startDate": "開始日",
+			"endDate": "終了日",
+			"issueCategory": "問題カテゴリ"
+		},
+		"categories": {
+			"All": "全て",
+			"Labor": "労働",
+			"Recruitment": "採用",
+			"Wages": "賃金"
+		},
+		"summary": {
+			"criticalLabel": "危機的状況（60日以上）",
+			"criticalSubtitle": "60日以上経過した未解決のケース",
+			"resolutionRateLabel": "解像度",
+			"resolutionRateSubtitle": "解決済みケースの割合",
+			"openIssuesLabel": "{{prefix}} の課題を開く",
+			"openIssuesSubtitle": "現役労働者が報告した症例",
+			"closedIssuesLabel": "{{prefix}} の課題を解決しました",
+			"closedIssuesSubtitle": "解決済みの労働者からの報告事例",
+			"workerReportedPrefix": "労働者からの報告"
+		},
+		"columns": {
+			"id": "ID",
+			"supplier": "サプライヤー",
+			"category": "カテゴリ",
+			"description": "説明",
+			"level": "レベル（1～4）",
+			"daysActive": "活動日数",
+			"affected": "影響を受ける",
+			"recommendationForSp": "SPに対する推奨事項",
+			"status": "状態",
+			"opened": "オープンしました",
+			"closed": "閉店",
+			"remediationOutcome": "改善結果"
+		},
+		"tables": {
+			"openTitle_one": "労働者から報告された違反事項（{{count}} 問題）をオープンにする",
+			"openTitle_other": "労働者から報告された違反事項（{{count}} の問題）",
+			"closedTitle_one": "従業員から報告された違反（{{count}} 問題）は解決済みです。",
+			"closedTitle_other": "従業員から報告された違反事項（{{count}} の問題）は解決済みです。"
+		},
+		"values": {
+			"yes": "はい",
+			"notAvailable": "該当なし",
+			"supplierFallback": "サプライヤー",
+			"supplierWithId": "サプライヤー #{{id}}",
+			"workerFeedbackSubmission": "従業員からのフィードバックフォームの提出",
+			"closedViaWorkerFeedback": "従業員フィードバックフォームを通じてクローズされました",
+			"statusOpen": "開ける",
+			"statusClosed": "閉店"
+		},
+		"sources": {
+			"kpi": "社会的責任に関するKPI",
+			"workerFeedback": "従業員フィードバックフォーム"
+		},
+		"details": {
+			"kpiTitle": "KPIの詳細",
+			"workerFeedbackTitle": "従業員フィードバックフォームの詳細",
+			"source": "ソース",
+			"category": "カテゴリ",
+			"opened": "オープンしました",
+			"closed": "閉店",
+			"status": "状態",
+			"affectedWorkers": "影響を受けた労働者",
+			"level": "レベル",
+			"description": "説明",
+			"notes": "注記",
+			"issueSummary": "労働者から報告された問題の概要",
+			"hrOfficer": "人事担当者",
+			"caseStatus": "症例状況"
+		},
+		"grievanceIntro": {
+			"tabLabel": "1. はじめに",
+			"descriptionBeforeLink": "ILMのインタラクティブな苦情管理ツールを使用すると、現場で継続的に寄せられる従業員のフィードバックや報告された問題を受け取り、確認し、タイムリーかつ倫理的な方法で対応できます。機能的な倫理的苦情処理メカニズムには、常に次の2つの要素が必要です。（1）保護された従業員、（2）対応力があり、敬意を払う雇用主と採用担当者。倫理的苦情処理メカニズムの8つの構成要素の詳細については、こちらの1ページの入門書をダウンロードしてください。",
+			"pdfLabel": "PDF",
+			"descriptionAfterLink": "。",
+			"reminder": "念のため！倫理的苦情処理メカニズムの8つの構成要素：",
+			"components": {
+				"ethical": "倫理的",
+				"professional": "プロ",
+				"inclusive": "包括的",
+				"accessible": "アクセス可能",
+				"safe": "安全",
+				"impartial": "公平",
+				"timelyAction": "タイムリーな対応",
+				"effective": "効果的"
+			}
+		}
+	},
+	"companyDashboard": {
+		"testerInfo": {
+			"summary": "ここでの考え方は、企業が情報を一目で把握できるようにすることであり、",
+			"bodyBeforeFeedback": "ここでの狙いは、企業が情報を一目で把握し、取り組むべき優先課題を識別できるようにし、その後、さまざまなNGOパートナーが提供する活動を計画または依頼できる場所（ワークプランナー）を提供することです。ご意見、アイデア、改善点などございましたら、コメント欄にご記入ください。",
+			"feedbackTab": "「ご意見・ご感想はありますか？」タブ！",
+			"bodyAfterFeedback": "ご希望の回数だけどうぞ。ご都合がよろしければ、アイデア出しのための電話会議もいくつか開催できます。"
+		},
+		"hero": {
+			"title": "企業ダッシュボード",
+			"subtitle": "サプライチェーンの重要なリアルタイム指標",
+			"description": "以下のデータはデフォルトで過去12か月分を表示していますが、下のフィルターを使用して希望の日付範囲を選択することもできます。",
+			"reportPeriod": "報告期間",
+			"generated": "生成された",
+			"reset": "リセット",
+			"exportPdf": "PDFとしてエクスポート",
+			"previousMonth": "前月",
+			"nextMonth": "来月"
+		},
+		"kpis": {
+			"workerVoiceCoverage": {
+				"titleLine1": "労働者の声",
+				"titleLine2": "カバレッジ",
+				"description": "労働者の声を発信できる労働者"
+			},
+			"resolvedWithoutEscalation": {
+				"titleLine1": "解決済みの労働事件総数",
+				"titleLine2": "エスカレーションなしで",
+				"description": "エスカレーションを必要とせずに問題が特定され、解決された。"
+			},
+			"engagementActivities": {
+				"titleLine1": "サプライチェーン",
+				"titleLine2": "参加型アクティビティ",
+				"description": "研修、アンケート調査、現地イベント、その他の活動"
+			},
+			"activeEscalations": {
+				"titleLine1": "現在有効",
+				"titleLine2": "購入者へのエスカレーション",
+				"description": "エスカレーションのために受け付けたケース"
+			}
+		},
+		"liveStatus": {
+			"eyebrow": "従業員の声の導入と継続的な取り組み",
+			"title": "労働者の声報道：ライブ状況モニター",
+			"tier1": "ティア1 - 輸出レベルの工場",
+			"tier23": "ティア2およびティア3 - 上流の農場、製粉所、漁船",
+			"labels": {
+				"noWorkerVoice": "労働者の声なし",
+				"withoutEngagement": "サプライヤーとの連携なしに",
+				"withEngagement": "サプライヤーとの連携"
+			},
+			"descriptions": {
+				"noWorkerVoice": "従業員の意見を積極的に発信するチャネルを持たないサプライヤー。",
+				"withoutEngagement": "労働者の意見を反映させたサプライヤーは存在するが、積極的なサプライヤーの関与は見られない。",
+				"withEngagement": "従業員の声を発信するチャネルを持ち、サプライヤーが積極的に関与しているサプライヤー。"
+			},
+			"noSuppliersAvailable": "サプライヤーが見つかりません",
+			"noSupplierListAvailable": "サプライヤーリストは入手できません。",
+			"suppliers_one": "{{count}} サプライヤー",
+			"suppliers_other": "{{count}}サプライヤー"
+		},
+		"issueTreemap": {
+			"title": "解決済み問題の概要（特定および是正済み）",
+			"chartTitle": "カテゴリー別問題一覧（解決済み）",
+			"issueLabel": "問題",
+			"totalCases": "総症例数",
+			"closedIssues": "解決済みの問題",
+			"cases": "ケース",
+			"categoryNames": {
+				"labor": "労働",
+				"wages": "賃金",
+				"recruitment": "採用",
+				"laborWorkingConditions": "労働 - 労働条件",
+				"laborEmployerEmployeeRelations": "労働 - 雇用者と従業員の関係",
+				"laborLivingAndEatingConditions": "労働 - 生活および食事条件",
+				"laborWorkingConditionsShort": "労働条件",
+				"laborEmployerEmployeeRelationsShort": "雇用主と従業員の関係",
+				"laborLivingAndEatingConditionsShort": "生活環境と食生活"
+			}
+		},
+		"timeline": {
+			"title": "労働者から報告された問題の時系列",
+			"toggle": "営業中／閉店中",
+			"viewing": "視聴",
+			"status": {
+				"open": "開ける",
+				"closed": "閉店"
+			},
+			"noCategories": "KPIカテゴリが見つかりませんでした。設定を確認してください。",
+			"noData": "選択されたカテゴリとステータスに対応するKPIデータはありません。",
+			"unknownSupplier": "未知",
+			"unknownIssue": "不明な問題"
+		},
+		"performance": {
+			"title": "パフォーマンスに関する洞察と指標",
+			"sections": {
+				"riskManagement": "リスク管理",
+				"workerEngagement": "従業員のエンゲージメント",
+				"capacityBuilding": "能力開発"
+			},
+			"metrics": {
+				"forcedLaborRisksResolved": {
+					"label": "強制労働のリスクは解消されました",
+					"description": "発見され、解決された強制労働のリスク。"
+				},
+				"preventedEscalations": {
+					"labelLine1": "早期警戒識別／",
+					"labelLine2": "事態の悪化を防止",
+					"description": "従業員からのフィードバックにより、より深刻なリスクや法的責任に発展する可能性のある問題点が明らかになった。"
+				},
+				"workerEngagementCalls": {
+					"label": "従業員とのコミュニケーションのための電話とメッセージ",
+					"description": "社内サプライチェーン内の従業員との電話やメッセージのやり取りを通じて、信頼関係を築き、従業員の能力を高め、質問に答える。"
+				},
+				"supplierCapacityBuilding": {
+					"label": "サプライヤーの能力開発",
+					"description": "CASCADEコミュニティの研修およびワークショップに参加するサプライヤー。"
+				},
+				"recruitmentAgencyCapacityBuilding": {
+					"label": "人材紹介会社の能力強化",
+					"description": "CASCADEコミュニティの研修およびワークショップに参加する人材紹介会社。"
+				}
+			},
+			"trainedSuppliers": "訓練を受けたサプライヤー",
+			"noSuppliers": "サプライヤーなし",
+			"lastFieldworkDate": "最後",
+			"comingSoon": "近日公開"
+		},
+		"topRisks": {
+			"title": "サプライチェーンにおける労働者が報告する労働問題トップ10",
+			"quality": "品質",
+			"unknown": "未知",
+			"level": "レベル {{level}}",
+			"badges": {
+				"excellent": "素晴らしい",
+				"good": "良い",
+				"fair": "公平",
+				"poor": "貧しい"
+			},
+			"description": {
+				"beforeBlack": "選択した期間中に貴社のサプライヤーベースで最も頻繁に報告された労働問題と、早期警告リスクは以下のとおりです。",
+				"blackNumbers": "黒数字",
+				"beforeOrange": "強制労働のリスクは以下によって示される。",
+				"orangeNumbers": "オレンジ色の数字",
+				"scorePrefix": "スケールでのスコア",
+				"scoreSuffix": "これは、影響を受けた労働者によって評価および検証された、これらの問題に対する是正措置の平均的な品質です。"
+			}
+		}
+	},
+	"socialResponsibilityWorkplan": {
+		"hero": {
+			"title": "社会的責任に関する業務計画",
+			"description": "企業のサステナビリティに関する取り組みを、明確かつ効率的に計画、追跡、管理しましょう。"
+		},
+		"header": {
+			"title": "優先作業計画活動の進捗状況"
+		},
+		"tabs": {
+			"workerVoice": "労働者の声",
+			"laborRecruitment": "人材募集",
+			"workingConditions": "労働条件",
+			"trainings": "トレーニング",
+			"notesRemarks": "注記とコメント"
+		},
+		"status": {
+			"notYetInitiated": "まだ開始されていません",
+			"partialProgress": "部分的な進展",
+			"completedOngoing": "完了済み／進行中"
+		},
+		"sections": {
+			"workerVoice": "エリア1の活動 - 労働者の声",
+			"laborRecruitment": "エリア2の活動 - 人材募集",
+			"workingConditions": "エリア3の活動内容 - 労働条件"
+		},
+		"loading": {
+			"activities": "作業計画アクティビティを読み込んでいます...",
+			"trainings": "トレーニングを読み込んでいます..."
+		},
+		"trainings": {
+			"title": "参加した研修の一覧",
+			"columns": {
+				"training": "トレーニング",
+				"date": "日付"
+			}
+		},
+		"notesRemarks": {
+			"title": "注記とコメント"
+		}
+	},
+	"cascadeMarketplace": {
+		"appName": "カスケード・マーケットプレイス",
+		"tabs": {
+			"dashboard": "CASCADEマーケットプレイスダッシュボード",
+			"catalog": "ソリューションカタログ",
+			"plan": "改善計画"
+		},
+		"dashboard": {
+			"loop": {
+				"title": "カスケード継続的改善ループ",
+				"identifyRisk": "リスクを特定する",
+				"workerVoice": "労働者の声",
+				"selectSolution": "解決策を選択",
+				"implementVerify": "実装と検証",
+				"cascadeIndex": "カスケードインデックス",
+				"marketAdvantage": "市場優位性",
+				"ongoingAssurances": "継続的な保証"
+			},
+			"score": {
+				"yourIndex": "あなたのCASCADEインデックス",
+				"composition": "スコア構成",
+				"workerVoiceWeight": "（重量比65％）",
+				"continuousImprovement": "継続的な改善",
+				"continuousImprovementWeight": "（重量比35％）",
+				"finalFormula": "最終式",
+				"excellent": "素晴らしい",
+				"good": "良い",
+				"fair": "公平",
+				"poor": "貧しい",
+				"performance": "{{status}} パフォーマンス",
+				"excellentPerformance": "優れたパフォーマンス",
+				"goodPerformance": "優れたパフォーマンス",
+				"roomForImprovement": "改善の余地あり",
+				"needsAttention": "注意が必要"
+			},
+			"actions": {
+				"title": "今すぐ行動を起こしましょう",
+				"subtitle": "業務の評価と強化に役立つ、無料で自分のペースで学習できるツール。",
+				"freeTools": "無料ツール",
+				"free": "無料",
+				"diagnosticMeta": "約15分・9セクション",
+				"latestScore": "あなたの最新スコア",
+				"lastAssessed": "最終評価 {{date}}",
+				"diagnosticDescription": "苦情処理メカニズムを9つの重要な要素に基づいて評価し、弱点を特定し、時間の経過に伴う改善状況を追跡します。",
+				"retake": "再試験",
+				"comingSoon": "近日公開",
+				"comingSoonBody": "新しい自己診断ツールを開発中です。"
+			},
+			"cta": {
+				"title": "スコアアップの準備はできていますか？",
+				"body": "弊社のソリューションカタログをご覧になり、継続的改善スコアの向上に役立つトレーニング、資格認定、サービスをお探しください。",
+				"button": "ソリューションカタログを閲覧する"
+			},
+			"activity": {
+				"title": "最近の活動",
+				"empty": "最近の活動はまだありません。"
+			}
+		},
+		"sidebar": {
+			"currentScore": "現在のスコア",
+			"projectedScore": "予想得点",
+			"breakdown": "得点内訳",
+			"workerVoice": "労働者の声（65％）",
+			"currentCi": "現在のCI（35％）",
+			"projectedCi": "予測信頼区間（35％）",
+			"itemsInPlan_one": "{{count}} 改善計画の項目",
+			"itemsInPlan_other": "{{count}} 改善計画の項目",
+			"viewPlan": "改善計画を見る",
+			"howItWorks": {
+				"title": "仕組み",
+				"items": {
+					"browse": "業務改善に役立つソリューションをご覧ください。",
+					"project": "リアルタイムのスコア予測を見るには、項目を追加してください。",
+					"complete": "CASCADEインデックスを上げるための項目を完了してください",
+					"partnerships": "スコアが高いほど、より多くのブランドとの提携が実現する"
+				}
+			},
+			"feedback": {
+				"title": "フィードバックボックス",
+				"body": "CASCADEマーケットプレイスに追加してほしいアクティビティのリクエストやご提案はありますか？こちらから詳細をお聞かせください！",
+				"name": "あなたの名前",
+				"email": "あなたのメールアドレス",
+				"description": "ご希望の活動内容（リクエストまたは提供したい活動）について説明してください。",
+				"submit": "リクエストを送信",
+				"validation": "すべての項目にご記入ください",
+				"success": "リクエストを送信しました。ありがとうございます！",
+				"error": "リクエストの送信に失敗しました。しばらくしてからもう一度お試しください。"
+			}
+		},
+		"catalog": {
+			"loading": "解決策を読み込んでいます…",
+			"categories": {
+				"workerVoice": "労働者の声",
+				"ethicalRecruitment": "倫理的な採用",
+				"livingAndWorkingConditions": "生活および労働条件",
+				"livingWages": "生活賃金",
+				"climateResilientSupplyChains": "気候変動に強いサプライチェーン",
+				"companyPoliciesSystems": "会社の方針とシステム"
+			},
+			"card": {
+				"mostRecommended": "最もおすすめ",
+				"trainingAvailableIn": "トレーニングは以下で受講可能です",
+				"datesToBeConfirmed": "日程は未定",
+				"ciScoreImpact": "CIスコアの影響",
+				"inPlan": "計画中",
+				"addToPlan": "+ プランに追加",
+				"readMore": "続きを読む",
+				"readLess": "続きを読む",
+				"solutionColumn": "解決",
+				"typeColumn": "タイプ",
+				"costColumn": "料金"
+			},
+			"modal": {
+				"title": "プランに追加：",
+				"subtitle": "この解決策を改善計画にどのように追加するかを選択してください。",
+				"forMyselfTitle": "私自身のために",
+				"forMyselfBody": "組織のコンプライアンス計画に追加する",
+				"sponsorTitle": "サプライヤー向けスポンサー",
+				"sponsorBody": "サプライヤーに代わってこのアクティビティの費用を支払う",
+				"youPay": "お支払い",
+				"recommendTitle": "サプライヤーへの推奨事項",
+				"recommendBody": "このアクティビティをサプライヤーに勧めて、彼らが自費で支払うようにしましょう。",
+				"theyPay": "彼らは支払う",
+				"selfHint": "この活動をコンプライアンス計画に追加してください。",
+				"selectSuppliers_one": "サプライヤーを選択（{{count}} 選択済み）",
+				"selectSuppliers_other": "サプライヤーを選択（{{count}} 選択済み）",
+				"loadingSuppliers": "サプライヤーを読み込んでいます…",
+				"noSuppliersFound": "サプライヤーが見つかりませんでした",
+				"scoreLabel": "スコア: {{score}}",
+				"noScore": "スコアなし",
+				"selectSupplierValidation": "続行するには、少なくとも1つのサプライヤーを選択してください。",
+				"summary": "まとめ",
+				"activity": "活動",
+				"scoreImpact": "スコアへの影響",
+				"suppliers": "サプライヤー",
+				"noneSelected": "選択なし"
+			}
+		},
+		"shared": {
+			"cost": {
+				"free": "無料",
+				"training": "トレーニング",
+				"service": "サービス",
+				"investment": "投資",
+				"subscription": "サブスクリプション",
+				"paid": "有料",
+				"paidWithStruck": "有料",
+				"paidWithSuffix": "購入者資金"
+			}
+		},
+		"plan": {
+			"academy": {
+				"submitError": "送信に失敗しました。もう一度お試しください。",
+				"submittedTitle": "登録が完了しました！",
+				"submittedBody": "担当者より確認の詳細についてご連絡いたします。",
+				"availableLanguages": "利用可能な言語",
+				"addYourDetails": "詳細情報を追加してください",
+				"firstNamePlaceholder": "ファーストネーム",
+				"lastNamePlaceholder": "苗字",
+				"selectCountry": "国を選択してください…",
+				"organizationCompany": "組織／会社",
+				"organizationPlaceholder": "会社名または組織名",
+				"positionHelp": "あなたの役職と、その役職に関連する責任を具体的に明記してください。",
+				"positionPlaceholder": "例：サプライチェーンマネージャー — 以下の責任を負う…",
+				"attendedBeforeQuestion": "あなたはこれまでイサラ・アカデミーのイベントに参加したことがありますか？",
+				"submitRegistration": "登録を送信"
+			},
+			"actionRequired": {
+				"title": "購入者からの商品 — 対応が必要です",
+				"pending_one": "{{count}} 保留中",
+				"pending_other": "{{count}} 保留中",
+				"loading": "保留中のアイテムを読み込んでいます…",
+				"sponsored": "スポンサー提供",
+				"recommended": "推奨",
+				"strategicPartner": "戦略的パートナー",
+				"fromBuyer": "購入者 #{{id}} より",
+				"saving": "保存中…",
+				"acceptAdd": "承認してプランに追加",
+				"decline": "衰退"
+			},
+			"empty": {
+				"title": "あなたのプランは空です",
+				"body": "当社のソリューションカタログをご覧になり、CASCADEインデックスの向上に役立つトレーニング、認定資格、およびサービスをお探しください。",
+				"button": "ソリューションカタログを閲覧する"
+			},
+			"item": {
+				"points_one": "+{{count}} ポイント",
+				"points_other": "+{{count}} ポイント",
+				"pointsPerSupplier_one": "+{{count}} pt/サプライヤー",
+				"pointsPerSupplier_other": "+{{count}} pts/サプライヤー",
+				"noActionAssigned": "まだアクションは割り当てられていません",
+				"totalCost": "総費用",
+				"priceLabel": "価格 {{price}}",
+				"payNotify": "支払いと通知",
+				"subscribeDownload": "購読＆ダウンロード"
+			},
+			"actions": {
+				"selfCertify": "自己認証",
+				"scheduleKickoff": "スケジュール開始",
+				"requestQuote": "見積もり依頼",
+				"registerForTraining": "トレーニングに登録する",
+				"notifySuppliers": "サプライヤーに通知する"
+			},
+			"overview": {
+				"title": "あなたの改善計画",
+				"subtitle": "選択したソリューションを確認して有効化し、CASCADE インデックスを改善してください。",
+				"clearAll": "すべてクリア",
+				"totalProjectedImpact": "予測される総影響",
+				"itemsInPlan_one": "{{count}} プラン内のアイテム",
+				"itemsInPlan_other": "{{count}} プラン内のアイテム",
+				"estimatedTime": "所要時間目安",
+				"estimatedTimeValue": "2～6週間"
+			},
+			"sections": {
+				"sponsoringForSuppliers_one": "サプライヤー向けスポンサーシップ ({{count}})",
+				"sponsoringForSuppliers_other": "サプライヤー向けスポンサーシップ ({{count}})",
+				"youPay": "お支払い",
+				"totalSponsoringCost": "スポンサー費用合計",
+				"items_one": "{{count}} アイテム",
+				"items_other": "{{count}} アイテム",
+				"suppliers_one": "{{count}} サプライヤー",
+				"suppliers_other": "{{count}}サプライヤー",
+				"suppliersNotified": "サプライヤーに通知済み ✓",
+				"processing": "処理…",
+				"payNotifySuppliers": "サプライヤーへの支払いと通知",
+				"sponsorHelpTitle": "あなたはサプライヤーのコンプライアンス改善を支援しています",
+				"sponsorHelpBody": "グローバルブランドとして、各種活動を支援することは、サプライヤーのCASCADEスコア向上に役立ち、ひいてはサプライチェーン全体の強化につながります。",
+				"recommendedToSuppliers_one": "サプライヤー（{{count}}）に推奨",
+				"recommendedToSuppliers_other": "サプライヤー（{{count}}）に推奨",
+				"theyPay": "彼らは支払う",
+				"notificationSummary": "通知概要",
+				"notifySuppliers": "サプライヤーに通知する",
+				"recommendHelpTitle": "あなたはこれらの活動をサプライヤーに推奨しています",
+				"recommendHelpBody": "サプライヤーはこれらの推奨事項に関する通知を受け取り、独自に購入することができます。"
+			},
+			"nextSteps": {
+				"title": "次のステップ",
+				"step1": "ダウンロードして完了を自己認証することで、無料リソースをすぐに有効化できます。",
+				"step2": "クレジット商品および専門サービスの見積もりを依頼する",
+				"step3": "CASCADEインデックススコアを自動的に向上させる項目を完了してください",
+				"step4": "スコアが高いほど、より多くのブランド提携や市場機会が生まれる。"
+			},
+			"modal": {
+				"registerForTrainingTitle": "トレーニングに登録する",
+				"scheduleKickoffTitle": "スケジュール開始",
+				"requestQuoteTitle": "見積もりを依頼する",
+				"registerForTrainingDescription": "セッションを選択し、詳細を入力してください",
+				"scheduleKickoffDescription": "キックオフセッションを予約する",
+				"requestQuoteDescription": "価格をリクエストする",
+				"kickoffRequested": "キックオフリクエスト！",
+				"quoteRequested": "見積もり依頼！",
+				"followUp": "担当チームより1～2営業日以内にご連絡いたします。",
+				"namePlaceholder": "あなたの名前",
+				"companyPlaceholder": "会社名",
+				"preferredDate": "希望日",
+				"additionalNotes": "補足事項",
+				"describeNeeds": "ニーズを説明してください",
+				"additionalNotesPlaceholder": "何か特別なご要望やご質問はありますか？",
+				"describeNeedsPlaceholder": "予算範囲または具体的な要件...",
+				"requestKickoff": "キックオフリクエスト",
+				"submitRequest": "リクエストを送信"
+			}
+		},
+		"dashboardDescription": "継続的な改善状況を追跡し、スコアを向上させる方法を見つけましょう。",
+		"catalogDescription": "ご自身でソリューションを閲覧・選択したり、サプライヤーに提案したり、サプライヤーに推奨したりできます。各項目は、CASCADEインデックスへの影響を示します。",
+		"supplierIdLabel": "サプライヤーID",
+		"partnerIdLabel": "パートナーID",
+		"supplierFallback": "サプライヤー"
+	},
+	"grievanceSelfDiagnostic": {
+		"header": {
+			"language": "言語"
+		},
+		"progress": {
+			"sectionProgress": "{{current}} の {{total}} セクション",
+			"challenge": "チャレンジ",
+			"complete": "{{percent}}% 完了",
+			"estTime": "~{{minutes}}分",
+			"save": "保存",
+			"saved": "保存しました！",
+			"print": "印刷"
+		},
+		"intro": {
+			"title": "カスケード苦情処理メカニズム",
+			"subtitle": "自己診断",
+			"tagline": "信頼できる効果的な従業員エンゲージメントメカニズム",
+			"purposeTitle": "目的",
+			"purposeBody": "この診断評価ツールは、現在の企業苦情処理メカニズムの構造と有効性を分析するための明確かつ実践的な枠組みを提供します。この自己診断ツールは、サプライヤーや人材紹介会社が以下の点を特定するのに役立ちます。",
+			"bullets": {
+				"strengths": "強みとなる分野",
+				"improvements": "改善が必要な分野と、それらを最も効果的に改善する方法",
+				"progress": "これまでの進捗状況をより効果的に測定し、明確に伝える方法"
+			},
+			"note": "苦情処理メカニズムの自己診断ツールは、CASCADEプラットフォーム上のすべてのサプライヤーおよび人材紹介会社が無料で利用できるツールです。企業が改善状況を追跡できるよう、年間最大4回まで利用できます。",
+			"start": "評価を開始する",
+			"expectTitle": "期待できること",
+			"expectItems": {
+				"sections": "苦情処理メカニズムの重要な構成要素を網羅した9つのセクションを完了してください。",
+				"score": "最後に、詳細なスコアと個別の推奨事項を受け取ることができます。",
+				"email": "今後の参考のために、結果をメールで受け取りましょう。",
+				"save": "進捗状況はブラウザに保存されます。いつでも一時停止して再開できます。"
+			},
+			"scoreTitle": "採点方法",
+			"scoreNote": "最終スコアはパーセンテージと1～5段階の星評価で表示され、セクションごとの分析結果と個別の推奨事項も提供されます。一部の問題は「チャレンジ問題」としてマークされており、正解すると2倍のポイントが加算されます。",
+			"resumeBanner": "進行状況が保存されました。中断したところから再開しますか？",
+			"resumeButton": "履歴書評価",
+			"startFresh": "新たなスタートを切る"
+		},
+		"components": {
+			"title": "9つの重要な構成要素",
+			"subtitle": "信頼できる効果的な従業員エンゲージメントメカニズム",
+			"videoLabel": "紹介ビデオを再生する",
+			"videoCaption": "動画：9つの重要な構成要素を理解する",
+			"assessedTitle": "評価される内容",
+			"noteTitle": "注記：",
+			"noteBody": "この評価には、2倍の配点となる「チャレンジ問題」が含まれています。最も正確な結果と推奨事項を得るために、時間をかけて正直に回答してください。",
+			"continue": "評価に進む",
+			"cards": {
+				"safeguards": "信頼性が高く効果的な安全対策",
+				"communications": "文化的・言語的に適切なコミュニケーション",
+				"access": "プライベートで監視なし、無料アクセス",
+				"remediation": "修復対応の迅速性と結果",
+				"retaliation": "報復行為に対するゼロトレランス政策",
+				"conflicts": "利益相反はありません",
+				"empowerment": "労働者に対する詳細な権限付与と教育",
+				"channels": "労働者がアクセスできる独立したチャネル",
+				"mindset": "真摯なサービス精神"
+			}
+		},
+		"question": {
+			"challengeBadge": "チャレンジ · 2倍ポイント",
+			"of": "{{current}} の {{total}} に関する質問です。",
+			"back": "戻る",
+			"completeSection": "セクションを完了する",
+			"nextQuestion": "次の質問"
+		},
+		"sectionComplete": {
+			"title": "セクション {{section}} 完了!",
+			"promptLast": "すべての項目が完了しました。結果を見る準備はできましたか？",
+			"promptNext": "素晴らしい進歩ですね！セクション{{section}}の準備はできていますか？",
+			"submitting": "送信中...",
+			"viewResults": "結果を表示する",
+			"continue": "次のセクションに進む",
+			"halfwayTitle": "あなたはもう半分まで来ています！",
+			"halfwayBody": "素晴らしい勢いですね！9つのセクションのうち4つを完了しました。この調子で頑張ってください。後半は、これまでに築き上げた強固な土台の上に成り立っています。",
+			"halfwayEncourage": "それを維持する！"
+		},
+		"options": {
+			"notAtAll": "全くない",
+			"partially": "部分的に、進行中",
+			"yesFully": "はい、完全に",
+			"no": "いいえ",
+			"aLot": "たくさん",
+			"notSure": "よくわからない",
+			"sometimes": "時々",
+			"yes": "はい",
+			"yesRegularly": "はい、定期的に"
+		},
+		"results": {
+			"submitErrorFallback": "評価を送信できませんでした。",
+			"networkTitle": "ネットワークの問題 - ローカルにのみ保存されます",
+			"assessmentComplete": "評価完了！",
+			"personalized": "結果と個別のおすすめはこちらです。",
+			"detailedScores": "詳細なセクション別スコア",
+			"rememberTitle": "覚えて：",
+			"rememberBody": "重要なのは最終スコアではなく、強化・向上させたい分野や優先事項を特定することです。この自己診断によるスコアと得られた知見は、従業員からの苦情処理メカニズムの有効性に関するフィードバックと併せて考慮する必要があります。",
+			"recommendedTitle": "おすすめのコースとアクティビティ",
+			"recommendedBody": "貴社の評価結果に基づき、貴社の苦情処理メカニズムの改善に役立つ以下のコースおよび活動を推奨いたします。",
+			"nextStepsTitle": "次のステップ：",
+			"nextStepsBody": "CASCADEプラットフォームで推奨されているこれらのコースを受講して、苦情処理メカニズムの改善を始めましょう。進捗状況を追跡するために、この評価は年間最大4回まで再受験できます。",
+			"retake": "再度アセスメントを受ける",
+			"messages": {
+				"excellent": "素晴らしい。貴社の苦情処理メカニズムは、業界をリードするものです。",
+				"great": "素晴らしい仕事ぶりです！強力な苦情処理メカニズムがあり、さらに発展の余地があります。",
+				"solid": "しっかりとした基盤がある。いくつかの箇所を重点的に改善すれば、状況は大きく改善するだろう。",
+				"grow": "成長の余地は十分にある。まずは点数の低いセクションから始めよう。そこから最も大きな成果が得られるはずだ。"
+			},
+			"emailTitle": "結果をメールで受け取る",
+			"emailBody": "詳細な結果と個別の推奨事項を受け取るには、メールアドレスを入力してください。",
+			"emailPlaceholder": "your@email.com",
+			"emailOptIn": "Issara Instituteの最新情報とリソースを購読する",
+			"emailSubmit": "結果を送信する",
+			"emailSending": "送信中...",
+			"emailSent": "結果はメールでお送りします！"
+		}
+	},
+	"responsibleProcurement": {
+		"pageTitle": "責任ある調達の連鎖",
+		"subtitle": "サプライヤーや人材紹介会社にも発言権があります！匿名でのフィードバックは、責任ある調達、より倫理的な採用、サプライチェーンにおける公平性の促進に役立ちます。",
+		"intro": "すべてのフィードバックは匿名ですが、検証のために発注書または管理サービス契約に紐づける必要があります。肯定的な評価と否定的な評価の両方が、フィードバックを提供している企業の総合評価に反映されます。グローバルサプライチェーンのサプライヤーと採用担当者の声に、ブランド、小売業者、大手生産者の責任ある行動に関する重みを与えることで、責任ある調達に関する公平性と透明性を推進し、より良い購買慣行の普及を支援します。質問は3つあります。",
+		"feedbackAsSupplier": "サプライヤーとして匿名でフィードバックを提供する",
+		"feedbackAsRecruitmentAgency": "人材紹介会社として匿名でフィードバックを提供する",
+		"thankYouTitle": "フィードバックを送信しました",
+		"thankYouMessage": "匿名でのご意見をお寄せいただき、ありがとうございます！",
+		"bannerAlt": "包括的な労働監視の視覚的表現"
+	},
+	"Additional Attachments": "追加添付ファイル",
+	"Additional Notes": "補足事項",
+	"Browse files": "ファイルを参照する",
+	"No Need": "必要なし",
+	"No": "いいえ",
+	"No, I do not think that is necessary": "いいえ、それは必要ないと思います。",
+	"No, not yet, but I will do so": "いいえ、まだですが、そうします",
+	"Note": "注記",
+	"PDF, PNG, JPG — up to 10 MB each": "PDF、PNG、JPG形式（各ファイル最大10MB）",
+	"Please add notes on case remediation": "事案解決に関するメモを追加してください。",
+	"Please describe why?": "理由を説明してください。",
+	"Preview & Submit": "プレビューして送信",
+	"Remediation": "修復",
+	"Save as Draft": "下書きとして保存",
+	"Systems Strengthening and Continuous Improvement": "システムの強化と継続的改善",
+	"Updated At ": "更新日時",
+	"Will upload on save": "保存時にアップロードします",
+	"Yes": "はい",
+	"Yes, I already reached out to my Issara focal": "はい、すでにイサラの担当者に連絡しました",
+	"written by -": "執筆者 -",
+	"All individuals have received the training ensuring they understand how to prioritize safety, confidentiality, privacy and company protocols for efficient response to worker-reported issues?": "従業員全員が、従業員から報告された問題に効率的に対応するために、安全、機密保持、プライバシー、および社内規定を優先する方法を理解するための研修を受けていますか？",
+	"Case updates entered here are time-stamped and viewable by your team, the Issara team, and your customers that are Strategic Partners in the ILM system. If there is any additional information that you would like to add regarding Remediation or Systems Strengthening and Continuous Improvement, please enter it here:": "ここに入力されたケースの更新情報はタイムスタンプ付きで、お客様のチーム、Issaraチーム、およびILMシステムの戦略的パートナーであるお客様が閲覧できます。是正措置、システム強化、継続的改善に関して追加したい情報がある場合は、ここに入力してください。",
+	"Do you need help with any more complex consequences arising from the worker-reported issue, such as psychosocial support for the worker, the need to quickly repatriate a worker, etc.?": "労働者から報告された問題から生じる、より複雑な結果（例えば、労働者への心理社会的支援、労働者の迅速な帰国措置など）について、何か支援が必要ですか？",
+	"Has a trained and impartial individual reached out to the worker(s) to introduce themselves as the case focal point, inform them that the company is about to launch an investigation into their grievance, specify the start date, and confirm that there are no conflicts of interest within the investigation team?": "訓練を受けた公平な担当者が、当該従業員に連絡を取り、自身がこの件の担当者であることを伝え、会社が苦情に関する調査を開始する予定であること、開始日を明示し、調査チーム内に利益相反がないことを確認しましたか？",
+	"Have you checked with the HR team to see if similar worker-reported issues have been filed and/or solved recently?": "人事部に確認して、同様の従業員からの報告があったり、最近解決されたりした事例がないか調べてみましたか？",
+	"Have you reviewed all the possible individuals identified in the worker-reported issue and conducted a risk assessment to ensure that workers remain safe during the duration of the grievance investigation and remediation?": "従業員から報告された問題で特定された可能性のあるすべての個人を検討し、苦情調査および是正措置の期間中、従業員の安全が確保されるようリスク評価を実施しましたか？",
+	"Have you reviewed all the possible individuals that would be involved in the grievance investigation and remediation process, including interpreters, and ensured that:": "苦情調査および是正プロセスに関わる可能性のあるすべての人員（通訳者を含む）を検討し、以下の点を確認しましたか？",
+	"Is there any conflict of interest? Please do not proceed until it is certain that there are no relationships or conflicts of interest between grievance response personnel and the individual(s) who are the subjects of the complaint.": "利益相反はありますか？苦情対応担当者と苦情の対象となっている個人との間に、利害関係や利益相反がないことが確実になるまで、手続きを進めないでください。",
+	"Is this worker-reported issue a repeat issue, meaning that there might be a root cause that needs to be identified and addressed?": "この従業員から報告された問題は再発している問題でしょうか？つまり、根本原因を特定して対処する必要がある可能性があるということでしょうか？",
+	"Is zero tolerance of retaliation being followed by everyone involved in this case?": "この事件に関わる全員が、報復行為を一切容認しないという方針を遵守しているのでしょうか？",
+	"Please add notes on Systems Strengthening and Continuous Improvement related to this worker-reported issue": "この労働者から報告された問題に関連するシステム強化と継続的改善に関する注記を追加してください。",
+	"Please review the information shared in ILM. Do you want to talk to Issara to get more context on the worker-reported issue?": "ILMで共有されている情報をご確認ください。労働者から報告された問題について、より詳しい背景を知るためにIssaraと話し合いますか？",
+	"Please review the list of trainings below and indicate if you would like to request any of them from Issara.": "下記の研修一覧をご確認いただき、Issaraに受講を依頼したい研修があればお知らせください。",
+	"The Issara team will be notified of this and will reach out to you soon! Issara Institute has trained trauma-informed counselors, teams working in the origin countries of the workers, and a network of trusted service providers, all which are happy to help with complex cases and service needs.": "Issaraチームにはこの件が通知され、近日中にご連絡いたします。Issara Instituteは、トラウマに関する知識を持つカウンセラー、労働者の出身国で活動するチーム、そして信頼できるサービス提供者のネットワークを有しており、いずれも複雑なケースやサービスニーズへの対応を喜んでお手伝いいたします。",
+	"The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation, and build better systems for zero tolerance against retaliation.": "是正措置の実施が危ぶまれています。Issaraチームは、影響を受けるすべての従業員を報復から守る方法、および報復行為を一切容認しないためのより良いシステムを構築する方法について、貴社の担当者と協議する予定です。",
+	"The remediation case is at risk. The Issara team will be following up with your company's focal point to discuss how to safeguard all affected workers from retaliation, and build better systems for zero tolerance against retaliation.": "是正措置の実施が危ぶまれています。Issaraチームは、貴社の担当者と連絡を取り、影響を受けるすべての従業員を報復から守る方法、そして報復行為を一切容認しないためのより良いシステムを構築する方法について協議いたします。",
+	"Throughout the investigation and upon its conclusion, have you stayed in touch with the worker to check on their well-being and whether the investigation has had any positive or negative impacts on them?": "調査期間中および調査終了後、あなたは当該従業員と連絡を取り続け、彼らの健康状態や、調査が彼らに何らかのプラスまたはマイナスの影響を与えたかどうかを確認しましたか？",
+	"Upload any supporting documents or images you have gathered while collecting information for this case.": "本件に関する情報収集の際に収集した、裏付けとなる文書や画像があればアップロードしてください。",
+	"Would you like assistance from Issara Institute to follow up on ethical grievance processes?": "倫理的な苦情処理手続きに関して、イサラ研究所の支援をご希望ですか？",
+	"Would you like to save the grievance form as a draft before leaving?": "退出前に苦情申立書を下書きとして保存しますか？",
+	"Yes, I want more information from my Issara focal": "はい、Issara焦点距離に関する詳細情報が欲しいです",
+	"Your Issara focal has been notified; they will reach out to you soon.": "担当のIssara担当者に通知済みです。担当者から近日中にご連絡いたします。",
+	"Previous": "前の",
+	"Next": "次",
+	"Saving...": "保存中...",
+	"Step {{current}} of {{total}}": "{{current}} の {{total}} のステップ {{current}}",
+	"2. Information Collection": "2. 情報収集",
+	"3. Safeguarding Affected Workers": "3. 影響を受ける労働者の保護",
+	"4. Ensuring an Ethical Investigation": "4. 倫理的な調査の確保",
+	"5. Communicating With The Workers Reporting Issues": "5. 問題を報告する労働者とのコミュニケーション",
+	"6. Monitoring & Communication": "6. モニタリングとコミュニケーション",
+	"7. Trainings": "7. 研修",
+	"Unable to submit supplier KPI grievance.": "サプライヤーのKPIに関する苦情を提出できませんでした。",
+	"Note: ": "注記： ",
+	"Remediation ": "修復",
+	"Systems Strengthening and Continuous Improvement: ": "システム強化と継続的改善：",
+	"Undo remove": "削除を取り消す",
+	"Remove attachment": "添付ファイルを削除",
+	"Undo": "元に戻す",
+	"Remove file": "ファイルを削除する",
+	"Ethical. Have you reviewed all possible individuals to be involved in the investigation, including interpreters, and ensured that all are fully committed to 'do no harm' and maintaining worker safeguards at all times?": "倫理的観点から、通訳者を含め、調査に関わる可能性のあるすべての人物を精査し、全員が「危害を加えない」ことと、常に労働者の安全を確保することに完全にコミットしていることを確認しましたか？",
+	"Ethical Recruitment 101 Introductory modules": "倫理的な採用入門101 入門モジュール",
+	"Ethical Recruitment Advanced training 201": "倫理的な採用に関する上級研修201",
+	"Business and Human Rights & HRDD: Going Beyond Audit": "ビジネスと人権＆HRDD：監査を超えて",
+	"Ethical Grievance Mechanism 101": "倫理的苦情処理メカニズム入門",
+	"Ethical Grievance Mechanism 201": "倫理的苦情処理メカニズム201",
+	"Line Supervisors Training": "ラインスーパーバイザー研修",
+	"Interpreters Training": "通訳者養成講座",
+	"Grievance Details": "苦情の詳細",
+	"Close": "近い",
+	"FEEDBACK/ISSUE OVERVIEW": "フィードバック／問題の概要",
+	"CASE ID": "事件ID",
+	"DATE RECEIVED": "受領日",
+	"ISSUE CATEGORIES": "問題カテゴリ",
+	"AFFECTED WORKERS": "影響を受ける労働者",
+	"CURRENT STATUS": "現在の状況",
+	"ISSUE DESCRIPTION": "問題の説明",
+	"Information Collection": "情報収集",
+	"CHECKED WITH HR TEAM FOR SIMILAR ISSUES": "人事チームに同様の問題がないか確認しました。",
+	"IS THIS A REPEAT ISSUE": "これは以前にも発生した問題ですか？",
+	"ADDITIONAL NOTES": "補足事項",
+	"ADDITIONAL ATTACHMENTS": "追加添付ファイル",
+	"Pending upload": "アップロード保留中",
+	"Will be removed": "削除されます",
+	"No attachments": "添付ファイルなし",
+	"Safeguarding Affected Workers": "影響を受ける労働者の保護",
+	"ZERO TOLERANCE OF RETALIATION BEING FOLLOWED": "報復行為は一切容認しない",
+	"REVIEWED INDIVIDUALS AND CONDUCTED RISK ASSESSMENT": "個人を審査し、リスク評価を実施した。",
+	"REVIEWED INDIVIDUALS INVOLVED IN GRIEVANCE INVESTIGATION": "苦情調査に関与した個人を審査した",
+	"SAFEGUARDING NOTES": "安全対策に関する注意事項",
+	"Ensuring an Ethical Investigation": "倫理的な調査の確保",
+	"INVESTIGATION PLAN FOLLOWS ETHICAL GUIDELINES": "調査計画は倫理ガイドラインに準拠しています",
+	"INVESTIGATION CONDUCTED PROFESSIONALLY": "専門的な調査を実施",
+	"INVESTIGATION IS IMPARTIAL": "調査は公平である",
+	"INVESTIGATION PROCESS INCLUSIVE AND ACCESSIBLE": "調査プロセスは包括的かつアクセスしやすいものである。",
+	"INVESTIGATION CONDUCTED TIMELY AND EFFECTIVELY": "迅速かつ効果的に実施された調査",
+	"INVESTIGATION NOTES": "調査メモ",
+	"Communicating with Workers Reporting Issues": "問題報告を行う労働者とのコミュニケーション",
+	"COMMUNICATED WITH AFFECTED WORKERS ABOUT WELLBEING": "影響を受けた従業員と健康状態についてコミュニケーションを取った。",
+	"NEED HELP WITH COMPLEX CONSEQUENCES": "複雑な結果についてサポートが必要です",
+	"COMMUNICATION NOTES": "連絡事項",
+	"Monitoring and Communicating Findings": "モニタリングと調査結果の伝達",
+	"REMEDIATION ACTIONS": "是正措置",
+	"SYSTEM STRENGTHENING MEASURES": "システム強化策",
+	"No monitoring information available yet.": "現時点では監視情報は入手できません。",
+	"Training Requirements": "トレーニング要件",
+	"SELECTED TRAININGS": "厳選された研修",
+	"None selected": "選択なし",
+	"CURRENT ACTION ITEMS": "現在の対応事項",
+	"ASSIGNED STAFF": "担当スタッフ",
+	"DEADLINE": "締め切り",
+	"NEXT STEPS": "次のステップ",
+	"No next steps defined": "次のステップは定義されていません",
+	"Not specified": "指定されていない",
+	"Submit": "提出する",
+	"Submitting…": "送信中…",
+	"Remediation: ": "修復：",
+	"System Strengthenings: ": "システム強化：",
+	"Supplier's notes on case remediation": "サプライヤーによる事案解決に関する注記",
+	"Supplier's notes on systems strengthening and continuous improvement related to this worker-reported issue:": "従業員から報告されたこの問題に関連する、システム強化と継続的改善に関するサプライヤーのメモ："
+}

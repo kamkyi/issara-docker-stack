@@ -1,0 +1,24 @@
+/* Supplier name label attached to each marker on ChoroplethMap */
+:global(.choropleth-marker-label) {
+	max-width: 140px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 11px;
+	font-weight: 600;
+	color: #1f2937;
+	background: rgba(255, 255, 255, 0.92);
+	border: 1px solid rgba(20, 134, 150, 0.25);
+	padding: 1px 6px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+:global(.choropleth-marker-label)::before {
+	border-right-color: rgba(20, 134, 150, 0.25);
+}
+
+:global(.choropleth-marker-label span) {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

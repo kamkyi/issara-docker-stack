@@ -1,0 +1,115 @@
+/* ── CSO Case Management form motion ────────────────────────────────────────
+ *
+ * The easing below is the one Apple's UI uses for sheets and disclosure --
+ * a fast start that settles rather than stopping dead. Everything here is
+ * transform/opacity or `grid-template-rows`, so it composites on the GPU and
+ * never reflows the stack of bulk-update cards.
+ *
+ * Every animation is switched off under `prefers-reduced-motion`.
+ */
+
+:root {
+	--cso-ease: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/* ── Fields ───────────────────────────────────────────────────────────────── */
+
+.cso-field {
+	transition:
+		border-color 0.25s var(--cso-ease),
+		box-shadow 0.25s var(--cso-ease);
+}
+
+.cso-field--invalid {
+	border-color: var(--color-action-coral) !important;
+	box-shadow: 0 0 0 3px
+		color-mix(in srgb, var(--color-action-coral) 20%, transparent);
+	/* One settle, not a loop: it points the eye without nagging. */
+	animation: cso-nudge 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+@keyframes cso-nudge {
+	10%,
+	90% {
+		transform: translateX(-1px);
+	}
+	20%,
+	80% {
+		transform: translateX(2px);
+	}
+	30%,
+	50%,
+	70% {
+		transform: translateX(-3px);
+	}
+	40%,
+	60% {
+		transform: translateX(3px);
+	}
+}
+
+.cso-hint {
+	color: var(--color-action-coral);
+	font-size: 0.75rem;
+	animation: cso-hint-in 0.25s var(--cso-ease);
+}
+
+@keyframes cso-hint-in {
+	from {
+		opacity: 0;
+		transform: translateY(-2px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+/* ── Accordion ────────────────────────────────────────────────────────────
+ *
+ * Deliberately NOT a height animation. Animating `grid-template-rows: 0fr ->
+ * 1fr` (or max-height) around a nested grid of form controls makes the browser
+ * re-run layout on the transitioning subtree, and re-rendering that subtree
+ * mid-transition -- which is exactly what a save does, when the edited badges
+ * clear and the field values change -- can put the renderer into a layout loop
+ * heavy enough to kill the tab.
+ *
+ * A collapsed group is `hidden`, so it costs no layout at all, and an opening
+ * one fades and slides in. Either way the body stays mounted, so edits in a
+ * closed group survive.
+ */
+
+.cso-section-body {
+	animation: cso-section-in 0.3s var(--cso-ease);
+}
+
+@keyframes cso-section-in {
+	from {
+		opacity: 0;
+		transform: translateY(-6px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.cso-section-chevron {
+	transition: transform 0.3s var(--cso-ease);
+}
+
+.cso-section-chevron[data-open="false"] {
+	transform: rotate(-90deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.cso-field,
+	.cso-section-chevron {
+		transition: none;
+	}
+	.cso-field--invalid,
+	.cso-hint,
+	.cso-section-body {
+		animation: none;
+	}
+}

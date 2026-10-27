@@ -1,0 +1,464 @@
+[
+	{
+		"id": 1,
+		"kpi_category": {
+			"id": 1,
+			"name": "Recruitment"
+		},
+		"description": "Lack of professional conduct of recruitment agency and/or employer",
+		"level": 2,
+		"goal": "Recruiters and employers should treat each other professionally, and both should treat jobseekers and workers professionally.  Any lack of professionalism, including threats or poor treatment of jobseekers or workers, should be met with swift and effective investigations, discipline, and remediation.",
+		"eti_base_code": {
+			"id": 25,
+			"name": "ETI Base Code 7.1.  No discrimination in hiring, pay, training, promotion, etc.",
+			"code": "7",
+			"description": "No discrimination is practiced",
+			"sub_code": "7.1.",
+			"sub_description": "There is no discrimination in hiring, compensation, access to training, promotion, termination or retirement based on race, caste, national origin, religion, age, disability, gender, marital status, sexual orientation, union membership or political affiliation.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 2,
+		"kpi_category": {
+			"id": 1,
+			"name": "Recruitment"
+		},
+		"description": "Treated poorly and/or threatened by RA or broker: serious violation",
+		"level": 3,
+		"goal": "Recruiters and employers should treat each other professionally, and both should treat jobseekers and workers professionally.  Any lack of professionalism, including threats or poor treatment of jobseekers or workers, should be met with swift and effective investigations, discipline, and remediation.",
+		"eti_base_code": {
+			"id": 28,
+			"name": "ETI Base Code 9.1. No harsh or inhumane treatment allowed: physical and verbal abuse, threat of abuse, and sexual or other harassment prohibited",
+			"code": "9",
+			"description": "No harsh or inhumane treatment is allowed",
+			"sub_code": "9.1.",
+			"sub_description": "Physical abuse or discipline, the threat of physical abuse, sexual or other harassment and verbal abuse or other forms of intimidation shall be prohibited.",
+			"created": "2020-01-31",
+			"last_modified": "2025-01-24"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 3,
+		"kpi_category": {
+			"id": 1,
+			"name": "Recruitment"
+		},
+		"description": "Inaccurate / misleading / poor information about job: minor miscommunication",
+		"level": 2,
+		"goal": "Job advertisements should be comprehensive, up to date, and accurate: terms and conditions that are advertised must match the terms and conditions that are offered at the workplace.",
+		"eti_base_code": {
+			"id": 26,
+			"name": "ETI Base Code 8.1. Regular employment is provided, through a recognised employment relationship under national law",
+			"code": "8",
+			"description": "Regular employment is provided",
+			"sub_code": "8.1.",
+			"sub_description": "To every extent possible work performed must be on the basis of recognised employment relationship established through national law and practice.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 4,
+		"kpi_category": {
+			"id": 1,
+			"name": "Recruitment"
+		},
+		"description": "Document retention",
+		"level": 3,
+		"goal": "Jobseekers and workers should be in control of their identity documents at all times.  Employers and/or recruiters should only be holding worker identity and work documents for brief periods when processing visas and work permits, and even during this time, workers should be able to check and verify their documents whenever they want.",
+		"eti_base_code": {
+			"id": 2,
+			"name": "ETI Base Code 1.2.  Employment is freely chosen; workers not required to lodge deposits or documents with employer, and free to leave with reasonable notice",
+			"code": "1",
+			"description": "Employment is freely chosen.",
+			"sub_code": "1.2.",
+			"sub_description": "Workers are not required to lodge \"deposits\" or their identity papers with their employer and are free to leave their employer after reasonable notice.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 6,
+		"kpi_category": {
+			"id": 1,
+			"name": "Recruitment"
+		},
+		"description": "Fees charged by upstream/village-level broker: legal but not ethical",
+		"level": 2,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"eti_base_code": {
+			"id": 1,
+			"name": "ETI Base Code 1.1.  Employment is freely chosen; forced, bonded, and involuntary prison labour prohibited",
+			"code": "1",
+			"description": "Employment is freely chosen",
+			"sub_code": "1.1.",
+			"sub_description": "There is no forced, bonded or involuntary prison labour.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 7,
+		"kpi_category": {
+			"id": 1,
+			"name": "Recruitment"
+		},
+		"description": "Fees charged by recruitment agency: legal but not ethical",
+		"level": 2,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"eti_base_code": {
+			"id": 1,
+			"name": "ETI Base Code 1.1.  Employment is freely chosen; forced, bonded, and involuntary prison labour prohibited",
+			"code": "1",
+			"description": "Employment is freely chosen",
+			"sub_code": "1.1.",
+			"sub_description": "There is no forced, bonded or involuntary prison labour.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 8,
+		"kpi_category": {
+			"id": 1,
+			"name": "Recruitment"
+		},
+		"description": "Fees charged by employer: legal but not ethical",
+		"level": 2,
+		"goal": "In ethical recruitment arrangements, fees can be charged by any number of brokers and agents, but the employer should pay for it.\r\n\r\nEven in non-ethical recruitment arrangements, according to the law there are limits to what can be charged to workers - any other fees within the law should be paid by the employer.",
+		"eti_base_code": {
+			"id": 1,
+			"name": "ETI Base Code 1.1.  Employment is freely chosen; forced, bonded, and involuntary prison labour prohibited",
+			"code": "1",
+			"description": "Employment is freely chosen",
+			"sub_code": "1.1.",
+			"sub_description": "There is no forced, bonded or involuntary prison labour.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 18,
+		"kpi_category": {
+			"id": 4,
+			"name": "Wages"
+		},
+		"description": "Issue with wages: unethical but not illegal",
+		"level": 2,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with labour law and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"eti_base_code": {
+			"id": 16,
+			"name": "ETI Base Code 5.1.  Living wages paid; wages and benefits meet national legal standards, and enough to meet basic needs plus discretionary income",
+			"code": "5",
+			"description": "Living wages are paid",
+			"sub_code": "5.1.",
+			"sub_description": "Wages and benefits paid for a standard working week meet, at a minimum, national legal standards or industry benchmark standards, whichever is higher. In any event wages should always be enough to meet basic needs and to provide some discretionary income.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 19,
+		"kpi_category": {
+			"id": 4,
+			"name": "Wages"
+		},
+		"description": "Issue with deductions: illegal and/or excessive",
+		"level": 3,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with the labour protection and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"eti_base_code": {
+			"id": 16,
+			"name": "ETI Base Code 5.1.  Living wages paid; wages and benefits meet national legal standards, and enough to meet basic needs plus discretionary income",
+			"code": "5",
+			"description": "Living wages are paid",
+			"sub_code": "5.1.",
+			"sub_description": "Wages and benefits paid for a standard working week meet, at a minimum, national legal standards or industry benchmark standards, whichever is higher. In any event wages should always be enough to meet basic needs and to provide some discretionary income.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 20,
+		"kpi_category": {
+			"id": 4,
+			"name": "Wages"
+		},
+		"description": "Issue with targets and/or bonuses (related to production and incentives): Serious violation",
+		"level": 3,
+		"goal": "Wages paid to workers, including overtime and deductions, must be compliant with the labour protection and minimum wage laws, as well as with the terms and conditions of the employment contract.\r\n\r\nThe terms and conditions of the target or piece rate system must be clear, transparent, and fair. \r\n\r\nIf workers are paid according to a target or piece rate system, three conditions must be satisfied: (a) the worker must voluntarily consent to the target or piece rate system; (b) the target or piece rate system must not conflict with the terms and conditions of the employment contract approved by the source country government; and (c) the total amount paid must be greater than or equal to what the worker would have earned with an hourly rate (including OT premium rates) for the amount of time they worked.",
+		"eti_base_code": {
+			"id": 16,
+			"name": "ETI Base Code 5.1.  Living wages paid; wages and benefits meet national legal standards, and enough to meet basic needs plus discretionary income",
+			"code": "5",
+			"description": "Living wages are paid",
+			"sub_code": "5.1.",
+			"sub_description": "Wages and benefits paid for a standard working week meet, at a minimum, national legal standards or industry benchmark standards, whichever is higher. In any event wages should always be enough to meet basic needs and to provide some discretionary income.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 21,
+		"kpi_category": {
+			"id": 4,
+			"name": "Wages"
+		},
+		"description": "Timesheets/payslips/other basic pay-related documents not provided to worker",
+		"level": 3,
+		"goal": "Workers should receive and sign off on timesheets, clearly written in their language, that workers can validate reflect their work accurately.\r\n\r\nWorkers should also receive payslips, clearly written in their language, which clearly indicate all wages, rates (for regular, OT, holiday), and deductions.",
+		"eti_base_code": {
+			"id": 17,
+			"name": "ETI Base Code 5.2.  Living wages paid; workers provided with written contract with wage info prior to employment",
+			"code": "5",
+			"description": "Living wages are paid",
+			"sub_code": "5.2.",
+			"sub_description": "All workers shall be provided with written and understandable Information about their employment conditions in respect to wages before they enter employment and about the particulars of their wages for the pay period concerned each time that they are paid.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 22,
+		"kpi_category": {
+			"id": 4,
+			"name": "Wages"
+		},
+		"description": "Timesheets/payslips/other basic pay-related documents not in native language",
+		"level": 3,
+		"goal": "Workers should receive and sign off on timesheets, clearly written in their language, that workers can validate reflect their work accurately.\r\n\r\nWorkers should also receive payslips, clearly written in their language, which clearly indicate all wages, rates (for regular, OT, holiday), and deductions.",
+		"eti_base_code": {
+			"id": 17,
+			"name": "ETI Base Code 5.2.  Living wages paid; workers provided with written contract with wage info prior to employment",
+			"code": "5",
+			"description": "Living wages are paid",
+			"sub_code": "5.2.",
+			"sub_description": "All workers shall be provided with written and understandable Information about their employment conditions in respect to wages before they enter employment and about the particulars of their wages for the pay period concerned each time that they are paid.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 23,
+		"kpi_category": {
+			"id": 4,
+			"name": "Wages"
+		},
+		"description": "Very late or missing payments",
+		"level": 3,
+		"goal": "Workers should be paid according to a timeframe allowed by law - in Thailand, this is once a month minimum.  Higher requirements may be specified in the employment contract, and these terms and conditions should be followed by the employer.",
+		"eti_base_code": {
+			"id": 16,
+			"name": "ETI Base Code 5.1.  Living wages paid; wages and benefits meet national legal standards, and enough to meet basic needs plus discretionary income",
+			"code": "5",
+			"description": "Living wages are paid",
+			"sub_code": "5.1.",
+			"sub_description": "Wages and benefits paid for a standard working week meet, at a minimum, national legal standards or industry benchmark standards, whichever is higher. In any event wages should always be enough to meet basic needs and to provide some discretionary income.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 24,
+		"kpi_category": {
+			"id": 4,
+			"name": "Wages"
+		},
+		"description": "Issue with time card scanners/manual recording/systems to register working hours",
+		"level": 3,
+		"goal": "There should be a clear, transparent process for recording working hours.  Time card systems and scanners should accurately reflect clock-in and clock-out times, registered directly by the worker themselves.  Time card systems/scanners should never be completed by line supervisors or anyone other than the worker themselves.",
+		"eti_base_code": {
+			"id": 17,
+			"name": "ETI Base Code 5.2.  Living wages paid; workers provided with written contract with wage info prior to employment",
+			"code": "5",
+			"description": "Living wages are paid",
+			"sub_code": "5.2.",
+			"sub_description": "All workers shall be provided with written and understandable Information about their employment conditions in respect to wages before they enter employment and about the particulars of their wages for the pay period concerned each time that they are paid.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 27,
+		"kpi_category": {
+			"id": 20,
+			"name": "Labor"
+		},
+		"description": "Unsafe or hazardous working conditions (OSH issues)",
+		"level": 3,
+		"goal": "All workers have the right to a safe working environment.  It is the responsibility of the employer to provide a safe working environment to all workers at all times.  This includes the provision of proper tools, safety equipment, safety protocols, and designated safety focal points to ensure safe and healthy working conditions at all times.  These should be provided at no cost to workers.",
+		"eti_base_code": {
+			"id": 7,
+			"name": "ETI Base Code 3.1.  Working conditions safe and hygenic; employer provides safe and hygenic work environment and minimizes hazards and accidents",
+			"code": "3",
+			"description": "Working conditions are safe and hygenic",
+			"sub_code": "3.1.",
+			"sub_description": "A safe and hygenic working environment shall be provided, bearing in mind the prevailing knowledge of the industry and of any specific hazards.  Adequate steps shall be taken to prevent accidents and injury to health arising out of, associated with, or occurring in the course of work, by minimizing, so far as reasonably practicable, the causes of hazards inherent in the working environment.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 28,
+		"kpi_category": {
+			"id": 20,
+			"name": "Labor"
+		},
+		"description": "Issues with freedom - including restricted freedom of movement",
+		"level": 3,
+		"goal": "Workers off-shift should be free to leave their workplace and dormitories, with no threats or assertions of control over their movements.  Workers should never be treated as the property of employers, recruiters, brokers, or agents; and, their movements should never be restricted by these actors.\r\n\r\nWorkers should be free to leave their jobs with reasonable notice.",
+		"eti_base_code": {
+			"id": 2,
+			"name": "ETI Base Code 1.2.  Employment is freely chosen; workers not required to lodge deposits or documents with employer, and free to leave with reasonable notice",
+			"code": "1",
+			"description": "Employment is freely chosen.",
+			"sub_code": "1.2.",
+			"sub_description": "Workers are not required to lodge \"deposits\" or their identity papers with their employer and are free to leave their employer after reasonable notice.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 29,
+		"kpi_category": {
+			"id": 20,
+			"name": "Labor"
+		},
+		"description": "Document retention by supervisors/brokers/employer",
+		"level": 3,
+		"goal": "Jobseekers and workers should be in control of their identity documents at all times.  Employers and/or recruiters should only be holding worker identity and work documents for brief periods when processing visas and work permits, and even during this time, workers should be able to check and verify their documents whenever they want.",
+		"eti_base_code": {
+			"id": 2,
+			"name": "ETI Base Code 1.2.  Employment is freely chosen; workers not required to lodge deposits or documents with employer, and free to leave with reasonable notice",
+			"code": "1",
+			"description": "Employment is freely chosen.",
+			"sub_code": "1.2.",
+			"sub_description": "Workers are not required to lodge \"deposits\" or their identity papers with their employer and are free to leave their employer after reasonable notice.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 30,
+		"kpi_category": {
+			"id": 20,
+			"name": "Labor"
+		},
+		"description": "Gender and/or sexual harassment",
+		"level": 3,
+		"goal": "Businesses should have a zero tolerance policy against gender and/or sexual harassment.  Legitimate, responsive channels should be in place to handle the reporting of gender and sexual harassment in the workplace, including safeguards for workers reporting such issues.  Investigations should be timely, harmed workers and at-risk workers should be protected, offenders should be punished commensurate with their crime, and survivors should be supported in accessing all means of legal and psychosocial support of interest to them.",
+		"eti_base_code": {
+			"id": 28,
+			"name": "ETI Base Code 9.1. No harsh or inhumane treatment allowed: physical and verbal abuse, threat of abuse, and sexual or other harassment prohibited",
+			"code": "9",
+			"description": "No harsh or inhumane treatment is allowed",
+			"sub_code": "9.1.",
+			"sub_description": "Physical abuse or discipline, the threat of physical abuse, sexual or other harassment and verbal abuse or other forms of intimidation shall be prohibited.",
+			"created": "2020-01-31",
+			"last_modified": "2025-01-24"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 31,
+		"kpi_category": {
+			"id": 20,
+			"name": "Labor"
+		},
+		"description": "Discrimination – by gender/nationality/ethnicity/other in the work area",
+		"level": 3,
+		"goal": "There should be no prejudicial assignment of any sort on the grounds of gender, ethnicity, nationality, race, religion, age, or appearance.  Worker-reported discrimination should be treated as a legitimate workplace matter by HR and management.",
+		"eti_base_code": {
+			"id": 25,
+			"name": "ETI Base Code 7.1.  No discrimination in hiring, pay, training, promotion, etc.",
+			"code": "7",
+			"description": "No discrimination is practiced",
+			"sub_code": "7.1.",
+			"sub_description": "There is no discrimination in hiring, compensation, access to training, promotion, termination or retirement based on race, caste, national origin, religion, age, disability, gender, marital status, sexual orientation, union membership or political affiliation.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 32,
+		"kpi_category": {
+			"id": 20,
+			"name": "Labor"
+		},
+		"description": "Discrimination on workloads and assignments",
+		"level": 2,
+		"goal": "There should be no prejudicial assignment of workloads or tasks on the grounds of gender, ethnicity, nationality, race, religion, age, or appearance.  Worker-reported discrimination should be treated as a legitimate workplace matter by HR and management.",
+		"eti_base_code": {
+			"id": 25,
+			"name": "ETI Base Code 7.1.  No discrimination in hiring, pay, training, promotion, etc.",
+			"code": "7",
+			"description": "No discrimination is practiced",
+			"sub_code": "7.1.",
+			"sub_description": "There is no discrimination in hiring, compensation, access to training, promotion, termination or retirement based on race, caste, national origin, religion, age, disability, gender, marital status, sexual orientation, union membership or political affiliation.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	},
+	{
+		"id": 33,
+		"kpi_category": {
+			"id": 20,
+			"name": "Labor"
+		},
+		"description": "Unfair dismissal",
+		"level": 3,
+		"goal": "Workers should be regularly employed according to the terms and conditions of their contract, including period of employment.  If workers are to be dismissed prior to the expiry of their contract, it should only occur after a fair process of review and discussion with the worker, reasonable written notice in the native language of the worker, and transparent communication with the worker explaining the reasons for dismissal.",
+		"eti_base_code": {
+			"id": 25,
+			"name": "ETI Base Code 7.1.  No discrimination in hiring, pay, training, promotion, etc.",
+			"code": "7",
+			"description": "No discrimination is practiced",
+			"sub_code": "7.1.",
+			"sub_description": "There is no discrimination in hiring, compensation, access to training, promotion, termination or retirement based on race, caste, national origin, religion, age, disability, gender, marital status, sexual orientation, union membership or political affiliation.",
+			"created": "2020-01-31",
+			"last_modified": "2020-04-17"
+		},
+		"kpi_legal_violation": null,
+		"kpi_systems_change": null
+	}
+]

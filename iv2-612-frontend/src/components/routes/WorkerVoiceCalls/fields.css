@@ -1,0 +1,402 @@
+/*
+ * Worker Voice form: field rhythm, and the joined country-code + number
+ * control the design calls for on the phone-shaped contact fields.
+ *
+ * Everything that touches a shared class is scoped under `.worker-voice-form`
+ * so none of it reaches the supplier Worker Feedback form, which imports the
+ * same `FormSteps.css`.
+ */
+
+/*
+ * FormSteps.css gives every textarea a 1rem bottom margin. Inside a flex
+ * column that margin stacks on top of the step's own gap, so a field after a
+ * textarea sat 16px lower than every other field. The gap is the only spacing
+ * this form uses.
+ */
+.worker-voice-form .form-textarea {
+	margin-bottom: 0;
+}
+
+/*
+ * The dropdown trigger pads 0.5rem all round while `.form-input` pads
+ * 0.75rem horizontally, so a select's text sat 4px left of the input above it.
+ * One value keeps the whole column of controls on the same left edge.
+ */
+.worker-voice-form .case-call-type-dropdown-container .case-call-type-trigger {
+	padding: 0.5rem 0.75rem;
+}
+
+/* ── Phone number: country code + number as one control ──────────────────── */
+
+.worker-voice-form .wv-phone {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid #d1d5db;
+	border-radius: 0.375rem;
+	background-color: white;
+	transition: all 0.2s;
+}
+
+.worker-voice-form .wv-phone:hover {
+	border-color: #9ca3af;
+}
+
+.worker-voice-form .wv-phone:focus-within {
+	border-color: #3b82f6;
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.worker-voice-form .wv-phone-code {
+	display: flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.375rem;
+	min-width: 6.5rem;
+	padding: 0.5rem 0.75rem;
+	border: 0;
+	border-right: 1px solid #d1d5db;
+	border-radius: 0;
+	background-color: #f9fafb;
+	color: #374151;
+	font-size: 0.875rem;
+	cursor: pointer;
+	outline: none;
+}
+
+.worker-voice-form .wv-phone-code:hover {
+	background-color: #f3f4f6;
+}
+
+.worker-voice-form .wv-phone-number {
+	flex: 1 1 auto;
+	min-width: 0;
+	padding: 0.5rem 0.75rem;
+	border: 0;
+	background-color: transparent;
+	color: inherit;
+	outline: none;
+}
+
+/*
+ * The country-code list: search box above a scrolling listbox. The shared
+ * dropdown rule sizes a list to its trigger, and this trigger is deliberately
+ * narrow, so the panel gets its own width. None of it is scoped under
+ * `.worker-voice-form` -- Radix portals the panel out of the form.
+ */
+.case-call-type-content.wv-code-panel {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	min-width: 17rem;
+	max-height: min(22rem, var(--radix-popover-content-available-height));
+}
+
+.wv-code-search {
+	display: flex;
+	flex: 0 0 auto;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem 0.75rem;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.wv-code-search-icon {
+	flex: 0 0 auto;
+	color: #9ca3af;
+}
+
+.wv-code-search input {
+	width: 100%;
+	border: 0;
+	background: transparent;
+	color: inherit;
+	font-size: 0.875rem;
+	outline: none;
+}
+
+.wv-code-list {
+	flex: 1 1 auto;
+	margin: 0;
+	padding: 0.25rem;
+	overflow-y: auto;
+}
+
+/*
+ * Rows carry `case-call-type-item` for the shared type and padding; these add
+ * the two-column layout and the keyboard highlight, which on a Select would
+ * have come from `[data-highlighted]`.
+ */
+.wv-code-item {
+	display: flex;
+	align-items: baseline;
+	gap: 0.625rem;
+	width: 100%;
+	border-radius: 0.25rem;
+	text-align: left;
+}
+
+.wv-code-item[data-active="true"] {
+	background-color: #f3f4f6;
+	color: #111827;
+}
+
+.wv-code-item[aria-selected="true"] {
+	font-weight: 500;
+}
+
+.wv-code-name {
+	flex: 1 1 auto;
+	color: #6b7280;
+	font-size: 0.8125rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.wv-code-empty {
+	padding: 0.75rem 1rem;
+	color: #6b7280;
+	font-size: 0.8125rem;
+}
+
+/* ── Dark mode ───────────────────────────────────────────────────────────── */
+
+.dark .worker-voice-form .wv-phone,
+[data-theme="dark"] .worker-voice-form .wv-phone {
+	border-color: #374151;
+	background-color: #1f2937;
+}
+
+.dark .worker-voice-form .wv-phone:hover,
+[data-theme="dark"] .worker-voice-form .wv-phone:hover {
+	border-color: #4b5563;
+}
+
+.dark .worker-voice-form .wv-phone-code,
+[data-theme="dark"] .worker-voice-form .wv-phone-code {
+	border-right-color: #374151;
+	background-color: #111827;
+	color: #e5e7eb;
+}
+
+.dark .worker-voice-form .wv-phone-code:hover,
+[data-theme="dark"] .worker-voice-form .wv-phone-code:hover {
+	background-color: #1f2937;
+}
+
+.dark .worker-voice-form .wv-phone-number,
+[data-theme="dark"] .worker-voice-form .wv-phone-number {
+	color: #e5e7eb;
+	caret-color: #e5e7eb;
+}
+
+/* Portalled out of the form, so these match on the document root instead. */
+.dark .wv-code-search,
+[data-theme="dark"] .wv-code-search {
+	border-bottom-color: #374151;
+}
+
+.dark .wv-code-search input,
+[data-theme="dark"] .wv-code-search input {
+	caret-color: #e5e7eb;
+}
+
+.dark .wv-code-item[data-active="true"],
+[data-theme="dark"] .wv-code-item[data-active="true"] {
+	background-color: #374151;
+	color: #f9fafb;
+}
+
+/* ── Issue Categories tabs (step 4) ──────────────────────────────────────────
+ *
+ * The tabs were on Tailwind blue, which is nothing the rest of the product
+ * uses. These are the style-guide tokens `.cascade-tab` in global.css already
+ * paints tabs with -- teal for the active tab, cream on hover -- kept as a
+ * folder tab joined to its panel rather than the pill `.cascade-tab` shape.
+ * Using tokens also means dark mode follows the theme with no extra rules.
+ */
+.worker-voice-form .wv-tab {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 0.375rem;
+	padding: 0.5rem 0.75rem;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	border-radius: 0.5rem 0.5rem 0 0;
+	background-color: transparent;
+	color: var(--color-caption);
+	font-size: 0.75rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition:
+		background-color 0.15s ease,
+		color 0.15s ease;
+}
+
+.worker-voice-form .wv-tab:hover {
+	background-color: var(--color-action-cream);
+	color: var(--color-primary);
+}
+
+.worker-voice-form .wv-tab[data-state="active"] {
+	z-index: 2;
+	/* Overlap the panel border so the active tab reads as part of the panel. */
+	margin-bottom: -1px;
+	border-color: var(--color-border);
+	border-bottom: 0;
+	background-color: var(--color-action-teal);
+	color: var(--color-primary);
+}
+
+.worker-voice-form .wv-tab-count {
+	display: flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 9999px;
+	background-color: var(--color-caption);
+	color: #ffffff;
+	font-size: 0.625rem;
+}
+
+.worker-voice-form .wv-tab[data-state="active"] .wv-tab-count {
+	background-color: var(--color-secondary);
+}
+
+.worker-voice-form .wv-selected-count {
+	background-color: var(--color-secondary);
+	color: #ffffff;
+}
+
+.worker-voice-form .wv-tab-panel {
+	position: relative;
+	z-index: 1;
+	padding: 1rem;
+	border: 1px solid var(--color-border);
+	border-radius: 0 0.5rem 0.5rem 0.5rem;
+	background-color: var(--color-surface);
+}
+
+.worker-voice-form .wv-kpi {
+	border-radius: 0.375rem;
+	transition: background-color 0.15s ease;
+}
+
+.worker-voice-form .wv-kpi:hover {
+	background-color: var(--color-action-cream);
+}
+
+.worker-voice-form .wv-kpi[data-selected="true"] {
+	background-color: color-mix(
+		in srgb,
+		var(--color-action-teal) 35%,
+		var(--color-surface)
+	);
+	color: var(--color-primary);
+}
+
+/* ── Attachments drop zone (step 5) ──────────────────────────────────────────
+ *
+ * The field was a bare `<input type="file">`, i.e. the browser's own "Choose
+ * Files" button. The design asks for a click-or-drag zone, so this rebuilds it
+ * on the style-guide tokens: teal accent, cream file rows, coral for remove.
+ */
+.worker-voice-form .wv-dropzone {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 2rem 1rem;
+	border: 2px dashed var(--color-border);
+	border-radius: 0.75rem;
+	background-color: var(--color-surface);
+	text-align: center;
+	cursor: pointer;
+	transition:
+		border-color 0.2s ease,
+		background-color 0.2s ease;
+}
+
+.worker-voice-form .wv-dropzone:hover,
+.worker-voice-form .wv-dropzone:focus-within {
+	border-color: var(--color-secondary);
+	background-color: color-mix(
+		in srgb,
+		var(--color-action-teal) 18%,
+		var(--color-surface)
+	);
+}
+
+.worker-voice-form .wv-dropzone[data-dragging="true"] {
+	border-color: var(--color-secondary);
+	background-color: color-mix(
+		in srgb,
+		var(--color-action-teal) 35%,
+		var(--color-surface)
+	);
+}
+
+.worker-voice-form .wv-dropzone-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 0.75rem;
+	background-color: color-mix(
+		in srgb,
+		var(--color-action-teal) 45%,
+		var(--color-surface)
+	);
+	color: var(--color-secondary);
+}
+
+.worker-voice-form .wv-dropzone-title {
+	color: var(--color-ink);
+	font-size: 0.8125rem;
+	font-weight: 600;
+}
+
+.worker-voice-form .wv-dropzone-hint {
+	color: var(--color-caption);
+	font-size: 0.75rem;
+}
+
+.worker-voice-form .wv-file-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+	padding: 0.625rem 1rem;
+	border: 1px solid var(--color-border);
+	border-radius: 0.75rem;
+	background-color: var(--color-bg);
+	font-size: 0.8125rem;
+}
+
+.worker-voice-form .wv-file-icon {
+	color: var(--color-secondary);
+}
+
+.worker-voice-form .wv-file-size {
+	color: var(--color-caption);
+}
+
+.worker-voice-form .wv-file-remove {
+	flex: 0 0 auto;
+	color: var(--color-caption);
+	font-size: 0.6875rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: color 0.15s ease;
+}
+
+.worker-voice-form .wv-file-remove:hover {
+	color: var(--color-action-coral);
+}

@@ -1,0 +1,517 @@
+.container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 60;
+	transition:
+		transform 280ms ease,
+		background-color 280ms ease,
+		box-shadow 280ms ease;
+	backdrop-filter: blur(40px);
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.hidden {
+	transform: translateY(-100%);
+}
+
+.visible {
+	transform: translateY(0);
+}
+
+.bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+	height: 80px;
+	/* background: rgba(255, 255, 255, 0.9); */
+	/* box-shadow: 0 6px 18px rgba(12, 12, 12, 0.08); */
+	position: relative;
+	z-index: 70;
+	width: 100%;
+}
+
+.desktopMenu {
+	flex: 1;
+	min-width: 0;
+	justify-content: center;
+}
+
+.menu {
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.logoWrap {
+	/* position: absolute; */
+	/* left: 50%; */
+	/* transform: translateX(-50%); */
+	pointer-events: none;
+	margin-left: 60px;
+	margin-right: 60px;
+	flex-shrink: 0;
+}
+
+.logo {
+	pointer-events: auto;
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+
+.menuItem {
+	position: relative;
+	list-style: none;
+	cursor: pointer;
+	padding: 0.25rem 0.5rem;
+	white-space: nowrap;
+}
+
+.popup {
+	position: fixed;
+	top: 80px;
+	/* left: 50%; */
+	transform: translateX(-50%) translateY(0px);
+	width: 70vw;
+	/* max-width: 1000px; */
+	background: rgba(255, 255, 255);
+	/* box-shadow: 0 0px 40px rgba(0, 0, 0, 0.15); */
+	border-radius: 0 0 6px 6px;
+	overflow: hidden;
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(9px);
+	z-index: -50;
+}
+
+.popupVisible {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(-50%) translateY(0px);
+	box-shadow: 20px 40px 80px rgba(0, 0, 0, 0.2);
+}
+
+.popupInner {
+	display: grid;
+	/* give slightly more space to the image to show more of it */
+	grid-template-columns: 45% 55%;
+	min-height: 340px;
+}
+
+.popupMenuList {
+	background: rgba(226, 226, 226);
+	padding: 2rem 1.5rem;
+	border-right: 1px solid #e2e8f0;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.popupMenuItem {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.popupMenuButton {
+	background: none;
+	border: none;
+	padding: 0.75rem 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 0.95rem;
+	font-weight: 500;
+	color: #334155;
+	transition:
+		background 150ms,
+		color 150ms;
+	width: 100%;
+	text-align: left;
+}
+
+.popupMenuButton:hover,
+.popupMenuButton.active {
+	background: rgb(246, 246, 246);
+	color: #148696;
+}
+
+.popupContent {
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	justify-content: flex-start;
+}
+
+.popupImage {
+	width: 100%;
+	height: 300px;
+	/* preserve cover but favor the top of the image so more content is visible */
+	object-fit: cover;
+	object-position: center top;
+	border-radius: 5px;
+}
+
+.popupText {
+	font-size: 0.95rem;
+}
+
+.popupText strong {
+	font-size: 1.2rem;
+	color: #0f172a;
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+.popupText div {
+	color: #475569;
+	line-height: 1.6;
+}
+
+/* Hamburger Menu */
+.hamburger {
+	display: none;
+	flex-direction: column;
+	gap: 4px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 8px;
+	z-index: 80;
+}
+
+.hamburger span {
+	width: 24px;
+	height: 2px;
+	background: #148696;
+	transition: all 0.3s ease;
+	/* border-radius: 2px; */
+}
+
+.hamburger span.hamburgerActive:nth-child(1) {
+	transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger span.hamburgerActive:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger span.hamburgerActive:nth-child(3) {
+	transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Mobile Logo */
+.mobileLogo {
+	display: none;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Sign In Wrapper */
+.signInWrapper {
+	flex-shrink: 0;
+	padding-right: 0.75rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	position: absolute;
+	right: 0;
+	z-index: 75;
+}
+
+/* Contact outlined button (desktop) */
+.contactMenuLink {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.35rem 1.05rem;
+	border: 1.5px solid currentColor;
+	border-radius: 999px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 0.88rem;
+	cursor: pointer;
+	letter-spacing: 0.04em;
+	transition:
+		background 0.2s ease,
+		color 0.2s ease,
+		border-color 0.2s ease,
+		transform 0.2s ease;
+}
+
+.contactMenuLink:hover {
+	background: rgba(20, 134, 150, 0.1);
+	transform: translateY(-1px);
+}
+
+.authButton {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.75rem;
+	max-width: 220px;
+	padding: 0.45rem 0.85rem;
+	border: 1px solid transparent;
+	border-radius: 999px;
+	font-size: 0.95rem;
+	font-weight: 700;
+	cursor: pointer;
+	backdrop-filter: blur(10px);
+	transition:
+		background-color 160ms ease,
+		border-color 160ms ease,
+		transform 160ms ease;
+}
+
+.authButton:hover {
+	transform: translateY(-1px);
+}
+
+.authAvatar {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.9rem;
+	height: 1.9rem;
+	border-radius: 999px;
+	background: #148696;
+	color: white;
+	font-size: 0.85rem;
+	font-weight: 800;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+.authAvatarImage {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.authLabel {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* Mobile Menu */
+.mobileMenuContainer {
+	position: fixed;
+	top: 80px;
+	left: 0;
+	right: 0;
+	background: white;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	overflow-y: auto;
+	max-height: calc(100vh - 80px);
+	z-index: 60;
+}
+
+.mobileMenuContent {
+	padding: 1rem;
+}
+
+.mobileMenuItem {
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.mobileMenuButton {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background: none;
+	border: none;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #334155;
+	cursor: pointer;
+	text-align: left;
+}
+
+.chevronDown {
+	transition: transform 0.2s ease;
+}
+
+.chevronUp {
+	transform: rotate(180deg);
+	transition: transform 0.2s ease;
+}
+
+.mobileSubmenu {
+	background: #f9fafb;
+	overflow: hidden;
+}
+
+.mobileSubmenuButton {
+	width: 100%;
+	padding: 1rem 1.5rem;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #e5e7eb;
+	text-align: left;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.mobileSubmenuButton:hover {
+	background: #f3f4f6;
+}
+
+.mobileSubmenuButton:last-child {
+	border-bottom: none;
+}
+
+.mobileSubmenuTitle {
+	font-weight: 600;
+	color: #148696;
+	margin-bottom: 0.25rem;
+}
+
+.mobileSubmenuDesc {
+	font-size: 0.875rem;
+	color: #148696;
+	line-height: 1.4;
+}
+
+.mobileSignIn {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.mobileBookDemoButton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 300px;
+	padding: 0.85rem 0.4rem;
+	border: 1.5px solid #148696;
+	border-radius: 8px;
+	background: transparent;
+	color: #148696;
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.mobileAuthButton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.75rem;
+	width: 100%;
+	max-width: 320px;
+	padding: 0.85rem 1rem;
+	border: 0;
+	border-radius: 999px;
+	background: #148696;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+/* Tablet Styles */
+@media (max-width: 1200px) {
+	.menu {
+		gap: 2rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	.menu {
+		gap: 1.25rem;
+	}
+
+	.logoWrap {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.contactMenuLink {
+		padding: 0.3rem 0.85rem;
+		font-size: 0.85rem;
+	}
+}
+
+/* Mobile — hamburger kicks in at 1024px so long labels never overflow */
+@media (max-width: 1380px) {
+	.hamburger {
+		display: flex;
+	}
+
+	.bar {
+		padding: 0.5rem 1rem;
+		justify-content: space-between;
+	}
+
+	.desktopMenu {
+		display: none !important;
+		flex: none;
+	}
+
+	.mobileLogo {
+		display: block;
+	}
+
+	.signInWrapper {
+		display: none;
+	}
+
+	.logo {
+		font-size: 1rem;
+	}
+
+	.popup {
+		display: none;
+	}
+
+	.logoWrap {
+		margin: 0;
+	}
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+	.bar {
+		height: 60px;
+		padding: 0.5rem;
+	}
+
+	.mobileLogo img {
+		width: 35px;
+	}
+
+	.mobileMenuContainer {
+		top: 60px;
+		max-height: calc(100vh - 60px);
+	}
+
+	.mobileMenuButton {
+		padding: 0.75rem;
+		font-size: 0.9rem;
+	}
+
+	.mobileSubmenuButton {
+		padding: 0.75rem 1rem;
+	}
+
+	.mobileSubmenuTitle {
+		font-size: 0.9rem;
+	}
+
+	.mobileSubmenuDesc {
+		font-size: 0.8rem;
+	}
+}

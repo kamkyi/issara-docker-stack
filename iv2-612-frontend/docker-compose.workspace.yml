@@ -1,0 +1,278 @@
+name: ilm-workspace
+
+services:
+  ilm-database:
+    image: mysql:8.0
+    container_name: ilm-database-2
+    expose:
+      - 3306
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: "ilm_2"
+      MYSQL_USER: "myuser"
+      MYSQL_PASSWORD: "password"
+      MYSQL_ROOT_PASSWORD: "password"
+    volumes:
+      - ilm-database-volume:/var/lib/mysql
+      - ../ILM-prototype/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mysqladmin ping -h 0.0.0.0 -u myuser --password=password",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ilm-network
+
+  ilm-server:
+    image: ilm-server-2
+    container_name: ilm-server-2
+    build:
+      context: ../ILM-prototype/ilm-server-2
+      dockerfile: Dockerfile.local
+    depends_on:
+      ilm-database:
+        condition: service_healthy
+    expose:
+      - 8000
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../ILM-prototype/ilm-server-2:/app/server
+    networks:
+      - ilm-network
+
+  issara-authorizer:
+    image: python:3.13-slim
+    container_name: issara-authorizer
+    working_dir: /app
+    env_file:
+      - ../issara-authorizer/.env
+    ports:
+      - "9000:9000"
+    volumes:
+      - ../issara-authorizer:/app
+      - issara-authorizer-venv:/opt/venv
+    command:
+      - sh
+      - -c
+      - |
+        python -m venv /opt/venv
+        . /opt/venv/bin/activate
+        pip install -r requirements.txt
+        python app.py
+
+  ilm-facelift:
+    image: ilm-facelift
+    container_name: ilm-facelift
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    env_file:
+      - .env.local.docker
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/usr/src/app
+      - ilm-facelift-node-modules:/usr/src/app/node_modules
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      WATCHPACK_POLLING: "true"
+      NODE_ENV: development
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+
+  goldendreams-database:
+    image: mysql:5.7.25
+    platform: linux/amd64
+    container_name: goldendreams-database
+    expose:
+      - 3306
+    ports:
+      - "3308:3306"
+    command: --max_allowed_packet=128M --wait_timeout=7200
+    environment:
+      MYSQL_DATABASE: "goldendreams_v2"
+      MYSQL_ROOT_PASSWORD: "password"
+    volumes:
+      - goldendreams-database-volume:/var/lib/mysql
+    networks:
+      - gd-network
+
+  goldendreams-cache:
+    image: memcached:1.5.20
+    container_name: goldendreams-cache
+    expose:
+      - 11211
+    ports:
+      - "11211:11211"
+    networks:
+      - gd-network
+
+  goldendreams-celery-broker:
+    image: redis:alpine
+    container_name: goldendreams-celery-broker
+    expose:
+      - 6379
+    ports:
+      - "6379:6379"
+    networks:
+      - gd-network
+
+  goldendreams-server:
+    image: goldendreams-server
+    container_name: goldendreams-server
+    build:
+      context: ../goldendreams_v2/server
+      dockerfile: Dockerfile.local
+    depends_on:
+      - goldendreams-database
+      - goldendreams-cache
+      - goldendreams-celery-broker
+    expose:
+      - 8000
+    ports:
+      - "8001:8000"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../goldendreams_v2/server:/app/server
+    command: >
+      /bin/bash -c
+      "celery -A main worker -l INFO -B &
+      python manage.py runserver 0.0.0.0:8000"
+    networks:
+      - gd-network
+
+  cascade-db:
+    image: mysql:8.0
+    container_name: cascade-db
+    restart: always
+    environment:
+      MYSQL_DATABASE: "${DB_NAME:-cascade_db}"
+      MYSQL_ROOT_PASSWORD: "root"
+    ports:
+      - "3307:3306"
+    volumes:
+      - cascade-mysql-data:/var/lib/mysql
+      - ../cascade-api/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - cascade-network
+
+  cascade-api:
+    image: cascade-api
+    container_name: cascade-api
+    build:
+      context: ../cascade-api
+      target: development
+    env_file:
+      - ../cascade-api/.env
+    environment:
+      NODE_ENV: development
+      DB_HOST: cascade-db
+      DB_PORT: 3306
+      GD_DB_HOST: goldendreams-database
+      GD_DB_PORT: 3306
+      ILM2_DB_HOST: ilm-database-2
+    ports:
+      - "${PORT:-3000}:3000"
+    volumes:
+      - ../cascade-api:/app
+      - cascade-api-node-modules:/app/node_modules
+    depends_on:
+      cascade-db:
+        condition: service_healthy
+      ilm-database:
+        condition: service_healthy
+      goldendreams-database:
+        condition: service_started
+    restart: unless-stopped
+    networks:
+      - cascade-network
+      - ilm-network
+      - gd-network
+
+  goldendreams-client:
+    image: goldendreams-client-web
+    container_name: goldendreams-client-web
+    build:
+      context: ../GD-Fronted-v3/client/web
+      dockerfile: Dockerfile.local
+    env_file:
+      - ../GD-Fronted-v3/client/web/.env.base
+      - ../GD-Fronted-v3/client/web/.env.local.docker
+    expose:
+      - 80
+    ports:
+      - "80:80"
+    volumes:
+      - ../GD-Fronted-v3/client/web:/app/client/web
+      - goldendreams-client-node-modules:/app/client/web/node_modules
+
+  goldendreams-business-client:
+    image: goldendreams-client-business-web
+    container_name: goldendreams-client-business-web
+    build:
+      context: ../GD-Fronted-v3/client-business/web
+      dockerfile: Dockerfile.local
+    env_file:
+      - ../GD-Fronted-v3/client-business/web/.env.base
+      - ../GD-Fronted-v3/client-business/web/.env.local.docker
+    expose:
+      - 3000
+    ports:
+      - "4000:3000"
+    volumes:
+      - ../GD-Fronted-v3/client-business/web:/app/client-business/web
+      - goldendreams-business-node-modules:/app/client-business/web/node_modules
+
+  gd-lite:
+    image: gd-lite
+    container_name: gd-lite
+    build:
+      context: ../gd-lite
+      dockerfile: Dockerfile
+    env_file:
+      - ../gd-lite/.env
+    ports:
+      - "8081:8081"
+    volumes:
+      - ../gd-lite:/app
+      - gd-lite-node-modules:/app/node_modules
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      EXPO_NO_TELEMETRY: "1"
+      NODE_ENV: development
+      WATCHPACK_POLLING: "true"
+    stdin_open: true
+    tty: true
+
+networks:
+  cascade-network:
+    driver: bridge
+  gd-network:
+    driver: bridge
+  ilm-network:
+    driver: bridge
+
+volumes:
+  cascade-api-node-modules:
+  cascade-mysql-data:
+  gd-lite-node-modules:
+  goldendreams-business-node-modules:
+  goldendreams-client-node-modules:
+  goldendreams-database-volume:
+  ilm-database-volume:
+  ilm-facelift-node-modules:
+  issara-authorizer-venv:

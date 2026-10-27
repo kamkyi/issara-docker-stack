@@ -1,0 +1,96 @@
+name: Build Test Deploy Frontend
+on:
+  workflow_dispatch: {}
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - "*"
+    tags:
+      - "v*"
+  release:
+    types:
+      - published
+
+env:
+  NODE_VERSION: 22
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  actions: read
+  checks: write
+  contents: read
+  id-token: write
+  security-events: write
+  pull-requests: write
+
+jobs:
+  Test:
+    name: Test via Node
+    if: ${{ github.event_name != 'release' }}
+
+    permissions:
+      actions: read
+      checks: write
+      contents: write
+      id-token: write
+      security-events: write
+      pull-requests: write
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node and run npm ci
+        uses: ./.github/actions/npm-ci
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Lint
+        run: npm run lint
+
+      # 2. Run TypeScript type checking
+      - name: Type Check
+        run: npm run typecheck
+
+      # Validate typecheck and build complete successfully
+      - run: npm run build
+
+      # Run Vitest unit tests
+      - name: Run Unit Tests
+        run: npx vitest run
+
+      # Restore the legacy Playwright check required by branch protection.
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests
+        run: npx playwright test
+
+      - name: Collect Test Results
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: vitest-results
+          path: |-
+            coverage/
+          retention-days: 30
+
+      - name: Collect Playwright Results
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-results
+          path: |-
+            test-results/
+          retention-days: 30
+
+      - name: Upload Playwright Test Report
+        uses: dorny/test-reporter@v1
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        with:
+          name: Playwright Tests
+          path: "test-results/junit.xml"
+          reporter: java-junit
+          fail-on-error: true

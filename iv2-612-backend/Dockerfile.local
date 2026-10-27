@@ -1,0 +1,25 @@
+FROM python:3.8-slim
+
+
+# 1. Disable python process buffering
+ENV PYTHONUNBUFFERED 1
+
+# 2. Change working directory to /app/server
+WORKDIR /app/server
+
+# 3. Install MySQL and PostgreSQL dev tools
+RUN apt-get update 
+RUN apt-get install gcc -y
+RUN apt-get install default-libmysqlclient-dev pkg-config -y
+RUN apt-get install gcc libpq-dev -y
+
+# 4. Copy requirements.txt files to Docker image
+COPY requirements.txt ./requirements/
+
+# 5. Install necessary python packages
+RUN pip install --upgrade pip && pip install -r ./requirements/requirements.txt
+
+COPY . .
+
+# 6. Run development server that reloads on code changes
+CMD python manage.py runserver 0.0.0.0:8000

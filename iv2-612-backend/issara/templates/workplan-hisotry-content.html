@@ -1,0 +1,71 @@
+<style>
+  .row-div {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+  }
+  
+  .grid-div {
+    max-width: 100px;
+  }
+  
+  .t-boxes {
+    border: 1px solid rgb(230, 230, 230);
+    padding: 10px 30px;
+  }
+  
+  .titles {
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    padding: 16px;
+  }
+</style>
+{% load static %}
+
+{% load tospace %}
+
+{% for x in deep %}
+  {% if x.changed %}
+    <div class="titles">
+      <label><b>Section:</b> {{ x.model }}</label> &nbsp;&nbsp;&nbsp;
+      <label><b>Reason:</b> {{ x.reason }}</label> &nbsp;&nbsp;&nbsp;
+      <label><b>Date time:</b> {{ x.created_at }}</label> &nbsp;&nbsp;&nbsp;
+      <label><b>By:</b> {{ x.user }}</label>
+    </div>
+
+    <table style="border: 1px solid rgb(230, 230, 230); border-collapse: collapse; margin: -20px 0 30px 0; width: 100%;">
+      <br />
+      <thead>
+        <tr class="row-div">
+          <th class="t-boxes">Field Name</th>
+          <th class="t-boxes">Old Value</th>
+          <th class="t-boxes">New Value</th>
+        </tr>
+      </thead>
+      {% for y in x.changed %}
+        <tr class="row-div">
+          <td class="t-boxes">
+            {% if y.0 == None %}
+
+            {% else %}
+              {{ y.0 | tospace }}
+            {% endif %}
+          </td>
+          <td class="t-boxes">
+            {% if y.1 == None %}
+
+            {% else %}
+              {{ y.1 }}
+            {% endif %}
+          </td>
+          <td class="t-boxes">
+            {% if y.2 == None %}
+
+            {% else %}
+              {{ y.2 }}
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+{% endfor %}

@@ -1,0 +1,42 @@
+[
+	{
+		"rank": 1,
+		"name": "Issara Academy Training (in-person or online)",
+		"numActivities": 8,
+		"numSuppliers": 18,
+		"workersImpacted": 15127,
+		"kpisResolved": 63
+	},
+	{
+		"rank": 2,
+		"name": "Worksite – Canteen Outreach",
+		"numActivities": 10,
+		"numSuppliers": 11,
+		"workersImpacted": 10253,
+		"kpisResolved": 48
+	},
+	{
+		"rank": 3,
+		"name": "Meeting with Mobilizers",
+		"numActivities": 7,
+		"numSuppliers": 7,
+		"workersImpacted": 12582,
+		"kpisResolved": 39
+	},
+	{
+		"rank": 4,
+		"name": "Mobilizer training",
+		"numActivities": 5,
+		"numSuppliers": 6,
+		"workersImpacted": 7791,
+		"kpisResolved": 25
+	},
+	{
+		"rank": 5,
+		"name": "Outreach Lead ILM",
+		"numActivities": 7,
+		"numSuppliers": 14,
+		"workersImpacted": 3778,
+		"kpisResolved": 21
+	}
+]

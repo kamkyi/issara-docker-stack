@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Workplan Change Notification</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      color: #333;
+    "
+  >
+    <!-- Main Container -->
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      bgcolor="#f8f9fa"
+    >
+      <tr>
+        <td align="center" style="padding: 20px">
+          <table
+            width="700"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            bgcolor="#ffffff"
+            style="border-radius: 8px; border: 1px solid #e1e5e9"
+          >
+            <!-- Header -->
+            <tr>
+              <td
+                bgcolor="#667eea"
+                align="center"
+                style="
+                  padding: 25px;
+                  color: #ffffff;
+                  font-size: 22px;
+                  font-weight: bold;
+                "
+              >
+                📋 Weekly Workplan Changes - {{ strategic_partner.name }}
+              </td>
+            </tr>
+
+            <!-- Greeting -->
+            <tr>
+              <td style="padding: 30px; font-size: 15px; color: #555">
+                <p>
+                  Hello
+                  <strong>{{ issara_user.first_name }}</strong>,
+                </p>
+                <p>
+                  This weekly notification contains workplan changes made by Strategic Partner users from
+                  <strong>{{ strategic_partner.name }}</strong> during {{ date_range }}.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Summary -->
+            <tr>
+              <td
+                align="center"
+                style="
+                  padding: 20px;
+                  background-color: #e7f3ff;
+                  border: 1px solid #b3d7ff;
+                  border-radius: 6px;
+                  font-size: 15px;
+                  color: #0056b3;
+                "
+              >
+                <strong>{{ total_changes }} changes</strong> were made across
+                <strong>{{ total_workplans }} workplan{{ total_workplans|pluralize }}</strong> by
+                <strong>{{ sp_users_data|length }} user{{ sp_users_data|length|pluralize }}</strong> in the last 7 days
+              </td>
+            </tr>
+
+            <!-- SP Users Summary -->
+            {% if sp_users_data %}
+            <tr>
+              <td style="padding: 20px">
+                <div style="background-color: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 10px;">
+                  <h3 style="margin: 0 0 10px 0; color: #333; font-size: 16px;">� Users who made changes:</h3>
+                  <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                    {% for user_email, user_data in sp_users_data.items %}
+                    <span style="
+                      background-color: #28a745;
+                      color: white;
+                      padding: 6px 12px;
+                      border-radius: 4px;
+                      font-size: 13px;
+                      font-weight: bold;
+                      margin: 2px;
+                    ">
+                      {% if user_data.sp_user %}
+                        {{ user_data.sp_user.first_name }} {{ user_data.sp_user.last_name }}
+                      {% else %}
+                        {{ user_email }}
+                      {% endif %}
+                      ({{ user_data.total_changes }} change{{ user_data.total_changes|pluralize }})
+                    </span>
+                    {% endfor %}
+                  </div>
+                </div>
+              </td>
+            </tr>
+            {% endif %}
+
+            <!-- All Changes List by SP User -->
+            {% for user_email, user_data in sp_users_data.items %}
+            <tr>
+              <td style="padding: 20px">
+                <!-- SP User Header -->
+                <div style="
+                  background-color: #28a745;
+                  color: white;
+                  padding: 15px;
+                  border-radius: 6px;
+                  margin-bottom: 15px;
+                  font-size: 16px;
+                  font-weight: bold;
+                ">
+                  👤 Changes by: 
+                  {% if user_data.sp_user %}
+                    {{ user_data.sp_user.first_name }} {{ user_data.sp_user.last_name }} ({{ user_email }})
+                  {% else %}
+                    {{ user_email }}
+                  {% endif %}
+                  - {{ user_data.total_changes }} change{{ user_data.total_changes|pluralize }}
+                </div>
+
+                <!-- Workplans for this user -->
+                {% for workplan in user_data.workplans %}
+                <table
+                  width="100%"
+                  cellpadding="10"
+                  cellspacing="0"
+                  border="0"
+                  style="border: 1px solid #e1e5e9; border-radius: 6px; margin-bottom: 15px;"
+                >
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #ffffff;
+                        background-color: #667eea;
+                        border-radius: 4px 4px 0 0;
+                        padding: 10px 15px;
+                      "
+                      colspan="2"
+                    >
+                      📋 Workplan #{{ workplan.workplan_id }} - {{ workplan.change_count }} change{{ workplan.change_count|pluralize }}
+                    </td>
+                  </tr>
+                  {% for date_group in workplan.date_groups %}
+                  <tr>
+                    <td
+                      colspan="2"
+                      style="
+                        background-color: #e9ecef;
+                        padding: 8px 15px;
+                        font-size: 13px;
+                        font-weight: bold;
+                        color: #495057;
+                        border-bottom: 1px solid #dee2e6;
+                      "
+                    >
+                      📅 {{ date_group.date|date:"F d, Y" }} - {{ date_group.change_count }} change{{ date_group.change_count|pluralize }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      colspan="2"
+                      style="
+                        background-color: #f8f9fa;
+                        padding: 15px;
+                        border-radius: 4px;
+                        font-size: 14px;
+                      "
+                    >
+                      {% if date_group.changes %}
+                        {% for item in date_group.changes %}
+                          {# Prefer canonicalized dicts: item.type = 'single'|'change'|'other' #}
+                          {% if item.type == 'single' %}
+                            <!-- Canonical: single field/value -->
+                            <div
+                              style="
+                                margin-bottom: 8px;
+                                padding: 10px;
+                                background-color: #d4edda;
+                                border: 1px solid #c3e6cb;
+                                border-radius: 4px;
+                                color: #155724;
+                              "
+                            >
+                              <span style="font-weight: bold; font-size: 13px;"
+                                >{{ item.field }}</span
+                              >
+                              :
+                              <span style="font-weight: bold"
+                                >{{ item.value }}</span
+                              >
+                            </div>
+                          {% elif item.type == 'change' %}
+                            <!-- Canonical: change with old/new -->
+                            <div
+                              style="
+                                margin-bottom: 8px;
+                                padding: 10px;
+                                background-color: #f8d7da;
+                                border: 1px solid #f5c6cb;
+                                border-radius: 4px;
+                                color: #721c24;
+                              "
+                            >
+                              <span style="font-weight: bold; font-size: 13px;"
+                                >{{ item.field }}</span
+                              >
+                              : {% if item.old and item.old != "null" %}
+                              <span
+                                style="color: #dc3545; text-decoration: line-through"
+                                >{{ item.old }}</span
+                              >
+                              {% endif %}
+                              <span style="color: #28a745; font-weight: bold"
+                                >{{ item.new }}</span
+                              >
+                            </div>
+                          {% elif item.type == 'other' %}
+                            <!-- Canonical: other/raw -->
+                            <div
+                              style="
+                                margin-bottom: 8px;
+                                padding: 10px;
+                                background-color: #f8f9fa;
+                                border: 1px solid #dee2e6;
+                                border-radius: 4px;
+                              "
+                            >
+                              <span style="font-weight: bold; font-size: 13px;">Change:</span>
+                              <span style="color: #28a745; font-weight: bold"
+                                >{{ item.raw }}</span
+                              >
+                            </div>
+                          {% elif item|length == 2 %}
+                            <!-- Legacy: Status Change (list of 2) -->
+                            <div
+                              style="
+                                margin-bottom: 8px;
+                                padding: 10px;
+                                background-color: #d4edda;
+                                border: 1px solid #c3e6cb;
+                                border-radius: 4px;
+                                color: #155724;
+                              "
+                            >
+                              <span style="font-weight: bold; font-size: 13px;"
+                                >{{ item.0 }}</span
+                              >
+                              :
+                              <span style="font-weight: bold"
+                                >{{ item.1 }}</span
+                              >
+                            </div>
+                          {% elif item|length == 3 %}
+                            <!-- Legacy: Full Change (list of 3) -->
+                            <div
+                              style="
+                                margin-bottom: 8px;
+                                padding: 10px;
+                                background-color: #f8d7da;
+                                border: 1px solid #f5c6cb;
+                                border-radius: 4px;
+                                color: #721c24;
+                              "
+                            >
+                              <span style="font-weight: bold; font-size: 13px;"
+                                >{{ item.0 }}</span
+                              >
+                              : {% if item.1 and item.1 != "null" %}
+                              <span
+                                style="color: #dc3545; text-decoration: line-through"
+                                >{{ item.1 }}</span
+                              >
+                              {% endif %}
+                              <span style="color: #28a745; font-weight: bold"
+                                >{{ item.2 }}</span
+                              >
+                            </div>
+                          {% else %}
+                            <!-- Fallback: stringify the item -->
+                            <div
+                              style="
+                                margin-bottom: 8px;
+                                padding: 10px;
+                                background-color: #f8f9fa;
+                                border: 1px solid #dee2e6;
+                                border-radius: 4px;
+                              "
+                            >
+                              <span style="font-weight: bold; font-size: 13px;">Change:</span>
+                              <span style="color: #28a745; font-weight: bold"
+                                >{{ item }}</span
+                              >
+                            </div>
+                          {% endif %}
+                        {% endfor %}
+                      {% else %}
+                        <div
+                          style="
+                            padding: 10px;
+                            background-color: #f8f9fa;
+                            border: 1px solid #dee2e6;
+                            border-radius: 4px;
+                          "
+                        >
+                          No changes found for this date
+                        </div>
+                      {% endif %}
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </table>
+                {% empty %}
+                <div
+                  style="
+                    padding: 20px;
+                    background-color: #f8f9fa;
+                    border: 1px solid #dee2e6;
+                    border-radius: 4px;
+                    text-align: center;
+                    color: #666;
+                  "
+                >
+                  No workplan changes found for this user
+                </div>
+                {% endfor %}
+              </td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td style="padding: 20px">
+                <div
+                  style="
+                    padding: 20px;
+                    background-color: #f8f9fa;
+                    border: 1px solid #dee2e6;
+                    border-radius: 4px;
+                    text-align: center;
+                    color: #666;
+                  "
+                >
+                  No changes found in the last 7 days
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+
+            <!-- Closing Note -->
+            <tr>
+              <td
+                align="center"
+                style="padding: 20px; font-size: 14px; color: #333"
+              >
+                Please review these changes and take appropriate action if
+                needed.
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                bgcolor="#f8f9fa"
+                align="center"
+                style="
+                  padding: 20px;
+                  font-size: 12px;
+                  color: #6c757d;
+                  border-top: 1px solid #dee2e6;
+                "
+              >
+                <p>
+                  <strong>ILM System</strong> - Weekly Workplan Changes
+                  Notification
+                </p>
+                <p>
+                  This email was sent automatically. Please do not reply to this
+                  message.
+                </p>
+                <p>For support, contact your system administrator.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

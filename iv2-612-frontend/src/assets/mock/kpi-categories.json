@@ -1,0 +1,17 @@
+[
+	{
+		"id": 1,
+		"name": "Recruitment",
+		"issue_category": 1
+	},
+	{
+		"id": 4,
+		"name": "Wages",
+		"issue_category": 1
+	},
+	{
+		"id": 20,
+		"name": "Labor",
+		"issue_category": 1
+	}
+]

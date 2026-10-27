@@ -1,0 +1,214 @@
+[
+	{
+		"id": 9001,
+		"nationality": 1,
+		"contact_reason": 1,
+		"case_call_type": 1,
+		"supplier": 1,
+		"hr_staff": {
+			"id": 101,
+			"full_name": "HR Officer 1"
+		},
+		"hr_staff_id": 101,
+		"worker_voice_channel": 2,
+		"interaction_date": "2026-07-02",
+		"summary": "Worker reported excessive wage deductions on evening shifts.",
+		"client_name": "Operator 1",
+		"employee_id": "EMP-9001",
+		"phone_number": "0987654321",
+		"line_id": "mya.aung.line",
+		"whatsapp": "+66987654321",
+		"zalo": "",
+		"gender": 2,
+		"employee_department": "Department A",
+		"feedback_description": "The worker reported that deductions for uniform and tools were taken without prior written consent.",
+		"workers_affected": 8,
+		"workers_affected_description": "Mainly sewing operators on the evening shift in one production line.",
+		"situation_improving": "no",
+		"situation_improving_description": "The payroll discrepancy has not been corrected yet.",
+		"issue_categories": [4],
+		"kpi_categories": [4],
+		"selected_kpis": [184],
+		"case_status": 1,
+		"next_steps": "Review payroll records with HR and meet affected workers.",
+		"urgent_needs_of_employee": "Immediate clarification on wages and assurance against retaliation.",
+		"deadline": "2026-07-16",
+		"final_remarks": "Awaiting payroll reconciliation.",
+		"safeguards_remarks": "Confidentiality requested by the reporting worker.",
+		"next_steps_for_company_staff": [
+			{
+				"id": 201,
+				"full_name": "Company Staff 1"
+			}
+		],
+		"created_at": "2026-07-02T09:00:00Z",
+		"updated_at": "2026-07-04T15:30:00Z",
+		"additional_attachments": [
+			{
+				"id": 1,
+				"name": "payroll-screenshot.png",
+				"type": "image/png",
+				"file_path": "/mock/payroll-screenshot.png",
+				"size": "245760"
+			}
+		],
+		"mock_issue_category_names": ["Wages"],
+		"mock_issue_descriptions": ["Issue with wages: unethical but not illegal"],
+		"mock_level": "2",
+		"mock_channel_name": "LINE",
+		"mock_contact_reason_name": "Complaint",
+		"mock_nationality_name": "Myanmar",
+		"mock_gender_name": "Female",
+		"mock_assigned_users": ["Company Staff 1"],
+		"ilo_indicators": [
+			{
+				"id": 8,
+				"name": "Withholding of wages"
+			}
+		],
+		"lksg_indicators": []
+	},
+	{
+		"id": 9002,
+		"nationality": 2,
+		"contact_reason": 2,
+		"case_call_type": 2,
+		"supplier": 1,
+		"hr_staff": {
+			"id": 102,
+			"full_name": "HR Officer 2"
+		},
+		"hr_staff_id": 102,
+		"worker_voice_channel": 1,
+		"interaction_date": "2026-06-27",
+		"summary": "Workers requested clarification on recruitment agency fees.",
+		"client_name": "Operator 2",
+		"employee_id": "EMP-9002",
+		"phone_number": "0912345678",
+		"line_id": "",
+		"whatsapp": "",
+		"zalo": "sokha.chan",
+		"gender": 1,
+		"employee_department": "Department B",
+		"feedback_description": "A group of workers reported that recruitment agency fees were charged prior to departure.",
+		"workers_affected": 15,
+		"workers_affected_description": "Mixed group of packing and warehouse workers hired in the last quarter.",
+		"situation_improving": "yes",
+		"situation_improving_description": "HR shared an initial explanation and is preparing a written notice.",
+		"issue_categories": [1],
+		"kpi_categories": [1],
+		"selected_kpis": [7],
+		"case_status": 3,
+		"next_steps": "Prepare bilingual communication and confirm the reimbursement schedule.",
+		"urgent_needs_of_employee": "Clear information in worker languages and a single contact point.",
+		"deadline": "2026-07-12",
+		"final_remarks": "Progress made, but communication remains incomplete.",
+		"safeguards_remarks": "No active safeguarding concerns reported.",
+		"next_steps_for_company_staff": [
+			{
+				"id": 202,
+				"full_name": "Company Staff 2"
+			}
+		],
+		"created_at": "2026-06-27T10:15:00Z",
+		"updated_at": "2026-07-06T11:00:00Z",
+		"additional_attachments": [
+			{
+				"id": 2,
+				"name": "reimbursement-note.pdf",
+				"type": "application/pdf",
+				"file_path": "/mock/reimbursement-note.pdf",
+				"size": "128512"
+			}
+		],
+		"mock_issue_category_names": ["Recruitment"],
+		"mock_issue_descriptions": [
+			"Fees charged by recruitment agency: legal but not ethical"
+		],
+		"mock_level": "2",
+		"mock_channel_name": "Facebook Messenger",
+		"mock_contact_reason_name": "Question",
+		"mock_nationality_name": "Cambodian",
+		"mock_gender_name": "Male",
+		"mock_assigned_users": ["Company Staff 2"],
+		"ilo_indicators": [
+			{
+				"id": 1,
+				"name": "Abuse of vulnerability"
+			},
+			{
+				"id": 9,
+				"name": "Debt bondage"
+			}
+		],
+		"lksg_indicators": []
+	},
+	{
+		"id": 9003,
+		"nationality": 3,
+		"contact_reason": 3,
+		"case_call_type": 3,
+		"supplier": 1,
+		"hr_staff": {
+			"id": 103,
+			"full_name": "HR Officer 3"
+		},
+		"hr_staff_id": 103,
+		"worker_voice_channel": 3,
+		"interaction_date": "2026-04-28",
+		"summary": "Workers reported unsafe working conditions in chemical handling area.",
+		"client_name": "Operator 3",
+		"employee_id": "EMP-9003",
+		"phone_number": "0865432198",
+		"line_id": "linh.tran",
+		"whatsapp": "+66865432198",
+		"zalo": "",
+		"gender": 4,
+		"employee_department": "Department C",
+		"feedback_description": "Workers requested proper personal protective equipment (PPE) for chemical handling areas.",
+		"workers_affected": 30,
+		"workers_affected_description": "Workers in one dormitory block used by warehouse and logistics staff.",
+		"situation_improving": "yes",
+		"situation_improving_description": "Maintenance was completed and workers confirmed conditions improved.",
+		"issue_categories": [20],
+		"kpi_categories": [20],
+		"selected_kpis": [316],
+		"case_status": 2,
+		"next_steps": "Close case after one more worker check-in.",
+		"urgent_needs_of_employee": "Continued monitoring of dormitory maintenance.",
+		"deadline": "2026-05-18",
+		"final_remarks": "Workers indicated the issue was addressed.",
+		"safeguards_remarks": "No retaliation concerns reported.",
+		"next_steps_for_company_staff": [
+			{
+				"id": 203,
+				"full_name": "Company Staff 3"
+			}
+		],
+		"created_at": "2026-04-28T08:20:00Z",
+		"updated_at": "2026-05-16T13:45:00Z",
+		"additional_attachments": [],
+		"mock_issue_category_names": ["Labor - Working conditions"],
+		"mock_issue_descriptions": [
+			"Unsafe or hazardous working conditions (OSH issues)"
+		],
+		"mock_level": "3",
+		"mock_channel_name": "Hotline",
+		"mock_contact_reason_name": "Feedback",
+		"mock_nationality_name": "Vietnamese",
+		"mock_gender_name": "Non-Binary",
+		"mock_assigned_users": ["Company Staff 3"],
+		"ilo_indicators": [
+			{
+				"id": 10,
+				"name": "Abusive working and living conditions"
+			}
+		],
+		"lksg_indicators": [
+			{
+				"id": 105,
+				"name": "Occupational safety and health (OSH)"
+			}
+		]
+	}
+]

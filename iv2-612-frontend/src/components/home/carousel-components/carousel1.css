@@ -1,0 +1,129 @@
+.carousel-hero-background {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Fixed backgrounds are rendered as oversized or soft images by mobile Safari
+   and Chrome. Keep the desktop treatment, but anchor the mobile image to the
+   hero itself and bias its focal point toward the foreground fishing boats. */
+@media (max-width: 767px) {
+	.carousel-hero-background {
+		background-attachment: scroll;
+		background-position: 38% center;
+	}
+}
+
+.diagonal-marquee-container {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	position: absolute;
+	background: linear-gradient(45deg, #ffffff 0%, #f1f1f1 100%);
+	/* transform: skewY(-3deg); */
+	margin: 60px 0;
+	bottom: 0;
+}
+
+.diagonal-marquee-wrapper {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	bottom: 40%;
+	right: -70%;
+	transform: rotate(-45deg);
+	overflow: hidden;
+}
+
+.diagonal-marquee {
+	display: flex;
+	gap: 30px;
+	animation: marquee-diagonal 30s linear infinite;
+	will-change: transform;
+}
+
+.diagonal-marquee-reverse {
+	display: flex;
+	gap: 30px;
+	animation: marquee-diagonal-reverse 30s linear infinite;
+	will-change: transform;
+}
+
+.marquee-item {
+	flex-shrink: 0;
+	width: 300px;
+	/* height: 200px; */
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 4px 12px rgba(20, 134, 150, 0.15);
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
+	/* transform: skew(8deg, 8deg); */
+}
+
+.marquee-item:hover {
+	/* transform: skew(5deg, 5deg) scale(1.05) translateY(-5px); */
+	box-shadow: 0 8px 24px rgba(20, 134, 150, 0.25);
+}
+
+.marquee-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+@keyframes marquee-diagonal {
+	0% {
+		transform: translateX(0) translateY(0);
+	}
+	100% {
+		transform: translateX(-50%) translateY(-25%);
+	}
+}
+
+@keyframes marquee-diagonal-reverse {
+	0% {
+		transform: translateX(-50%) translateY(-25%);
+	}
+	100% {
+		transform: translateX(0) translateY(0);
+	}
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.diagonal-marquee-container {
+		height: 300px;
+		margin: 40px 0;
+	}
+
+	.marquee-item {
+		width: 250px;
+		height: 167px;
+	}
+
+	.diagonal-marquee {
+		gap: 20px;
+		animation-duration: 20s;
+	}
+}
+
+@media (max-width: 480px) {
+	.diagonal-marquee-container {
+		height: 250px;
+		margin: 30px 0;
+	}
+
+	.marquee-item {
+		width: 200px;
+		height: 133px;
+	}
+
+	.diagonal-marquee {
+		gap: 15px;
+		animation-duration: 15s;
+	}
+}

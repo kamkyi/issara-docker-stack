@@ -1,0 +1,9 @@
+{
+	"wvScore": 85,
+	"ciScore": 50,
+	"finalScore": 73,
+	"supplierScores": [
+		{ "supplier_id": 1, "score": 61.5 },
+		{ "supplier_id": 2, "score": 54.2 }
+	]
+}

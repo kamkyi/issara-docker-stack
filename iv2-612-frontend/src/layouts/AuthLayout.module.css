@@ -1,0 +1,29 @@
+.content {
+	flex: 1;
+	padding: 1rem;
+	width: 100%;
+}
+
+.content > :last-child {
+	margin-bottom: 0 !important;
+}
+
+.fullLayout {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background: #b8e6d4; /* Slightly darker green for better contrast */
+}
+
+.mainArea {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+:global(.dark) .fullLayout {
+	background: #1e1e1e; /* Darker background in dark mode for better contrast */
+}

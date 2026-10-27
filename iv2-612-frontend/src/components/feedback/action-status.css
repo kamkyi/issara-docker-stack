@@ -1,0 +1,94 @@
+.action-status-back {
+	position: fixed;
+	inset: 0;
+	z-index: 10000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(8, 26, 31, 0.36);
+	backdrop-filter: blur(2px);
+	animation: action-status-fade 0.15s ease;
+}
+/* Success / error: no backdrop, let clicks through, just float the card. */
+.action-status-back.passive {
+	background: transparent;
+	backdrop-filter: none;
+	pointer-events: none;
+}
+
+.action-status-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 14px;
+	min-width: 188px;
+	max-width: 320px;
+	padding: 28px 36px;
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 24px 70px rgba(8, 26, 31, 0.28);
+	animation: action-status-pop 0.18s ease;
+}
+
+.action-status-msg {
+	font-family:
+		"DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: #0e1a1e;
+	text-align: center;
+	line-height: 1.35;
+}
+
+.action-status-spinner {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: 3px solid #e3eaec;
+	border-top-color: #148696;
+	animation: action-status-spin 0.7s linear infinite;
+}
+
+.action-status-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.action-status-icon.success {
+	background: #e7f7ef;
+	color: #1b9e63;
+}
+.action-status-icon.error {
+	background: #fdecec;
+	color: #dc2626;
+}
+
+@keyframes action-status-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes action-status-fade {
+	from {
+		opacity: 0;
+	}
+}
+@keyframes action-status-pop {
+	from {
+		opacity: 0;
+		transform: scale(0.94);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.action-status-back,
+	.action-status-card {
+		animation: none;
+	}
+	.action-status-spinner {
+		animation-duration: 1.2s;
+	}
+}

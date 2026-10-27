@@ -1,0 +1,9 @@
+cron:
+- description: "internal kpi emails"
+  url: /api/v2/app-engine/cron/internal-kpi-email
+  schedule: every 12 hours
+
+cron:
+- description: "external kpi emails"
+  url: /api/v2/app-engine/cron/external-kpi-email
+  schedule: every 12 hours

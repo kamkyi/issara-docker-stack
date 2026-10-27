@@ -1,0 +1,360 @@
+.container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-top: 11px;
+	justify-content: center;
+}
+
+.textBlock {
+	flex: 60%;
+}
+
+.imageBlock {
+	flex: 39%;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+}
+
+/* New classes for inline styles */
+.textBox {
+	flex: 0 0 60%;
+}
+
+.imageBox {
+	flex: 0 0 30%;
+}
+
+.aspectImage {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
+}
+
+.aspectImage:hover {
+	transform: scale(1.03);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.separatorMargin {
+	margin-top: 16px;
+}
+
+/* New CSS classes to replace inline styles */
+.responsiveSection {
+	border-radius: 4px;
+	margin-top: 1rem;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.textContainer {
+	width: 100%;
+	padding: 1rem;
+}
+
+.gaugesContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/* New classes for gauge item and label spacing */
+.gaugeItem {
+	text-align: center;
+}
+
+.gaugeLabel {
+	margin-top: 0.2rem;
+}
+
+/* Add new grid container for article cards */
+.articlesRow {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8px; /* reduced from 16px */
+}
+
+/* Updated article card height */
+.articleCard {
+	min-height: 230px; /* Adjust height as needed */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+/* New CSS for positioning article type and content */
+.articleHeader {
+	align-self: flex-end;
+	margin: 8px;
+}
+
+.articleContent {
+	align-self: flex-start;
+	margin: 8px;
+}
+
+/* Updated styles for event cards */
+.eventCardsContainer {
+	display: flex;
+	gap: 16px;
+	overflow-x: auto;
+	padding: 0.5rem;
+	cursor: ew-resize; /* horizontal scroll style */
+}
+.eventCardsContainer:active {
+	cursor: ew-resize;
+}
+
+.eventCard {
+	flex: 0 0 calc((100% - 3 * 16px) / 4);
+	position: relative;
+	width: calc((100% - 3 * 16px) / 4);
+	padding-top: calc((100% - 3 * 16px) / 4); /* Keeps card square */
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.eventCardContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.eventDate {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 2px 6px;
+	border-radius: 4px;
+	font-size: 0.8rem;
+	color: black;
+}
+
+[data-theme="dark"] .eventDate {
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+
+.eventScrollButton {
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+.eventScrollButtonLeft {
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+.eventScrollButtonRight {
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+/* New classes */
+.flex1 {
+	flex: 1;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.containerPadding {
+	/* padding: 1.5rem; */
+}
+
+.pieChartBox,
+.barChartBox {
+	background: var(--color-background);
+	border-radius: 8px;
+	padding: 1.5rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	min-height: 400px;
+}
+
+/* Add pieChartLabel class for SVG text elements */
+.pieChartLabel {
+	fill: #333; /* Default color for light theme */
+	font-size: 12px;
+}
+
+/* Dark theme override referencing footer dark theme style for pieChartBox */
+:global(.dark) .pieChartBox,
+:global(.dark) .barChartBox {
+	background: #2e2e2e; /* same as footer dark background */
+	color: white; /* same as footer dark text color */
+}
+
+:global(.dark) .pieChartLabel {
+	fill: white; /* Light color for dark theme to ensure visibility */
+}
+
+@media (max-width: 768px) {
+	.pieChartBox,
+	.barChartBox {
+		grid-column: span 1; /* Each item takes the full width */
+	}
+}
+
+/* Custom styles for KPI category chart to prevent label overlap */
+.categoryChartContainer {
+	height: auto;
+}
+
+.categoryChart text {
+	font-size: 10px !important;
+	font-family: "DM Sans", sans-serif !important;
+}
+
+/* Enhanced spacing for category labels */
+.categoryChart .recharts-cartesian-axis-tick {
+	padding-bottom: 5px;
+}
+
+/* Separate even and odd labels more distinctly */
+.evenLabel {
+	fill: #374151 !important;
+	font-weight: 500 !important;
+}
+
+.oddLabel {
+	fill: #4b5563 !important;
+	font-weight: 400 !important;
+}
+
+/* Make SVG overflow visible to prevent cutoff of labels */
+.categoryChart svg {
+	overflow: visible !important;
+}
+
+/* Position the bar chart legend better */
+.categoryChart .recharts-legend-wrapper {
+	bottom: 0 !important;
+}
+
+/* Ensure the ticks have enough vertical space */
+.categoryChart .recharts-cartesian-axis-tick {
+	margin-top: 10px;
+}
+
+/* Add staggering to alternate category labels */
+.categoryChart .recharts-cartesian-axis-tick:nth-child(odd) {
+	transform: translateY(-5px);
+}
+
+.categoryChart .recharts-cartesian-axis-tick:nth-child(even) {
+	transform: translateY(5px);
+}
+
+.evenLabel {
+	opacity: 1;
+}
+
+.oddLabel {
+	opacity: 0.95;
+}
+
+/* Make the SVG element taller to accommodate labels */
+.categoryChart svg {
+	overflow: visible !important;
+}
+
+/* Standardized chart footer styling */
+/* .chartCard {
+  display: flex;
+  flex-direction: column;
+} */
+
+.chartFooter {
+	margin-top: auto;
+	padding-top: 0.75rem;
+	border-top: 1px solid #e2e8f0;
+	text-align: center;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.chartFooterText {
+	color: #718096;
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+
+/* Dark theme override for chart footer */
+
+:global(.dark) .chartFooter {
+	border-top: 1px solid #1aaec3;
+}
+
+:global(.light) .chartFooter {
+	border-top: 1px solid #dddddd;
+}
+
+:global(.dark) .chartFooterText {
+	color: #a0aec0;
+}
+
+:global(.light) .chartFooterText {
+	color: #00516a;
+}
+
+/* Shared chart card styling */
+.chartCard {
+	padding: 1.25rem; /* 20px */
+	border-radius: 0.35rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	/* border: 1px solid #e5e7eb; */
+	transition: box-shadow 0.3s ease;
+	display: flex;
+	flex-direction: column;
+	/* height: 450px; */
+}
+
+.chartCard:hover {
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+:global(.dark) .chartCard {
+	background-color: #00516a;
+}
+
+:global(.light) .chartCard {
+	background-color: white;
+}
+
+:global(.dark) h2 {
+	color: #1aaec3;
+}
+
+:global(.light) h2 {
+	color: #00516a;
+}

@@ -1,0 +1,3040 @@
+{
+	"count": 25,
+	"next": null,
+	"previous": null,
+	"results": [
+		{
+			"id": 29,
+			"name": "SP Test buyer  - BeneBuyer",
+			"strategic_partner": 28,
+			"suppliers": [
+				{
+					"supplier": 394,
+					"supplier_name": "Crabby Seafoods",
+					"status": "active"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active"
+				},
+				{
+					"supplier": 1110,
+					"supplier_name": "Very Huge Electronics Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 17792,
+					"supplier_name": "Apparel -TH",
+					"status": "active"
+				},
+				{
+					"supplier": 1113,
+					"supplier_name": "Okay Apparel",
+					"status": "active"
+				},
+				{
+					"supplier": 1115,
+					"supplier_name": "Acme Widget Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 18040,
+					"supplier_name": "Wai Hyn Htun",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 27,
+			"name": "Greencore Thailand  Supply Chain",
+			"strategic_partner": 45,
+			"suppliers": [
+				{
+					"supplier": 25,
+					"supplier_name": "B Food Products International (BFI) (Betagro)",
+					"status": "active"
+				},
+				{
+					"supplier": 17823,
+					"supplier_name": "Cargill Meats (Thailand) Limited (Saraburi)",
+					"status": "active"
+				},
+				{
+					"supplier": 17924,
+					"supplier_name": "Cargill Meats Thailand (Korat)",
+					"status": "active"
+				},
+				{
+					"supplier": 17925,
+					"supplier_name": "Cho Heng Rice Vermicelli Factory Co. Ltd",
+					"status": "active"
+				},
+				{ "supplier": 17651, "supplier_name": "CP Ram", "status": "active" },
+				{
+					"supplier": 111,
+					"supplier_name": "CPF (Thailand) Public Company Limited (Ref TH139)",
+					"status": "active"
+				},
+				{
+					"supplier": 112,
+					"supplier_name": "CPF (Thailand) Public Company Limited (Ref TH23/TH36)",
+					"status": "active"
+				},
+				{
+					"supplier": 1173,
+					"supplier_name": "CPRAM Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17928,
+					"supplier_name": "GFPT Nichirei",
+					"status": "active"
+				},
+				{
+					"supplier": 14064,
+					"supplier_name": "Golden Line  Business Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17926,
+					"supplier_name": "Ingredion (Thailand) Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17927,
+					"supplier_name": "Innofresh Co. Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1156,
+					"supplier_name": "Karn Corn Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 193,
+					"supplier_name": "Lakeside Food Group Ltd. (GFPT)",
+					"status": "active"
+				},
+				{
+					"supplier": 17929,
+					"supplier_name": "Pichai Fish Sauce Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17932,
+					"supplier_name": "President Rice Food (Mama)",
+					"status": "active"
+				},
+				{ "supplier": 17931, "supplier_name": "Sunsweet", "status": "active" },
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 9884,
+					"supplier_name": "Thaifoods Group Public Co., Ltd. (EST. 244)",
+					"status": "active"
+				},
+				{
+					"supplier": 17933,
+					"supplier_name": "Vita Food Factory Ltd",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 25,
+			"name": "SKP Malaysia",
+			"strategic_partner": 44,
+			"suppliers": [
+				{
+					"supplier": 17821,
+					"supplier_name": "(SKP -BP) Syarikat Sin Kwang Plastic Industries Sdn. Bhd. (BP Plant)(18591-D)",
+					"status": "active"
+				},
+				{
+					"supplier": 1115,
+					"supplier_name": "Acme Widget Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 17919,
+					"supplier_name": "Bangi Plastics Sdn.Bhd. (227433-H)",
+					"status": "active"
+				},
+				{
+					"supplier": 17876,
+					"supplier_name": "Goodhart Industries Sdn. Bhd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17920,
+					"supplier_name": "Plastictecnic (M) Sdn.Bhd. (30481V)",
+					"status": "active"
+				},
+				{
+					"supplier": 17918,
+					"supplier_name": "S.P.I. Plastic Industries ( M) Sdn . Bhd. (24622-P)",
+					"status": "active"
+				},
+				{
+					"supplier": 17917,
+					"supplier_name": "SKP BM Electronics Sdn Bhd. (1225050X)",
+					"status": "active"
+				},
+				{
+					"supplier": 17921,
+					"supplier_name": "Sun Tong Seng Mould-Tech Sdn.Bhd. (123729-A)",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 24,
+			"name": "Ramatex Malaysia & Thailand",
+			"strategic_partner": 43,
+			"suppliers": [
+				{
+					"supplier": 17843,
+					"supplier_name": "Blueberry Industries Sdn Bhd (RTI)",
+					"status": "active"
+				},
+				{
+					"supplier": 17840,
+					"supplier_name": "Gimmill Industrial (M) Sdn. Bhd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17680,
+					"supplier_name": "Ramatex Textiles Industrial Sdn. Bhd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17839,
+					"supplier_name": "Song Lin Garment SDN BHD",
+					"status": "active"
+				},
+				{
+					"supplier": 17841,
+					"supplier_name": "Song Lin Garment SDN BHD  (OG)",
+					"status": "active"
+				},
+				{
+					"supplier": 17845,
+					"supplier_name": "Tai Wah Garment Industry Sdn. Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 17842,
+					"supplier_name": "Blueberry Industries SDN BHD",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 23,
+			"name": "TAL Group Thailand Supply Chain",
+			"strategic_partner": 42,
+			"suppliers": [
+				{
+					"supplier": 1113,
+					"supplier_name": "Okay Apparel",
+					"status": "active"
+				},
+				{
+					"supplier": 17792,
+					"supplier_name": "Apparel -TH",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 22,
+			"name": "test supply chain",
+			"strategic_partner": 37,
+			"suppliers": [
+				{
+					"supplier": 17792,
+					"supplier_name": "Apparel -TH",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 21,
+			"name": "Twinings Supply Chain",
+			"strategic_partner": 36,
+			"suppliers": [
+				{
+					"supplier": 13714,
+					"supplier_name": "Benjamit Packaging Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1332,
+					"supplier_name": "Cheewawat Group Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17711,
+					"supplier_name": "Pacific Wood Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17682,
+					"supplier_name": "Pastina Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17683,
+					"supplier_name": "PATOUCH CO., LTD.",
+					"status": "active"
+				},
+				{
+					"supplier": 17681,
+					"supplier_name": "PoKKa Ace M Sdn Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 17684,
+					"supplier_name": "Printmaster Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17685,
+					"supplier_name": "Rien Thong Printing (Kimpai) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 8797,
+					"supplier_name": "S.P Petpack Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 8895,
+					"supplier_name": "Saha Wattana Plastic Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17687,
+					"supplier_name": "TTB Industry Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17686,
+					"supplier_name": "URC (Thailand) Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17688,
+					"supplier_name": "Vandapac Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17689,
+					"supplier_name": "WGC CO., LTD.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 20,
+			"name": "Amazon Supply Chain",
+			"strategic_partner": 33,
+			"suppliers": [
+				{
+					"supplier": 17666,
+					"supplier_name": "Chicony Electronics (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17668,
+					"supplier_name": "Cypress Semiconductor – Bangkok",
+					"status": "active"
+				},
+				{
+					"supplier": 17670,
+					"supplier_name": "EPSON PRECISION (THAILAND) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17677,
+					"supplier_name": "GP Batteries (Malaysia) Sdn Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 6645,
+					"supplier_name": "Harmony Electronics (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17674,
+					"supplier_name": "Hitachi Electronic Products (M) Sdn Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "active"
+				},
+				{
+					"supplier": 1147,
+					"supplier_name": "I.S.A. Value Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1159,
+					"supplier_name": "King Pac Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1658,
+					"supplier_name": "Lucky Union Foods Co., Ltd (LUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 2795,
+					"supplier_name": "Mercator Medical (Thailand) Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1169,
+					"supplier_name": "Minigrip (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1170,
+					"supplier_name": "Multibax Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 7809,
+					"supplier_name": "Nisco (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17665,
+					"supplier_name": "NXP Manufacturing (Thailand) Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17678,
+					"supplier_name": "PIAU CHEZ SDN. BHD",
+					"status": "active"
+				},
+				{
+					"supplier": 2468,
+					"supplier_name": "Pj Chonburi Parawood Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17669,
+					"supplier_name": "Plan Creations Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 9345,
+					"supplier_name": "Sri Trang Gloves (Thailand) Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 9346,
+					"supplier_name": "Sri Trang Rubber & Plantation Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5295,
+					"supplier_name": "Stanley Works Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17640,
+					"supplier_name": "TBPI Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 9885,
+					"supplier_name": "Thaihuawei Battery Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17673,
+					"supplier_name": "Thong Thai Textile Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17667,
+					"supplier_name": "Tymphany Acoustic Technology (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17676,
+					"supplier_name": "UG Global Resources Sdn Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 502,
+					"supplier_name": "Unicord Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17675,
+					"supplier_name": "VIGORHOOD SDN BHD",
+					"status": "active"
+				},
+				{
+					"supplier": 17671,
+					"supplier_name": "Western Digital (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17832,
+					"supplier_name": "JEJ Astage Co., Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 19,
+			"name": "Betagro Thailand Supply Chain",
+			"strategic_partner": 30,
+			"suppliers": [
+				{
+					"supplier": 25,
+					"supplier_name": "B Food Products International (BFI) (Betagro)",
+					"status": "active"
+				},
+				{
+					"supplier": 37,
+					"supplier_name": "BFI Broiler Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 167,
+					"supplier_name": "Kai Pann Pipi",
+					"status": "active"
+				},
+				{
+					"supplier": 2388,
+					"supplier_name": "Betagro Agro Industry Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17655,
+					"supplier_name": "Ajinomoto Betagro Frozen Foods (Lopburi)",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 18,
+			"name": "ALDI SUD Thailand Supply Chain",
+			"strategic_partner": 32,
+			"suppliers": [
+				{
+					"supplier": 17654,
+					"supplier_name": "Agrifresh (formerly River Kwai)",
+					"status": "active"
+				},
+				{
+					"supplier": 13,
+					"supplier_name": "Andaman Seafood Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 13641,
+					"supplier_name": "Asian Alliance International Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1122,
+					"supplier_name": "Asian Seafoods Coldstorage Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 13643,
+					"supplier_name": "Asiatic Agro Industry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17663,
+					"supplier_name": "Chia Meng Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17617,
+					"supplier_name": "Chotiwat Manufacturing Co. Ltd (CMC)",
+					"status": "active"
+				},
+				{
+					"supplier": 1136,
+					"supplier_name": "City Farm Interfood Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 6525,
+					"supplier_name": "Gambol (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1144,
+					"supplier_name": "Giantlok (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 6547,
+					"supplier_name": "Global Frozen Food (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 6581,
+					"supplier_name": "Grand Asia Food Industry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "active"
+				},
+				{
+					"supplier": 1147,
+					"supplier_name": "I.S.A. Value Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1148,
+					"supplier_name": "In Season Foods Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 836,
+					"supplier_name": "Innofresh International Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1158,
+					"supplier_name": "KHAO C.P. Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2045,
+					"supplier_name": "KI-Lat Krabang Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1159,
+					"supplier_name": "King Pac Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17846,
+					"supplier_name": "Krs Spicy Food",
+					"status": "active"
+				},
+				{
+					"supplier": 1634,
+					"supplier_name": "Laemthong Food Products Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 14362,
+					"supplier_name": "Lampang Food Products Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 7344,
+					"supplier_name": "Leng Heng Agri Foods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 7408,
+					"supplier_name": "Lucky Cannery Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1658,
+					"supplier_name": "Lucky Union Foods Co., Ltd (LUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 1164,
+					"supplier_name": "Mainly Silver Design",
+					"status": "active"
+				},
+				{
+					"supplier": 217,
+					"supplier_name": "Marine Gold Products Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5273,
+					"supplier_name": "Mattel Bangkok Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17847,
+					"supplier_name": "Maxwell Foods Asia",
+					"status": "active"
+				},
+				{
+					"supplier": 220,
+					"supplier_name": "Merit Food Products Co. Ltd. (MFP)",
+					"status": "active"
+				},
+				{
+					"supplier": 1169,
+					"supplier_name": "Minigrip (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active"
+				},
+				{
+					"supplier": 1170,
+					"supplier_name": "Multibax Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5274,
+					"supplier_name": "Namchow (Thailand) Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5277,
+					"supplier_name": "NR Instant Produce Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17848,
+					"supplier_name": "Nutrix Public Company",
+					"status": "active"
+				},
+				{
+					"supplier": 1806,
+					"supplier_name": "Octa Foods Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 17849, "supplier_name": "Olam Agri", "status": "active" },
+				{ "supplier": 268, "supplier_name": "Pak Foods", "status": "active" },
+				{
+					"supplier": 282,
+					"supplier_name": "Pataya Food Industries Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1945,
+					"supplier_name": "Prime Products Industry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 14923,
+					"supplier_name": "River Kwai International Food Industry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5288,
+					"supplier_name": "Rs Cannery Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 8803,
+					"supplier_name": "S.P.A International Food Group Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 364,
+					"supplier_name": "Seavalue - Unicord II",
+					"status": "active"
+				},
+				{
+					"supplier": 9076,
+					"supplier_name": "Siam Agro-Food Industry Public Co., Ltd. (SAICO)",
+					"status": "active"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 9109,
+					"supplier_name": "Siam International Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 15162,
+					"supplier_name": "Siam Tin Food Products Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 394,
+					"supplier_name": "Crabby Seafoods",
+					"status": "active"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 2924,
+					"supplier_name": "Spring Kitchens Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 9345,
+					"supplier_name": "Sri Trang Gloves (Thailand) Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 15321,
+					"supplier_name": "Suree Interfoods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 9623,
+					"supplier_name": "Takerng Pineapple Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5298,
+					"supplier_name": "Tep Kinsho Foods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5299,
+					"supplier_name": "Thai Coconut Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17850,
+					"supplier_name": "Thai Paper Co (Ratchaburi Ste)",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 826,
+					"supplier_name": "Thai Union Group PCL",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 15463,
+					"supplier_name": "Thai Yod Thip Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 3120,
+					"supplier_name": "Tipco Foods Public Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 5309,
+					"supplier_name": "Tropical Canning (Thailand) Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 502,
+					"supplier_name": "Unicord Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 10243,
+					"supplier_name": "Unity Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17851,
+					"supplier_name": "V & K Pineapple Canning Co. Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 10305,
+					"supplier_name": "Vara Food & Drink Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 3213,
+					"supplier_name": "Wide Faith Foods Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 514,
+					"supplier_name": "Xian-Ning Seafood Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 10559,
+					"supplier_name": "Zhongthai Chemical Fiber Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17852,
+					"supplier_name": "Wohler Household Products",
+					"status": "active"
+				},
+				{
+					"supplier": 9956,
+					"supplier_name": "Thanta (Thailand) Co., Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 17,
+			"name": "Thai Union Thailand Supply Chain",
+			"strategic_partner": 31,
+			"suppliers": [
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 454,
+					"supplier_name": "Thai Union Frozen Products PCL",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 1658,
+					"supplier_name": "Lucky Union Foods Co., Ltd (LUF)",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 16,
+			"name": "Tesco Supply Chain",
+			"strategic_partner": 5,
+			"suppliers": [
+				{
+					"supplier": 25,
+					"supplier_name": "B Food Products International (BFI) (Betagro)",
+					"status": "active"
+				},
+				{
+					"supplier": 5743,
+					"supplier_name": "Better Foods Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 50,
+					"supplier_name": "Cargill Meats Thailand Ltd. (Bangkok)",
+					"status": "inactive"
+				},
+				{ "supplier": 17651, "supplier_name": "CP Ram", "status": "active" },
+				{
+					"supplier": 1369,
+					"supplier_name": "CPF (Thailand) Public Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 111,
+					"supplier_name": "CPF (Thailand) Public Company Limited (Ref TH139)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 17656,
+					"supplier_name": "CPF (Thailand) Public Company Limited (Ref TH21)",
+					"status": "active"
+				},
+				{
+					"supplier": 112,
+					"supplier_name": "CPF (Thailand) Public Company Limited (Ref TH23/TH36)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 17649,
+					"supplier_name": "CPF Bangna (TH18)",
+					"status": "active"
+				},
+				{
+					"supplier": 17630,
+					"supplier_name": "CPF Saraburi TH36 (Formerly BKP)",
+					"status": "active"
+				},
+				{
+					"supplier": 17822,
+					"supplier_name": "Euro SME Sdn Bhd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 17816,
+					"supplier_name": "Everts (Malaysia) Sdn. Bhd",
+					"status": "inactive"
+				},
+				{
+					"supplier": 14064,
+					"supplier_name": "Golden Line  Business Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 17653,
+					"supplier_name": "International Fruit",
+					"status": "inactive"
+				},
+				{
+					"supplier": 17854,
+					"supplier_name": "Karex Industries Sdn Bhd - ( Pontian)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 1159,
+					"supplier_name": "King Pac Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17652,
+					"supplier_name": "Klang Co. Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 17650, "supplier_name": "Korat", "status": "active" },
+				{
+					"supplier": 193,
+					"supplier_name": "Lakeside Food Group Ltd. (GFPT)",
+					"status": "active"
+				},
+				{
+					"supplier": 17764,
+					"supplier_name": "Mapa Gloves SDN. BHD. (Ipoh)",
+					"status": "active"
+				},
+				{
+					"supplier": 17818,
+					"supplier_name": "Mapa Gloves SDN. BHD. (Penang)",
+					"status": "active"
+				},
+				{
+					"supplier": 17870,
+					"supplier_name": "Medical-Latex (DUA) Sdn. Bhd.",
+					"status": "active"
+				},
+				{
+					"supplier": 220,
+					"supplier_name": "Merit Food Products Co. Ltd. (MFP)",
+					"status": "active"
+				},
+				{
+					"supplier": 5277,
+					"supplier_name": "NR Instant Produce Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 8887,
+					"supplier_name": "Saha Farms Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 9076,
+					"supplier_name": "Siam Agro-Food Industry Public Co., Ltd. (SAICO)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 826,
+					"supplier_name": "Thai Union Group PCL",
+					"status": "inactive"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 2087,
+					"supplier_name": "Zenith Baby Care Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17819,
+					"supplier_name": "Delisauce World Foods",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "Sea Farms Thailand Supply Chain",
+			"strategic_partner": 19,
+			"suppliers": [
+				{
+					"supplier": 14,
+					"supplier_name": "Anusorn Farm Group",
+					"status": "active"
+				},
+				{
+					"supplier": 114,
+					"supplier_name": "CPF Banpru Aquatic Feed Mill",
+					"status": "active"
+				},
+				{
+					"supplier": 6458,
+					"supplier_name": "Fishmeal Marketing Development Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 129,
+					"supplier_name": "Fungdang Farm",
+					"status": "active"
+				},
+				{ "supplier": 130, "supplier_name": "GN3 Farm", "status": "active" },
+				{
+					"supplier": 6567,
+					"supplier_name": "Golden Prize Canning Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 133,
+					"supplier_name": "Happy Farm 8",
+					"status": "active"
+				},
+				{
+					"supplier": 187,
+					"supplier_name": "Krissana Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 191,
+					"supplier_name": "Kwanmuang Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 320,
+					"supplier_name": "Raksiri Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 352,
+					"supplier_name": "Sakultala Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 363,
+					"supplier_name": "Seafresh Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 362,
+					"supplier_name": "Seafresh Industry Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 17642,
+					"supplier_name": "Srisuban Farm 1",
+					"status": "active"
+				},
+				{
+					"supplier": 17643,
+					"supplier_name": "Srisuban Farm 2",
+					"status": "active"
+				},
+				{
+					"supplier": 17644,
+					"supplier_name": "Srisuban Farm 3",
+					"status": "active"
+				},
+				{
+					"supplier": 17645,
+					"supplier_name": "Srisuban Farm 4",
+					"status": "active"
+				},
+				{
+					"supplier": 17647,
+					"supplier_name": "Srisuban Farm 6",
+					"status": "active"
+				},
+				{
+					"supplier": 17648,
+					"supplier_name": "Srisuban Farm 7",
+					"status": "active"
+				},
+				{ "supplier": 438, "supplier_name": "Tawan Farm", "status": "active" },
+				{
+					"supplier": 450,
+					"supplier_name": "Thai Pacific Aquaculture",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 456,
+					"supplier_name": "Thai Union Hatchery Co. Ltd. (TUH)",
+					"status": "active"
+				},
+				{
+					"supplier": 487,
+					"supplier_name": "TRF Fishmeal Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 511,
+					"supplier_name": "Woravit Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 13641,
+					"supplier_name": "Asian Alliance International Co., Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "Red Lobster Thailand Supply Chain",
+			"strategic_partner": 7,
+			"suppliers": [
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 268, "supplier_name": "Pak Foods", "status": "active" },
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 456,
+					"supplier_name": "Thai Union Hatchery Co. Ltd. (TUH)",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 1658,
+					"supplier_name": "Lucky Union Foods Co., Ltd (LUF)",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "Walmart Thailand Supply Chain",
+			"strategic_partner": 4,
+			"suppliers": [
+				{
+					"supplier": 179,
+					"supplier_name": "Kitchens of the Oceans (Thailand) Co., Ltd. (KOTO)",
+					"status": "active"
+				},
+				{
+					"supplier": 217,
+					"supplier_name": "Marine Gold Products Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 219,
+					"supplier_name": "May Ao Foods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 365,
+					"supplier_name": "Siam Del Monte Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "active"
+				},
+				{
+					"supplier": 454,
+					"supplier_name": "Thai Union Frozen Products PCL",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 503,
+					"supplier_name": "Unique Sea Products Co, Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 514,
+					"supplier_name": "Xian-Ning Seafood Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 794,
+					"supplier_name": "Prepack Thailand Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1084,
+					"supplier_name": "Cal-Comp Electronics (Thailand) Public Co., Ltd. - Samut Sakhon",
+					"status": "active"
+				},
+				{
+					"supplier": 1109,
+					"supplier_name": "Thai Progress Garment Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1110,
+					"supplier_name": "Very Huge Electronics Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 1117,
+					"supplier_name": "3J Jewelry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1118,
+					"supplier_name": "Alaw Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1119,
+					"supplier_name": "Alfa Sport Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1120,
+					"supplier_name": "Allure Jewelry Mfg. Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1121,
+					"supplier_name": "Almond (Thailand) Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1122,
+					"supplier_name": "Asian Seafoods Coldstorage Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1124,
+					"supplier_name": "Beauty Gems Factory Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1125,
+					"supplier_name": "Bella Jewelry (Factory) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1126,
+					"supplier_name": "Bangsue Chia Meng Rice Mill Co., Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 1127, "supplier_name": "Blue River", "status": "active" },
+				{
+					"supplier": 1128,
+					"supplier_name": "C.C.D. Jewelry",
+					"status": "active"
+				},
+				{
+					"supplier": 1130,
+					"supplier_name": "Capital Rayon Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1131,
+					"supplier_name": "Capital Rice Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1132,
+					"supplier_name": "Chanthaburi Frozen Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1133,
+					"supplier_name": "Charoen Pokphand Foods Public Co., Ltd. - Klang",
+					"status": "active"
+				},
+				{
+					"supplier": 1134,
+					"supplier_name": "Charoen Pokphand Foods Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1135,
+					"supplier_name": "Chiang Mai Frozen Foods Public Co., Ltd. (2nd Factory)",
+					"status": "active"
+				},
+				{
+					"supplier": 1136,
+					"supplier_name": "City Farm Interfood Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1139,
+					"supplier_name": "E.L.F. Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1140,
+					"supplier_name": "Estano Jewelry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1141,
+					"supplier_name": "Fashion Hometex Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1143,
+					"supplier_name": "Funai (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1144,
+					"supplier_name": "Giantlok (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1145,
+					"supplier_name": "Golden Seafood International Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1146,
+					"supplier_name": "Good Luck Product Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1147,
+					"supplier_name": "I.S.A. Value Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1148,
+					"supplier_name": "In Season Foods Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1149,
+					"supplier_name": "Intercontinental Jewelry Manufacturing Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1150,
+					"supplier_name": "Inthorn Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1151,
+					"supplier_name": "Jewels Agent",
+					"status": "active"
+				},
+				{
+					"supplier": 1152,
+					"supplier_name": "Jiab Hong Garment Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1153,
+					"supplier_name": "Jintai Chituan (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1155,
+					"supplier_name": "K.M.C. Inter Rice (2002) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1156,
+					"supplier_name": "Karn Corn Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1157,
+					"supplier_name": "Kennet Textile Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1158,
+					"supplier_name": "KHAO C.P. Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1159,
+					"supplier_name": "King Pac Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1160,
+					"supplier_name": "Kuiburi Fruit Cup Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1162,
+					"supplier_name": "Luckytex Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1163,
+					"supplier_name": "M.S.R. Paperbox Company Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1164,
+					"supplier_name": "Mainly Silver Design",
+					"status": "active"
+				},
+				{
+					"supplier": 1165,
+					"supplier_name": "Majorette Thailand Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1166,
+					"supplier_name": "Master Glove Industry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1167,
+					"supplier_name": "Merry Electronics (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1168,
+					"supplier_name": "Meyer Industries Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1169,
+					"supplier_name": "Minigrip (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1170,
+					"supplier_name": "Multibax Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1369,
+					"supplier_name": "CPF (Thailand) Public Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1430,
+					"supplier_name": "First Canned Food (Thai) Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1878,
+					"supplier_name": "Phatthana Frozen Food Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1945,
+					"supplier_name": "Prime Products Industry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2088,
+					"supplier_name": "Zenith Infant Products Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 2468,
+					"supplier_name": "Pj Chonburi Parawood Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 2560,
+					"supplier_name": "Jolly Textile Industry Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 2683,
+					"supplier_name": "Regal Jewelry Manufacture Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2727,
+					"supplier_name": "Sea Wealth Frozen Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2791,
+					"supplier_name": "Safe Glove Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2811,
+					"supplier_name": "Universal Sporting Goods (Thai) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 3075,
+					"supplier_name": "Thai Royal Frozen Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 3120,
+					"supplier_name": "Tipco Foods Public Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 5273,
+					"supplier_name": "Mattel Bangkok Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5274,
+					"supplier_name": "Namchow (Thailand) Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5275,
+					"supplier_name": "New Asia Sports Goods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5276,
+					"supplier_name": "Normerica (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5277,
+					"supplier_name": "NR Instant Produce Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5278,
+					"supplier_name": "Ocean Glass Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5279,
+					"supplier_name": "Orogems Manufacturing Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5280,
+					"supplier_name": "Oshi Jewels Co., Ltd. (1 & 2)",
+					"status": "active"
+				},
+				{
+					"supplier": 5281,
+					"supplier_name": "Pakfood Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5282,
+					"supplier_name": "Pan Inter Foods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5283,
+					"supplier_name": "Premium Foods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5284,
+					"supplier_name": "PVM Digicut Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5285,
+					"supplier_name": "Raja Porcelain Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5286,
+					"supplier_name": "Rein & Fresh Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5287,
+					"supplier_name": "Relation Frame Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5288,
+					"supplier_name": "Rs Cannery Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5289,
+					"supplier_name": "S.T.(Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5290,
+					"supplier_name": "Sahakij Packaging  Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5292,
+					"supplier_name": "Sathaporn Marketing Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5293,
+					"supplier_name": "Siam Toppan Packaging Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5294,
+					"supplier_name": "Srimitr Intertrade Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5295,
+					"supplier_name": "Stanley Works Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5297,
+					"supplier_name": "Ten O Five Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5298,
+					"supplier_name": "Tep Kinsho Foods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5299,
+					"supplier_name": "Thai Coconut Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5301,
+					"supplier_name": "Thai First Enamel Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5302,
+					"supplier_name": "Thai Haso Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5303,
+					"supplier_name": "Thai I-Mei Frozen Foods Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5304,
+					"supplier_name": "Thanyathip Rice Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5305,
+					"supplier_name": "Tiger Jewelry Manufacturing (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5307,
+					"supplier_name": "Tombow (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5308,
+					"supplier_name": "Topaz B.K.K. Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5309,
+					"supplier_name": "Tropical Canning (Thailand) Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5310,
+					"supplier_name": "Union Button Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5311,
+					"supplier_name": "Uni-President (Thailand) Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5312,
+					"supplier_name": "Universal Polybag, Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5314,
+					"supplier_name": "Univox Manufacturing Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5315,
+					"supplier_name": "Uthai Produce Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5316,
+					"supplier_name": "Vega Balls Manufacturing Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 8937,
+					"supplier_name": "Salamandar Jewelry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 9076,
+					"supplier_name": "Siam Agro-Food Industry Public Co., Ltd. (SAICO)",
+					"status": "active"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 9773,
+					"supplier_name": "Thai Fashions Plastic Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 10305,
+					"supplier_name": "Vara Food & Drink Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 13958,
+					"supplier_name": "Dole Thailand Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 14384,
+					"supplier_name": "Lim Line Apparel  Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17639,
+					"supplier_name": "Golden Foods Siam Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17640,
+					"supplier_name": "TBPI Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17641,
+					"supplier_name": "Thai Nippon Rubber Industry Co. Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "Lyon Seafoods / Labeyrie Fine Foods Thailand Supply Chain",
+			"strategic_partner": 18,
+			"suppliers": [
+				{
+					"supplier": 45,
+					"supplier_name": "Burapa Farm - Lamdang",
+					"status": "active"
+				},
+				{
+					"supplier": 47,
+					"supplier_name": "Burapa Farm - Sarasin",
+					"status": "active"
+				},
+				{
+					"supplier": 66,
+					"supplier_name": "Chock Wallapa",
+					"status": "active"
+				},
+				{
+					"supplier": 85,
+					"supplier_name": "Chokthong Fishmeal Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17633,
+					"supplier_name": "East Asia Aquaculture Hatchery",
+					"status": "active"
+				},
+				{
+					"supplier": 120,
+					"supplier_name": "East Asia Aquaculture IOM Group 4 (Tanun)",
+					"status": "active"
+				},
+				{
+					"supplier": 121,
+					"supplier_name": "East Asia Aquaculture IOM Group 4 (Chaing Mai)",
+					"status": "active"
+				},
+				{
+					"supplier": 122,
+					"supplier_name": "East Asia Aquaculture IOM Group 4 (Khoa Thao)",
+					"status": "active"
+				},
+				{
+					"supplier": 123,
+					"supplier_name": "East Asia Aquaculture IOM Group 4 (Nai Young)",
+					"status": "active"
+				},
+				{
+					"supplier": 124,
+					"supplier_name": "East Asia Aquaculture IOM Group 4 (Titae)",
+					"status": "active"
+				},
+				{
+					"supplier": 6612,
+					"supplier_name": "Grobest Corporation Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 295,
+					"supplier_name": "Plutalaung Hatchery",
+					"status": "active"
+				},
+				{
+					"supplier": 321,
+					"supplier_name": "Siam Fishmeal",
+					"status": "active"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 429,
+					"supplier_name": "T.C. Union Agrotech",
+					"status": "active"
+				},
+				{
+					"supplier": 9558,
+					"supplier_name": "T.C. Union Agrotech Co., Ltd. ",
+					"status": "active"
+				},
+				{
+					"supplier": 441,
+					"supplier_name": "TCM Fishery Co., Ltd  (Farm)",
+					"status": "active"
+				},
+				{
+					"supplier": 443,
+					"supplier_name": "Teppama Fishmeal Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 17632,
+					"supplier_name": "Thai Union Frozen IOM Farm Group 4 (PK Farm 1)",
+					"status": "active"
+				},
+				{
+					"supplier": 453,
+					"supplier_name": "Thai Union Frozen IOM Farm Group 4 (PK Farm 2)",
+					"status": "active"
+				},
+				{
+					"supplier": 456,
+					"supplier_name": "Thai Union Hatchery Co. Ltd. (TUH)",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 487,
+					"supplier_name": "TRF Fishmeal Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 514,
+					"supplier_name": "Xian-Ning Seafood Co., Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 515, "supplier_name": "XN Farm", "status": "active" },
+				{
+					"supplier": 516,
+					"supplier_name": "XN Prachuab (Kwanjai)",
+					"status": "active"
+				},
+				{
+					"supplier": 1658,
+					"supplier_name": "Lucky Union Foods Co., Ltd (LUF)",
+					"status": "inactive"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "Sainsburys Thailand Supply Chain",
+			"strategic_partner": 12,
+			"suppliers": [
+				{
+					"supplier": 18024,
+					"supplier_name": "ATH BKK Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17630,
+					"supplier_name": "CPF Saraburi TH36 (Formerly BKP)",
+					"status": "active"
+				},
+				{
+					"supplier": 17624,
+					"supplier_name": "Eastern Chinaware Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 18029,
+					"supplier_name": "Jewelry Princess Manufacturing Co Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1159,
+					"supplier_name": "King Pac Industrial Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 18030,
+					"supplier_name": "KL-Kepong Rubber Products",
+					"status": "active"
+				},
+				{
+					"supplier": 18031,
+					"supplier_name": "Linaco Specialty Industries Sdn. Bhd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1658,
+					"supplier_name": "Lucky Union Foods Co., Ltd (LUF)",
+					"status": "inactive"
+				},
+				{
+					"supplier": 18028,
+					"supplier_name": "MG FURNITURE SDN BHD",
+					"status": "active"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 18025,
+					"supplier_name": "P.K. SILVER GROUP CO LTD",
+					"status": "active"
+				},
+				{
+					"supplier": 2468,
+					"supplier_name": "Pj Chonburi Parawood Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17631,
+					"supplier_name": "S&J Thailand, Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5289,
+					"supplier_name": "S.T.(Thailand) Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 8937,
+					"supplier_name": "Salamandar Jewelry Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 362,
+					"supplier_name": "Seafresh Industry Public Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 18027,
+					"supplier_name": "Synergy Wood Product SDN BHD",
+					"status": "active"
+				},
+				{
+					"supplier": 18026,
+					"supplier_name": "Synergy Wood Products Sdn Bhd",
+					"status": "inactive"
+				},
+				{
+					"supplier": 5299,
+					"supplier_name": "Thai Coconut Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 3120,
+					"supplier_name": "Tipco Foods Public Co., Ltd",
+					"status": "inactive"
+				},
+				{
+					"supplier": 502,
+					"supplier_name": "Unicord Public Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 514,
+					"supplier_name": "Xian-Ning Seafood Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 2087,
+					"supplier_name": "Zenith Baby Care Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 1164,
+					"supplier_name": "Mainly Silver Design",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Waitrose Thailand Supply Chain",
+			"strategic_partner": 6,
+			"suppliers": [
+				{
+					"supplier": 17623,
+					"supplier_name": "Acme 1975 Co Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 17826, "supplier_name": "CKF Rods", "status": "active" },
+				{
+					"supplier": 17827,
+					"supplier_name": "CY-Handee Rubber Mouldings SDN BHD",
+					"status": "active"
+				},
+				{
+					"supplier": 17819,
+					"supplier_name": "Delisauce World Foods",
+					"status": "active"
+				},
+				{
+					"supplier": 17624,
+					"supplier_name": "Eastern Chinaware Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 128,
+					"supplier_name": "Food and Drinks Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17626,
+					"supplier_name": "Hove D.K. Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17625,
+					"supplier_name": "Indra Ceramic Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17627,
+					"supplier_name": "Janome (Thailand) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17828,
+					"supplier_name": "Klotz International Industries Sdn Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 220,
+					"supplier_name": "Merit Food Products Co. Ltd. (MFP)",
+					"status": "active"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active"
+				},
+				{
+					"supplier": 1170,
+					"supplier_name": "Multibax Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5278,
+					"supplier_name": "Ocean Glass Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17831,
+					"supplier_name": "Peri-dent Star Sdn Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 17628,
+					"supplier_name": "Quality Ceramic Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 364,
+					"supplier_name": "Seavalue - Unicord II",
+					"status": "active"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 17830,
+					"supplier_name": "Sicotech Industries",
+					"status": "active"
+				},
+				{
+					"supplier": 394,
+					"supplier_name": "Crabby Seafoods",
+					"status": "active"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 454,
+					"supplier_name": "Thai Union Frozen Products PCL",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 17629,
+					"supplier_name": "U.V. Glass Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 502,
+					"supplier_name": "Unicord Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17829,
+					"supplier_name": "Vision Worth Sdn Bhd",
+					"status": "active"
+				},
+				{
+					"supplier": 514,
+					"supplier_name": "Xian-Ning Seafood Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17764,
+					"supplier_name": "Mapa Gloves SDN. BHD. (Ipoh)",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "Nike Thailand Supply Chain",
+			"strategic_partner": 22,
+			"suppliers": [
+				{
+					"supplier": 2577,
+					"supplier_name": "Cassia Garment Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 5327,
+					"supplier_name": "Everest Textile Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2620,
+					"supplier_name": "Future Garment Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2576,
+					"supplier_name": "Hi-Tech Apparel Co., Ltd. (Branch 70)",
+					"status": "active"
+				},
+				{
+					"supplier": 5319,
+					"supplier_name": "Hi-Tech Apparel Co., Ltd. (Soi 91)",
+					"status": "active"
+				},
+				{
+					"supplier": 5320,
+					"supplier_name": "Hi-Tech Chaiyaphum Apparel Co., Ltd. (Lat Yai)",
+					"status": "active"
+				},
+				{
+					"supplier": 5322,
+					"supplier_name": "Hi-Tech Chaiyaphum Apparel Co., Ltd. (Na Siao)",
+					"status": "active"
+				},
+				{
+					"supplier": 6672,
+					"supplier_name": "Hi-Tech Surin Apparel Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2588,
+					"supplier_name": "Nan Yang Garment Co., Ltd.  (Bangkok)",
+					"status": "active"
+				},
+				{
+					"supplier": 17662,
+					"supplier_name": "Nan Yang Garment Co., Ltd. (Nakhon Pathom)",
+					"status": "active"
+				},
+				{
+					"supplier": 2306,
+					"supplier_name": "Nan Yang Knitting Factory Co., Ltd. (Samut Sakhon)",
+					"status": "active"
+				},
+				{
+					"supplier": 5324,
+					"supplier_name": "Nice Apparel Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 8253,
+					"supplier_name": "Pilot Knit Sport Wear Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5317,
+					"supplier_name": "Raja Uchino Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5318,
+					"supplier_name": "Thai Sock Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 2811,
+					"supplier_name": "Universal Sporting Goods (Thai) Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 10328,
+					"supplier_name": "Vertex Apparel Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 5328,
+					"supplier_name": "YRC Textile Co., Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Nestle Purina Thailand Supply Chain",
+			"strategic_partner": 10,
+			"suppliers": [
+				{
+					"supplier": 43,
+					"supplier_name": "Burapa Farm - Chiang Mai ",
+					"status": "active"
+				},
+				{
+					"supplier": 44,
+					"supplier_name": "Burapa Farm - Khao Thao ",
+					"status": "active"
+				},
+				{
+					"supplier": 45,
+					"supplier_name": "Burapa Farm - Lamdang",
+					"status": "active"
+				},
+				{
+					"supplier": 46,
+					"supplier_name": "Burapa Farm - Nai Yong ",
+					"status": "active"
+				},
+				{
+					"supplier": 47,
+					"supplier_name": "Burapa Farm - Sarasin",
+					"status": "active"
+				},
+				{
+					"supplier": 48,
+					"supplier_name": "Burapa Farm - Tanun ",
+					"status": "active"
+				},
+				{
+					"supplier": 49,
+					"supplier_name": "Burapa Farm - Titae ",
+					"status": "active"
+				},
+				{
+					"supplier": 50,
+					"supplier_name": "Cargill Meats Thailand Ltd. (Bangkok)",
+					"status": "active"
+				},
+				{
+					"supplier": 6422,
+					"supplier_name": "F & F Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 391,
+					"supplier_name": "I-TAIL CORPORATION PUBLIC COMPANY LIMITED/ (SCC)",
+					"status": "active"
+				},
+				{
+					"supplier": 171,
+					"supplier_name": "KF Foods Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 182,
+					"supplier_name": "Klongnamkem Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 17636,
+					"supplier_name": "Leam O Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 1658,
+					"supplier_name": "Lucky Union Foods Co., Ltd (LUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 17634,
+					"supplier_name": "Maruha Nichiro Co., Ltd. (Thailand)",
+					"status": "active"
+				},
+				{
+					"supplier": 18034,
+					"supplier_name": "N & J AQUA PRODUCTS COMPANY LIMITED (NAJ)",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 258,
+					"supplier_name": "P.O.P. Intertrade Co, Ltd. ",
+					"status": "active"
+				},
+				{ "supplier": 265, "supplier_name": "Paisan Farm", "status": "active" },
+				{ "supplier": 293, "supplier_name": "PK Farm", "status": "active" },
+				{
+					"supplier": 17638,
+					"supplier_name": "Sanuansin Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 386,
+					"supplier_name": "Sompol Mhardsam",
+					"status": "active"
+				},
+				{
+					"supplier": 390,
+					"supplier_name": "Songchai Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 394,
+					"supplier_name": "Crabby Seafoods",
+					"status": "active"
+				},
+				{
+					"supplier": 178,
+					"supplier_name": "Fish Seafood Co.",
+					"status": "active"
+				},
+				{ "supplier": 418, "supplier_name": "Suksan Farm", "status": "active" },
+				{
+					"supplier": 2970,
+					"supplier_name": "Sunfood International Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 17637,
+					"supplier_name": "Tardsin Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 441,
+					"supplier_name": "TCM Fishery Co., Ltd  (Farm)",
+					"status": "active"
+				},
+				{
+					"supplier": 451,
+					"supplier_name": "Thai Union Feedmill Co., Ltd. (TFM)",
+					"status": "active"
+				},
+				{
+					"supplier": 455,
+					"supplier_name": "Thai Union Frozen Foods (TUF)",
+					"status": "active"
+				},
+				{
+					"supplier": 17632,
+					"supplier_name": "Thai Union Frozen IOM Farm Group 4 (PK Farm 1)",
+					"status": "active"
+				},
+				{
+					"supplier": 453,
+					"supplier_name": "Thai Union Frozen IOM Farm Group 4 (PK Farm 2)",
+					"status": "active"
+				},
+				{
+					"supplier": 457,
+					"supplier_name": "Thai Union Manufacturing Co., Ltd. (TUM)",
+					"status": "active"
+				},
+				{
+					"supplier": 458,
+					"supplier_name": "Thai Union Seafood Songkhla (TUS)",
+					"status": "active"
+				},
+				{
+					"supplier": 9777,
+					"supplier_name": "ThaiFoods Group Public Co., Ltd (EST.119)",
+					"status": "active"
+				},
+				{
+					"supplier": 9884,
+					"supplier_name": "Thaifoods Group Public Co., Ltd. (EST. 244)",
+					"status": "active"
+				},
+				{
+					"supplier": 482,
+					"supplier_name": "TMK Farm Co., Ltd. - TMK1",
+					"status": "active"
+				},
+				{
+					"supplier": 483,
+					"supplier_name": "TMK Farm Co., Ltd. - TMK2",
+					"status": "active"
+				},
+				{
+					"supplier": 489,
+					"supplier_name": "Trimarine International (PTE.) Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 490, "supplier_name": "TSM 1 Farm", "status": "active" },
+				{ "supplier": 491, "supplier_name": "TSM 11", "status": "active" },
+				{ "supplier": 492, "supplier_name": "TSM 13 Farm", "status": "active" },
+				{ "supplier": 493, "supplier_name": "TSM 18", "status": "active" },
+				{ "supplier": 495, "supplier_name": "TSM 6", "status": "active" },
+				{
+					"supplier": 17635,
+					"supplier_name": "Tsubaki  Foods Service Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 18033,
+					"supplier_name": "Supackchaya Panthawip (SPY)",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "M&S Thailand Supply Chain",
+			"strategic_partner": 8,
+			"suppliers": [
+				{
+					"supplier": 128,
+					"supplier_name": "Food and Drinks Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 220,
+					"supplier_name": "Merit Food Products Co. Ltd. (MFP)",
+					"status": "active"
+				},
+				{
+					"supplier": 227,
+					"supplier_name": "Sunshine Seafood",
+					"status": "active"
+				},
+				{
+					"supplier": 362,
+					"supplier_name": "Seafresh Industry Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 365,
+					"supplier_name": "Siam Del Monte Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1109,
+					"supplier_name": "Thai Progress Garment Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 1943,
+					"supplier_name": "President Rice Products Public Co., Ltd",
+					"status": "active"
+				},
+				{
+					"supplier": 5278,
+					"supplier_name": "Ocean Glass Public Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 9095,
+					"supplier_name": "Tropical Fruit Co.",
+					"status": "active"
+				},
+				{
+					"supplier": 17624,
+					"supplier_name": "Eastern Chinaware Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 17629,
+					"supplier_name": "U.V. Glass Co., Ltd.",
+					"status": "inactive"
+				},
+				{
+					"supplier": 17631,
+					"supplier_name": "S&J Thailand, Public Co., Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 17659, "supplier_name": "Siamrak", "status": "inactive" },
+				{
+					"supplier": 17660,
+					"supplier_name": "Woodman Industries, Co. Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "HP Thailand Supply Chain",
+			"strategic_partner": 13,
+			"suppliers": [
+				{
+					"supplier": 1084,
+					"supplier_name": "Cal-Comp Electronics (Thailand) Public Co., Ltd. - Samut Sakhon",
+					"status": "active"
+				},
+				{
+					"supplier": 1110,
+					"supplier_name": "Very Huge Electronics Co.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Beaver Street Fisheries Thailand Supply Chain",
+			"strategic_partner": 16,
+			"suppliers": [
+				{ "supplier": 15, "supplier_name": "Arthit Farm", "status": "active" },
+				{
+					"supplier": 42,
+					"supplier_name": "Burapa Farm  - Klong Hin 1",
+					"status": "active"
+				},
+				{
+					"supplier": 43,
+					"supplier_name": "Burapa Farm - Chiang Mai ",
+					"status": "active"
+				},
+				{
+					"supplier": 44,
+					"supplier_name": "Burapa Farm - Khao Thao ",
+					"status": "active"
+				},
+				{
+					"supplier": 45,
+					"supplier_name": "Burapa Farm - Lamdang",
+					"status": "active"
+				},
+				{
+					"supplier": 46,
+					"supplier_name": "Burapa Farm - Nai Yong ",
+					"status": "active"
+				},
+				{
+					"supplier": 47,
+					"supplier_name": "Burapa Farm - Sarasin",
+					"status": "active"
+				},
+				{
+					"supplier": 48,
+					"supplier_name": "Burapa Farm - Tanun ",
+					"status": "active"
+				},
+				{
+					"supplier": 49,
+					"supplier_name": "Burapa Farm - Titae ",
+					"status": "active"
+				},
+				{
+					"supplier": 72,
+					"supplier_name": "Chokechai Shrimp Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 151,
+					"supplier_name": "Juree Farm 16",
+					"status": "active"
+				},
+				{
+					"supplier": 180,
+					"supplier_name": "Kitsada Farm 2",
+					"status": "active"
+				},
+				{
+					"supplier": 182,
+					"supplier_name": "Klongnamkem Farm",
+					"status": "active"
+				},
+				{ "supplier": 192, "supplier_name": "Laem O Farm", "status": "active" },
+				{
+					"supplier": 217,
+					"supplier_name": "Marine Gold Products Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 248,
+					"supplier_name": "Okeanos Food Co., Ltd.",
+					"status": "active"
+				},
+				{ "supplier": 265, "supplier_name": "Paisan Farm", "status": "active" },
+				{ "supplier": 268, "supplier_name": "Pak Foods", "status": "active" },
+				{
+					"supplier": 295,
+					"supplier_name": "Plutalaung Hatchery",
+					"status": "active"
+				},
+				{ "supplier": 318, "supplier_name": "Rachan Farm", "status": "active" },
+				{
+					"supplier": 372,
+					"supplier_name": "Sinphirom Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 390,
+					"supplier_name": "Songchai Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 413,
+					"supplier_name": "Srivichai farm",
+					"status": "active"
+				},
+				{ "supplier": 418, "supplier_name": "Suksan Farm", "status": "active" },
+				{
+					"supplier": 420,
+					"supplier_name": "Sununtha Farm",
+					"status": "active"
+				},
+				{
+					"supplier": 439,
+					"supplier_name": "Tawan Hatchery",
+					"status": "active"
+				},
+				{
+					"supplier": 482,
+					"supplier_name": "TMK Farm Co., Ltd. - TMK1",
+					"status": "active"
+				},
+				{
+					"supplier": 483,
+					"supplier_name": "TMK Farm Co., Ltd. - TMK2",
+					"status": "active"
+				},
+				{
+					"supplier": 486,
+					"supplier_name": "Tradsin Farm",
+					"status": "active"
+				},
+				{ "supplier": 490, "supplier_name": "TSM 1 Farm", "status": "active" },
+				{ "supplier": 491, "supplier_name": "TSM 11", "status": "active" },
+				{ "supplier": 492, "supplier_name": "TSM 13 Farm", "status": "active" },
+				{ "supplier": 493, "supplier_name": "TSM 18", "status": "active" },
+				{ "supplier": 494, "supplier_name": "TSM 3", "status": "active" },
+				{ "supplier": 495, "supplier_name": "TSM 6", "status": "active" },
+				{
+					"supplier": 15265,
+					"supplier_name": "Srisuban Farm Co., Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Sumitomo Thailand Supply Chain",
+			"strategic_partner": 27,
+			"suppliers": [
+				{
+					"supplier": 15294,
+					"supplier_name": "Sumitomo Electric Wiring Systems (Thailand) Co., Ltd.",
+					"status": "active"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "Burberry Thailand Supply Chain",
+			"strategic_partner": 26,
+			"suppliers": [
+				{
+					"supplier": 1111,
+					"supplier_name": "Ladybird Garment Co., Ltd.",
+					"status": "active"
+				},
+				{
+					"supplier": 1113,
+					"supplier_name": "Okay Apparel",
+					"status": "active"
+				},
+				{
+					"supplier": 15464,
+					"supplier_name": "Thai-Garment Products PLC",
+					"status": "active"
+				},
+				{
+					"supplier": 17792,
+					"supplier_name": "Apparel -TH",
+					"status": "active"
+				}
+			]
+		}
+	]
+}

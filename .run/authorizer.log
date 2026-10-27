@@ -1,0 +1,18 @@
+2026-10-27 10:31:53,013 - src.issara_authorizer.web - INFO - 🚀 Central Auth Service Starting...
+2026-10-27 10:31:53,014 - src.issara_authorizer.web - INFO - 🔗 Login URL: http://localhost:9000/login
+2026-10-27 10:31:53,014 - src.issara_authorizer.web - INFO - 📍 Callback URL: http://localhost:9000/auth/callback
+ * Serving Flask app 'src.issara_authorizer.web'
+ * Debug mode: on
+2026-10-27 10:31:53,105 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.168.0.137:9000
+2026-10-27 10:31:53,105 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-10-27 10:31:53,106 - werkzeug - INFO -  * Restarting with stat
+2026-10-27 10:31:53,506 - src.issara_authorizer.web - INFO - 🚀 Central Auth Service Starting...
+2026-10-27 10:31:53,506 - src.issara_authorizer.web - INFO - 🔗 Login URL: http://localhost:9000/login
+2026-10-27 10:31:53,506 - src.issara_authorizer.web - INFO - 📍 Callback URL: http://localhost:9000/auth/callback
+2026-10-27 10:31:53,528 - werkzeug - WARNING -  * Debugger is active!
+2026-10-27 10:31:53,542 - werkzeug - INFO -  * Debugger PIN: 130-264-224
+/opt/homebrew/Cellar/python@3.10/3.10.22_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

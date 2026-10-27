@@ -1,0 +1,102 @@
+{% comment %}
+A partner organization has been named as the receiving organization of a CSO
+Worker Voice call (`cases.refer_to_org`, step 5 of the form).
+
+This is the Cascade wrapper, deliberately its own design: the same receiving
+inbox also gets the legacy referral mail (`emails/kpi_referral_org.html`, an
+unstyled render of the admin-managed body), so this one is badged with where
+the referral was raised. The body inside it is that same admin-managed body,
+expanded by the same `referral_kpi_email_replace_tokens` filter, so the KPI
+detail matches the legacy mail token for token.
+
+No worker detail appears here on purpose: this mail lands in ordinary inboxes,
+while the call itself is behind the login that scopes it to this organization.
+{% endcomment %}
+{% load referral_kpi_email_replace_tokens %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body style="margin:0;padding:24px;background:#f4f5f7;font-family:Helvetica,Arial,sans-serif;color:#1f2430;">
+    <div style="max-width:600px;margin:0 auto;background:#ffffff;border-radius:12px;overflow:hidden;border:1px solid #e3e6ec;">
+      <div style="background:#0f2c4c;padding:20px 28px;">
+        <div style="font-size:16px;font-weight:bold;color:#ffffff;letter-spacing:0.3px;">
+          {{ context.source_label }}
+        </div>
+        <div style="margin-top:4px;font-size:12px;color:#9fb6cf;text-transform:uppercase;letter-spacing:1px;">
+          Worker Voice referral
+        </div>
+      </div>
+
+      <div style="padding:28px;">
+        <p style="margin:0 0 20px;font-size:12px;line-height:1.5;color:#5b6472;">
+          This referral was raised in <strong>{{ context.source_label }}</strong>
+          {% if context.case_org %}by {{ context.case_org }}{% endif %}.
+        </p>
+
+        <h1 style="margin:0 0 16px;font-size:18px;line-height:1.4;color:#0f2c4c;">
+          A worker voice call has been referred to
+          {% if context.org_referred %}{{ context.org_referred }}{% else %}your organization{% endif %}
+        </h1>
+
+        <div style="font-size:14px;line-height:1.6;">
+          {{ context.body_text|referral_kpi_email_replace_tokens:context|linebreaks }}
+        </div>
+
+        <h2 style="margin:24px 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:0.8px;color:#5b6472;">
+          Referral details
+        </h2>
+        <table style="width:100%;border-collapse:collapse;font-size:14px;margin:0 0 20px;">
+          <tr>
+            <td style="padding:6px 0;color:#5b6472;width:180px;">Call</td>
+            <td style="padding:6px 0;">#{{ context.case_id }}</td>
+          </tr>
+          {% if context.case_org %}
+          <tr>
+            <td style="padding:6px 0;color:#5b6472;">Referred by</td>
+            <td style="padding:6px 0;">
+              {{ context.case_org }}{% if context.referred_by %} ({{ context.referred_by }}){% endif %}
+            </td>
+          </tr>
+          {% endif %}
+          {% if context.interacted %}
+          <tr>
+            <td style="padding:6px 0;color:#5b6472;">Date of interaction</td>
+            <td style="padding:6px 0;">{{ context.interacted }}</td>
+          </tr>
+          {% endif %}
+          {% if context.referral_action %}
+          <tr>
+            <td style="padding:6px 0;color:#5b6472;">Referral action</td>
+            <td style="padding:6px 0;">{{ context.referral_action }}</td>
+          </tr>
+          {% endif %}
+          <tr>
+            <td style="padding:6px 0;color:#5b6472;">Source</td>
+            <td style="padding:6px 0;">{{ context.source_label }} &mdash; Worker Voice</td>
+          </tr>
+        </table>
+
+        <p style="margin:0 0 24px;font-size:14px;line-height:1.6;">
+          Sign in to ILM and open <strong>KPI Updates</strong> to review the
+          Supplier KPI records created for this call.
+        </p>
+
+        <p style="margin:0 0 24px;">
+          <a
+            href="{{ context.case_url }}"
+            style="display:inline-block;padding:11px 20px;border-radius:8px;background:#0f2c4c;color:#ffffff;font-size:14px;text-decoration:none;"
+            >Open KPI Updates</a
+          >
+        </p>
+
+        <p style="margin:0;font-size:12px;line-height:1.6;color:#5b6472;">
+          The worker's details are not included in this email. Read them in
+          {{ context.source_label }}, where access is limited to your
+          organization.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

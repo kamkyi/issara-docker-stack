@@ -1,0 +1,121 @@
+/* IssueCategoriesDropdown styles */
+
+/* Container styles */
+.issue-categories-dropdown-container {
+	position: relative;
+	z-index: 50;
+	width: 100%;
+}
+
+/* Trigger button styles */
+.issue-categories-trigger {
+	position: relative;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+	padding: 0.5rem;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	font-size: 0.875rem;
+}
+
+/* Dropdown content styles */
+.issue-categories-content {
+	border-radius: 0.375rem;
+	box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	overflow: hidden;
+	background-color: white;
+	margin-top: 5px;
+	z-index: 9999;
+	min-width: 100%;
+	width: var(--radix-select-trigger-width);
+}
+
+/* Critical fix: Ensure dropdown menu has proper background and is not transparent */
+[data-radix-popper-content-wrapper] {
+	z-index: 9999 !important;
+}
+
+/* Item styles */
+.issue-categories-item {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	color: #374151;
+	font-size: 0.875rem;
+	display: flex;
+	align-items: center;
+}
+
+.issue-categories-item:hover {
+	background-color: #f3f4f6;
+}
+
+.issue-categories-item[data-highlighted],
+.issue-categories-item[data-state="checked"] {
+	background-color: #e5e7eb;
+}
+
+.issue-categories-item[data-disabled] {
+	color: #9ca3af;
+	cursor: not-allowed;
+}
+
+/* Scroll button styles */
+.issue-categories-scroll-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1.5rem;
+	background-color: white;
+	color: #6b7280;
+	cursor: default;
+}
+
+/* Dark theme styles */
+:global(.dark) .issue-categories-trigger {
+	background-color: #2e2e2e;
+	border-color: #444;
+	color: white;
+}
+
+:global(.dark) .issue-categories-content {
+	background-color: #2e2e2e;
+	color: white;
+	border: 1px solid #444;
+}
+
+:global(.dark) .issue-categories-item {
+	color: white;
+}
+
+:global(.dark) .issue-categories-item:hover {
+	background-color: #3a3a3a;
+}
+
+:global(.dark) .issue-categories-item[data-highlighted],
+:global(.dark) .issue-categories-item[data-state="checked"] {
+	background-color: #4b5563;
+}
+
+:global(.dark) .issue-categories-scroll-button {
+	background-color: #2e2e2e;
+	color: #9ca3af;
+}
+
+/* Fix for specific Radix UI Select content */
+[data-radix-select-content] {
+	background-color: white !important;
+	color: #374151 !important;
+	max-width: none !important;
+	width: var(--radix-select-trigger-width) !important;
+}
+
+:global(.dark) [data-radix-select-content] {
+	background-color: #2e2e2e !important;
+	color: white !important;
+}
